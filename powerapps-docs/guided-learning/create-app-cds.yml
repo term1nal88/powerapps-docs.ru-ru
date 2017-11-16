@@ -1,0 +1,47 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: Создание приложения с помощью Common Data Service
+metadata:
+  title: Создание приложения с помощью Common Data Service | Microsoft PowerApps
+  description: Создание приложения с тремя экранами с помощью Common Data Service с последующим просмотром и обновлением приложения.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: manage-apps
+  nextTutorialTitle: Управление приложениями
+  displayType: one-column
+  author: mgblythe
+  manager: anneta
+  ms.service: powerapps
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: mblythe
+items:
+  - durationInMinutes: 1
+    content: |
+      Создание приложения с тремя экранами с помощью Common Data Service. Просмотр экранов и элементов управления в приложении Обновление полей, элементов управления и экранов приложения. Добавление дополнительных данных и активация последовательности из приложения.
+  - title: Создание приложения
+    durationInMinutes: 6
+    content: |
+      > [!Video https://www.youtube.com/embed/Gi5TQF7_pz8?rel=0]
+
+      [!INCLUDE [](includes/learning-case-app-generate.md)]
+  - title: Обзор созданного приложения
+    durationInMinutes: 5
+    content: |
+      > [!Video https://www.youtube.com/embed/98d6SZueEek?rel=0]
+
+      [!INCLUDE [](includes/learning-case-app-explore-controls.md)]
+  - title: Настройка приложения
+    durationInMinutes: 12
+    content: |
+      > [!Video https://www.youtube.com/embed/wHy72cOe8Os?rel=0]
+
+      [!INCLUDE [](includes/learning-case-app-customize.md)]
+  - title: Add a data source and flow (Добавление источника данных и последовательности)
+    durationInMinutes: 11
+    content: |
+      > [!Video https://www.youtube.com/embed/Y057qUJ2NNk?rel=0]
+
+      [!INCLUDE [](includes/learning-case-app-add-source.md)]
+  - content: |
+      Вы завершили работу с разделом **Создание приложения с помощью Common Data Service** пошагового курса по Microsoft PowerApps.

@@ -1,0 +1,62 @@
+---
+title: "Интеграция PowerApps, Microsoft Flow и Power BI с SharePoint Online (введение) | Документация Майкрософт"
+description: "Эта серия руководств посвящена созданию базовых приложений для управления проектами на основе списков SharePoint. Также описываются три ключевые технологии, которые интегрируются с SharePoint Online: PowerApps, Microsoft Flow и Power BI."
+services: 
+suite: powerapps
+documentationcenter: na
+author: mgblythe
+manager: anneta
+editor: 
+tags: 
+ms.service: powerapps
+ms.devlang: na
+ms.topic: article
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 06/12/2017
+ms.author: mblythe
+ms.openlocfilehash: 98998b30eb4c407c6c2dcaa61c04c75d5b92e4f9
+ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/07/2017
+---
+# <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>Интеграция PowerApps, Microsoft Flow и Power BI с SharePoint Online
+Вы установили SharePoint Online и хотите больше автоматизировать и оптимизировать бизнес-процессы? Вы уже работали с PowerApps, Microsoft Flow или Power BI, но не знаете, как использовать их с SharePoint Online? Вы обратились по адресу! Эта серия руководств посвящена созданию базовых приложений для управления проектами на основе списков SharePoint. Также описываются три ключевые технологии, которые интегрируются с SharePoint Online: PowerApps, Microsoft Flow и Power BI. Эти технологии взаимосвязаны, что позволяет легко *анализировать* бизнес-процессы, *действовать* на основе результатов и *автоматизировать* рабочие процессы. В ходе работы с этой серией вы проработаете приблизительно такой сценарий:
+
+![Схема готового сценария](./media/sharepoint-scenario-intro/composite-with-background.png)
+
+## <a name="business-scenario"></a>Бизнес-сценарий
+В этой серии руководств используется сайт SharePoint Online компании Contoso, созданный для управления жизненными циклами проектов — от запроса, утверждения, разработки и до окончательного анализа. *Запрашивающий проекты*, например руководитель отдела, отправляет запрос на ИТ-проект, добавляя элемент в список SharePoint. *Утверждающий проекты*, например руководитель ИТ-отдела, просматривает проект и утверждает или отклоняет его. Если проект утвержден, для него назначается *руководитель проекта* и добавляются дополнительные сведения во второй список с помощью того же приложения. *Бизнес-аналитик* просматривает текущие и выполненные проекты, используя отчеты Power BI, внедренные в SharePoint.  С помощью Microsoft Flow отправляются утверждения и ответы на оповещения Power BI.
+
+## <a name="getting-started-quickly"></a>Быстрое начало работы
+В этой серии руководств представлен упрощенный сценарий по сравнению с созданием полнофункционального приложения для управления проектами и анализа. Тем не менее вам потребуется некоторое время, чтобы выполнить все задачи. Вводные сведения об использовании PowerApps, Microsoft Flow и Power BI с SharePoint см. в следующих статьях.
+
+* **PowerApps**: [Создание приложения из списка SharePoint с использованием PowerApps](generate-app-from-sharepoint-list-interface.md) и [Создание приложения для управления данными в списке SharePoint](app-from-sharepoint.md)
+* **Microsoft Flow**: [Ожидание утверждений в Microsoft Flow](https://flow.microsoft.com/documentation/wait-for-approvals)
+* **Power BI**: [Внедрение с помощью веб-части отчетов в SharePoint Online](https://powerbi.microsoft.com/documentation/powerbi-service-embed-report-spo)
+
+Мы надеемся, что после прочтения перечисленных материалов вы ознакомитесь с этим сценарием.
+
+Работая со сценарием, вы также можете сосредоточиться на интересующих вас задачах, выполняя остальные по мере возможности. Настроив списки SharePoint в задаче 1, вы сможете выполнять задачи 2–5 в любом порядке. Задачи 6–8 выполняются последовательно. Кроме того, в [пакет загрузки](https://aka.ms/o4ia0f) для этого сценария мы включили два полнофункциональных приложения и отчет Power BI Desktop. Вы можете ознакомиться с ними и поработать с примерами, даже не проходя все этапы каждой задачи.
+
+## <a name="prerequisites"></a>Технические условия
+Чтобы выполнить этот сценарий вам понадобятся следующие подписки и классические приложения: Подписка "Office 365 бизнес премиум" включает PowerApps и Microsoft Flow.
+
+| **Подписка или средство** | **Ссылка** |
+| --- | --- |
+| Подписка Office 365 бизнес премиум |[Пробная подписка](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) |
+| PowerApps Studio |Используйте PowerApps Studio для Web (загрузка не требуется) или [PowerApps Studio для Windows](https://aka.ms/powerappswin) |
+| Подписка Power BI Pro |[Пробная подписка](https://powerbi.microsoft.com/get-started/) (щелкните **Попробовать бесплатно**) |
+| Power BI Desktop |[Бесплатная загрузка](https://powerbi.microsoft.com/get-started/) (щелкните **Скачать бесплатно**) |
+
+Предполагается, что у вас есть базовые знания о каждой технологии. Но даже в противном случае вы сможете выполнить этот сценарий. Сведения о технологиях см. в следующих статьях:
+
+* [Начало работы с SharePoint](https://support.office.com/article/Get-started-with-SharePoint-909ec2f0-05c8-4e92-8ad3-3f8b0b6cf261)
+* [Пошаговое изучение PowerApps](https://powerapps.microsoft.com/guided-learning/)
+* [Пошаговое изучение Microsoft Flow](https://flow.microsoft.com/guided-learning/)
+* [Пошаговое изучение Power BI](https://powerbi.microsoft.com/guided-learning/)
+
+## <a name="next-steps"></a>Дальнейшие действия
+Следующий шаг — [настройка списков SharePoint Online](sharepoint-scenario-setup.md), которые будут использоваться во всех руководствах серии.
+
