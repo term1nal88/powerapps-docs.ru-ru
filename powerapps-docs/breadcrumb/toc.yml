@@ -1,0 +1,11 @@
+- name: Документация
+  href: /
+  topicHref: /
+  items:
+    - name: PowerApps
+      tocHref: /powerapps/
+      topicHref: /powerapps/
+      items:
+        - name: Пошаговое изучение
+          tocHref: /powerapps/guided-learning/
+          topicHref: /powerapps/guided-learning/
