@@ -32,27 +32,31 @@
       href: open-and-run-a-sample-app.md
     - name: Использование шаблона
       href: get-started-test-drive.md
-- name: Создание приложения на сайте SharePoint
+- name: Начало работы со списком SharePoint
   items:
-    - name: Начало в SharePoint
+    - name: Создание приложения на сайте SharePoint
       href: generate-app-from-sharepoint-list-interface.md
-    - name: Начало в PowerApps
+    - name: Создание приложения с помощью PowerApps
       href: app-from-sharepoint.md
+    - name: Настройка формы списка с помощью PowerApps
+      href: customize-list-form.md
+    - name: Общие сведения об интеграции форм SharePoint
+      href: sharepoint-form-integration.md
     - name: Создание подключения
       href: connect-to-sharepoint.md
-    - name: Настройка макета
+    - name: Настройка макета коллекции
       href: customize-layout-sharepoint.md
-    - name: Настройка форм
+    - name: Настройка формы PowerApps
       href: customize-forms-sharepoint.md
     - name: Настройка карточки
       href: customize-card.md
-    - name: Добавление поля подстановки
+    - name: Подключение списков с использованием подстановок
       href: sharepoint-lookup-fields.md
-- name: Создание приложения из другого источника данных
+- name: Начало работы с другим источником данных
   items:
-    - name: Из сущности
+    - name: Создание приложения на основе сущности
       href: data-platform-create-app.md
-    - name: Из данных Excel
+    - name: Создание приложения на основе данных Excel
       href: get-started-create-from-data.md
     - name: Начало работы с формулами
       href: working-with-formulas.md
