@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/13/2017
 ms.author: sharik
-ms.openlocfilehash: 162314b1bb94e8358e5ddb290adf9db9f43950a0
-ms.sourcegitcommit: ce66ba8eadc41d5f260217d164f8317b90ae1504
+ms.openlocfilehash: dbcafbc8d77aa427e5d129cb1d5760e10b1a106c
+ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>Настройка формы списка SharePoint с помощью PowerApps
 
@@ -47,9 +47,16 @@ PowerApps интегрируется непосредственно с SharePoin
 
 ## <a name="customize-the-list-form"></a>Настройка формы списка
 
-В PowerApps вы можете настроить форму несколькими способами. Например, можно изменить макет, отформатировать текст, создать дополнительные представления, а также добавить диаграммы, изображения, правила и функции проверки пользовательских данных.
+В PowerApps вы можете настроить форму несколькими способами. Ниже приведено несколько примеров:
 
-Предположим, что в форме есть поле **ИД учетной записи**, которое не должно быть видимым.
+* [Изменение размера и ориентации экрана](set-aspect-ratio-portrait-landscape.md)
+* [Форматирование текста](controls/properties-text.md)
+* [Добавление изображений](add-images-pictures-audio-video.md) или [диаграмм](use-line-pie-bar-chart.md)
+* [Добавление пользовательской проверки данных](functions/function-validate.md)
+* [Добавление правил](working-with-rules.md)
+* [Создание дополнительных представлений](https://powerapps.microsoft.com/blog/separate-custom-forms/)
+
+Для примера предположим, что в форме есть поле **ИД учетной записи**, которое не должно быть видимым.
 
 ![Выбор поля "ИД учетной записи"](./media/customize-list-form/select-card.png)
 
@@ -57,7 +64,7 @@ PowerApps интегрируется непосредственно с SharePoin
 
 ![Снятие флажка "ИД учетной записи"](./media/customize-list-form/checkbox.png)
 
-Пошаговые инструкции по скрытию полей и внесению других изменений в формы см. в статье [Настройка форм в PowerApps](customize-forms-sharepoint.md).
+Пошаговые инструкции по скрытию полей и внесению других изменений в формы см. в статье [Настройка форм в PowerApps](customize-forms-sharepoint.md). Полный список ресурсов см. в разделе [документация по Microsoft PowerApps](https://docs.microsoft.com/powerapps/).
 
 ## <a name="save-and-publish-the-list-form-back-to-sharepoint"></a>Сохранение и публикация формы списка в SharePoint
 
