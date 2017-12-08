@@ -1,13 +1,12 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: Начало работы
+title: "Начало работы"
 metadata:
-  title: Начало работы | Microsoft PowerApps
-  description: 'Общие сведения о службе PowerApps, ее программных элементах и связанных технологиях.'
+  title: "Начало работы | Microsoft PowerApps"
+  description: "Общие сведения о службе PowerApps, ее программных элементах и связанных технологиях."
   audience: Business User
   level: Beginner
   nextTutorialHref: create-app-sharepoint
-  nextTutorialTitle: Создание приложения с помощью SharePoint
+  nextTutorialTitle: "Создание приложения с помощью SharePoint"
   displayType: one-column
   author: mgblythe
   manager: anneta
@@ -16,42 +15,50 @@ metadata:
   ms.date: 10/27/2017
   ms.author: mblythe
 items:
-  - durationInMinutes: 1
-    content: |
-      Общие сведения о службе PowerApps, ее программных элементах и связанных технологиях. Обзор разных способов создания приложений. Создание приложения из списка SharePoint.
-  - title: Introducing PowerApps (Знакомство с PowerApps)
-    durationInMinutes: 5
-    content: |
-      > [!Video https://www.youtube.com/embed/n9fkvkekINE?rel=0]
+- durationInMinutes: 1
+  content: "Общие сведения о службе PowerApps, ее программных элементах и связанных технологиях. Обзор разных способов создания приложений. Создание приложения из списка SharePoint.\n"
+  ms.openlocfilehash: 7e100c074c273d34c4adcaad4f291cc35949d05c
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 11/12/2017
+- title: "Introducing PowerApps (Знакомство с PowerApps)"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/n9fkvkekINE?rel=0]
 
-      [!INCLUDE [](includes/learning-introducing-powerapps.md)]
-  - title: Parts of PowerApps (Компоненты PowerApps)
-    durationInMinutes: 6
-    content: |
-      > [!Video https://www.youtube.com/embed/r6mowYePq1Q?rel=0]
 
-      [!INCLUDE [](includes/learning-powerapps-parts.md)]
-  - title: Связанные технологии
-    durationInMinutes: 6
-    content: |
-      > [!Video https://www.youtube.com/embed/C81IfqIn9LI?rel=0]
+    [!INCLUDE [](includes/learning-introducing-powerapps.md)]
+- title: "Parts of PowerApps (Компоненты PowerApps)"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/r6mowYePq1Q?rel=0]
 
-      [!INCLUDE [](includes/learning-related-technologies.md)]
-  - title: A quick look at creating apps (Общие сведения о создании приложений)
-    durationInMinutes: 6
-    content: |
-      > [!Video https://www.youtube.com/embed/NOv3kacXqho?rel=0]
 
-      [!INCLUDE [](includes/learning-quick-look-powerapps.md)]
-  - title: Создание первого приложения
-    durationInMinutes: 5
-    content: |
-      > [!Video https://www.youtube.com/embed/ixRpT48Z6IQ?rel=0]
+    [!INCLUDE [](includes/learning-powerapps-parts.md)]
+- title: "Связанные технологии"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/C81IfqIn9LI?rel=0]
 
-      [!INCLUDE [](includes/learning-create-first-app-powerapps.md)]
-  - title: Review this section (Обзор раздела)
-    durationInMinutes: 2
-    content: |
-      [!INCLUDE [](includes/learning-review-section-one.md)]
-  - content: |
-      Вы завершили работу с разделом **Начало работы** пошагового курса по Microsoft PowerApps.
+
+    [!INCLUDE [](includes/learning-related-technologies.md)]
+- title: "A quick look at creating apps (Общие сведения о создании приложений)"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/NOv3kacXqho?rel=0]
+
+
+    [!INCLUDE [](includes/learning-quick-look-powerapps.md)]
+- title: "Создание первого приложения"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/ixRpT48Z6IQ?rel=0]
+
+
+    [!INCLUDE [](includes/learning-create-first-app-powerapps.md)]
+- title: "Review this section (Обзор раздела)"
+  durationInMinutes: 2
+  content: >
+    [!INCLUDE [](includes/learning-review-section-one.md)]
+- content: "Вы завершили работу с разделом **Начало работы** пошагового курса по Microsoft PowerApps.\0"

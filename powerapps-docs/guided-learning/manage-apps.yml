@@ -1,13 +1,12 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: Управление приложениями
+title: "Управление приложениями"
 metadata:
-  title: Управление приложениями | Microsoft PowerApps
-  description: 'Совместное использование приложений, управление версиями приложений, которые используются и к которым предоставлен общий доступ, а также работа с контейнерами.'
+  title: "Управление приложениями | Microsoft PowerApps"
+  description: "Совместное использование приложений, управление версиями приложений, которые используются и к которым предоставлен общий доступ, а также работа с контейнерами."
   audience: Business User
   level: Beginner
   nextTutorialHref: manage-data
-  nextTutorialTitle: Управление данными
+  nextTutorialTitle: "Управление данными"
   displayType: one-column
   author: mgblythe
   manager: anneta
@@ -16,24 +15,29 @@ metadata:
   ms.date: 10/27/2017
   ms.author: mblythe
 items:
-  - durationInMinutes: 1
-    content: |
-      Совместное использование приложений с коллегами и другими пользователями, управление версиями приложений, которые используются и к которым предоставлен общий доступ. Работа с контейнерами для приложений, подключениями и другими ресурсами.
-  - title: Совместное использование приложений
-    durationInMinutes: 5
-    content: |
-      > [!Video https://www.youtube.com/embed/_nUU7oOy4oU?rel=0]
+- durationInMinutes: 1
+  content: "Совместное использование приложений с коллегами и другими пользователями, управление версиями приложений, которые используются и к которым предоставлен общий доступ. Работа с контейнерами для приложений, подключениями и другими ресурсами.\n"
+  ms.openlocfilehash: 706c686d84b520e2366e1fe8152ad9021949b0fe
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 11/12/2017
+- title: "Совместное использование приложений"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/_nUU7oOy4oU?rel=0]
 
-      [!INCLUDE [](includes/learning-manage-share-apps.md)]
-  - title: Управление версиями приложений
-    durationInMinutes: 1
-    content: |
-      [!INCLUDE [](includes/learning-manage-version-apps.md)]
-  - title: Окружения
-    durationInMinutes: 8
-    content: |
-      > [!Video https://www.youtube.com/embed/32olG9uCmBU?rel=0]
 
-      [!INCLUDE [](includes/learning-manage-environments.md)]
-  - content: |
-      Вы завершили работу с разделом **Управление приложениями** пошагового курса по Microsoft PowerApps.
+    [!INCLUDE [](includes/learning-manage-share-apps.md)]
+- title: "Управление версиями приложений"
+  durationInMinutes: 1
+  content: >
+    [!INCLUDE [](includes/learning-manage-version-apps.md)]
+- title: "Окружения"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/32olG9uCmBU?rel=0]
+
+
+    [!INCLUDE [](includes/learning-manage-environments.md)]
+- content: "Вы завершили работу с разделом **Управление приложениями** пошагового курса по Microsoft PowerApps.\0"

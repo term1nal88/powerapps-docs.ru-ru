@@ -1,13 +1,12 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: Создание приложения с помощью SharePoint
+title: "Создание приложения с помощью SharePoint"
 metadata:
-  title: Создание приложения с помощью SharePoint | Microsoft PowerApps
-  description: Создание приложения с тремя экранами из списка SharePoint с последующим просмотром и обновлением приложения.
+  title: "Создание приложения с помощью SharePoint | Microsoft PowerApps"
+  description: "Создание приложения с тремя экранами из списка SharePoint с последующим просмотром и обновлением приложения."
   audience: Business User
   level: Beginner
   nextTutorialHref: create-app-cds
-  nextTutorialTitle: Создание приложения с помощью Common Data Service
+  nextTutorialTitle: "Создание приложения с помощью Common Data Service"
   displayType: one-column
   author: mgblythe
   manager: anneta
@@ -16,32 +15,39 @@ metadata:
   ms.date: 10/27/2017
   ms.author: mblythe
 items:
-  - durationInMinutes: 1
-    content: |
-      Создание приложения с тремя экранами из списка SharePoint с последующим просмотром и экранов и элементов управления в приложении. Обновление полей, элементов управления и экранов приложения. Использование формул для дополнительной настройки поведения приложения.
-  - title: Создание приложения
-    durationInMinutes: 3
-    content: |
-      > [!Video https://www.youtube.com/embed/m6KfAwEdtYU?rel=0]
+- durationInMinutes: 1
+  content: "Создание приложения с тремя экранами из списка SharePoint с последующим просмотром и экранов и элементов управления в приложении. Обновление полей, элементов управления и экранов приложения. Использование формул для дополнительной настройки поведения приложения.\n"
+  ms.openlocfilehash: b18bd904adbe96d473e170443945c6464c02d6ea
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 11/12/2017
+- title: "Создание приложения"
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/m6KfAwEdtYU?rel=0]
 
-      [!INCLUDE [](includes/learning-spo-app-generate.md)]
-  - title: Обзор созданного приложения
-    durationInMinutes: 5
-    content: |
-      > [!Video https://www.youtube.com/embed/OJ8a9VINeKU?rel=0]
 
-      [!INCLUDE [](includes/learning-spo-app-explore-controls.md)]
-  - title: Настройка приложения
-    durationInMinutes: 5
-    content: |
-      > [!Video https://www.youtube.com/embed/KydeusvKndQ?rel=0]
+    [!INCLUDE [](includes/learning-spo-app-generate.md)]
+- title: "Обзор созданного приложения"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/OJ8a9VINeKU?rel=0]
 
-      [!INCLUDE [](includes/learning-spo-app-customize.md)]
-  - title: Explore app formulas (Знакомство с формулами приложения)
-    durationInMinutes: 9
-    content: |
-      > [!Video https://www.youtube.com/embed/9TBA19YU7EA?rel=0]
 
-      [!INCLUDE [](includes/learning-spo-app-explore-formulas.md)]
-  - content: |
-      Вы завершили работу с разделом **Создание приложения с помощью SharePoint** пошагового курса по Microsoft PowerApps.
+    [!INCLUDE [](includes/learning-spo-app-explore-controls.md)]
+- title: "Настройка приложения"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/KydeusvKndQ?rel=0]
+
+
+    [!INCLUDE [](includes/learning-spo-app-customize.md)]
+- title: "Explore app formulas (Знакомство с формулами приложения)"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/9TBA19YU7EA?rel=0]
+
+
+    [!INCLUDE [](includes/learning-spo-app-explore-formulas.md)]
+- content: "Вы завершили работу с разделом **Создание приложения с помощью SharePoint** пошагового курса по Microsoft PowerApps.\0"
