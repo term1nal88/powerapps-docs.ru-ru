@@ -9,13 +9,13 @@ PowerApps подключается к уже используемым **обла
 ## <a name="whats-next"></a>Что дальше?
 Поздравляем! Вы завершили работу с первым разделом из цикла пошагового обучения работе с PowerApps. Мы надеемся, что независимо от вашего опыта теперь вы четко понимаете, что из себя представляет служба PowerApps и как можно приступить к созданию приложений. Мы включили ссылки на некоторые полезные ресурсы и скачиваемые файлы в рамках рекомендаций по пошаговому изучению. Ну а пока можно определиться с дальнейшими шагами.
 
-* [Создание и настройка приложений из списка SharePoint](../create-app-sharepoint#step-1)
-* [Создание и настройка приложений с помощью службы Common Data Service](../create-app-cds#step-1) 
+* [Создание и настройка приложений из списка SharePoint](https://docs.microsoft.com/powerapps/guided-learning/create-app-sharepoint#step-1)
+* [Создание и настройка приложений с помощью службы Common Data Service](https://docs.microsoft.com/powerapps/guided-learning/create-app-cds#step-1) 
 
 В этих двух разделах описывается, как создавать и настраивать приложения. Материалы по SharePoint включают преимущественно сведения о создаваемых приложениях. А материалы по Common Data Service — о более сложных способах их настройки. Вам ничего не мешает изучить все эти материалы. Просто определитесь, с чего начать. 
 
 ## <a name="powerapps-resources"></a>Ресурсы, посвященные работе с PowerApps
-* Ознакомьтесь с [документацией по PowerApps](https://powerapps.microsoft.com/tutorials/getting-started/).
+* Ознакомьтесь с [документацией по PowerApps](https://docs.microsoft.com/powerapps/).
 * Следите за новостями из [блога о PowerApps](https://powerapps.microsoft.com/blog/).
 * Присоединитесь к [сообществу PowerApps](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).
 * Улучшайте PowerApps, отправляя свои [идеи](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas).
