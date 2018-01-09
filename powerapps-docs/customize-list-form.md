@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/13/2017
+ms.date: 01/02/2018
 ms.author: sharik
-ms.openlocfilehash: dbcafbc8d77aa427e5d129cb1d5760e10b1a106c
-ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
+ms.openlocfilehash: 8c46d7c5e8677d37b0a50b0c60dab4b81bd54c44
+ms.sourcegitcommit: 1083f55a35cee22920460d3d91d3ccae306a5754
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>Настройка формы списка SharePoint с помощью PowerApps
 
@@ -164,7 +164,7 @@ PowerApps интегрируется непосредственно с SharePoin
 
 **Ответ.** Нет. Сейчас эта функция не поддерживается.
 
-### <a name="administering-your-custom-list-form"></a>Администрирование настраиваемой формы списка
+### <a name="administering-custom-list-forms"></a>Администрирование настраиваемых форм списков
 
 **Вопрос.** Как предоставить другим пользователям общий доступ к настраиваемой форме списка?
 
@@ -173,6 +173,10 @@ PowerApps интегрируется непосредственно с SharePoin
 **Вопрос.** Кто может настраивать формы списков?
 
 **Ответ.** Любой пользователь с разрешениями SharePoint на администрирование, создание или изменение связанного списка.
+
+**Вопрос.** Требуется ли лицензия на PowerApps, чтобы создавать или использовать настраиваемые формы списков?
+
+**Ответ.** Если у вас есть [план Office 365, который включает в себя PowerApps](pricing-billing-skus.md#licenses), вы можете создавать или использовать настраиваемые формы списков.
 
 **Вопрос.** Что происходит, когда пользователи-гости получают доступ к списку, для которого создана настраиваемая форма?
 
