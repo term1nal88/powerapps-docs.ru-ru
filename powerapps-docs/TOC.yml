@@ -150,29 +150,31 @@
       href: data-platform-interactive-excel.md
     - name: Примеры и ресурсы
       href: samples-resources.md
-- name: Сценарии интеграции
+- name: Интеграция с другими технологиями
   items:
-    - name: Интеграция с SharePoint Online (серия руководств)
-      href: sharepoint-scenario-intro.md
-    - name: Настраивание списков SharePoint Online
-      href: sharepoint-scenario-setup.md
-    - name: Создание приложения
-      href: sharepoint-scenario-generate-app.md
-    - name: Создание последовательности для утверждений
-      href: sharepoint-scenario-approval-flow.md
-    - name: Создание приложения с нуля
-      href: sharepoint-scenario-build-app.md
-    - name: "Создание отчета Power\_BI"
-      href: sharepoint-scenario-build-report.md
-    - name: "Публикация отчета Power\_BI"
-      href: sharepoint-scenario-publish-report.md
-    - name: "Внедрение отчета Power\_BI"
-      href: sharepoint-scenario-embed-report.md
-    - name: Создание последовательности для оповещений
-      href: sharepoint-scenario-alerts-flow.md
-    - name: Пошаговые инструкции к полному сценарию
-      href: sharepoint-scenario-summary.md
-    - name: Интеграция Cognitive Services
+    - name: Интеграция с SharePoint Online
+      items:
+        - name: Общие сведения об интеграции SharePoint Online
+          href: sharepoint-scenario-intro.md
+        - name: Настраивание списков SharePoint Online
+          href: sharepoint-scenario-setup.md
+        - name: Создание приложения
+          href: sharepoint-scenario-generate-app.md
+        - name: Создание последовательности для утверждений
+          href: sharepoint-scenario-approval-flow.md
+        - name: Создание приложения с нуля
+          href: sharepoint-scenario-build-app.md
+        - name: "Создание отчета Power\_BI"
+          href: sharepoint-scenario-build-report.md
+        - name: "Публикация отчета Power\_BI"
+          href: sharepoint-scenario-publish-report.md
+        - name: "Внедрение отчета Power\_BI"
+          href: sharepoint-scenario-embed-report.md
+        - name: Создание последовательности для оповещений
+          href: sharepoint-scenario-alerts-flow.md
+        - name: Пошаговые инструкции к полному сценарию
+          href: sharepoint-scenario-summary.md
+    - name: Интеграция с Cognitive Services
       href: cognitive-services-api.md
 - name: 'Разработка: корпоративные разработчики'
   items:
