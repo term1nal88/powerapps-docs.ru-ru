@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 05/08/2017
 ms.author: kfend
 ms.openlocfilehash: a8c13158ab2c3f152aa99357684c818f48e637ae
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="configure-database-security"></a>Настройка безопасности базы данных
 Служба Common Data Service использует модель безопасности на основе ролей для обеспечения безопасного доступа к базе данных. В этой статье вы узнаете, как создавать артефакты безопасности, которые необходимы для защиты приложения. Роли пользователя позволяют контролировать доступ к данным во время выполнения. Они отделены от ролей среды, регулируемых разработчиками среды и ее администраторами. Общие сведения о средах см. в [этой статье](environments-overview.md).

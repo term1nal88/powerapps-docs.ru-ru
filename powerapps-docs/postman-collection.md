@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 04/28/2017
 ms.author: archanan
 ms.openlocfilehash: fd060ff873ee376b7ca886f721d360372c1d13ed
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="describe-a-custom-connector-with-postman"></a>Описание настраиваемого соединителя с помощью Postman
 [Postman](https://www.getpostman.com/) — это средство, позволяющее ускорить и облегчить разработку API. В этом руководстве показано, как создать коллекцию Postman, которую затем можно использовать для быстрого создания [настраиваемых соединителей](register-custom-api.md) в PowerApps.

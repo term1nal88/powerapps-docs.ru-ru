@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/01/2015
 ms.author: gregli
 ms.openlocfilehash: 933e97d569eb1be173dac7e609fa1a7151df1e18
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="validate-function-in-powerapps"></a>Функция Validate в Microsoft PowerApps
 Функция **Validate** проверяет, являются ли значения одного [столбца](../working-with-tables.md#columns) или всей [записи](../working-with-tables.md#records) допустимыми для [источника данных](../working-with-data-sources.md).  
@@ -65,6 +65,6 @@ ms.lasthandoff: 11/07/2017
 ### <a name="validate-with-a-complete-record"></a>Проверка всей записи
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
-| **Validate(Scores, EditRecord, Gallery.Updates)** |Проверяет, является ли **10** допустимым значением для столбца **Percentage** в источнике данных **Scores**. |*пусто* |
+| **Validate(Scores, EditRecord, Gallery.Updates)** |Проверяет, является ли **10** допустимым значением для столбца **Percentage** в источнике данных **Scores**. |*пустое значение* |
 | **Validate(Scores, EditRecord, Gallery.Updates)** |Проверяет, является ли **120** допустимым значением для столбца **Percentage** в источнике данных **Scores**. |"Значения должны быть в диапазоне от 0 до 100". |
 

@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 2ed6a9f1d52da1818eaaec50194740fb55a09f8e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="lower-upper-and-proper-functions-in-powerapps"></a>Функции Lower, Upper и Proper в PowerApps
 Преобразуют буквы текстовой строки во все строчные, все прописные или в правильный регистр.
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>Синтаксис
 **Lower**( *строка* )<br>**Upper**( *строка* )<br>**Proper**( *строка* )
 
-* *Строка* — обязательный аргумент. Строка для преобразования.
+* *строка* — обязательный аргумент. Строка для преобразования.
 
 **Lower**( *таблица_из_одного_столбца* )<br>**Upper**( *таблица_из_одного_столбца* )<br>**Proper**( *таблица_из_одного_столбца* )
 

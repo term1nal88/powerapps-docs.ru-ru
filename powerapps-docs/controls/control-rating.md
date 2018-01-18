@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 4dd23b8c94ee4760e40b4513e7a88667f85c3a4b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="rating-control-in-powerapps"></a>Элемент управления "Оценка" в PowerApps
 Элемент управления, позволяющий пользователю указать значение от 1 до заданного вами максимального числа.
@@ -61,7 +61,7 @@ ms.lasthandoff: 11/07/2017
 
 **[TabIndex](properties-accessibility.md)** — ненулевое значение определяет последовательность перехода между элементами управления с помощью клавиши TAB.
 
-**[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
+**[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
 
 **[Visible](properties-core.md)** определяет, отображается ли элемент управления или он скрыт.
 

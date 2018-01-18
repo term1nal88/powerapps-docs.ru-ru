@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: manage-data
-  nextTutorialTitle: Managing data
+  nextTutorialTitle: "Управление данными"
   displayType: one-column
   author: mgblythe
   manager: anneta
@@ -15,14 +15,13 @@ metadata:
   ms.date: 10/27/2017
   ms.author: mblythe
   ms.openlocfilehash: 432eeb154a499631d78a32440da2627249c11ab3
-  ms.sourcegitcommit: 9137e8800421a6623cb277d7f480d3d4f0da1a64
+  ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 12/09/2017
+  ms.lasthandoff: 01/12/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Share apps with colleagues and others, and control which version of an app is used and shared. Work with containers for apps, connections, and other resources.
+  content: "Совместное использование приложений с коллегами и другими пользователями, управление версиями приложений, которые используются и к которым предоставлен общий доступ. Работа с контейнерами для приложений, подключениями и другими ресурсами.\n"
 - title: "Совместное использование приложений"
   durationInMinutes: 5
   content: >
@@ -41,4 +40,4 @@ items:
 
 
     [!INCLUDE [](includes/learning-manage-environments.md)]
-- content: "You've completed the **Managing apps** section of Microsoft PowerApps Guided Learning.\0"
+- content: "Вы завершили работу с разделом **Управление приложениями** пошагового курса по Microsoft PowerApps.\0"

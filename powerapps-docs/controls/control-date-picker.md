@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: f2605680c7b6e8f7102fd3459230344863a93f55
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="date-picker-control-in-powerapps"></a>Элемент управления "Выбор даты" в PowerApps
 Элемент управления, который используется для указания даты.
@@ -46,7 +46,7 @@ ms.lasthandoff: 11/07/2017
 
 **[BorderThickness](properties-color-border.md)** — толщина границы элемента управления.
 
-**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления, когда он находится в фокусе.
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления, когда он находится в фокусе.
 
 **[Color](properties-color-border.md)** — цвет текста в элементе управления.
 

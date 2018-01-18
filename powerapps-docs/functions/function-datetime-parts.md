@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: 68514c498e4737fdc5a8b78ea6bdfbb16811ba65
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="day-month-year-hour-minute-second-and-weekday-functions-in-powerapps"></a>Функции Day, Month, Year, Hour, Minute, Second и Weekday в PowerApps
 Возвращает отдельные компоненты значения даты и времени.
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>Синтаксис
 **Day**( *Дата_и_время* )<br>**Month**( *Дата_и_время* )<br>**Year**( *Дата_и_время* )<br>**Hour**( *Дата_и_время* )<br>**Minute**( *Дата_и_время* )<br>**Second**( *Дата_и_время* )
 
-* *Дата_и_время* — обязательный аргумент.  Значение даты и времени, для которого необходимо выполнить операцию.  
+* *дата_и_время* — обязательный аргумент.  Значение даты и времени, для которого необходимо выполнить операцию.  
 
 **Weekday**( *Дата_и_время* [, *Первый_день_недели* ] )<br>
 

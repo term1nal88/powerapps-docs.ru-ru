@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/06/2017
 ms.author: astay
 ms.openlocfilehash: 74bac3b0f5bad2b95ab9b6b312fc5209bf5da3a2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="api-connector-overview-powerapps"></a>Обзор соединителя API (PowerApps)
 **Соединитель API** — это программа-оболочка REST API на основе OpenAPI (Swagger), которая позволяет соответствующей службе взаимодействовать с [Microsoft Flow](https://flow.microsoft.com), [PowerApps](https://powerapps.microsoft.com) и [Logic Apps](https://docs.microsoft.com/azure/logic-apps/). Кроме того, она позволяет пользователям подключать свои учетные записи и создавать собственные приложения и рабочие процессы, используя набор готовых **триггеров** и **действий**.

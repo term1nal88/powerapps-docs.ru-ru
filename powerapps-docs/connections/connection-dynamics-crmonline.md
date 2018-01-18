@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/12/2017
 ms.author: matp
 ms.openlocfilehash: 59ca97b77d7024aee797ddd54472ce7c276cd4b8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>Подключение к Dynamics 365 из PowerApps
 PowerApps позволяет быстро создавать, настраивать, совместно использовать и запускать мобильные приложения с минимальным количеством кода или вообще без него. При помощи соединителя Dynamics 365 можно быстро создавать полезные мобильные приложения для совместного использования с другими сотрудниками вашей организации.

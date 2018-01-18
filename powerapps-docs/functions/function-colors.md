@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2015
 ms.author: gregli
 ms.openlocfilehash: 8da86238be27e91326bd4a8ed0db9b096e563067
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>Функция для обозначения цвета Color, а также функции ColorFade, ColorValue и RGBA в PowerApps
 Использование встроенных значений цвета, определение пользовательских цветов и альфа-смешивание.

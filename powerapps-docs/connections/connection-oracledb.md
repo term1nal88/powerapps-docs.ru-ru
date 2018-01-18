@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/14/2017
 ms.author: archanan
 ms.openlocfilehash: dd55314461b2ba4769e50275837dc6fd897fedcc
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="connect-to-an-oracle-database-from-powerapps"></a>Подключение к базе данных Oracle из PowerApps
 Создание списка таблиц, а также создание, чтение, обновление и удаление строк таблицы в базе данных Oracle после подключения и создания приложения в PowerApps. Подключение к базе данных Oracle поддерживает полное делегирование фильтрации, сортировки и других функций, но не триггеров или хранимых процедур.
@@ -45,7 +45,7 @@ ms.lasthandoff: 11/07/2017
 2. В разделе **Начать с данных** щелкните стрелку.
    
       Появится список имеющихся подключений.
-3. Щелкните **Новое подключение**.
+3. Щелкните **New connection** (Создать подключение).
    
    ![Создание подключения](./media/connection-oracledb/new-connection.png)
 4. В списке подключений выберите **База данных Oracle**.

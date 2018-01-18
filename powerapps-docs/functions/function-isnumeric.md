@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/01/2015
 ms.author: gregli
 ms.openlocfilehash: d337b554be850ae1d62597fa212b72f901633849
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="isnumeric-function-in-powerapps"></a>Функция IsNumeric в PowerApps
 Проверяет, является ли значение числом.
@@ -32,5 +32,5 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>Синтаксис
 **IsNumeric**( *значение* )
 
-* *Значение* — обязательный аргумент. Значение для проверки.
+* *Value* — обязательный аргумент. Значение для проверки.
 
