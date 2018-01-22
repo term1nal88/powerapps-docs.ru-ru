@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: dc10ac44c1c14f182c39176a6b0216f3ede3816d
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="slider-control-in-powerapps"></a>Элемент управления "Ползунок" в PowerApps
 Элемент управления, позволяющий пользователю указывать значение, перетаскивая маркер.
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/07/2017
 
 **Min** — минимальное значение, которое может задать пользователь с помощью ползунка или оценки.
 
-**[Value](properties-core.md)** — значение элемента управления.
+**[Value](properties-core.md)** — значение элемента управления для ввода.
 
 ## <a name="additional-properties"></a>Дополнительные свойства
 **[BorderColor](properties-color-border.md)** — цвет границы элемента управления.
@@ -71,7 +71,7 @@ ms.lasthandoff: 11/07/2017
 
 **RailHoverFill** — фоновый цвет прямоугольника в переключателе, когда он имеет значение **false**, или цвет линии справа от маркера ползунка при наведении указателя мыши на переключатель или ползунок.
 
-**ReadOnly** — определяет, может ли пользователь изменить значение ползунка или оценки.
+**ReadOnly** — определяет, может ли пользователь изменить значение элемента управления "Ползунок" или "Оценка".
 
 **[Reset](properties-core.md)** — определяет, возвращается ли элемент управления к значению по умолчанию.
 

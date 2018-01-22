@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 3ffede0018a371b3c3a4cf4a3a1f9fc8115140de
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="microphone-control-in-powerapps"></a>Элемент управления "Микрофон" в PowerApps
 С помощью элемента управления "Микрофон" пользователь может записывать звук.
@@ -73,7 +73,7 @@ ms.lasthandoff: 11/07/2017
 
 **[PressedFill](properties-color-border.md)** — цвет фона элемента управления при щелчке или касании.
 
-**[Reset](properties-core.md)**  — свойство, которое указывает, возвращается ли элемент управления к значению по умолчанию.
+**[Reset](properties-core.md)** — определяет, возвращается ли элемент управления к значению по умолчанию.
 
 **[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="example"></a>Пример
 ### <a name="add-sounds-to-a-custom-gallery-control"></a>Добавление звуков в пользовательскую коллекцию
 1. Добавьте элемент управления**Микрофон**, назовите его **MyMic** и назначьте его свойству **OnStop** следующую формулу:<br>
-   **Collect(MySounds; MyMic.Audio)**
+   **Collect(MySounds, MyMic.Audio)**
    
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
    

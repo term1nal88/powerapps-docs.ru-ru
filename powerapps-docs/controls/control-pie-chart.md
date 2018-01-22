@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 1388eac45e5086f677cb83c8db9593fe01a9819f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="pie-chart-control-in-powerapps"></a>Элемент управления "Круговая диаграмма" в PowerApps
 Элемент управления, отображающий относительные значения в сравнении друг с другом.
@@ -80,7 +80,7 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="example"></a>Пример
 1. Добавьте элемент управления **[Кнопка](control-button.md)** и задайте следующую формулу в качестве значения свойства **[OnSelect](properties-core.md)**:<br>
-   **Collect(Revenue2015, {Product:"Европа", Revenue:27000}, {Product:"Ганимед", Revenue:26300}, {Product:"Каллисто", Revenue:29200})**
+   **Collect(Revenue2015, {Product:"Europa", Revenue:27000}, {Product:"Ganymede", Revenue:26300}, {Product:"Callisto", Revenue:29200})**
    
     Не знаете, как [добавить и настроить элемент управления](../add-configure-controls.md)?
    

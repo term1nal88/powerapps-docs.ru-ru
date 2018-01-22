@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: a3a724ad42082962ec8aea4e616f1d75aa7299ec
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="camera-control-in-powerapps"></a>Элемент управления "Камера" в PowerApps
 С помощью элемента управления "Камера" пользователь может делать фотографии, используя камеру устройства.
@@ -73,7 +73,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="example"></a>Пример
 ### <a name="add-photos-to-an-image-gallery-control"></a>Добавление фотографий в коллекцию изображений
 1. Добавьте в приложение элемент управления **Камера**, назовите его **MyCamera** и назначьте его свойству **[OnSelect](properties-core.md)** следующую формулу:<br>
-   **Collect(MyPix; MyCamera.Photo)**
+   **Collect(MyPix, MyCamera.Photo)**
    
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
    

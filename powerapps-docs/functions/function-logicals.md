@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: ff908d29efa02a3ebed2b2fa5517da35322518b8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="and-or-and-not-functions-in-powerapps"></a>Функции And, Or и Not в PowerApps
 Логические булевы функции, широко используемые для обработки результатов сравнений и проверок.
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="syntax"></a>Синтаксис
 **And**( *логическая_формула_1*, *логическая_формула_2* [, *логическая_формула_3*, ...])<br>
-**Or**( *логическая_формула_1*, *логическая_формула_2* [, *логическая_формула_3*, ...])<br>
+**Or**( *LogicalFormula1*, *LogicalFormula2* [, *LogicalFormula3*, ... ] )<br>
 **Not**(*логическая_формула*)
 
 * *логическая_формула_x* — обязательный аргумент.  Это логические формулы, которые возвращают логические значения и с которыми выполняет операцию соответствующая функция.

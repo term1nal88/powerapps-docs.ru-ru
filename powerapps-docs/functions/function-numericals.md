@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/13/2016
 ms.author: gregli
 ms.openlocfilehash: 25d9b49c7f527d7510e31dd937e1d8a580bb31cf
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>Функции Abs, Exp, Ln, Power и Sqrt в PowerApps
 Вычисление абсолютного значения, натурального логарифма и квадратного корня, возведение *e* или любого числа в указанную степень.

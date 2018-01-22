@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/11/2017
 ms.author: ankitsar
 ms.openlocfilehash: 2a5fd3cb6805f5e22fe6d4bc7fba0de64df8afd2
-ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="understand-sharepoint-forms-integration"></a>Общие сведения об интеграции форм SharePoint
 Теперь вы можете легко [настроить любую форму списка SharePoint](customize-list-form.md) в PowerApps. В этой статье мы подробно рассмотрим, как работают эти формы и как их можно настроить.
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/17/2017
 
     * **DataSource** — список, для которого настроена форма.
 
-        **'*Имя_вашего_списка*'**
+        **'*YourListName*'**
 
     * **OnNew** — переводит **SharePointForm1** в режим создания.
 
