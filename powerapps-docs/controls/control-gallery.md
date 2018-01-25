@@ -14,12 +14,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/25/2017
-ms.author: ricksal
-ms.openlocfilehash: a85c0f3e0468c249641e40c3a0b7fb7f1d32a916
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: 9839059cca741e47f5f519a45e7291847c1bc792
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="gallery-control-in-powerapps"></a>Элемент управления "Коллекция" в PowerApps
 Элемент управления, содержащий другие элементы управления и отображающий набор данных.
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Height](properties-size-location.md)** — расстояние между верхним и нижним краем элемента управления.
 
-**Layout** — направление прокрутки коллекции или передвижения ползунка пользователем: **Vertical** (сверху вниз) или **Horizontal** (слева направо).
+**Layout** — направление прокрутки коллекции или передвижения ползунка пользователем: сверху вниз (**Vertical**) или слева направо (**Horizontal**).
 
 **NavigationStep** — определяет шаг прокрутки коллекции, если ее свойству **ShowNavigation** присвоено значение **true** и пользователь выбрал стрелку навигации на любом конце этой коллекции.
 

@@ -14,18 +14,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: f3cc5a8116f84d61576d75b22a8e3197d6ec7e42
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 214b11c4f23db29d097b2d97052473d8f436d533
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-an-app-from-scratch-using-a-common-data-service-database"></a>Создание приложения с нуля с помощью базы данных Common Data Service
 Вы можете создать приложение для управления данными в службе Common Data Service с использованием стандартных (встроенных) или настраиваемых сущностей, а также сочетания тех и других.
 
 При создании приложения на основе службы Common Data Service не требуется создавать подключение из Microsoft PowerApps, как в случае с источниками данных, например SharePoint, Dynamics 365 и Salesforce. Требуется только указать сущности, которые нужно показать или которыми вы собираетесь управлять в приложении.
 
-[!VIDEO nb:cid:UUID:5db63c4d-6aeb-45c5-9609-8f4bbdd37bc6]
+
 
 
 1. Создание базы данных Common Data Service. Дополнительные сведения см. в разделе [Create a Common Data Service database](create-database.md) (Создание базы данных Common Data Service).

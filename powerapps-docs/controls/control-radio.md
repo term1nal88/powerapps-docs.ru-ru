@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c8eab64efa3ad4487c129cec9be7f12147d3ca8d
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f0413cfab990e6452e97b9f60c4d5d88e4fb5f7a
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radio-control-in-powerapps"></a>Элемент управления "Переключатель" в PowerApps
 Список, содержащий все доступные варианты, из которых пользователь может выбрать только один.
@@ -28,13 +28,13 @@ ms.lasthandoff: 11/07/2017
 Давно знакомый пользователю элемент управления **Переключатель** лучше всего подходит при наличии небольшого количества взаимоисключающих вариантов.
 
 ## <a name="key-properties"></a>Основные свойства
-**[Default](properties-core.md)** — начальное значение элемента управления до его изменения пользователем.
+**[Default](properties-core.md)**. Начальное значение элемента управления до его изменения пользователем.
 
 **[Items](properties-core.md)** — источник данных, отображаемых в элементе управления, такой как коллекция, список или диаграмма.
 
-[!INCLUDE [long-items](../../includes/long-items.md)]
+[!INCLUDE [long-items](../includes/long-items.md)]
 
-**[Value](properties-core.md)** — значение элемента управления.
+**[Value](properties-core.md)** — значение элемента управления для ввода.
 
 ## <a name="all-properties"></a>Все свойства
 **[Align](properties-text.md)** — расположение текста относительно центра элемента управления по горизонтали.
@@ -45,7 +45,7 @@ ms.lasthandoff: 11/07/2017
 
 **[BorderThickness](properties-color-border.md)** — толщина границы элемента управления.
 
-**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления, когда он находится в фокусе.
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления, когда он находится в фокусе.
 
 **[Color](properties-color-border.md)** — цвет текста в элементе управления.
 
@@ -103,7 +103,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Strikethrough](properties-text.md)** определяет, когда через текст, отображаемый в элементе управления, проходит линия.
 
-**[TabIndex](properties-accessibility.md)** — ненулевое значение определяет последовательность перехода между элементами управления с помощью клавиши TAB.
+**[TabIndex](properties-accessibility.md)** — настройка последовательности табуляции для элементов управления в среде выполнения, если задано ненулевое значение.
 
 **[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
 
@@ -128,7 +128,7 @@ ms.lasthandoff: 11/07/2017
 2. Добавьте элемент управления **[Метка](control-text-box.md)**, переместите его под элемент управления **Переключатель** и укажите для свойства **[Text](properties-core.md)** элемента **[Метка](control-text-box.md)** следующую формулу:
    <br>**If("Premium" in Pricing.Selected.Value, "200 долларов в день", "150 долларов в день")**
    
-    Нужны дополнительные сведения о функции **[If](../functions/function-if.md)** или [других функциях](../formula-reference.md)?
+    Нуждаетесь в дополнительных сведениях о функции **[If](../functions/function-if.md)** или [других функциях](../formula-reference.md)?
 3. Нажмите клавишу F5 и выберите какой-либо из вариантов в элементе управления **Переключатель**.
    
     В элементе управления **[Метка](control-text-box.md)** отображается текст, соответствующий выбранному варианту.

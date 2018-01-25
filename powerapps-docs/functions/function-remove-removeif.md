@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 76b41c6dc3b23a3d1f30425b9eac1011406a8757
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 736d634e9db5bc97ceb69852c59b229c7478863b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="remove-and-removeif-functions-in-powerapps"></a>Функции Remove и RemoveIf в PowerApps
 Удаляют [записи](../working-with-tables.md#records) из [источника данных](../working-with-data-sources.md).
@@ -33,12 +33,12 @@ ms.lasthandoff: 11/07/2017
 ### <a name="removeif-function"></a>Функция RemoveIf
 С помощью функции **RemoveIf** можно удалить одну или несколько записей на основе определенного условия или набора условий. Каждое из этих условий может быть любой формулой, которая возвращает результат **true** (истина) или **false** (ложь), и может содержать ссылки на [столбцы](../working-with-tables.md#columns) источника данных (по имени). Каждое условие оценивается отдельно для каждой записи, и запись удаляется, если все условия возвращают значение **true**.
 
-Функции **Remove** и **RemoveIf** возвращают измененный источник данных в виде [таблицы](../working-with-tables.md). Обе эти функции можно использовать только в [формулах поведения](../working-with-formulas-in-depth.md#behavior-formulas).
+Функции **Remove** и **RemoveIf** возвращают измененный источник данных в виде [таблицы](../working-with-tables.md). Обе эти функции можно использовать только в [формулах поведения](../working-with-formulas-in-depth.md).
 
 Кроме того, удалить все записи из источника данных можно с помощью функции **[Clear](function-clear-collect-clearcollect.md)**.
 
 ### <a name="delegation"></a>Делегирование
-[!INCLUDE [delegation-no](../../includes/delegation-no.md)]
+[!INCLUDE [delegation-no](../includes/delegation-no.md)]
 
 ## <a name="syntax"></a>Синтаксис
 **Remove**(*источник_данных*, *запись_1*[, *запись_2*, ... ] [, **All**])

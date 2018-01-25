@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/10/2015
 ms.author: gregli
-ms.openlocfilehash: 69e2252b60b559e68191399196b4957f77e51ee4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7bb0d9f3db9353511e8a5ed85f016049a96f7dae
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-behavior-formulas-in-powerapps"></a>Основные сведения о формулах поведения в PowerApps
-## <a name="behavior-formulas"></a>Формулы поведения
+
 Большинство формул предназначены для вычисления значений.  Как и в электронной таблице Excel, повторное вычисление выполняется автоматически при изменении значений.  Например, можно сделать так, чтобы значение в элементе управления **[Метка](controls/control-text-box.md)** становилось красным, если оно меньше нуля, и черным в противном случае. Таким образом, вы можете задать в качестве значения свойства **[Color](controls/properties-color-border.md)** этого элемента управления такую формулу:
 <br>**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 944d6d8bf8c02790af7fa6726c15a94587c6af24
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: c0ca5547f433aea1bee8d5d0d430c3e11a7f4caa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="forall-function-in-powerapps"></a>Функция ForAll в PowerApps
 Вычисляет значения и выполняет действия для всех [записей](../working-with-tables.md#records) в [таблице](../working-with-tables.md).
@@ -27,7 +27,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="description"></a>Описание
 Функция **ForAll** вычисляет формулы для всех записей таблицы.  Формула может рассчитать значение и (или) выполнить действия, например изменить данные или работу с подключением.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 ### <a name="return-value"></a>Возвращаемое значение
 Результат каждого вычисления формулы возвращается в таблице в том же порядке, что и во входной таблице.
@@ -49,13 +49,13 @@ ms.lasthandoff: 11/07/2017
 Важно также учитывать, что, в отличие от некоторых других функций, например **Filter**, **ForAll** не поддерживает делегирование.  
 
 ### <a name="delegation"></a>Делегирование
-[!INCLUDE [delegation-no-one](../../includes/delegation-no-one.md)]
+[!INCLUDE [delegation-no-one](../includes/delegation-no-one.md)]
 
 ## <a name="syntax"></a>Синтаксис
 **ForAll**( *Table*, *Formula* )
 
-* *Table* — обязательный аргумент. Это таблица, с которой нужно выполнить действия.
-* *Formula* — обязательный аргумент.  Это формула, используемая для вычисления всех записей *Table*.
+* *Table* — обязательный аргумент. Это таблица, с которой нужно выполнить действия.
+* *Formula* — обязательный аргумент.  Это формула, используемая для вычисления всех записей *Table*.
 
 ## <a name="examples"></a>Примеры
 ### <a name="calculations"></a>Вычисления

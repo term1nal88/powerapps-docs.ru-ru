@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: fb1154a80bc60b8d645fdeef8c40dcdb2d2b4baf
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: c08776071e694bfe1a9b4a8263ab9eead2547024
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="reset-function-in-powerapps"></a>Функция Reset в PowerApps
 Сбрасывает элемент управления до значения по умолчанию и отменяет все изменения, внесенные пользователем.  
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/07/2017
 
 Элементы управления ввода также сбрасываются при изменении их свойства **Default**.
 
-Функция **Reset** не возвращает значение, и ее можно использовать только в [формулах поведения](../working-with-formulas-in-depth.md#behavior-formulas).
+Функция **Reset** не возвращает значение, и ее можно использовать только в [формулах поведения](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Синтаксис
 **Reset**( *Control* )

@@ -14,18 +14,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: 0fcfb90de55c0504a7a7ff5e7d75cd782b8f56e6
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1f87b952378c64ec7c67d98b5dfc194cb62be767
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="show-text-and-format-dates-and-times-in-powerapps"></a>Отображение текста, формата, даты и времени в PowerApps
 Добавьте значения даты и времени и отформатируйте, чтобы отобразить их с нужной степенью детализации или с учетом языкового стандарта. Вычислите промежуток времени между двумя датами или вычислите дату, которая следует через определенное время до или после указанной даты. Преобразуйте даты в отдельные значения дней, месяцев и лет (и наоборот) и преобразуйте время в отдельные значения часов, минут и секунд (и наоборот).
 
 Например, можно добавить данные от пользователей о биржевых торгах или встречах с клиентами, данные из внешнего источника или данные из другого приложения, созданного в PowerApps. Если данные содержат время с точностью до миллисекунд, округлите его до ближайшей минуты, чтобы облегчить восприятие. Рассчитайте, сколько дней осталось до основной вехи. Если вы хотите планировать встречи с клиентами на каждые пять дней, то можете автоматически рассчитать эти даты. Если дата "10 мая 1985 года" хранится в отдельных полях дня, месяца и года, их можно объединить в отдельное значение. И наоборот, если приложение управляет ими отдельно, можно разбить каждую дату на отдельные значения.
 
-**Предварительные требования**
+## <a name="prerequisites"></a>Технические условия
 
 * [Зарегистрируйтесь](signup-for-powerapps.md) в службе PowerApps, [установите](http://aka.ms/powerappsinstall) и откройте ее, а затем войдите с помощью учетных данных, использованных при регистрации.
 * Создайте приложение в PowerApps или откройте уже существующее.
@@ -56,7 +56,9 @@ ms.lasthandoff: 11/07/2017
    * Функция **Today**, которая вычисляет текущий день как значение.
    * Функция **DateValue**, которая преобразовывает строковый литерал, указанный в двойных кавычках, в значение, которое можно использовать в вычислениях.
 3. Добавьте элемент управления **[Текстовое поле](controls/control-text-input.md)** с именем **BirthDate** и переместите его в элемент управления **ShowText**.
+
 4. В **BirthDate** введите месяц и день рождения (например, **05/18**).
+
 5. Задайте в качестве значения свойства **[Text](controls/properties-core.md)** для **ShowText** следующую формулу.
    <br>**DateDiff(Today(), DateValue(BirthDate.Text))**
    
@@ -122,7 +124,9 @@ ms.lasthandoff: 11/07/2017
    > 
 
 ## <a name="format-a-date-by-using-datevalue"></a>Форматирование даты с помощью DateValue
+
 1. Добавьте элемент управления **[Текстовое поле](controls/control-text-input.md)** с именем **ArrivalDate** и введите в нем дату (например, **5/10/85**).
+
 2. Добавьте элемент управления **[Метка](controls/control-text-box.md)** **FormatDate** и задайте для его свойства **[Text](controls/properties-core.md)** следующую формулу:
    <br>**DateValue(ArrivalDate.Text)**
    
@@ -141,8 +145,11 @@ ms.lasthandoff: 11/07/2017
     **FormatDate** показывает дату в указанном вами формате.
 
 ## <a name="format-a-time-using-datetimevalue"></a>Форматирование времени с помощью DateTimeValue
+
 1. Добавьте элемент управления **[Текстовое поле](controls/control-text-input.md)** с именем **ArrivalTime** и введите в нем **6:15 AM**.
+
 2. Добавьте элемент управления**[Метка](controls/control-text-box.md)** с именем **ShowTime**.
+
 3. Чтобы использовать один из нескольких встроенных форматов, задайте для свойства **[Text](controls/properties-core.md)** элемента управления **ShowTime** следующую формулу.
    <br>**Text(DateTimeValue(ArrivalTime.Text), DateTimeFormat.LongTime)**
    
@@ -158,8 +165,11 @@ ms.lasthandoff: 11/07/2017
    > 
 
 ## <a name="show-the-time-between-dates"></a>Отображение времени между датами
+
 1. Добавьте два элемента управления **[Текстовое поле](controls/control-text-input.md)**, **Start** и **End**.
+
 2. Введите **4/1/2015** в **Start** и **1/1/2016** — в **End**.
+
 3. Добавьте элемент управления **[Метка](controls/control-text-box.md)** **DateDiff** и задайте для его свойства **[Text](controls/properties-core.md)** следующую формулу:
    <br>**DateDiff(DateValue(Start.Text), DateValue(End.Text))**
    
@@ -171,7 +181,9 @@ ms.lasthandoff: 11/07/2017
     **DateDiff** показывает **9**. Это число месяцев между 1 апреля 2015 года и 1 января 2016 года. Замените **Months** на **Quarters** или **Years**, чтобы отобразить значение в кварталах или годах.
 
 ## <a name="identify-a-date-before-or-after-another-date"></a>Определение даты до или после другой даты
+
 1. Добавьте элемент управления **[Текстовое поле](controls/control-text-input.md)** с именем **Start** и введите в нем **5/10/1985**.
+
 2. Добавьте элемент управления **[Метка](controls/control-text-box.md)** **DateAdd** и задайте для его свойства **[Text](controls/properties-core.md)** следующую формулу:
    <br>**DateAdd(DateValue(Start.Text), 3)**
    
@@ -192,13 +204,18 @@ ms.lasthandoff: 11/07/2017
     Метка показывает **8/10/1985**. Это дата на три месяца позже даты в **Start**. Замените **Months** на **Quarters** или **Years**, чтобы определить дату через указанное число кварталов или лет до или после даты в **Start**.
 
 ## <a name="calculate-dates-based-on-years-months-and-days"></a>Вычисление дат на основе года, месяца и дня
+
 1. Добавьте три элемента управления **[Раскрывающийся список](controls/control-drop-down.md)**, **Year**, **Month** и **Day**.
+
 2. Задайте для свойства **[Items](controls/properties-core.md)** элемента управления **Year** следующую формулу.
    <br>**Table({Year:"2014"}, {Year:"2015"}, {Year:"2016"})**
+
 3. Задайте для свойства **[Items](controls/properties-core.md)** элемента управления **Month** следующую формулу.
    <br>**Table({Month:"1"}, {Month:"2"}, {Month:"3"}, {Month:"4"}, {Month:"5"}, {Month:"6"}, {Month:"7"}, {Month:"8"}, {Month:"9"}, {Month:"10"}, {Month:"11"}, {Month:"12"})**
+
 4. Задайте для свойства **[Items](controls/properties-core.md)** элемента управления **Day** следующую формулу.
    <br>**Table({Day:"1"}, {Day:"2"}, {Day:"3"}, {Day:"4"}, {Day:"5"}, {Day:"6"}, {Day:"7"}, {Day:"8"}, {Day:"9"}, {Day:"10"}, {Day:"11"}, {Day:"12"}, {Day:"13"}, {Day:"14"}, {Day:"15"}, {Day:"16"}, {Day:"17"}, {Day:"18"}, {Day:"19"}, {Day:"20"}, {Day:"21"}, {Day:"22"}, {Day:"23"}, {Day:"24"}, {Day:"25"}, {Day:"26"}, {Day:"27"}, {Day:"28"}, {Day:"29"}, {Day:"30"}, {Day:"31"})**
+
 5. Добавьте элемент управления **[Метка](controls/control-text-box.md)** и задайте в качестве значения свойства **[Text](controls/properties-core.md)** следующую формулу:
    <br>**Text(Date(Value(Year.Selected.Value), Value(Month.Selected.Value), Value(Day.Selected.Value)), DateTimeFormat.LongDate)**
    
@@ -215,13 +232,18 @@ ms.lasthandoff: 11/07/2017
 * Если значение дня меньше 1, то функция вычитает это значение, плюс 1 день, от первого дня указанного месяца.
 
 ## <a name="calculate-times-based-on-hours-minutes-and-seconds"></a>Вычисление времени на основе часов, минут и секунд
+
 1. Добавьте два элемента управления **Раскрывающийся список**, **Hour** и **Minute**.
+
 2. Задайте для свойства **[Items](controls/properties-core.md)** элемента управления **Hour** следующую формулу.
    <br>**Table({Hour:"9"}, {Hour:"10"}, {Hour:"11"}, {Hour:"12"}, {Hour:"13"}, {Hour:"14"}, {Hour:"15"}, {Hour:"16"}, {Hour:"17"})**
+
 3. Задайте для свойства **[Items](controls/properties-core.md)** элемента управления **Minute** следующую формулу.
    <br>**Table({Minute:"0"}, {Minute:"15"}, {Minute:"30"}, {Minute:"45"})**
+
 4. Добавьте элемент управления **[Метка](controls/control-text-box.md)** и задайте в качестве значения свойства **[Text](controls/properties-core.md)** следующую формулу:  
    <br>**Text(Time(Value(Hour.Selected.Value), Value(Minute.Selected.Value), 0), DateTimeFormat.ShortTime)**
+
 5. Выберите **15** в списке **Hour** и **45** — в списке **Minute**.
    
     В элементе управления **[Метка](controls/control-text-box.md)** отображается **15:45**.

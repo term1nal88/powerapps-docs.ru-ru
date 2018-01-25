@@ -15,17 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 25094d77809e754afbc54fe5e7b2cd644497ff3e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cad53141d6896ad71caaca77b7bf07fee2ac0600
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="core-properties-in-powerapps"></a>Основные свойства в PowerApps
-## <a name="overview"></a>Обзор
 Настройка возможности видеть элемент управления или взаимодействовать с ним для пользователя.
 
-## <a name="properties"></a>Свойства
+### <a name="properties"></a>Свойства
 **Default** — начальное значение элемента управления до его изменения пользователем.
 
 * Применяется к элементам управления **[Карта](control-card.md)**, **[Флажок](control-check-box.md)**, **[Раскрывающийся список](control-drop-down.md)**, **[Коллекция](control-gallery.md)**, **[Поле со списком](control-list-box.md)**, **[Переключатель](control-radio.md)**, **[Оценка](control-rating.md)**, **[Ползунок](control-slider.md)**, **[Текстовое поле](control-text-input.md)** и **[Переключатель](control-toggle.md)**.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 11eb01c2476d06f11299bd91e34f353f5b1075d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 57f2b9a23207c2c866738ac40f46a37747fcd54d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="global-support"></a>Глобальная поддержка
 PowerApps является глобальным продуктом.  Вы можете создать приложения на разных языках и для разных регионов и использовать их.
@@ -79,11 +79,11 @@ PowerApps является глобальным продуктом.  Вы мож
 
 Например, рассмотрим приведенную ниже формулу в формате "en-US".
 
-* **If( Slider1.Value > 12.59, UpdateContext( { Validation: true, MovingOn: 1 } ); Navigate( "NextScreen", "" ), UpdateContext( { Validation: false } ) )**
+**If( Slider1.Value > 12.59, UpdateContext( { Validation: true, MovingOn: 1 } ); Navigate( "NextScreen", "" ), UpdateContext( { Validation: false } ) )**
 
 В языке, где в качестве десятичного разделителя используется знак ",", в контексте разработки формула будет выглядеть следующим образом:
 
-* **If( Slider1.Value > 12,59; UpdateContext( { Validation: true; MovingOn: 1 } );; Navigate( "NextScreen", "" ); UpdateContext( { Validation: false } ) )**
+**If( Slider1.Value > 12,59; UpdateContext( { Validation: true; MovingOn: 1 } );; Navigate( "NextScreen", "" ); UpdateContext( { Validation: false } ) )**
 
 Обратите внимание, что оператор выбора свойства **.** в **Slider1.Value** не изменяется независимо от того, чем выражен десятичный разделитель.
 
@@ -101,7 +101,7 @@ PowerApps является глобальным продуктом.  Вы мож
 
 Чтобы извлечь переведенные строки из таблицы, используйте следующую формулу:
 
-* **LookUp( Table1, TextID = "Hello" && (LanguageTag = Left( Language(), 2 ) || IsBlank( LanguageTag ))).LocalizedText**  
+**LookUp( Table1, TextID = "Hello" && (LanguageTag = Left( Language(), 2 ) || IsBlank( LanguageTag ))).LocalizedText**  
 
 Имейте в виду, что длина строк, переведенных на другие языки, может существенно отличаться по сравнению с исходным языком.  Во многих случаях метки и другие элементы, отображающие строки в пользовательском интерфейсе, могут оказаться шире после локализации.
 
@@ -153,4 +153,3 @@ PowerApps является глобальным продуктом.  Вы мож
 Помимо прочего, вы можете использовать эти функции, чтобы предоставить элемент управления **Раскрывающийся список** с элементами списка.  
 
 Дополнительные сведения см. в руководстве о функциях **[Calendar](functions/function-clock-calendar.md)** и **[Clock](functions/function-clock-calendar.md)**.
-

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 532b30b2a8740dc3f4adf879029608c6f764c6e2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cc12241861a1dd6a0242810bb1a6faab70a2de27
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>Функции Collect, Clear и ClearCollect в PowerApps
 Создание и удаление [коллекций](../working-with-data-sources.md#collections) и добавление [записей](../working-with-tables.md#records) в любом [источнике данных](../working-with-data-sources.md).
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/07/2017
 
 Можно также использовать функцию **[Patch](function-patch.md)** для создания записей в источнике данных.
 
-Функция **Collect** возвращает измененный источник данных в виде таблицы.  Функция **Collect** может использоваться только в [формуле поведения](../working-with-formulas-in-depth.md#behavior-formulas).
+Функция **Collect** возвращает измененный источник данных в виде таблицы.  Функция **Collect** может использоваться только в [формуле поведения](../working-with-formulas-in-depth.md).
 
 ### <a name="clear"></a>Clear
 Функция **Clear** удаляет все записи из коллекции.  Столбцы в коллекции остаются.
@@ -59,7 +59,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>Синтаксис
 **Collect**( *DataSource*, *Item*, ... )
 
-* *DataSource* — обязательный аргумент. Это источник данных, в который необходимо добавить данные.  Если он еще не существует, создается новая коллекция.
+* *источник_данных* — обязательный аргумент. Это источник данных, в который необходимо добавить данные.  Если он еще не существует, создается новая коллекция.
 * *Item(s)* — обязательный аргумент.  Одна или несколько записей или таблиц, которые необходимо добавить в источник данных.  
 
 **Clear**( *Collection* )

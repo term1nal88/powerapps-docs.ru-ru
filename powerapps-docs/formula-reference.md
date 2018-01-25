@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: 9a3aade41bd375a937d68e7da5881d4475693727
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: dac61ab9ce4195f6336fe1625cea12f728eb3e41
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="formula-reference-for-powerapps"></a>Справочник формул для PowerApps
 Формулы объединяют множество элементов.  Ниже перечислены следующие элементы:
 
-* **Функции** принимают параметры, выполняют операцию и возвращают значение. Например, **Sqrt(25)** возвращает значение **5**. Функции построены по принципу функций Microsoft Excel.  Некоторые функции вызывают побочные действия, такие как **SubmitForm**, что должно происходить только в [формуле поведения](working-with-formulas-in-depth.md#behavior-formulas), такой как **Button.OnSelect**.
+* **Функции** принимают параметры, выполняют операцию и возвращают значение. Например, **Sqrt(25)** возвращает значение **5**. Функции построены по принципу функций Microsoft Excel.  Некоторые функции вызывают побочные действия, такие как **SubmitForm**, что должно происходить только в [формуле поведения](working-with-formulas-in-depth.md), такой как **Button.OnSelect**.
 * **Сигналы** возвращают сведения о среде. Например, **[Location](functions/signals.md)** возвращает текущие GPS-координаты устройства. Сигналы не принимают параметры и не вызывают побочные действия.
 * **Перечисления** возвращают предопределенные постоянные значения. Например, **[Color](functions/function-colors.md)** является перечислением с предопределенными значениями, такими как **Color.Red**, **Color.Blue** и т. д.  Здесь приводятся общие перечисления, а описания перечислений для конкретных функций приводятся в описаниях самих функций.
 * **Именованные операторы**, такие как **[ThisItem](functions/operators.md#thisitem-operator)** и **[Parent](functions/operators.md#parent-operator)**, предоставляют доступ к сведениям из контейнера.

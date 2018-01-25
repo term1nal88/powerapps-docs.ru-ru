@@ -15,18 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: lonu
-ms.openlocfilehash: 8441ac93c1d3f96e0316ff1f044dc58b800d4dd5
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 02e45c98aa991c14ad99d3bf3f11d02dbc0752aa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="add-a-scrolling-screen-in-powerapps"></a>Добавление прокручиваемого экрана в PowerApps
 Вы можете создать экран, который пользователи смогут прокручивать для просмотра дополнительных элементов. Например, можно создать приложение, в котором данные отображаются на гистограмме и графике. Прокручиваемый экран позволяет добавить дополнительные элементы управления, которые будут появляться при прокрутке.
 
 При добавлении элементов управления в раздел они сохраняют свое относительное положение в пределах этого раздела независимо от того, где — на телефоне или планшете — запущено приложение. Обратите внимание, что на расположение разделов могут влиять размер и ориентация экрана.  
-
-&nbsp;
 
 [!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
 

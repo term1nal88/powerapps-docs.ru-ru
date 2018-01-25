@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: c5d4780908ebd20989649df14dec51d70e8eecde
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ce4d0db7a82e87d25df950c99da718bf8c84b9bd
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="show-information-about-a-powerapps-user"></a>Отображение сведений о пользователе PowerApps
 Функция User может показать полное имя, электронный адрес и рисунок, который связаны с пользователем, выполнившим вход. Эти сведения можно использовать для автоматического заполнения формы.
@@ -30,8 +30,6 @@ ms.lasthandoff: 11/07/2017
 * Автоматически ввод электронного адреса при обращении в службу поддержки.
 
 По сути, эту возможность можно применять везде, где пользователям удобно использовать формы или метки, которые заполняются автоматически.
-
-&nbsp;
 
 [!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
 

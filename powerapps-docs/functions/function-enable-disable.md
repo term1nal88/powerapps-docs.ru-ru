@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: b4051bdb312707cfafe63a97b5e77a2860feb60c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 3b9801e804284cb52d389aa0c57d1247a008dd0d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="enable-and-disable-functions-in-powerapps"></a>Функции Enable и Disable в PowerApps
 Включает или отключает [сигнал](signals.md).
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/07/2017
 
 В настоящее время эти функции работают только для сигнала **[Location](signals.md)**.
 
-Эти функции не возвращают никаких значений. Их можно использовать только в [формулах поведения](../working-with-formulas-in-depth.md#behavior-formulas).
+Эти функции не возвращают никаких значений. Их можно использовать только в [формулах поведения](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Синтаксис
 **Enable**( *Сигнал* )<br>**Disable**( *Сигнал* )
