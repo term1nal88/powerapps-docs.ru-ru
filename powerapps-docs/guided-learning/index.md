@@ -8,11 +8,11 @@ ms.service: powerapps
 ms.topic: landing-page
 ms.date: 10/27/2017
 ms.author: mblythe
-ms.openlocfilehash: 40d2849e0ba4ed664d8099bae335717841e1eac2
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 6da595d920e7911f6b776a628b3f8d91ccf3a0ca
+ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/25/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -37,27 +37,27 @@ ms.lasthandoff: 01/12/2018
 Начало работы </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-1">Introducing PowerApps (Знакомство с PowerApps)</a>
+                                <a class="barLink" href="get-started.yml#step-1">Introducing PowerApps (Знакомство с PowerApps)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-2">Parts of PowerApps (Компоненты PowerApps)</a>
+                                <a class="barLink" href="get-started.yml#step-2">Parts of PowerApps (Компоненты PowerApps)</a>
                                 <span style="margin-left: 32px; align-self: center;">6 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-3">Related technologies (Связанные технологии)</a>
+                                <a class="barLink" href="get-started.yml#step-3">Related technologies (Связанные технологии)</a>
                                 <span style="margin-left: 32px; align-self: center;">6 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-4">A quick look at creating apps (Общие сведения о создании приложений)</a>
+                                <a class="barLink" href="get-started.yml#step-4">A quick look at creating apps (Общие сведения о создании приложений)</a>
                                 <span style="margin-left: 32px; align-self: center;">6 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-5">Create your first app (Создание первого приложения)</a>
+                                <a class="barLink" href="get-started.yml#step-5">Create your first app (Создание первого приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-6">Review this section (Обзор раздела)</a>
+                                <a class="barLink" href="get-started.yml#step-6">Review this section (Обзор раздела)</a>
                                 <span style="margin-left: 32px; align-self: center;">2 минуты</span>
                               </li>
                           </ul>
@@ -80,19 +80,19 @@ ms.lasthandoff: 01/12/2018
 Создание приложения с помощью SharePoint </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint#step-1">Generate an app (Создание приложения)</a>
+                                <a class="barLink" href="create-app-sharepoint.yml#step-1">Generate an app (Создание приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">3 минуты</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint#step-2">Explore a generated app (Обзор созданного приложения)</a>
+                                <a class="barLink" href="create-app-sharepoint.yml#step-2">Explore a generated app (Обзор созданного приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint#step-3">Customize the app (Настройка приложения)</a>
+                                <a class="barLink" href="create-app-sharepoint.yml#step-3">Customize the app (Настройка приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint#step-4">Explore app formulas (Знакомство с формулами приложения)</a>
+                                <a class="barLink" href="create-app-sharepoint.yml#step-4">Explore app formulas (Знакомство с формулами приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">9 минут</span>
                               </li>
                             </ul>
@@ -115,19 +115,19 @@ ms.lasthandoff: 01/12/2018
 Создание приложения с помощью Common Data Service </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-cds#step-1">Generate an app (Создание приложения)</a>
+                                <a class="barLink" href="create-app-cds.yml#step-1">Generate an app (Создание приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">6 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-cds#step-2">Explore a generated app (Обзор созданного приложения)</a>
+                                <a class="barLink" href="create-app-cds.yml#step-2">Explore a generated app (Обзор созданного приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-cds#step-3">Customize the app (Настройка приложения)</a>
+                                <a class="barLink" href="create-app-cds.yml#step-3">Customize the app (Настройка приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">12 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-cds#step-4">Add a data source and flow (Добавление источника данных и последовательности)</a>
+                                <a class="barLink" href="create-app-cds.yml#step-4">Add a data source and flow (Добавление источника данных и последовательности)</a>
                                 <span style="margin-left: 32px; align-self: center;">11 минут</span>
                               </li>
                           </ul>
@@ -150,15 +150,15 @@ ms.lasthandoff: 01/12/2018
 Управление приложениями </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps#step-1">Share your apps (Совместное использование приложений)</a>
+                                <a class="barLink" href="manage-apps.yml#step-1">Share your apps (Совместное использование приложений)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps#step-2">Version your apps (Управление версиями приложений)</a>
+                                <a class="barLink" href="manage-apps.yml#step-2">Version your apps (Управление версиями приложений)</a>
                                 <span style="margin-left: 32px; align-self: center;">1 минута</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps#step-3">Environments (Среды)</a>
+                                <a class="barLink" href="manage-apps.yml#step-3">Environments (Среды)</a>
                                 <span style="margin-left: 32px; align-self: center;">8 минут</span>
                               </li>
                           </ul>
@@ -181,23 +181,23 @@ ms.lasthandoff: 01/12/2018
 Управление данными </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-1">The Common Data Service</a>
+                                <a class="barLink" href="manage-data.yml#step-1">The Common Data Service</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-2">Understand Common Data Service entities (Общие сведения о сущностях Common Data Service)</a>
+                                <a class="barLink" href="manage-data.yml#step-2">Understand Common Data Service entities (Общие сведения о сущностях Common Data Service)</a>
                                 <span style="margin-left: 32px; align-self: center;">8 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-3">Create custom entities (Создание настраиваемых сущностей)</a>
+                                <a class="barLink" href="manage-data.yml#step-3">Create custom entities (Создание настраиваемых сущностей)</a>
                                 <span style="margin-left: 32px; align-self: center;">6 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-4">Manage entity data (Управление данными сущностей)</a>
+                                <a class="barLink" href="manage-data.yml#step-4">Manage entity data (Управление данными сущностей)</a>
                                 <span style="margin-left: 32px; align-self: center;">7 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-5">Common Data Service security (Безопасность в Common Data Service)</a>
+                                <a class="barLink" href="manage-data.yml#step-5">Common Data Service security (Безопасность в Common Data Service)</a>
                                 <span style="margin-left: 32px; align-self: center;">8 минут</span>
                               </li>
                           </ul>
