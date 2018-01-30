@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: ada7fed1ac9fabb9a89f79a876fcce68b4415d30
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 687b66a50e168559f670d07f4e6c7dd7214ccde8
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="list-box-control-in-powerapps"></a>Элемент управления "Поле со списком" в PowerApps
 Список, в котором пользователь может выбрать один или несколько элементов.
@@ -28,11 +28,11 @@ ms.lasthandoff: 11/07/2017
 Элемент управления **Поле со списком** всегда отображает все доступные варианты выбора (в отличие от элемента управления **[Раскрывающийся список](control-drop-down.md)**), и в нем пользователь может выбрать несколько элементов одновременно (в отличие от элемента управления **[Переключатель](control-radio.md)**).
 
 ## <a name="key-properties"></a>Основные свойства
-**[Default](properties-core.md)** — начальное значение элемента управления до его изменения пользователем.
+**[Default](properties-core.md)**. Начальное значение элемента управления до его изменения пользователем.
 
 **[Items](properties-core.md)** — источник данных, отображаемых в элементе управления, такой как коллекция, список или диаграмма.
 
-[!INCLUDE [long-items](../../includes/long-items.md)]
+[!INCLUDE [long-items](../includes/long-items.md)]
 
 ## <a name="additional-properties"></a>Дополнительные свойства
 **[BorderColor](properties-color-border.md)** — цвет границы элемента управления.
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/07/2017
 
 **[BorderThickness](properties-color-border.md)** — толщина границы элемента управления.
 
-**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления, когда он находится в фокусе.
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления, когда он находится в фокусе.
 
 **[Color](properties-color-border.md)** — цвет текста в элементе управления.
 
@@ -93,7 +93,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Reset](properties-core.md)** — определяет, возвращается ли элемент управления к значению по умолчанию.
 
-**[SelectionColor](properties-color-border.md)** — цвет текста выбранного элемента или элементов списка или цвет инструмента выделения в элементе управления "Ввод с помощью пера".
+**[SelectionColor](properties-color-border.md)** — цвет текста выбранного элемента или элементов списка или цвет инструмента выделения в элементе управления рукописным вводом.
 
 **[SelectionFill](properties-color-border.md)** — цвет фона выбранного элемента или элементов списка или цвет выделенной области элемента управления "Ввод с помощью пера".
 
@@ -103,7 +103,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Strikethrough](properties-text.md)** определяет, когда через текст, отображаемый в элементе управления, проходит линия.
 
-**[TabIndex](properties-accessibility.md)** — ненулевое значение определяет последовательность перехода между элементами управления с помощью клавиши TAB.
+**[TabIndex](properties-accessibility.md)** — настройка последовательности табуляции для элементов управления в среде выполнения, если задано ненулевое значение.
 
 **[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
 
@@ -122,7 +122,7 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="example"></a>Пример
 1. Добавьте элемент управления **Поле со списком**, назовите его **CategoryList** и укажите для свойства **[Items](properties-core.md)** следующую формулу:<br>
-   **["Ковер","Паркет","Плитка"]**
+   **["Carpet","Hardwood","Tile"]**
    
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
    
@@ -141,7 +141,7 @@ ms.lasthandoff: 11/07/2017
    * HardwoodList: **If("Паркет" in CategoryList.SelectedItems.Value, true)**
    * TileList: **If("Плитка" in CategoryList.SelectedItems.Value, true)**
      
-     Нужны дополнительные сведения о функции **[If](../functions/function-if.md)** или [других функциях](../formula-reference.md)?
+     Нуждаетесь в дополнительных сведениях о функции **[If](../functions/function-if.md)** или [других функциях](../formula-reference.md)?
 5. Нажмите клавишу F5 и выберите один или несколько элементов в элементе управления **CategoryList**.
    
     В зависимости от вашего выбора отображаются один или несколько элементов управления **[Раскрывающийся список](control-drop-down.md)**.

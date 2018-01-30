@@ -13,30 +13,31 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/12/2017
+ms.date: 01/16/2018
 ms.author: litran
-ms.openlocfilehash: 1cdd7fbf5b5940550e6e7c98ecaf2262940baa1c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 0aff680aa5b8840330ee3a1758a895785f05da6f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="use-powerapps-in-a-web-browser"></a>Использование PowerApps в веб-браузере
 Если приложение создано в PowerApps, его можно запустить в браузере, открыв портал [Dynamics 365](https://home.dynamics.com) и затем щелкнув или коснувшись элемента приложения на домашней странице.
 
-**Примечание.** Вы можете ознакомиться с общими сведениями о [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/) или [обратиться в службу поддержки](https://www.microsoft.com/en-us/dynamics365/contact-us), если у вас возникли вопросы о приложении Dynamics 365 (например, о приложении Sales).
+> [!NOTE]
+> Вы можете ознакомиться с общими сведениями о [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/) или [обратиться в службу поддержки](https://www.microsoft.com/en-us/dynamics365/contact-us), если у вас возникли вопросы о приложении Dynamics 365 (например, о приложении Sales).
 
 Поддерживаются следующие браузеры и операционные системы:
 
 | **Браузер** | **Операционная система** |
 | --- | --- |
-| Google Chrome (последняя версия) |Windows 7 с пакетом обновления 1, 8.1 и 10 <br>macOS <br>iOS 8 или более поздней версии<br>Android |
-| Microsoft Edge |Windows 10 |
+| Google Chrome (последняя версия)<br>(рекомендуется) |Windows 7 с пакетом обновления 1, 8.1 и 10 <br>macOS <br>iOS 8 или более поздней версии<br>Android |
+| Microsoft Edge (последняя версия)<br>(рекомендуется) |Windows 10 |
 | Microsoft Internet Explorer 11 (с отключенной функцией просмотра в режиме совместимости) |Windows 7 с пакетом обновления 1, 8.1 и 10 |
 | Mozilla Firefox (последняя версия) |Windows 7 с пакетом обновления 1, 8.1 и 10 <br> Android <br>macOS |
 | Apple Safari (последняя версия) |macOS <br> iOS 8 или более поздней версии |
 
-Если ваш браузер не поддерживает все элементы управления, используемые в приложении, запустите на мобильном устройстве (например, телефоне), скачав PowerApps Mobile для iOS, Android или Windows.
+Если ваш браузер не поддерживает все элементы управления, используемые в приложении, запустите на мобильном устройстве (например, телефоне), скачав PowerApps для iOS или Android.
 
 ## <a name="find-an-app-on-the-home-page"></a>Поиск приложения на домашней странице
 На домашней странице может отображаться несколько типов бизнес-приложений, но вы можете найти определенное приложение, введя в поле поиска часть его имени. Можно также отфильтровать список, чтобы отобразить только приложения, которые были созданы в PowerApps.
@@ -68,4 +69,3 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="close-an-app"></a>Закрытие приложения
 Чтобы закрыть приложение, покиньте домашнюю страницу Dynamics 365 или откройте другое приложение.
-

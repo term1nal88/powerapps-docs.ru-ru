@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/18/2017
 ms.author: millopis
-ms.openlocfilehash: 834e05a89fff2142bc38b359ea5b6bccc08894aa
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 18f580c06412968b27a279a526b562e27cb89e26
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-new-entities-in-the-common-data-service-cds-using-power-query"></a>Создание новых сущностей в Common Data Service (CDS) с помощью Power Query
 Благодаря интеграции с **Power Query** разработчики бизнес-приложений могут создавать новые сущности в Common Data Service (CDS) из широкого диапазона источников данных.
@@ -33,12 +33,15 @@ ms.lasthandoff: 11/07/2017
 ## <a name="enabling-the-cds-new-entities-from-power-query-feature"></a>Включение новых сущностей CDS с помощью функции Power Query
 Эта функция доступна в клиенте PowerApps, но не включена по умолчанию. Ее можно включить на сайте [web.powerapps.com](https://aka.ms/pqocds).
 
-**Примечание.** Вы можете создавать новые настраиваемые сущности только в базах данных, которые создали вы сами.
+> [!NOTE]
+> Вы можете создавать настраиваемые сущности только в базах данных, которые создали вы сами.
 
 Чтобы включить эту функцию, выполните следующие действия на портале PowerApps:
 
 1. Откройте вкладку **Common Data Service > Сущности** в левой области навигации.
+
 2. В списке **Сущности** выберите раскрывающийся список **Создание сущности**.
+
 3. В списке, который откроется в раскрывающемся меню, выберите пункт **Новые сущности данных (предварительная техническая версия)**, как показано на следующем рисунке.
    
     ![Новая сущность из данных](media/data-platform-cds-newentity-pq/data-platform-cds-pq-02.jpg)

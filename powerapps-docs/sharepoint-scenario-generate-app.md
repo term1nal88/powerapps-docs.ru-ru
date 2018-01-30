@@ -15,102 +15,119 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: c05d5565b3aa2502cd002617ad18a9ccbeaf4f2d
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 021a323fbb5a1a3331c4eb92ce0b47427b5562b4
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="generate-an-app-to-handle-project-requests"></a>Создание приложения для обработки запросов проекта
-**Примечание.** Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
+> [!NOTE]
+> Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI совместно с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
 
 Теперь, когда списки SharePoint подключены, можно создать и настроить первое приложение. PowerApps интегрируется с SharePoint, что позволяет легко создавать базовые *приложения с тремя экранами* непосредственно из списка. С помощью этого приложения вы сможете не только просматривать сводные и подробные сведения о каждом элементе списка, а также обновлять и создавать элементы. Если вы создаете приложение непосредственно из списка, оно отображается как *представление* этого списка. Такое приложение можно запустить в браузере или на мобильном телефоне.
 
-**Подсказка.** [Пакет загрузки](https://aka.ms/o4ia0f) для нашего примера содержит полную версию этого приложения: project-requests-app.msapp.
+> [!TIP]
+> [Пакет загрузки](https://aka.ms/o4ia0f) для нашего примера содержит полную версию этого приложения: project-requests-app.msapp.
 
 ## <a name="step-1-generate-an-app-from-a-sharepoint-list"></a>Шаг 1. Создание приложения из списка SharePoint
+
 1. В созданном списке **Project Requests** (Запросы проекта) щелкните **PowerApps** и нажмите кнопку **Create an app** (Создать приложение).
    
     ![Создание приложения](./media/sharepoint-scenario-generate-app/02-01-01-create-app.png)
+
 2. Введите имя приложения, например "Приложение для запросов проектов", и нажмите кнопку **Create** (Создать). Созданное приложение откроется в PowerApps Studio для Web.
    
     ![Выбор имени приложения](./media/sharepoint-scenario-generate-app/02-01-02-create-app-name.png)
 
 ## <a name="step-2-review-the-app-in-powerapps-studio"></a>Шаг 2. Просмотр приложения в PowerApps Studio
+
 1. В PowerApps Studio на панели навигации слева по умолчанию отображается иерархическое представление экранов и элементов управления приложения.
    
     ![PowerApps Studio с иерархическим представлением](./media/sharepoint-scenario-generate-app/02-02-01-studio-screens-hierarchy.png)
+
 2. Щелкните значок эскиза, чтобы переключить представление.
    
     ![Выбор представления в PowerApps Studio](./media/sharepoint-scenario-generate-app/02-02-02-studio-view-selector.png)
+
 3. Щелкните любой экран, чтобы открыть его на центральной панели. Отобразится три экрана:
    
-   1. **Экран обзора** — просмотр, сортировка и фильтрация данных, извлеченных из списка.
-   2. **Экран сведений** — просмотр дополнительных сведений об элементе.
-   3. **Экран изменения или создания** — изменение существующего элемента или создание нового.
+    (a). **Экран обзора** — просмотр, сортировка и фильтрация данных, извлеченных из списка.
+    
+    (b). **Экран сведений** — просмотр дополнительных сведений об элементе.
+    
+    (c). **Экран изменения или создания** — изменение существующего элемента или создание нового.
       
       ![PowerApps Studio с представлением эскиза](./media/sharepoint-scenario-generate-app/02-02-03-studio-screens-thumbnails.png)
 
 ## <a name="step-3-customize-the-apps-browse-screen"></a>Шаг 3. Настройка экрана обзора приложения
+
 1. Выберите экран обзора.
    
     Этот *макет* экрана содержит *коллекцию* для отображения элементов списка и *элементов управления*, таких как панель поиска и кнопка сортировки.
+
 2. Выберите коллекцию **BrowseGallery1**, щелкнув любую запись, кроме первой.
    
     ![Коллекция обзора](./media/sharepoint-scenario-generate-app/02-03-01-browse-gallery.png)
-3. В области справа заполните поля значениями из списка ниже:
+
+3. В области справа в разделе **Свойства** выберите **Запросы проектов**. 
+
+4. Обновите поля значениями из списка ниже:
    
    * **RequestDate;**
-   * **Description;**
-   * **Title;**
+
    * **Requestor.**
-     
+
+   * **Title;**
+
      ![Поля коллекции](./media/sharepoint-scenario-generate-app/02-03-02-gallery-fields.png)
-4. Выбрав **BrowseGallery1**, щелкните свойство **Items**.
+
+5. Выбрав **BrowseGallery1**, щелкните свойство **Items**.
    
     ![Свойство Items](./media/sharepoint-scenario-generate-app/02-03-03-items.png)
-5. Вставьте формулу **SortByColumns(Filter('Project Requests', StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))**.
+
+6. Вставьте формулу **SortByColumns(Filter('Project Requests', StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))**.
    
     ![Строка формул](./media/sharepoint-scenario-generate-app/02-03-04-formula.png)
    
     Это позволит сортировать и искать по полю **Title**, вместо поля по умолчанию, выбранного PowerApps. См. [подробные сведения о формулах](#formula-deep-dive).
+
 6. Откройте меню **File** (Файл) и выберите **Save** (Сохранить). Щелкните ![Значок возврата к приложению](./media/sharepoint-scenario-generate-app/icon-back-to-app.png), чтобы вернуться к приложению.
 
-## <a name="step-4-customize-the-apps-details-screen-and-edit-screen"></a>Шаг 4. Настройка экрана сведений и редактирования в приложении
+## <a name="step-4-review-the-apps-details-screen-and-edit-screen"></a>Шаг 4. Просмотр экрана сведений и редактирования в приложении
 1. Выберите экран сведений.
    
     Здесь используется другой макет экрана, состоящий из *формы просмотра* для отображения сведений об элементе, выбранном в коллекции. Также в нем содержатся элементы управления, с помощью которых можно отредактировать и удалить элементы списка или вернуться к экрану обзора.
-2. Выберите форму просмотра **DetailForm1**.
    
     ![Форма просмотра сведений](./media/sharepoint-scenario-generate-app/02-04-01-details.png)
-3. В области справа перетащите поле **Title** наверх.
-   
-    ![Поле "Title"](./media/sharepoint-scenario-generate-app/02-04-02-title-field.png)
+
 4. Выберите экран редактирования.
    
     На этом экране расположена *форма редактирования*, в которой можно изменить выбранный элемент или создать новый (если вы перешли к этой форме непосредственно с экрана обзора). На нем также расположены элементы управления, с помощью которых можно сохранить или отменить изменения.
-5. Выберите форму редактирования **EditForm1**.
-   
+
     ![Форма редактирования](./media/sharepoint-scenario-generate-app/02-04-03-edit.png)
-6. Как на предыдущем этапе, перетащите поле **Title** вверх.
-   
-    ![Поле "Title"](./media/sharepoint-scenario-generate-app/02-04-02-title-field.png)
 
 ## <a name="step-5-run-the-app-from-the-list"></a>Шаг 5. Запуск приложения из списка
+
 1. В списке **Project Requests** (Запросы проекта) выберите **All Items** (Все элементы) и **Приложение для запросов проектов**.
    
     ![Просмотр приложения для запросов проектов](./media/sharepoint-scenario-generate-app/02-05-01-view-app.png)
 2. Нажмите кнопку **Open** (Открыть), чтобы открыть приложение в новой вкладке браузера.
    
     ![Открытие приложения для запросов проектов](./media/sharepoint-scenario-generate-app/02-05-02-open-app.png)
+
 3. В приложении щелкните ![Значок для перехода к подробным сведениям](./media/sharepoint-scenario-generate-app/icon-details-arrow.png) рядом с первым элементом в коллекции обзора.
    
     ![Первый элемент коллекции](./media/sharepoint-scenario-generate-app/02-05-04-first-item.png)
-4. Щелкните ![Значок редактирования с изображением карандаша](./media/sharepoint-scenario-generate-app/icon-pencil.png) для изменения элемента.
+
+4. Выберите стрелку ![Значок редактирования с изображением карандаша](./media/sharepoint-scenario-generate-app/icon-pencil.png) для изменения элемента.
+
 5. Обновите данные в поле **Description**. Для этого замените последнее слово group словом team и щелкните ![Значок с галочкой](./media/sharepoint-scenario-generate-app/icon-check-mark.png).
    
    ![Обновление данных в поле "Description"](./media/sharepoint-scenario-generate-app/02-05-07-edit.png)
+
 6. Закройте вкладку браузера.
+
 7. Вернитесь к списку **Project Requests** (Запросы проекта), выберите **Приложение для запросов проектов** и **All Items** (Все элементы).
    
    ![Просмотр всех элементов](./media/sharepoint-scenario-generate-app/02-05-08-view-all.png)
@@ -139,12 +156,15 @@ ms.lasthandoff: 11/07/2017
     **StartsWith ( Title, TextSearchBox1.Text )**
    
     Например если ввести в поле поиска текст "de", отобразится четыре результата, включая элементы, начинающиеся с "Desktop" и "Device". Такие результаты, как "Mobile devices", не будут отображаться, так как они не *начинаются с* "de".
+
 2. Функция **Filter** *возвращает* строки из таблицы **Project Requests**. Если в поле поиска нет текста для сравнения, функция **Filter** возвращает все строки.
    
     **Filter ( 'Project Requests', StartsWith ( Title, TextSearchBox1.Text )**
+
 3. Функция **If** проверяет, какое значение установлено для переменной **SortDescending1**: True или False. Оно назначается с помощью кнопки сортировки в приложении. Затем функция возвращает значение **Descending** или **Ascending**.
    
     **If ( SortDescending1, Descending, Ascending )**
+
 4. Теперь данные в коллекции можно отсортировать с помощью функции **SortByColumns**. В этом случае данные сортируются по полю **Title**. Но можно также сортировать и по другим полям (не только по тому, по которому выполняется поиск).
 
 Если вы дошли до этих строк, мы надеемся, что теперь вы понимаете, как работает эта формула, а также знаете, как можно объединять функции и другие элементы, чтобы добиться нужного поведения приложения. Дополнительные сведения см. в [справочнике по формулам для PowerApps](formula-reference.md).

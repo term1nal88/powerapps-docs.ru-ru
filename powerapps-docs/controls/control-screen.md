@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: d9b1251d27fc45fd4ad13fd401d2e13c7390f26c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cd2e2a8c28fb894b1935b29bf80bf65eb631a266
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="screen-control-in-powerapps"></a>Элемент управления "Экран" в PowerApps
 Элемент пользовательского интерфейса приложения, содержащий один или несколько других элементов управления.
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/07/2017
 **OnStart** — поведение приложения, когда пользователь открывает его.
 
 * Формула, заданная для этого свойства, выполняется перед появлением первого экрана приложения. Вызовите функцию [**Navigate**](../functions/function-navigate.md), чтобы изменить экран, который будет отображаться первым при запуске приложения.
-* Невозможно задать [переменные контекста](../workding-with-variables.md) с помощью функции [**UpdateContext**](../functions/function-updatecontext.md), так как экран еще не появился. Тем не менее можно передавать переменные контекста в функцию **Navigate**, а затем создать и заполнить [коллекцию](../workding-with-variables.md) с помощью функции [**Collect**](../functions/function-collect.md).
+* Невозможно задать [переменные контекста](../working-with-variables.md) с помощью функции [**UpdateContext**](../functions/function-updatecontext.md), так как экран еще не появился. Тем не менее можно передавать переменные контекста в функцию **Navigate**, а затем создать и заполнить [коллекцию](../working-with-variables.md) с помощью функции [**Collect**](../functions/function-clear-collect-clearcollect.md).
 * После обновления приложения формула, заданная для этого свойства, будет выполняться при загрузке приложения в PowerApps Studio. Чтобы увидеть результат изменения этого свойства, необходимо сохранить, закрыть и повторно загрузить приложение.
 * Свойство **OnStart** относится к приложению, а не экрану. Для удобства редактирования его можно просмотреть и изменить на первом экране приложения. Если удалить первый экран или изменить порядок экранов, это свойство может оказаться трудно найти. В этом случае сохраните, закройте и повторно загрузите приложение. После этого данное свойство снова станет свойством первого экрана.
 
@@ -51,18 +51,18 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="example"></a>Пример
 1. Добавьте элемент управления **[Переключатель](control-radio.md)**, назовите его **ScreenFills** и укажите для свойства **[Items](properties-core.md)** следующее значение:<br>
-   **["Красный", "Зеленый"]**
+   **["Red", "Green"]**
    
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
 2. Присвойте элементу управления **Экран** по умолчанию имя **Source**, добавьте еще один элемент управления **Экран** и назовите его **Target**.
 3. В элементе **Source** добавьте элемент управления **[Фигура](control-shapes-icons.md)** (например, стрелку) и укажите для свойства **[OnSelect](properties-core.md)** следующую формулу:<br>
-   **Navigate(Target, ScreenTransition.Fade)**
+   **Navigate(Цель; ScreenTransition.Fade)**
    
     Нужны дополнительные сведения о функции **[Navigate](../functions/function-navigate.md)** или [других функциях](../formula-reference.md)?
 4. В элементе **Target** добавьте элемент управления **[Фигура](control-shapes-icons.md)** (например, стрелку) и укажите для свойства **[OnSelect](properties-core.md)** следующую формулу:<br>
    **Navigate(Source, ScreenTransition.Fade)**
 5. Укажите для свойства **[Fill](properties-color-border.md)** элемента **Target** следующую формулу:<br>
-   **If("Красный" in ScreenFills.Selected.Value, RGBA(255, 0, 0, 1), RGBA(54, 176, 75, 1))**
+   **If("Red" in ScreenFills.Selected.Value, RGBA(255, 0, 0, 1), RGBA(54, 176, 75, 1))**
 6. В элементе **Source** нажмите клавишу F5, выберите вариант в элементе управления **[Переключатель](control-radio.md)** и нажмите элемент управления **[Фигура](control-shapes-icons.md)**.
    
     Элемент **Target** отображается в выбранном цвете.

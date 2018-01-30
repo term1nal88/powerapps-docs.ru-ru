@@ -15,14 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 1dea5c714b231bb94edb7d61423b6a89d8f733da
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: fb750e6345c6aa576e378134ed98be92c234a86b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="set-up-data-alerts-for-the-power-bi-dashboard"></a>Настройка оповещений о данных для панели мониторинга Power BI
-**Примечание.** Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
+> [!NOTE]
+> Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI совместно с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
 
 В этой задаче мы добавим в Power BI оповещение о проектах, для утверждения которых превышено время ожидания, и последовательность операций, выполняемых после этого оповещения. Дополнительные сведения об оповещениях см. в статье [Оповещения о данных в службе Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-set-data-alerts).
 
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/07/2017
 2. На карте с числом нажмите кнопку с многоточием (**...**).
    
     ![Карта максимального числа дней в ожидании утверждения](./media/sharepoint-scenario-alerts-flow/07-01-01-tile-ellipsis.png)
-3. Щелкните ![Значок колокольчика](./media/sharepoint-scenario-alerts-flow/icon-bell.png).
+3. Выберите стрелку ![Значок колокольчика](./media/sharepoint-scenario-alerts-flow/icon-bell.png).
    
     ![Меню с плитками](./media/sharepoint-scenario-alerts-flow/07-01-02-tile-bell.png)
 4. В области справа нажмите кнопку **Добавить правило оповещения**.

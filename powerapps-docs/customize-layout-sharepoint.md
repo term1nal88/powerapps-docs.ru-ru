@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/02/2017
 ms.author: sharik
-ms.openlocfilehash: c581abad70012eb66413a31bd765437df69b7a70
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ce0f0693298977ca991636d0a9bf18e238e8368e
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="customize-a-gallery-layout-in-powerapps"></a>Настройка макета коллекции в PowerApps
 После автоматического создания приложения в PowerApps можно настроить экран обзора, который отображается по умолчанию. Укажите, какой макет следует использовать и какие столбцы нужно отображать и использовать при сортировке и фильтрации записей.
@@ -97,7 +97,8 @@ ms.lasthandoff: 11/07/2017
     Теперь в строке формул должна отобразиться следующая формула:<br>
     **SortByColumns(Filter(AppGen, StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))**
    
-    **Примечание.** Число, которое отображается после **TextSearchBox**, может быть больше, в зависимости от того, какие действия были выполнены ранее. Тем не менее это не повлияет на выполнение формулы.
+    > [!NOTE]
+> Число, которое отображается после **TextSearchBox**, может быть больше, в зависимости от того, какие действия были выполнены ранее. Тем не менее это не повлияет на выполнение формулы.
 
 ## <a name="test-sorting-and-searching"></a>Тестирование функций поиска и сортировки
 1. Откройте режим предварительного просмотра, нажав клавишу F5 (или нажав кнопку воспроизведения в правом верхнем углу).

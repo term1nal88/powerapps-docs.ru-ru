@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/06/2017
 ms.author: sharik
-ms.openlocfilehash: 337f3fc00fe52e0008190e2144f21f40d1632f52
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4012439f121a212f6117aa18c1d906cab893248f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-powerapps"></a>Ограничения и конфигурация в Microsoft PowerApps
 Этот раздел содержит сведения о текущих ограничениях и данных конфигурации для PowerApps.
@@ -32,7 +32,8 @@ ms.lasthandoff: 11/07/2017
 | Время ожидания |180 с |
 | Повторные попытки |4 |
 
-**ПРИМЕЧАНИЕ**. Значение повторной попытки может меняться. Для некоторых ошибок не имеет смысла повторять попытки.
+> [!NOTE]
+> Значение повторной попытки может меняться. Для некоторых ошибок не имеет смысла повторять попытки.
 
 ## <a name="ip-addresses"></a>IP-адреса
 В запросах от PowerApps используются IP-адреса, которые зависят от региона [среды](environments-overview.md), в которой размещено приложение. Мы не публикуем полные доменные имена, доступные для сценариев PowerApps.

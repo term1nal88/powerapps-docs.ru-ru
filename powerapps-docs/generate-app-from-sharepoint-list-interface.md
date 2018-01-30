@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/21/2017
 ms.author: sharik
-ms.openlocfilehash: 62f46339e2136494225bf218d372f539c389e1ad
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 8ac8fb34f9cdeb0c9e0ce6172938cef33ecccbc5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>Создание приложения из списка SharePoint с использованием PowerApps
-[!VIDEO nb:cid:UUID:639d7eaf-bae5-447c-a34b-ec539a01a15c]
+
 
 
 В PowerApps вы можете автоматически создать приложение, в котором пользователи смогут управлять элементами в настраиваемом списке SharePoint Online. Это приложение будет состоять из трех экранов, позволяющих пользователям:
@@ -33,7 +33,8 @@ ms.lasthandoff: 11/07/2017
 
 Если создать приложение настраиваемого списка с помощью панели команд SharePoint Online, такое приложение будет доступно как представление этого списка. Вы также сможете запускать это приложение как в веб-браузере, так и на устройствах Windows Phone, iOS и Android.
 
-**Важно!** PowerApps не поддерживает все типы данных SharePoint. Дополнительные сведения см. в разделе с описанием [известных проблем](connections/connection-sharepoint-online.md#known-issues).
+> [!IMPORTANT]
+> PowerApps не поддерживает все типы данных SharePoint. Дополнительные сведения см. в разделе с описанием [известных проблем](connections/connection-sharepoint-online.md#known-issues).
 
 ## <a name="generate-an-app"></a>Создание приложения
 1. Откройте настраиваемый список в SharePoint Online, щелкните или нажмите **PowerApps** на панели команд, а затем выберите **Create an app** (Создать приложение).
@@ -48,7 +49,8 @@ ms.lasthandoff: 11/07/2017
     ![](./media/generate-app-from-sharepoint-list-interface/powerapp-studio-for-web.png)  
 3. Щелкните или нажмите на вкладку со списком SharePoint и выберите **Open** (Открыть).
    
-    **Примечание.** Прежде чем приложение откроется, вам, возможно, потребуется обновить содержимое окна браузера (например, нажав клавишу F5).
+    > [!NOTE]
+> Прежде чем приложение откроется, вам, возможно, потребуется обновить содержимое окна браузера (например, нажав клавишу F5).
    
     ![](./media/generate-app-from-sharepoint-list-interface/open-app-in-browser.png)
    

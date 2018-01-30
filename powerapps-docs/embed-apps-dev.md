@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/12/2017
+ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: 541de1bcea9b76262d4f2d1cbe79c76b1c117245
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: a5c0e2c69ccf5e7359318794e4c39bb66bba9dac
+ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>Интеграция PowerApps в веб-сайты и другие службы
 Приложения, которые вы создаете, как правило, наиболее полезны, когда они доступны прямо там, где люди делают свою работу. PowerApps позволяет внедрять приложения в IFrame, чтобы эти приложения можно было интегрировать в веб-сайты и другие службы, такие как Power BI или SharePoint.
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/07/2017
 Помните о следующих ограничениях:
 
 * Доступ к внедренному приложению могут получить только пользователи PowerApps того же клиента.
-* Служба PowerApps поддерживает Internet Explorer 11, но для работы необходимо отключить просмотр в режиме совместимости.
+* Чтобы получить доступ к PowerApps в Internet Explorer 11, необходимо отключить просмотр в режиме совместимости.
 
 Вы также можете интегрировать PowerApps в SharePoint Online (без использования IFrame). Дополнительные сведения см. в статье [Создание приложения из списка SharePoint с использованием PowerApps](generate-app-from-sharepoint-list-interface.md).
 
@@ -43,7 +43,8 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 &appId=/providers/Microsoft.PowerApps/apps/[AppID]
 ```
 
-**Примечание.** Мы добавили разрыв строки, чтобы URI лучше отображался на странице.
+> [!NOTE]
+> Мы добавили разрыв строки, чтобы URI лучше отображался на странице.
 
 Вам только нужно указать в URI идентификатор своего приложения вместо AppID, в том числе [' & ']. Вскоре мы покажем, как получить это значение, но сначала рассмотрим все параметры, доступные в URI:
 
@@ -64,16 +65,14 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 3. Замените значение `[AppID]` в URI. Для приложения по заказу товаров URI будет выглядеть следующим образом:
    
     ```
-    https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&
-    source=iframe&appId=/providers/Microsoft.PowerApps/apps/76897698-91a8-b2de-756e-fe2774f114f2
+    https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Microsoft.PowerApps/apps/76897698-91a8-b2de-756e-fe2774f114f2
     ```
 
 ## <a name="embed-your-app-in-a-website"></a>Внедрение приложения на веб-сайт
 Внедрить приложение теперь так же просто, как добавить IFrame в HTML-код вашего сайта (или любую другую службу, поддерживающую IFrame, например Power BI или SharePoint):
 
 ```
-<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&
-source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]"/>
+<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]"/>
 ```
 
 Укажите значения высоты и ширины IFrame и идентификатор приложения вместо `[AppID]`.

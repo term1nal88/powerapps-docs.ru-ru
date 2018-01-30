@@ -13,54 +13,62 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/13/2017
-ms.author: v-thuch
-ms.openlocfilehash: 5d910d15f33e63957637d5b4d20f3408f553c3d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.date: 1/16/2018
+ms.author: v-malyng
+ms.openlocfilehash: 46bb36b3fd712124624e9435581379b56702e20c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
-# <a name="powerapps-webinar-listing"></a>Список вебинаров PowerApps
+# <a name="powerapps-webinar-listing"></a>Список вебинаров PowerApps #
 Эти вебинары помогут вам использовать возможности и функции Microsoft PowerApps. Вы можете предлагать дополнительные темы в комментариях под этой статьей.
 
-## <a name="upcoming-webinars"></a>Предстоящие вебинары
-**Серия для специалистов | Переход с приложения InfoPath на PowerApps — часть 2**
+## <a name="upcoming-webinars"></a>Предстоящие вебинары ##
+**Рекомендации Вишваса Лела по использованию PowerApps и Microsoft Flow для создания порталов бизнес-приложений**
+<br>Вишвас Лел (Vishwas Lele)
+<br>*18 января, 10:00 по тихоокеанскому времени (13:00 по восточному поясному времени)*
+
+Вишвас продемонстрирует приложение PowerApp — своеобразный портал для существующих корпоративных бизнес-приложений (управление складом, контрактами и т. д.) и служб (Dynamics, Office 365, DropBox и т. д.). Такие функции PowerApps, как готовые соединители, интеграция с Flow и мобильными устройствами, помогут вам без труда создать для сотрудников информационных отделов приложение, в котором все нужные данные собраны в одном расположении и на любом удобном устройстве.  
+
+[Щелкните здесь, чтобы просмотреть вебинар 18 января](http://www.youtube.com/watch?v=eSMAAFHK44c)
+
+**Серия о соединителях | Работа с соединителями: использование соединителя планировщика**
 <br>Одри Гордон (Audrie Gordon)
-<br>*10 октября: 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
+<br>*22 августа, 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
 
-Мы продолжаем серию видео, в которых объясняется, как создавать формы из списка SharePoint с помощью новых функций, представленных на конференции Ignite. Если вы пропустили первую часть, см. [это видео](https://www.youtube.com/watch?v=EZ09dRuiWLw).
+Это новая серия ежемесячных вебинаров, посвященная соединителям, в которой мы будет изучать применимость более чем 200 соединителей данных и соединителей SaaS для PowerApps и Microsoft Flow. Откроет эту серию обзор соединителя "Планировщик" для Office 365. Вы получите несколько советов по его использованию и новые идеи для создания бизнес-приложений с помощью PowerApps и соединителя планировщика.
 
-[Щелкните здесь, чтобы просмотреть часть 2 за 10 октября](https://www.youtube.com/watch?v=Bm2XePxLcSM)
+[Щелкните здесь, чтобы просмотреть вебинар 22 января](https://www.youtube.com/watch?v=NBPL9Uw7qzg)
 
-**Подробный обзор | Общие сведения о формах списков в SharePoint Online**
-<br>Анкит Сараф (Ankit Saraf)
-<br>*24 октября: 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
+**Приступая к работе | Советы и рекомендации по интеграции продуктов Microsoft Teams и PowerApps**
+<br>Одри Гордон (Audrie Gordon)
+<br>*29 января, 10:00 по тихоокеанскому времени (13:00 по восточному поясному времени)*
 
-Отправив презентации на конференцию Ignite, мы будем рады рассказать о новых функциях, предоставляющих новые возможности для разработки форм. Анкит Сараф вкратце описывает новый стек функций, а также дает несколько рекомендаций и советов для пользователей. Не пропустите!
+Из этого вебинара вы узнаете, как можно почти мгновенно создавать мощные решения, сочетая возможности PowerApps и Teams. Мы покажем, как применить PowerApps в каналах Teams, и предложим несколько идей по совместному использованию этих продуктов для расширения возможностей совместной работы.
 
-[Щелкните здесь, чтобы просмотреть вебинар за 24 октября](https://www.youtube.com/watch?v=3dCwg6wtViI)
+[Щелкните здесь, чтобы просмотреть вебинар 29 января](https://www.youtube.com/watch?v=obBQk-aSElI)
 
-**Начало работы | Изучение шаблонов Office Graph**
-<br>Эмма Купер (Emma Cooper)
-<br>*31 октября: 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
+**Серия о соединителях | Возможности Office Graph в сочетании с PowerApps**
+<br>Одри Гордон (Audrie Gordon)
+<br>*5 февраля, 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
 
-Откройте новые возможности работы со службами соединителей с помощью подключений Office Graph Эмма Купер, руководитель программы в команде PowerApps, расскажет о новых шаблонах и специфике использования интеграции Office Graph. Вы узнаете, как с помощью этого соединителя создавать для клиентов содержимое в стиле Delve. Это можно делать на основе нового шаблона или расширив существующий, используя рекомендации и советы Эммы. Не пропустите!
+Одри Гордон, старший руководитель программ в группе PowerApps, научит вас использовать PowerApps совместно с технологиями Office Graph. Мы настроим один из наших шаблонов, чтобы добиться максимальной эффективности Office Group для типичных примеров из реальной жизни.
 
-[Щелкните здесь, чтобы просмотреть вебинар за 31 октября](https://www.youtube.com/watch?v=SwLNN3tPVNs)
+[Щелкните здесь, чтобы просмотреть вебинар 5 февраля](https://www.youtube.com/watch?v=AOGGyoElGaQ)
 
-## <a name="past-webinars"></a>Предыдущие вебинары
+## <a name="past-webinars"></a>Предыдущие вебинары ##
 Вебинары будут доступны по запросу после трансляции. Обратите внимание, что необходимо будет повторно ввести сведения о регистрации, а затем вы получите ссылку на запись по электронной почте.
 
-### <a name="getting-started-webinar-series"></a>Серия вебинаров по началу работы
-**Getting Started with PowerApps Galleries**
- (Начало работы с коллекциями в PowerApps)<br>Одри Гордон [Зарегистрироваться и просмотреть](https://info.microsoft.com/US-EAD-WBNR-FY17-02Feb-28-GettingStartedwithPowerAppsGalleries300759_01Registration-ForminBody.html)
+### <a name="getting-started-webinar-series"></a>Серия вебинаров по началу работы ###
+**Начало работы с коллекциями в PowerApps**
+<br>Одри Гордон [Зарегистрироваться и просмотреть](https://info.microsoft.com/US-EAD-WBNR-FY17-02Feb-28-GettingStartedwithPowerAppsGalleries300759_01Registration-ForminBody.html)
 
-**Getting Started with PowerApps Formulas**
- (Приступая к работе с формулами в PowerApps)<br>Одри Гордон [Зарегистрироваться и просмотреть](https://info.microsoft.com/US-EAD-WBNR-FY17-03Mar-14-GettingStartedwithPowerAppsFormulas300770_01Registration-ForminBody.html)
+**Начало работы с формулами в PowerApps**
+<br>Одри Гордон [Зарегистрироваться и просмотреть](https://info.microsoft.com/US-EAD-WBNR-FY17-03Mar-14-GettingStartedwithPowerAppsFormulas300770_01Registration-ForminBody.html)
 
-**Getting Started with PowerApp Forms**
- (Начало работы с формами в PowerApps)<br>Одри Гордон [Просмотреть](https://www.youtube.com/watch?v=WnuwLkNbWk4)
+**Начало работы с формами в PowerApps**
+<br>Одри Гордон [Просмотреть](https://www.youtube.com/watch?v=WnuwLkNbWk4)
 
 **5 основных советов по разработке приложений для бизнеса**
 <br>Одри Гордон [Просмотреть](https://www.youtube.com/watch?v=Ql-pK9ixKxw)
@@ -68,18 +76,18 @@ ms.lasthandoff: 11/07/2017
 **Начало работы с элементами управления PowerApps**
 <br>Одри Гордон [Просмотреть](https://www.youtube.com/watch?v=lUo0DXvJENI)
 
-**Get started with the Common Data Service**
- (Начало работы с Common Data Service)<br>Джоно Люк (Jono Luk) [Просмотреть](https://info.microsoft.com/US-PowerBI-WBNR-FY17-04Apr-18-GettingStartedwiththeCommonDataServices312618_01Registration-ForminBody.html)
+**Начало работы с Common Data Service**
+<br>Джоно Люк (Jono Luk) [Просмотреть](https://info.microsoft.com/US-PowerBI-WBNR-FY17-04Apr-18-GettingStartedwiththeCommonDataServices312618_01Registration-ForminBody.html)
 
-### <a name="pro-topics"></a>Темы для специалистов
+### <a name="pro-topics"></a>Темы для специалистов ###
 **Развертывание приложений PowerApps**
 <br>Джеймс Олейник (James Oleinik) [Просмотреть](https://www.youtube.com/watch?v=LF49hFB14Cs)
 
-**Знакомство с формулами PowerApps**
+**Подробный обзор формул PowerApps**
 <br>Грег Линдхорст (Greg Lindhorst) [Просмотреть](https://www.youtube.com/watch?v=PuePMMuj5ps)
 
-**Rebuilding an InfoPath Designer form in PowerApps**
- (Перестроение формы InfoPath Designer в PowerApps)<br>Дэниэл Кристиан (Daniel Christian) [Просмотреть](https://www.youtube.com/watch?v=ohQcxcVZSK4)
+**Перестроение формы InfoPath Designer в PowerApps**
+<br>Дэниэл Кристиан (Daniel Christian) [Просмотреть](https://www.youtube.com/watch?v=ohQcxcVZSK4)
 
 **Подключение к локальным данным из PowerApps**
 <br>Арчана Наир (Archana Nair) и Димах Зайдалклани (Dimah Zaidalklani) [Просмотреть](https://www.youtube.com/watch?v=YBdO2MAulx8)
@@ -96,10 +104,30 @@ ms.lasthandoff: 11/07/2017
 **Профессиональные советы для разработчиков InfoPath, осуществляющих переход к PowerApps — часть 1**
 <br>Одри Гордон [Просмотреть](https://www.youtube.com/watch?v=EZ09dRuiWLw)
 
-### <a name="app-designer-topics"></a>Темы для конструкторов приложений
-**Интервью с одним из разработчиков PowerApps Мэри Хегер (Marie Hoeger): подробный обзор шаблонов**
+**Советы для специалистов по переходу с приложений InfoPath на PowerApps — часть 2**
+<br>Одри Гордон [Просмотреть](https://www.youtube.com/watch?v=Bm2XePxLcSM)
+
+**Общие сведения о формах списков в SharePoint Online**
+<br>Анкит Сараф (Ankit Saraf) [Просмотреть](https://www.youtube.com/watch?v=3dCwg6wtViI)
+
+**Изучение шаблонов Office Graph**
+<br>Эмма Купер (Emma Cooper) [Просмотреть](https://www.youtube.com/watch?v=SwLNN3tPVNs)
+
+**Возможности и преимущества сообщества PowerApps**
+<br> Одри Гордон (Audrie Gordon) и Маккензи Линг (Mackenzie Lyng) [Просмотреть](https://www.youtube.com/watch?v=MTIkTPUgDSY)
+
+**Обзор предстоящих выпусков PowerApps на 2017 год**
+<br>Даршан Десаи (Darshan Desai) [Просмотреть сейчас](https://www.youtube.com/watch?v=XFMh8-zLkEM)
+
+**Функция поиска в PowerApps**
+<br>Одри Гордон [Просмотреть](https://www.youtube.com/watch?v=uTPtNaSK_gc)
+
+**Новые шаблоны Office Graph (часть 2)**
+<br>Эмма Купер (Emma Cooper) [Просмотреть](https://www.youtube.com/watch?v=9PopTeLdpmU)
+
+### <a name="app-designer-topics"></a>Темы для конструкторов приложений ###
+**Профессиональные секреты разработчиков PowerApps: подробный обзор шаблонов с Мари Хогер (Marie Hoeger)**
 <br>Одри Гордон [Просмотреть](https://www.youtube.com/watch?v=YF3DKZxlUdM)
 
-**Быстрое создание приложений в PowerApps Studio**
+**Быстрое создание приложений с помощью PowerApps Studio**
 <br>Картик Бхарати (Karthik Bharathy) [Просмотреть](https://www.youtube.com/watch?v=us85WpXe4cA)
-

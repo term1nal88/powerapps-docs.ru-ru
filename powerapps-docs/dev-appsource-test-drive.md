@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/08/2017
 ms.author: litran
-ms.openlocfilehash: 39cf496539a1db041a0ba025bd46a9f858200aee
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ff2c45b1d15bdb6d937756b5e7ed00e5c9e9fdfa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="let-customers-test-drive-your-apps-on-appsource"></a>Предоставление клиентам возможности тестировать ваши приложения в AppSource
 Вы намерены создавать приложения в PowerApps? У вас есть приложение, которым вы хотите поделиться с клиентами? Чтобы поделиться приложением с клиентами и привлечь потенциальных клиентов для вашего бизнеса, мы поддерживаем решения для тестового выпуска PowerApps на сайте [AppSource.com](https://appsource.microsoft.com).
@@ -93,7 +93,8 @@ UpdateIf(SiteInspectorCollect,ID=record.ID,
 RemoveIf(SiteInspectorCollect,ID=record.ID)
 ```
 
-**Примечание.** Коллекции хранят данные только во время выполнения приложения. При закрытии приложения все изменения будут отклонены.
+> [!NOTE]
+> Коллекции хранят данные только во время выполнения приложения. При закрытии приложения все изменения будут утеряны.
 
 Таким образом, вы можете создать версию приложения с внедренными данными, что имитирует работу приложения при подключении к внешним данным. После внедрения данных вы сможете опубликовать это приложение как решение для тестирования на сайте AppSource.com.
 

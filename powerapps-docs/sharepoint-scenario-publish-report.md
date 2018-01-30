@@ -15,14 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 5e229e8767d4fdc16d37a69d82766af48a414686
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cb300617fbf08f7b9ed5ff87ed5633d7714d51e0
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Публикация отчета о проекте и создание панели мониторинга в Power BI
-**Примечание.** Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
+> [!NOTE]
+> Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI совместно с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
 
 В этом руководстве мы опубликуем набор данных и отчет в службе Power BI, а также создадим панель мониторинга на основе отчета. В большинстве случаев отчет включает множество визуализаций, из которых только часть используется на панели мониторинга. В этом примере мы добавим на панель мониторинга четыре визуализации.
 
@@ -48,7 +49,8 @@ ms.lasthandoff: 11/07/2017
    
     Как видите, после публикации отчета в Power BI Desktop загружается набор **(г)** и отчет **(в)**. Панели мониторинга создаются в службе, а не приложении Power BI Desktop. В этой рабочей области еще нет панелей мониторинга **(б)**. Мы создадим ее на следующем шаге.
    
-    **Примечание.** В Power BI доступны новые возможности навигации. Их можно включить на вашем сайте. Если панель навигации слева отличается от приведенной на рис. выше, ознакомьтесь со статьей [Новый интерфейс навигации по Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-the-new-power-bi-experience).
+    > [!NOTE]
+> В Power BI доступны новые возможности навигации. Их можно включить на вашем сайте. Если панель навигации слева отличается от приведенной на рис. выше, ознакомьтесь со статьей [Новый интерфейс навигации по Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-the-new-power-bi-experience).
 
 ## <a name="step-2-configure-credentials-for-refresh"></a>Шаг 2. Настройка учетных данных для обновления
 1. В правом верхнем углу службы щелкните ![Значок с шестеренкой](./media/sharepoint-scenario-publish-report/icon-gear.png) и выберите **Параметры**.
@@ -82,10 +84,13 @@ ms.lasthandoff: 11/07/2017
 4. Выберите существующую панель мониторинга и нажмите кнопку **Закрепить**.
    
     ![Закрепление диаграммы на существующей панели мониторинга](./media/sharepoint-scenario-publish-report/06-01-15-pin-existing.png)
+
 5. Закрепите остающиеся визуальные элементы (всего два).
+
 6. На панели навигации щелкните имя панели мониторинга.
    
     ![Новая панель мониторинга на панели навигации сайта](./media/sharepoint-scenario-publish-report/06-01-16-dashboard-menu.png)
+
 7. Просмотрите панель мониторинга. Если щелкнуть плитку, вы вернетесь к отчету.
    
     ![Готовая панель мониторинга](./media/sharepoint-scenario-publish-report/06-01-17-dashboard-completed.png)

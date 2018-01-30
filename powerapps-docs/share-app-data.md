@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: e6bae4500d3c3ac81c12da3c5b509dc1ea9e711e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b413bd52e9bbdd328ca5197ff5d5a76348298fe9
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="share-excel-data-used-by-your-app"></a>Совместное использование данных Excel, используемых приложением
 Пользователи приложения могут совместно использовать данные Excel в [облачной учетной записи](connections/cloud-storage-blob-connections.md), например OneDrive.
@@ -49,7 +49,8 @@ ms.lasthandoff: 11/07/2017
    
     ![Пункт "Совместный доступ"](./media/share-app-data/onedrive-share.png)
    
-    **Примечание**. В OneDrive для бизнеса следует предоставлять общий доступ к самому файлу, а не папке, в которой он содержится.
+    > [!NOTE]
+> В OneDrive для бизнеса следует предоставлять общий доступ к самому файлу, а не папке, в которой он содержится.
 3. В диалоговом окне выберите **Электронная почта**.
    
     ![Отправить по электронной почте](./media/share-app-data/onedrive-email.png)
@@ -72,6 +73,6 @@ ms.lasthandoff: 11/07/2017
 
 Дополнительные сведения см. в разделе [Как предоставить доступ к файлам и папкам на Google Диске](https://support.google.com/drive/answer/2494822).
 
-## <a name="known-limitations"></a>Известные ограничения
+### <a name="known-limitations"></a>Известные ограничения
 [Просмотрите эти ограничения](connections/cloud-storage-blob-connections.md#sharing-excel-tables) для совместного использовании данных Excel в организации.
 

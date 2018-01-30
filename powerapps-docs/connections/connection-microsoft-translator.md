@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2017
 ms.author: archanan
-ms.openlocfilehash: 9d5ccfd11399188e739353e2994f779347377de4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 104afc3d2a5b243b7315b1638f23b7778d049370
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>Подключение к Microsoft Translator из PowerApps
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
@@ -28,11 +28,10 @@ ms.lasthandoff: 11/07/2017
 
 В этой статье рассказано о том, как создать и использовать в приложении подключение к Microsoft Translator, и перечислены доступные функции.
 
-**Примечание**. Этот соединитель ограничен 150 вызовами на пользователя в день.
+> [!NOTE]
+> Этот соединитель ограничен 150 вызовами на пользователя в день.
 
-&nbsp;
-
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 ## <a name="connect-to-microsoft-translator"></a>Подключение к Microsoft Translator
 1. Откройте PowerApps и выберите команду **Создать**, а затем — пункт **Пустое приложение**. Выберите макет для телефона или планшета. Макет для планшета обеспечивает больше рабочего пространства:  

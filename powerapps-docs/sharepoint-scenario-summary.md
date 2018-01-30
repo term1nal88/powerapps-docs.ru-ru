@@ -15,14 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 064ff0778cbc02a81fb64214dbed64f32c04aa15
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4e5c34c557e165625c23e78f86e5cbb1c0faacba
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>Пошаговое руководство по реализации готового сценария интеграции SharePoint Online
-**Примечание.** Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
+> [!NOTE]
+> Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI совместно с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
 
 В рамках этой серии руководств мы рассмотрели очень много тем — от создания приложений и последовательностей до создания и внедрения отчетов в SharePoint. Мы надеемся, что вы многому научились и узнали об интеграции этих технологий. И теперь вы можете интегрировать приложения, последовательности и отчеты в SharePoint, исходя из своих потребностей. В завершение серии мы рассмотрим сценарий, на примере которого вы увидите, как взаимодействуют все компоненты.
 
@@ -37,15 +38,21 @@ ms.lasthandoff: 11/07/2017
 4. Заполните форму следующими значениями:
    
    * **Title** = "Мобильные устройства для группы разработчиков"
+
    * **Approved** = "Утверждено"
+
    * **Description** = "Группа разработчиков будет использовать устройства, предоставленные компанией Contoso"
+
    * **EstimatedDays** = "30"
+
    * **ProjectType** = "Новое оборудование"
+
    * **RequestDate** = "01.03.2017"
+
    * **Requestor** = "Мария Петрова"
      
      ![Форма редактирования "Запросы проекта"](./media/sharepoint-scenario-summary/09-01-01-app-new.png)
-5. Щелкните ![Значок с галочкой](./media/sharepoint-scenario-summary/icon-check-mark.png)и закройте вкладку браузера.
+5. Выберите стрелку ![Значок с галочкой](./media/sharepoint-scenario-summary/icon-check-mark.png)и закройте вкладку браузера.
 6. Вернитесь к списку **Project Requests** (Запросы проекта), выберите **Приложение для запросов проектов** и **All Items** (Все элементы).
    
     ![Просмотр всех элементов](./media/sharepoint-scenario-summary/09-01-01a-view-all.png)
@@ -100,12 +107,15 @@ ms.lasthandoff: 11/07/2017
 4. На экране **Update Details** (Обновление сведений) определите следующие значения:
    
    * поле **Status** = "Не начато";
+
    * поле **ProjectedStartDate** = "06.03.2017";
+
    * поле **ProjectedEndDate** = "24.03.2017";
+
    * поле **ProjectedDays** = "15".
      
      ![Обновление сведений о проекте](./media/sharepoint-scenario-summary/09-04-03-update.png)
-5. Щелкните ![Значок с галочкой](./media/sharepoint-scenario-summary/icon-check-mark.png) для применения изменений к списку SharePoint.
+5. Выберите стрелку ![Значок с галочкой](./media/sharepoint-scenario-summary/icon-check-mark.png) для применения изменений к списку SharePoint.
 6. Закройте приложение и вернитесь к списку. Мы обновили для записи проекта дату и день.
    
    ![Обновленные сведения в списке SharePoint](./media/sharepoint-scenario-summary/09-04-04-updated-list.png)

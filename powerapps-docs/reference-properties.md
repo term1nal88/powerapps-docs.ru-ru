@@ -15,17 +15,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: 0565bba26f9ab78437dd4b5a7729ff518a89e6e8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 8aa5fb671878af21fa483dde348460bf7c05fc70
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="controls-and-properties-in-powerapps"></a>Элементы управления и свойства в PowerApps
 Настройка оформления и поведения элемента управления с помощью задания одного из его свойств. У каждого типа элемента управления имеется собственный набор свойств. Некоторые свойства, такие как **Height** и **Width**, являются общими почти для всех типов элементов управления, но другие свойства, такие как **CheckboxSize**, характерны для одного типа.
 
 ## <a name="controls"></a>Элементы управления
 **[Добавление изображения](controls/control-add-picture.md)** — загрузка изображений с локального устройства для передачи в источник данных.
+
+**[Вложения](controls/control-attachments.md)** — загрузка и отправка файлов из локального устройства в источник данных.
 
 **[Звук](controls/control-audio-video.md)** — воспроизведение аудиоклипа или звуковой дорожки видеоклипа.
 
@@ -122,7 +124,7 @@ ms.lasthandoff: 11/07/2017
 
 **[AllItems](controls/control-gallery.md)** — все элементы в коллекции, включая дополнительные значения элементов управления, которые являются частью шаблона коллекции.  Применяется к элементу управления **[Коллекция](controls/control-gallery.md)**.
 
-**AutoDisableOnSelect** — автоматическое отключение элемента управления при выполнении функции, назначенной свойству OnSelect.  Применяется к элементам управления **[Кнопка](controls/control-button.md)** и **[Изображение](controls/control-image.md)**.
+**AutoDisableOnSelect** — автоматически отключает элемент управления при выполнении функции, назначенной свойству OnSelect.  Применяется к элементам управления **[Кнопка](controls/control-button.md)** и **[Изображение](controls/control-image.md)**.
 
 **[AutoHeight](controls/properties-size-location.md)** — определяет, увеличивается ли автоматически высота метки, если ее свойство **[Text](controls/properties-core.md)** содержит больше знаков, чем может отобразить этот элемент управления. Применяется к элементу управления **[Метка](controls/control-text-box.md)**.
 
@@ -175,7 +177,7 @@ ms.lasthandoff: 11/07/2017
 
 **[DataSource](controls/control-form-detail.md)** — источник данных, используемый для просмотра, изменения и создания записи.  Применяется к элементам управления **[Форма отображения](controls/control-form-detail.md)** и **[Форма редактирования](controls/control-form-detail.md)**.
 
-**[Default](controls/properties-core.md)** — начальное значение элемента управления до его изменения пользователем.  Применяется к многим элементам управления.
+**[Default](controls/properties-core.md)**. Начальное значение элемента управления до его изменения пользователем.  Применяется к многим элементам управления.
 
 **[DefaultDate](controls/control-date-picker.md)** — начальное значение элемента управления датой до его изменения пользователем.  Применяется к элементу управления **[Средство выбора даты](controls/control-date-picker.md)**.
 
@@ -248,7 +250,7 @@ ms.lasthandoff: 11/07/2017
 **[HTMLText](controls/control-html-text.md)** — текст, который отображается в элементе управления "HTML-текст" и может содержать теги HTML.  Применяется к элементу управления **[HTML-текст](controls/control-html-text.md)**.
 
 ### <a name="i"></a>I
-**[Image](controls/properties-visual.md)** — имя изображения, которое отображается в элементе управления "Изображение", "Звук" или "Микрофон".  Применяется к элементам управления **[Звук](controls/control-audio-video.md)**, **[Изображение](controls/control-image.md)**, **[Микрофон](controls/control-microphone.md)** и **[Видео](controls/control-audio-video.md)**.
+**[Image](controls/properties-visual.md)**  — имя изображения, которое отображается в элементе управления "Изображение", "Звук" или "Микрофон".  Применяется к элементам управления **[Звук](controls/control-audio-video.md)**, **[Изображение](controls/control-image.md)**, **[Микрофон](controls/control-microphone.md)** и **[Видео](controls/control-audio-video.md)**.
 
 **[ImagePosition](controls/properties-visual.md)** — расположение изображения на экране или в элементе управления, если его размеры отличаются от размеров изображения (**Fill**, **Fit**, **Stretch**, **Tile** или **Center**).  Применяется к многим элементам управления.
 
@@ -266,7 +268,7 @@ ms.lasthandoff: 11/07/2017
 
 **[ItemPaddingLeft](controls/control-list-box.md)** — расстояние между текстом в списке и его левым краем.  Применяется к элементу управления **[Поле со списком](controls/control-list-box.md)**.
 
-**[Items](controls/properties-core.md)** — источник данных, отображаемых в элементе управления, такой как коллекция, список или диаграмма.  Применяется к многим элементам управления.
+**[Items](controls/properties-core.md)** — источник данных, отображаемых в элементе управления, такой как коллекция, список или диаграмма.  Применяется к многим элементам управления.
 
 **[ItemsGap](controls/control-column-line-chart.md)** — расстояние между столбцами в гистограмме.  Применяется к элементу управления **[Гистограмма](controls/control-column-line-chart.md)**.
 
@@ -462,7 +464,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Time](controls/control-audio-video.md)** — текущее положение элемента управления мультимедиа.  Применяется к элементам управления **[Звук](controls/control-audio-video.md)** и **[Видео](controls/control-audio-video.md)**.
 
-**[Tooltip](controls/properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.  Применяется к многим элементам управления.
+**[Tooltip](controls/properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.  Применяется к многим элементам управления.
 
 **[Transition](controls/control-gallery.md)** — визуальный эффект (**Pop**, **Push** или **None**), отображаемый при наведении пользователем указателя на элемент коллекции.  Применяется к элементу управления **[Коллекция](controls/control-gallery.md)**.
 
@@ -507,12 +509,11 @@ ms.lasthandoff: 11/07/2017
 ### <a name="y"></a>Y
 **[Y](controls/properties-size-location.md)** — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет). Применяется к многим элементам управления. Для элемента управления **[Карточка](controls/control-card.md)** в контейнере с несколькими строками данное свойство определяет строку, в которой отображается карточка.
 
-**[YAxisMax](controls/control-column-line-chart.md)** — максимальное значение оси Y на графике.  Применяется к элементу управления **[Гистограмма](controls/control-column-line-chart.md)**.
+**[YAxisMax](controls/control-column-line-chart.md)** — максимальное значение оси Y на графике.  Применяется к элементу управления **[График ](controls/control-column-line-chart.md)**.
 
-**[YAxisMin](controls/control-column-line-chart.md)** — минимальное значение оси Y на графике.  Применяется к элементу управления **[Гистограмма](controls/control-column-line-chart.md)**.
+**[YAxisMin](controls/control-column-line-chart.md)** — минимальное значение оси Y на графике.  Применяется к элементу управления **[График ](controls/control-column-line-chart.md)**.
 
 **[YLabelAngle](controls/control-column-line-chart.md)** — угол наклона меток рядом с осью Y гистограммы или графика.  Применяется к элементам управления **[Гистограмма](controls/control-column-line-chart.md)** и **[График](controls/control-column-line-chart.md)**.
 
 ### <a name="z"></a>Z
-**Zoom** — процент, на который увеличивается изображение с камеры или представление файла в средстве просмотра PDF-файлов.  Применяется к элементам управления **[Камера](controls/control-camera.md)** и **[Средство просмотра PDF](controls/control-pdf-viewer.md)**.
-
+**Zoom** — процент, на который увеличивается изображение с камеры или представление файла в средстве просмотра PDF.  Применяется к элементам управления **[Камера](controls/control-camera.md)** и **[Средство просмотра PDF](controls/control-pdf-viewer.md)**.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: e7252415f6f5839a7531f1264615dc5ed39dca10
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ea9bd30ea9007800511e0f194c6f9f460773305e
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>Работа со средами и Microsoft PowerApps
 С помощью PowerApps можно работать в различных средах и легко переключаться между ними. Общие сведения о средах см. в [обзоре сред](environments-overview.md), в котором подробно объясняется, для чего предназначены среды, а также рассматриваются способы создания и управления ими. В этой статье будут рассмотрены следующие темы, касающиеся сред:
@@ -43,20 +43,26 @@ ms.lasthandoff: 11/07/2017
 Вы можете создавать приложения в существующих средах, к которым у вас есть доступ, или в новых средах. Однако создание собственной среды требует определенного плана. Дополнительные сведения см. [здесь](pricing-billing-skus.md). Перед созданием приложения **необходимо выбрать среду, в которой оно будет создано**. В противном случае придется перемещать приложения между средами.
 
 1. Если вы находитесь на сайте [powerapps.com](http://web.powerapps.com), выберите среду, в которой нужно создать приложение. Если вы находитесь в *PowerApps Studio* или *PowerApps Studio для Интернета*, перейдите к шагу 4.
-2. Нажмите кнопку **+ New app** (+ Создать приложение).
+
+2. Нажмите кнопку **+ Создать приложение**.
+
 3. Выберите **PowerApps Studio** или **PowerApps Studio для Интернета**.
+
 4. Когда *PowerApps Studio* или *PowerApps Studio для Интернета* откроется, снова выберите среду в правом верхнем углу. В будущем мы исправим это неудобство, однако в текущем выпуске необходимо выбирать среду каждый раз при создании приложения в новой среде.
-   
-   ![Переключение сред в PowerApps Studio](./media/working-with-environments/studio-switch-env.PNG)
+
+    ![Переключение сред в PowerApps Studio](./media/working-with-environments/studio-switch-env.PNG)
+
 5. На странице **учетной записи** рядом с именем текущей среды щелкните **Изменить**.
-   
-   ![Переключение сред в PowerApps Studio](./media/working-with-environments/studio-env-dropdown.PNG)
+
+    ![Переключение сред в PowerApps Studio](./media/working-with-environments/studio-env-dropdown.PNG)
+
 6. Выберите среду, в которой нужно создать приложение.
-   
-   ![Переключение сред в PowerApps Studio](./media/working-with-environments/studio-env-dropdown2.PNG)
+
+    ![Переключение сред в PowerApps Studio](./media/working-with-environments/studio-env-dropdown2.PNG)
+
 7. Нажмите кнопку **New** (Создать), чтобы приступить к созданию приложения. Теперь приложение будет находиться в среде, которую вы выбрали на шаге 6.
-   
-   ![Переключение сред в PowerApps Studio](./media/working-with-environments/new-app.PNG)
+
+    ![Переключение сред в PowerApps Studio](./media/working-with-environments/new-app.PNG)
 
 ## <a name="view-apps-in-the-right-environment"></a>Просмотр приложений в правильной среде
 При работе с веб-сайтом [powerapps.com](http://web.powerapps.com), версией PowerApps Studio для Windows или PowerApps Studio для Интернета отображаемый список приложений, подключений и пр. всегда фильтруется с учетом среды, выбранной в раскрывающемся списке. Если необходимые приложения не отображаются, всегда проверяйте, правильно ли выбрана среда.
@@ -67,7 +73,6 @@ ms.lasthandoff: 11/07/2017
 
 Для переключения сред в PowerApps Studio для Windows или PowerApps Studio для Интернета:
 
-  ![Переключение сред в PowerApps Studio](./media/working-with-environments/studio-switch-env.PNG)
+![Переключение сред в PowerApps Studio](./media/working-with-environments/studio-switch-env.PNG)
 
 Дополнительные сведения о средах см. в [этом обзоре](environments-overview.md).
-

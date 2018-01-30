@@ -15,14 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 6574ad1c67c6fc42da3b1cd5940f163307829333
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 481e6d13cce7624cf46cadbf78f877fdfb9fd481
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="embed-the-power-bi-project-report-in-sharepoint-online"></a>Внедрение отчета о проекте Power BI в SharePoint Online
-**Примечание.** Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
+> [!NOTE]
+> Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI совместно с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
 
 Последняя задача этого сценария — внедрение отчета Power BI на тот же веб-сайт SharePoint Online, где размещены два наши списка. В Power BI доступны разные способы внедрения. Недавно мы добавили возможность интеграции непосредственно в страницы SharePoint для мобильных и веб-представлений.
 

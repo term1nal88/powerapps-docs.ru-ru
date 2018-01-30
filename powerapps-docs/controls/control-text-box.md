@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c6da4216a4ce2c95f20db322a3ec529299410deb
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4fd0b50796bc8c1ba9574d1c401042e3d10c863c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="label-control-in-powerapps"></a>Элемент управления "Метка" в PowerApps
 Поле, в котором отображаются данные, например текст, числа, даты и валюта.
@@ -95,7 +95,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Strikethrough](properties-text.md)** определяет, когда через текст, отображаемый в элементе управления, проходит линия.
 
-**[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
+**[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
 
 **[Underline](properties-text.md)** определяет, когда под текстом, отображаемым в элементе управления, проходит линия.
 
@@ -124,7 +124,8 @@ ms.lasthandoff: 11/07/2017
 * Добавьте метку и укажите для его свойства **[Text](properties-core.md)** формулу следующего вида:<br>
   **Today()**
   
-    **Примечание.** Не указывайте в формуле кавычки, если только ее аргумент не является строковым литералом. В этом случае заключите аргумент (не формулу) в двойные кавычки.
+    > [!NOTE]
+> Не указывайте в формуле кавычки, если только ее аргумент не является строковым литералом. В этом случае заключите аргумент (не формулу) в двойные кавычки.
   
     Нужны дополнительные сведения о функции **[Today](../functions/function-now-today-istoday.md)** или [других функциях](../formula-reference.md)?
 

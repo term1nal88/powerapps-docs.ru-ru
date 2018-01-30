@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 86329003ee2f5e6e4ffbe91714be290eacd04ad7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: dfb50597af4012fe6145664fb645439a54686825
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="button-control-in-powerapps"></a>Элемент управления "Кнопка" в PowerApps
 Элемент управления, который пользователь нажимает для взаимодействия с приложением.
@@ -99,7 +99,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Strikethrough](properties-text.md)** определяет, когда через текст, отображаемый в элементе управления, проходит линия.
 
-**[TabIndex](properties-accessibility.md)** — ненулевое значение определяет последовательность перехода между элементами управления с помощью клавиши TAB.
+**[TabIndex](properties-accessibility.md)** — настройка последовательности табуляции для элементов управления в среде выполнения, если задано ненулевое значение.
 
 **[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
 
@@ -145,7 +145,8 @@ ms.lasthandoff: 11/07/2017
    
     **UpdateContext({Total:Total + Value(Source.Text)});<br>UpdateContext({ClearInput: ""})**
    
-    **Примечание**. Если указывается несколько формул, их следует разделять точками с запятой "**;**".
+    > [!NOTE]
+> Если указывается несколько формул, их следует разделять точками с запятой (**;**).
 3. Для свойства **[Default](properties-core.md)** текстового поля **Source** задайте значение **ClearInput**.
 4. Нажмите клавишу **F5**, затем протестируйте приложение, сложив несколько чисел.
 
@@ -161,7 +162,8 @@ ms.lasthandoff: 11/07/2017
 #### <a name="change-a-buttons-shape"></a>Изменение формы кнопки
 По умолчанию PowerApps создает прямоугольный элемент управления **Кнопка** со скругленными углами. Можно внести простые изменения в форму элемента управления **Кнопка**, задав его свойства **[Height](properties-size-location.md)**, **[Width](properties-size-location.md)** и **[Radius](properties-size-location.md)**.
 
-**Примечание. [Значки и фигуры](control-shapes-icons.md)** обеспечивают широкий элементов выбор при оформлении и могут выполнять некоторые основные функции элемента управления **Кнопка**. Тем не менее у **[значков и фигур](control-shapes-icons.md)** нет свойства **[Text](properties-core.md)**.
+> [!NOTE]
+> [Значки и фигуры](control-shapes-icons.md) обеспечивают широкий элементов выбор при оформлении и могут выполнять некоторые основные функции элемента управления **Кнопка**. Тем не менее у **[значков и фигур](control-shapes-icons.md)** нет свойства **[Text](properties-core.md)**.
 
 1. Добавьте элемент управления **Кнопка** и задайте для его свойств **[Height](properties-size-location.md)** и **[Width](properties-size-location.md)** значение **300**, чтобы получить большую квадратную кнопку.
 2. Измените свойства **[RadiusTopLeft](properties-size-location.md)**, **[RadiusTopRight](properties-size-location.md)**, **[RadiusBottomLeft](properties-size-location.md)** и  **[RadiusBottomRight](properties-size-location.md)**, чтобы изменить степень кривизны углов кнопки. Ниже приведены примеры различных фигур, созданных на основе квадратной кнопки 300 x 300.
@@ -177,7 +179,8 @@ ms.lasthandoff: 11/07/2017
 
 Можно также указать цвет элемента управления **Кнопка**, задав для его свойства **[HoverFill](properties-color-border.md)** формулу, содержащую функцию **[ColorValue](../functions/function-colors.md)** вместо функции **[ColorFade](../functions/function-colors.md)**, например **ColorValue("Red")**.
 
-**Примечание**. Значением цвета может быть любое определение цвета CSS (имя или шестнадцатеричное значение).
+> [!NOTE]
+> Значением цвета может быть любое определение цвета CSS (имя или шестнадцатеричное значение).
 
 * Замените функцию **[ColorFade](../functions/function-colors.md)** функцией **[ColorValue](../functions/function-colors.md)** в одной из созданных кнопок и посмотрите, что получится.
 

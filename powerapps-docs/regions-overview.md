@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/04/2017
 ms.author: sharik
-ms.openlocfilehash: 1ffa79a35d93249756316e52876922ce1d850c49
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 114aa01bd745ed501e209e314e75904751aad3f5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="regions-overview-in-powerapps"></a>Обзор регионов в PowerApps
 ## <a name="how-do-i-find-out-where-my-app-is-deployed"></a>Как узнать, где развернуто приложение?
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/07/2017
   
     В центре администрирования все существующие среды перечислены на вкладке **Среды**. В этом списке также показан **регион**, в котором развернуто приложение:
   
-   ![](./media/regions-overview/environment-list.png)
+   ![Вкладка "Окружения"](./media/regions-overview/environment-list.png)
 
 ## <a name="what-regions-are-available"></a>Какие регионы доступны?
 * США
@@ -47,5 +47,6 @@ ms.lasthandoff: 11/07/2017
 
 Если пользователи находятся в Европе, создайте и используйте среду в Европе. Это позволит обеспечить оптимальную производительность. Если пользователи находятся в США, создайте и используйте среду в США.
 
-**Примечание.** Локальные шлюзы данных недоступны в Индии и в пользовательских средах. Шлюзы необходимо создавать в среде по умолчанию.
+> [!NOTE]
+> Локальные шлюзы данных недоступны в Индии и в пользовательских окружениях. Шлюзы необходимо создавать в среде по умолчанию.
 

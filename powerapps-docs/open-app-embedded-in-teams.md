@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/20/2017
 ms.author: ankitsar
-ms.openlocfilehash: 64c14c7e3a6ab599aa14d2200679134cc3fcc7d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 19d6a2718a39e3426fc0fcb4aca3223825f29a07
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="add-and-open-an-app-in-microsoft-teams"></a>Добавление и открытие приложения в Microsoft Teams
 Можно добавить приложение в канал Microsoft Teams, чтобы любой пользователь, которому был предоставлен общий доступ к этому приложению, мог открыть его в данном канале. Можно добавить любое приложение, которое вы создали или для которого у вас есть разрешения **Может использовать** или **Может изменять**. Кроме того, можно добавить и открыть приложение из браузера или классического приложения для Microsoft Teams.
@@ -37,7 +37,8 @@ ms.lasthandoff: 11/07/2017
     ![](./media/open-app-embedded-in-teams/add-a-tab.png)
 5. Щелкните (коснитесь) приложение, которое нужно добавить.
    
-    **Примечание**. Приложение можно найти по имени, автору или среде.
+    > [!NOTE]
+> Приложение можно найти по имени, автору или окружению.
    
     ![](./media/open-app-embedded-in-teams/select-an-app.png)
 6. Нажмите кнопку **Сохранить**.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: b3473d0dcf1462648f39c3dbbdedd12d1cfce08c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f7f8ec5c63b3d0936a1123d547b5c19097f1e04b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="count-counta-countif-and-countrows-functions-in-powerapps"></a>Функции Count, CountA, CountIf и CountRows в PowerApps
 Подсчитывает все [записи](../working-with-tables.md#records) в [таблице](../working-with-tables.md) или подсчитывает количество записей, удовлетворяющих условию.
@@ -35,22 +35,22 @@ ms.lasthandoff: 11/07/2017
 
 Каждая из этих функций возвращает число.
 
-[!INCLUDE [delegation-no](../../includes/delegation-no.md)]
+[!INCLUDE [delegation-no](../includes/delegation-no.md)]
 
 ## <a name="syntax"></a>Синтаксис
 **Count**( *таблица_из_одного_столбца* )<br>
-**CountA**( *таблица_из_одного_столбца* )
+**CountA**( *SingleColumnTable* )
 
 * *SingleColumnTable* — обязательный аргумент.  Столбец записей для подсчета.  
 
 **CountIf**( *таблица*, *логическая_формула* )
 
-* *Table* — обязательный аргумент.  Таблица с записями для подсчета.
+* *Table* — обязательный аргумент.  Таблица с записями для подсчета.
 * *Логическая_формула* — обязательный аргумент.  Формула для вычисления для каждой записи таблицы.  Учитываются записи, возвращающие по этой формуле значение **true**.  Формула может ссылаться на столбцы таблицы.
 
 **CountRows**( *таблица* )
 
-* *Table* — обязательный аргумент.  Таблица с записями для подсчета.
+* *Table* — обязательный аргумент.  Таблица с записями для подсчета.
 
 ## <a name="example"></a>Пример
 1. Импортируйте или создайте [коллекцию](../working-with-data-sources.md#collections) с именем **Inventory**, как описано в первом шаге описания [показа текста и изображений в коллекции](../show-images-text-gallery-sort-filter.md).

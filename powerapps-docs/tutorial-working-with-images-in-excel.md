@@ -14,18 +14,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/15/2016
 ms.author: anneta
-ms.openlocfilehash: 13b15a29cf2f9e211328b815b8419799024e481e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 5ba6f02db0de796cb75c57d914abf41caa259cbf
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>Как сохранить изображения в файл Excel и добавить их в приложение
-&nbsp;
-
-[!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
-
-* Узнайте, как [добавить источник данных](add-data-connection.md)
 
 В этом руководстве вы выполните следующие действия.
 
@@ -35,7 +30,11 @@ ms.lasthandoff: 11/07/2017
 * Сохраните в файл Excel изображения, созданные с помощью элемента управления "Ввод с помощью пера".
 * Отобразите в приложении изображения из файла Excel.
 
+[!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
+* Узнайте, как [добавить источник данных](add-data-connection.md)
+
 ## <a name="create-the-excel-file-as-a-table"></a>Создание таблицы в формате файла Excel
+
 1. Откройте пустой файл Excel и присвойте в нем столбцу имя **Image [image]**.
 2. Создайте таблицу, выполнив следующие действия:    
    
@@ -77,7 +76,8 @@ ms.lasthandoff: 11/07/2017
 
 Для этого примера нам понадобится файл [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip) с несколькими изображениями в формате JPEG.
 
-**Примечание.** Если вы используете файл Excel для отображения изображений, путь к файлам должен содержать символы косой черты. Когда PowerApps сохраняет изображения в таблице Excel (как в предыдущих шагах), путь к файлам содержит символы обратной косой черты. Вы можете использовать в этом примере файлы **SavePen_images** из предыдущего примера. Но для этого нужно изменить пути в таблице Excel, заменив все символы обратной косой черты обычной косой чертой. В противном случае изображения не будут отображаться.  
+> [!NOTE]
+> Если вы используете файл Excel для отображения изображений, путь к файлам должен содержать символы косой черты. Когда PowerApps сохраняет изображения в таблице Excel (как в предыдущих шагах), путь к файлам содержит символы обратной косой черты. Вы можете использовать в этом примере файлы **SavePen_images** из предыдущего примера. Но для этого нужно изменить пути в таблице Excel, заменив все символы обратной косой черты обычной косой чертой. В противном случае изображения не будут отображаться.  
 
 1. Загрузите файл [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip) и извлеките папку **Assets** в облачную учетную запись хранения.
 2. В электронной таблице Excel создайте таблицу, которая выглядит следующим образом:

@@ -14,16 +14,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: 2a72bfa21c8d4cb7eab0a3cb2292a61d5c036696
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: d559774c65ee2db99f891e41472f6110e330bfc1
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="open-entity-data-in-excel"></a>Открытие данных сущности в Excel
 Открыв данные сущности в Microsoft Excel, вы сможете быстро и легко просмотреть и изменить данные с помощью надстройки Microsoft PowerApps Excel. Для использования надстройки PowerApps для Excel требуется Microsoft Excel 2016.
 
-**Примечание.** Если ваш клиент Microsoft Azure Active Directory настроен на использование служб федерации Active Directory (ADFS), необходимо установить обновление за май 2016 г., чтобы надстройка Excel могла правильно выполнить вход.
+> [!NOTE]
+> Если ваш клиент Microsoft Azure Active Directory настроен на использование служб федерации Active Directory (AD FS), необходимо установить обновление за май 2016 г., чтобы надстройка Excel могла правильно выполнить вход.
 
 ## <a name="open-entity-data-in-excel"></a>Открытие данных сущности в Excel
 1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Common Data Service** и щелкните или коснитесь элемента **Сущности** в области навигации слева. Отобразятся все сущности.

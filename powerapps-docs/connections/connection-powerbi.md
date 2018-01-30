@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/12/2016
 ms.author: sirsu
-ms.openlocfilehash: 59b19a81a7c3bfca059adb00e2b3140c122f53eb
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 62dbb11d167155d7f0c47b889674a61b1b1047f3
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>Подключение к Power BI из PowerApps
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -28,7 +28,7 @@ Power BI — это набор средств бизнес-аналитики �
 
 В этой статье показано, как использовать подключение Power BI в приложении, а также перечислены доступные функции.
 
-## <a name="what-you-need-to-get-started"></a>Что нужно для начала работы
+## <a name="prerequisites"></a>Технические условия
 * Перейдите на сайт [powerapps.com](https://powerapps.com) или установите [PowerApps](http://aka.ms/powerappsinstall).
 * Добавьте [подключение](https://powerapps.microsoft.com/tutorials/add-manage-connections/) Power BI.
 * Создайте приложение с помощью [шаблона](https://powerapps.microsoft.com/tutorials/get-started-test-drive/) или [данных](https://powerapps.microsoft.com/tutorials/get-started-create-from-data/) или создайте его с [нуля](https://powerapps.microsoft.com/tutorials/get-started-create-from-blank/).
@@ -78,7 +78,8 @@ Power BI — это набор средств бизнес-аналитики �
 ## <a name="checkalertstatus"></a>CheckAlertStatus
 Проверка состояния оповещения.
 
-**Примечание.** Запросы к этой конечной точке будут регулироваться в зависимости от каждого оповещения, если вызывать их слишком часто.
+> [!NOTE]
+> Запросы к этой конечной точке будут регулироваться в зависимости от каждого оповещения, если вызывать их слишком часто.
 
 #### <a name="input-properties"></a>Входные свойства
 | Имя свойства | Тип данных | Требуется | Описание |

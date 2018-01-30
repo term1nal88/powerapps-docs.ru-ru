@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/09/2016
 ms.author: gregli
-ms.openlocfilehash: 9f829e8c98b03bc47bc36f26273267265819f4ae
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b40f44f8bdcb319191221d0f2cee39e15d5b3b49
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="trim-and-trimends-functions-in-powerapps"></a>Функции Trim и TrimEnds в PowerApps
 Удаляют лишние пробелы из текстовой строки.
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>Синтаксис
 **Trim**( *строка* )<br>**TrimEnds**( *строка* )
 
-* *Строка* — обязательный аргумент. Строка текста, из которой необходимо удалить лишние пробелы.
+* *строка* — обязательный аргумент. Строка текста, из которой необходимо удалить лишние пробелы.
 
 **Trim**( *таблица_из_одного_столбца* )<br>**TrimEnds**( *таблица_из_одного_столбца* )
 
@@ -60,5 +60,6 @@ ms.lasthandoff: 11/07/2017
 | **Trim(&nbsp;Spaces&nbsp;)** |Удаляет все пробелы в начале и конце каждой строки и лишние пробелы внутри строк для каждой строки в коллекции **Spaces**. |<style> img { max-width: none } </style> ![](media/function-trim/output-trim.png) |
 | **TrimEnds(&nbsp;Spaces&nbsp;)** |Удаляет все пробелы в начале и конце каждой строки в коллекции **Spaces**. |<style> img { max-width: none } </style> ![](media/function-trim/output-trimends.png) |
 
-**Примечание**. Лишние пробелы не отображаются, если отобразить коллекцию выбором пункта **Коллекции** в меню **Файл**. Для проверки длины строки используйте функцию **[Len](function-len.md)**.
+> [!NOTE]
+> Лишние пробелы не отображаются, если отобразить коллекцию, выбрав пункт **Коллекции** в меню **Файл**. Для проверки длины строки используйте функцию **[Len](function-len.md)**.
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2016
 ms.author: archanan
-ms.openlocfilehash: 379b9773033245ba5e2a88486a7738f51f000e6b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1f437b91ef20412dab3238bea7f5488e148c7c29
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>Подключение к облачному хранилищу из PowerApps
 В PowerApps есть несколько вариантов подключения к облачным хранилищам. С помощью любого из них вы можете сохранить файл Excel и использовать информацию из него в своем приложении. Ниже перечислены доступные подключения.  
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/07/2017
 | --- | --- | --- | --- | --- | --- |
 | ![Значок](./media/cloud-storage-blob-connections/blobicon.png) |![Значок API][boxicon] |![Значок API][dropboxicon] |![Значок API][googledriveicon] |![Значок API][onedriveicon] |![Значок API][onedriveforbusinessicon] |
 
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 * Файл Excel с данными, [отформатированными в виде таблицы](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664):
   
@@ -53,7 +53,8 @@ ms.lasthandoff: 11/07/2017
    
     ![Выбор таблицы Excel](./media/cloud-storage-blob-connections/selecttable.png)
    
-    **ПРИМЕЧАНИЕ**. Данные Excel должны быть в формате таблицы.
+    > [!NOTE]
+> Данные Excel должны быть в формате таблицы.
 
 ## <a name="using-the-excel-data-in-your-app"></a>Использование данных Excel в приложении
 1. На вкладке **Insert** (Вставка) выберите **Gallery** (Коллекция), а затем — элемент управления **With text** (С текстом).
@@ -73,7 +74,8 @@ ms.lasthandoff: 11/07/2017
     Пример данных на экране:  
     ![Вторая и третья метки](./media/cloud-storage-blob-connections/secondthirdtextboxes.png)
    
-    <br/>**ПРИМЕЧАНИЕ.** Первое поле является элементом управления "Изображение". Если в вашей таблице Excel нет изображения, можно удалить элемент управления "Изображение" и добавить вместо него метку. В статье [Add and configure controls](../add-configure-controls.md) (Добавление и настройка элементов управления) представлено много полезных сведений.
+> [!NOTE]
+> Первое поле является элементом управления "Изображение". Если в вашей таблице Excel нет изображения, можно удалить элемент управления "Изображение" и добавить вместо него метку. В статье [Add and configure controls](../add-configure-controls.md) (Добавление и настройка элементов управления) представлено много полезных сведений.
 
 В статье [Общие сведения о таблицах и записях](../working-with-tables.md) приведена более подробная информация и ряд примеров.  
 
