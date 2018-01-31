@@ -176,34 +176,16 @@
           href: sharepoint-scenario-summary.md
     - name: Интеграция с Cognitive Services
       href: cognitive-services-api.md
-- name: 'Разработка: корпоративные разработчики'
+- name: "Разработка для\_PowerApps"
   items:
-    - name: PowerApps для корпоративных разработчиков
+    - name: "PowerApps для разработчиков корпоративных приложений, партнеров и независимых поставщиков\_ПО"
       href: dev-enterprise-intro.md
-    - name: Регистрация и использование настраиваемых соединителей
+    - name: Создание и сертификация настраиваемых соединителей
       href: register-custom-api.md
-    - name: Описание настраиваемого соединителя с помощью Postman
-      href: postman-collection.md
-    - name: Использование Azure Active Directory с настраиваемым соединителем
-      href: customapi-azure-resource-manager-tutorial.md
-    - name: Сборка настраиваемого соединителя для веб-API
-      href: customapi-web-api-tutorial.md
     - name: Интеграция с веб-сайтами и другими технологиями
       href: embed-apps-dev.md
     - name: 'Разработка приложений, поддерживающих автономный режим работы'
       href: offline-apps.md
-- name: 'Разработка: партнеры и независимые поставщики программного обеспечения'
-  items:
-    - name: PowerApps для партнеров Microsoft и независимых поставщиков программного обеспечения
-      href: dev-isv-partner-intro.md
-    - name: Обзор соединителей API для сертификации
-      href: api-connector-overview.md
-    - name: Разработка соединителей API для сертификации
-      href: api-connector-dev.md
-    - name: Отправка соединителей API для сертификации
-      href: api-connector-submission.md
-    - name: Часто задаваемые вопросы по соединителям API для сертификации
-      href: api-connector-faq.md
     - name: Дайте возможность клиентам протестировать ваши приложения
       href: dev-appsource-test-drive.md
 - name: Администрирование и ALM
