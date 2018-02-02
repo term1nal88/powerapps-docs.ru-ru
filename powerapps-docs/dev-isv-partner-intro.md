@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/01/2017
 ms.author: mblythe
 ms.openlocfilehash: 225f4d79cee5a960116cb29efd06a8a5d229673c
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="powerapps-for-microsoft-partners-and-isvs"></a>PowerApps для партнеров Microsoft и независимых поставщиков программного обеспечения
 Как партнер Microsoft или независимый поставщик программного обеспечения вы можете оптимизировать привлечение клиентов за счет интеграции своих продуктов с данными и бизнес-процессами клиентов. Работайте с данными, хранящимися в Common Data Service, и создавайте соединители, позволяющие клиентам подключиться к продуктам с помощью приложений, созданных в PowerApps. Находите новых потенциальных клиентов для своей компании, создав приложение с помощью PowerApps и опубликовав его в AppSource для тестирования новыми клиентами.

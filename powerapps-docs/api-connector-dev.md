@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/06/2017
 ms.author: astay
 ms.openlocfilehash: 68a0be6c6be91ff5b89b3e06aecc242f987a4cf4
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="develop-an-api-connector-powerapps"></a>Разработка соединителя API (PowerApps)
 Создание соединителя включает несколько шагов. Чтобы приступить к работе в [PowerApps](https://web.powerapps.com/), нажмите кнопку **Параметры** (значок с шестеренкой) в правом верхнем углу страницы. Затем выберите **Custom Connectors** (Настраиваемые соединители).
