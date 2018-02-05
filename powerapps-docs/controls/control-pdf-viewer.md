@@ -15,17 +15,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 51b0045bd8b5e83f754c4d68e1dfe63566371ae1
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 8a67a071a19bae57f022fe960a0b29296b58cf5d
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="pdf-viewer-control-in-powerapps"></a>Элемент управления "Средство просмотра PDF" в PowerApps
 Элемент управления, отображающий содержимое PDF-файла.
 
 ## <a name="description"></a>Описание
 Для отображения текста, рисунков и прочего содержимого PDF-файла добавьте этот элемент управления и укажите для его свойства **Document** URL-адрес нужного файла, заключив его в двойные кавычки.
+
+## <a name="limitations"></a>Ограничения
+Обратите внимание: из-за архитектуры безопасности PowerApps средство просмотра PDF поддерживает только ссылки HTTPS, но не HTTP.  
+Если PDF-документ находится на сервере со строгими настройками CORS, его нельзя просматривать в своем приложении.  Если документ не удается открыть в PowerApps, пользователь может открыть документ во внешнем браузере.
 
 ## <a name="key-properties"></a>Основные свойства
 **Document** — URL-адрес PDF-файла, заключенный в двойные кавычки.
@@ -94,8 +98,7 @@ ms.lasthandoff: 01/12/2018
 ## <a name="example"></a>Пример
 * Добавьте элемент управления **Средство просмотра PDF** и укажите для свойства **Document** URL-адрес PDF-файла в двойных кавычках, как в этом примере:<br>
   **"http://www.who.int/gho/publications/world_health_statistics/EN_WHS2015_TOC.pdf?ua=1"**
-  
-    В элементе управления отображается PDF-файл.
-  
-    Не знаете, как [добавить и настроить элемент управления](../add-configure-controls.md)?
 
+    В элементе управления отображается PDF-файл.
+
+    Не знаете, как [добавить и настроить элемент управления](../add-configure-controls.md)?

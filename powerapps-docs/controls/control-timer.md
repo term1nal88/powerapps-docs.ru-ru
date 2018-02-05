@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c84eec1bdd541429d4524640d9e1ffa649b895fd
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 008c992ad3452c1844064335a51593c222fb1ac1
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="timer-control-in-powerapps"></a>Элемент управления "Таймер" в PowerApps
 Элемент управления, определяющий поведение приложения по истечении заданного количества времени.
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/12/2018
 Обратите внимание, что необходимо перейти в режим предварительного просмотра приложения, чтобы запустить таймер в конструкторе.  Так пользователь сможет настроить таймер в конструкторе без ограничения по времени.
 
 ## <a name="key-properties"></a>Основные свойства
-**Duration** — длительность работы таймера.
+**Duration** — продолжительность работы таймера в миллисекундах.  Максимальное значение отсутствует.
 
 **OnTimerEnd** — поведение приложения по окончании работы таймера.
 
@@ -113,29 +113,28 @@ ms.lasthandoff: 01/12/2018
 ## <a name="examples"></a>Примеры
 ### <a name="show-a-countdown"></a>Отображение обратного отсчета
 1. Добавьте таймер и назовите его **Countdown**.
-   
+
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
 2. Укажите для свойства **Duration** значение **10000**, а для свойств **Repeat** и **Autostart** — значение **true**.
 3. (Необязательно) Сделайте таймер удобным для чтения, указав следующие значения для перечисленных свойств: **[Height](properties-size-location.md)** — **160**, **[Width](properties-size-location.md)** — **600** и **[Size](properties-text.md)** — **60**.
 4. Добавьте метку и установите в ее свойстве **[Text](properties-core.md)** формулу:
    <br>**"Осталось секунд: " & RoundUp(10-Countdown.Value/1000, 0)**
-   
+
     Нужны дополнительные сведения о функции **[RoundUp](../functions/function-round.md)** или [других функциях](../formula-reference.md)?
-   
+
     В метке отображается количество секунд, оставшихся до перезапуска таймера.
 5. (Необязательно) Укажите для свойства **[Visible](properties-core.md)** таймера значение **false**.
 
 ### <a name="animate-a-control"></a>Анимация элемента управления
 1. Добавьте таймер и назовите его **FadeIn**.
-   
+
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
 2. Укажите для свойства **Duration** значение **5000**, а для свойств **Repeat** и **Autostart** — значение **true**.
 3. (Необязательно) Сделайте таймер удобным для чтения, указав следующие значения для перечисленных свойств: **[Height](properties-size-location.md)** — **160**, **[Width](properties-size-location.md)** — **600** и **[Size](properties-text.md)** — **60**.
 4. Добавьте метку и задайте для свойства **[Text](properties-core.md)** отображение слова **Приветствуем!**, а для свойства **[Color](properties-color-border.md)** — следующую формулу:
    <br>**ColorFade(Color.BlueViolet, FadeIn.Value/5000)**
-   
+
     Нужны дополнительные сведения о функции **[ColorFade](../functions/function-colors.md)** или [других функциях](../formula-reference.md)?
-   
+
     Текст в метке выцветает до белого, затем возвращается к полной насыщенности, и этот процесс повторяется.
 5. (Необязательно) Укажите для свойства **[Visible](properties-core.md)** таймера значение **false**.
-

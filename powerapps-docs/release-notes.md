@@ -13,22 +13,26 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/18/2018
+ms.date: 01/31/2018
 ms.author: sharik
-ms.openlocfilehash: 5f3336d4cd3ab45f35a3ce93441dd30ffccbaca5
-ms.sourcegitcommit: 7d66f33f1419751dd1c758e344cc6d55818a0fd5
+ms.openlocfilehash: f98d8f3dd19d39a31f6f8e7ca2551efb6de18e34
+ms.sourcegitcommit: 19a83f07ad11e630e6b85b3540d78a2d2428d7b9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Новые возможности PowerApps
 Сведения об известных ограничениях см. в статье [Типичные проблемы и решения](common-issues-and-resolutions.md).
 
+## <a name="jan-31"></a>31 января
+1. Добавление скрытых субтитров в элементы управления [Видео](controls/control-audio-video.md).
+2. Улучшенная обработка ошибок в элементах управления [Просмотр PDF](controls/control-pdf-viewer.md).
+
 ## <a name="jan-18"></a>18 января
-* PowerApps для iOS и Android теперь поддерживает интеграцию с Microsoft Authenticator.
-* Во всех формах вместо элемента управления [Поиск в SharePoint](sharepoint-lookup-fields.md) появляется [Поле со списком](controls/control-combo-box.md), и в PowerApps Studio по умолчанию выбирается новый шаблон [карты данных](working-with-cards.md) для полей одиночного выбора.
-* В этом [поле со списком](controls/control-combo-box.md) все элементы отображаются в длинном списке с расширенным режимом чтения.
-* Вы можете изменять размер локального хранилища записей для [неделегируемых запросов](delegation-overview.md#non-delegable-limits) (но не более 2000 записей). (Экспериментальная функция)
+1. PowerApps для iOS и Android теперь поддерживает интеграцию с Microsoft Authenticator.
+2. Во всех формах вместо элемента управления [Поиск в SharePoint](sharepoint-lookup-fields.md) появляется [Поле со списком](controls/control-combo-box.md), и в PowerApps Studio по умолчанию выбирается новый шаблон [карты данных](working-with-cards.md) для полей одиночного выбора.
+3. В этом [поле со списком](controls/control-combo-box.md) все элементы отображаются в длинном списке с расширенным режимом чтения.
+4. Вы можете изменять размер локального хранилища записей для [неделегируемых запросов](delegation-overview.md#non-delegable-limits) (но не более 2000 записей). (Экспериментальная функция)
 
 ## <a name="jan-5"></a>5 января
 * Чтобы выполнять действия с данными прямо из отчета Power BI или панели мониторинга, интегрируйте в них [настраиваемую визуализацию PowerApps (предварительная версия)](https://powerapps.microsoft.com/blog/powerbi-powerapps-visual/), которая получает контекстные данные из отчета Power BI.
@@ -63,9 +67,3 @@ ms.lasthandoff: 01/23/2018
 ## <a name="aug-15"></a>15 августа
 1. Скачайте [список приложений](admin-view-apps.md), используемых в вашей организации.
 2. Делегируйте функции **Sum**, **Average**, **Min** и **Max** в SQL Server.
-
-## <a name="july-26"></a>26 июля
-1. Отображение [плитки Power BI](controls/control-power-bi-tile.md) внутри приложения.
-2. Используйте функцию **[Coalesce](functions/function-isblank-isempty.md)**, чтобы проще заменить пустое значение, но оставить другие значения без изменений.
-3. Используйте функцию **[EndsWith](functions/function-startswith.md)**, чтобы проверить, заканчивается ли одна текстовая строка другой.
-4. Используйте в формуле оператор **[And](functions/operators.md)**, **[Or](functions/operators.md)** или **[Not](functions/operators.md)**.
