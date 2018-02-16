@@ -15,17 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: fb750e6345c6aa576e378134ed98be92c234a86b
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6696f03be879e1c6f764cc444aa874e0b4a73905
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="set-up-data-alerts-for-the-power-bi-dashboard"></a>Настройка оповещений о данных для панели мониторинга Power BI
 > [!NOTE]
 > Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI совместно с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
 
-В этой задаче мы добавим в Power BI оповещение о проектах, для утверждения которых превышено время ожидания, и последовательность операций, выполняемых после этого оповещения. Дополнительные сведения об оповещениях см. в статье [Оповещения о данных в службе Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-set-data-alerts).
+В этой задаче мы добавим в Power BI оповещение о проектах, для утверждения которых превышено время ожидания, и последовательность операций, выполняемых после этого оповещения. Дополнительные сведения об оповещениях см. в статье [Оповещения о данных в службе Power BI](https://docs.microsoft.com/power-bi/service-set-data-alerts).
 
 ## <a name="step-1-create-an-alert"></a>Шаг 1. Создание оповещения
 1. В службе Power BI откройте панель мониторинга, созданную в предыдущей задаче.

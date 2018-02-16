@@ -15,17 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/16/2018
 ms.author: litran
-ms.openlocfilehash: 0aff680aa5b8840330ee3a1758a895785f05da6f
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: a833bc4a0364ccf427815cd75b43fad0f971c3e6
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="use-powerapps-in-a-web-browser"></a>Использование PowerApps в веб-браузере
 Если приложение создано в PowerApps, его можно запустить в браузере, открыв портал [Dynamics 365](https://home.dynamics.com) и затем щелкнув или коснувшись элемента приложения на домашней странице.
 
 > [!NOTE]
-> Вы можете ознакомиться с общими сведениями о [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/) или [обратиться в службу поддержки](https://www.microsoft.com/en-us/dynamics365/contact-us), если у вас возникли вопросы о приложении Dynamics 365 (например, о приложении Sales).
+> Вы можете ознакомиться с общими сведениями о [Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/) или [обратиться в службу поддержки](https://www.microsoft.com/dynamics365/contact-us), если у вас возникли вопросы о приложении Dynamics 365 (например, о приложении Sales).
 
 Поддерживаются следующие браузеры и операционные системы:
 

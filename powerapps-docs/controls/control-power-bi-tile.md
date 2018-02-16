@@ -15,20 +15,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/07/2016
 ms.author: fikaradz
-ms.openlocfilehash: a2a8d7df48403a5d8d480619bd01c59510ae9899
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 1f351877e3c05b83b4bd9cfa104a7eb22cef5028
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>Элемент управления "Плитка Power BI" в PowerApps
 Элемент управления, который отвечает за отображение плитки [Power BI](https://powerbi.microsoft.com) в приложении.
 
 ## <a name="description"></a>Описание
-Воспользуйтесь всеми преимуществами анализа данных и отчетности, отобразив в своих приложениях **[плитки Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-dashboard-tiles/)**.  Выберите плитку, которую требуется отобразить, задав для нее свойства **Рабочая область**, **Панель мониторинга** и **Плитка** на вкладке **Данные** на панели параметров.
+Воспользуйтесь всеми преимуществами анализа данных и отчетности, отобразив в своих приложениях **[плитки Power BI](https://docs.microsoft.com/power-bi/service-dashboard-tiles)**.  Выберите плитку, которую требуется отобразить, задав для нее свойства **Рабочая область**, **Панель мониторинга** и **Плитка** на вкладке **Данные** на панели параметров.
 
 ## <a name="sharing-and-security"></a>Общий доступ и безопасность
-Как только к приложению PowerApp будет предоставлен общий доступ, с ним смогут работать все пользователи, у которых есть разрешения на доступ.  Но чтобы отобразить содержимое Power BI для этих пользователей, им нужно [предоставить общий доступ](https://powerbi.microsoft.com/documentation/powerbi-service-how-should-i-share-my-dashboard/) к панели мониторинга в Power BI, на которую ссылается плитка.  Это гарантирует, что при обращении к содержимому Power BI в приложении соблюдаются разрешения на общий доступ Power BI.
+Как только к приложению PowerApp будет предоставлен общий доступ, с ним смогут работать все пользователи, у которых есть разрешения на доступ.  Но чтобы отобразить содержимое Power BI для этих пользователей, им нужно [предоставить общий доступ](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports) к панели мониторинга в Power BI, на которую ссылается плитка.  Это гарантирует, что при обращении к содержимому Power BI в приложении соблюдаются разрешения на общий доступ Power BI.
 
 ## <a name="key-properties"></a>Основные свойства
 **Рабочая область** — рабочая область Power BI, на которую ссылается плитка.
@@ -66,5 +66,5 @@ ms.lasthandoff: 01/12/2018
    
     Не знаете, как [добавить и настроить элемент управления](../add-configure-controls.md)?
    
-   Еще не используете Power BI? [Зарегистрируйтесь](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-self-service-signup-for-power-bi/).
+   Еще не используете Power BI? [Зарегистрируйтесь](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi).
 

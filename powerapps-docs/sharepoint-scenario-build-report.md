@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: 1b22885a6ff97b1ffcf67da291ab89d091863981
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6f3045a67de492866c3db7d9238a5c4c2111bcb6
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>Создание отчета Power BI для анализа проектов
 > [!NOTE]
@@ -177,7 +177,7 @@ ms.lasthandoff: 01/23/2018
    
     Эта формула создает таблицу с именем **Dates** (Даты) и одним столбцом дат. Таблица содержит все даты из других таблиц и обновляется автоматически при добавлении новых дат (т. е. при обновлении данных).
    
-    Эта формула и другие формулы в этой статье используют выражения анализа данных (DAX), язык формул для Power BI и других технологий. Дополнительные сведения см. в статье [Основные сведения о DAX в Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-quickstart-learn-dax-basics/).
+    Эта формула и другие формулы в этой статье используют выражения анализа данных (DAX), язык формул для Power BI и других технологий. Дополнительные сведения см. в статье [Основные сведения о DAX в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics).
 3. Нажмите клавишу ВВОД, чтобы создать таблицу **Dates**.
    
     ![Таблица Dates](./media/sharepoint-scenario-build-report/05-02-07-date-table.png)

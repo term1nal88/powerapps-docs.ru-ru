@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/02/2018
+ms.date: 02/05/2018
 ms.author: sharik
-ms.openlocfilehash: 8c46d7c5e8677d37b0a50b0c60dab4b81bd54c44
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: a1ebe4011619b0a2baaa3b9a98579bb22d02774e
+ms.sourcegitcommit: 290e81488ec5c2e0bb820ef0e3b7f5c0f54c80eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>Настройка формы списка SharePoint с помощью PowerApps
 
@@ -30,9 +30,6 @@ PowerApps интегрируется непосредственно с SharePoin
 А так как PowerApps полностью интегрируется с SharePoint, вам не нужно управлять формами из разных мест: разрешения унаследуются из SharePoint и вы можете управлять ими с помощью этой службы. Более того, интеграция PowerApps с SharePoint предусматривает возможность доступа ко многим мощным функциям, включая отчеты по аналитике, простые интерактивные правила условного форматирования и подключение к другим источникам данных.
 
 Готовы приступить к настройке? Давайте начнем!
-
-> [!NOTE]
-> Эта функция предоставляется клиентам SharePoint поэтапно. Если сейчас параметр **Настроить формы** не отображается в списке SharePoint, скоро вы его увидите.
 
 ## <a name="create-a-custom-list-form-app-in-powerapps"></a>Создание приложения настраиваемой формы списка в PowerApps
 

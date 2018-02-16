@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: sharik
-ms.openlocfilehash: f3e5fdce6948928cdd393e7a9933b3261af4e3f6
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 75b3315833fc6ced9ef3d8eb252d0f8639ccd696
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>Добавление изображений в Excel из PowerApps
 Вы можете автоматически создать приложение, в котором пользователи смогут показывать, добавлять и удалять изображения из файлов и рисунки, созданные с помощью элемента управления **Перо**. Это приложение основано на файле Excel, который вы создаете и отправляете в учетную запись облачного хранилища.
@@ -26,7 +26,7 @@ ms.lasthandoff: 01/23/2018
 ## <a name="prerequisites"></a>Технические условия
 
 * Знакомство с принципами [добавления и настройки элементов управления](add-configure-controls.md).
-* Знакомство с принципами [настройки данных Excel в виде таблицы](https://support.office.com/en-us/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370?ui=en-US&rs=en-US&ad=US).
+* Знакомство с принципами [настройки данных Excel в виде таблицы](https://support.office.com/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370?ui=en-US&rs=en-US&ad=US).
 * [Подключение из PowerApps](add-data-connection.md) к учетной записи облачного хранилища (например, Dropbox, OneDrive или Google Диск), в которое можно отправить файл Excel.
 
 ## <a name="create-the-data-source-and-the-app"></a>Создание источника данных и приложения

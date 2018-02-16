@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2016
 ms.author: archanan
-ms.openlocfilehash: 1f437b91ef20412dab3238bea7f5488e148c7c29
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 665a772807179b2a33d6d47bb09483ebed69ed45
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>Подключение к облачному хранилищу из PowerApps
 В PowerApps есть несколько вариантов подключения к облачным хранилищам. С помощью любого из них вы можете сохранить файл Excel и использовать информацию из него в своем приложении. Ниже перечислены доступные подключения.  
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/23/2018
 
 [!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
-* Файл Excel с данными, [отформатированными в виде таблицы](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664):
+* Файл Excel с данными, [отформатированными в виде таблицы](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664):
   
   1. Откройте файл Excel и выберите любую ячейку с данными, которые вы хотите использовать.
   2. На вкладке **Insert** (Вставка) выберите **Table** (Таблица).
@@ -87,7 +87,7 @@ ms.lasthandoff: 01/23/2018
 Для соединителей, включающих файлы Excel, действуют [определенные ограничения](#sharing-excel-tables).
 
 ## <a name="known-limitations"></a>Известные ограничения
-Если при попытке использовать подключение к Excel в приложении появляется сообщение **Data type unsupported** (Тип данных не поддерживается) или **Not formatted as a table** (Данные не отформатированы в виде таблицы), [отформатируйте свои данные как таблицу](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664).
+Если при попытке использовать подключение к Excel в приложении появляется сообщение **Data type unsupported** (Тип данных не поддерживается) или **Not formatted as a table** (Данные не отформатированы в виде таблицы), [отформатируйте свои данные как таблицу](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664).
 
 Если данные Excel содержат вычисляемый столбец, вы не сможете использовать их для создания нового приложения или добавить их в существующее.
 

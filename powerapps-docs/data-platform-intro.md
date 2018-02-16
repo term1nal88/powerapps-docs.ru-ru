@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: bbc501542e634fab925654734cf709fe87248883
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: da01fe6e89e64e07b5ce4eb0350bc2ac1f54ff30
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="understand-entities-in-the-common-data-service"></a>Общие сведения о сущностях в службе Common Data Service
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 01/23/2018
 Каждая стандартная сущность содержит набор полей по умолчанию, которые нельзя изменить или удалить. Список сущностей, их полей и полей выбора см. в [перечне стандартных сущностей](https://docs.microsoft.com/common-data-service/entity-reference/standard-entities).
 
 ### <a name="custom-fields"></a>Пользовательские поля
-Настраиваемые поля можно создать в стандартных или пользовательских сущностях. Для каждого такого поля необходимо указать имя, отображаемое имя и тип данных. Полный список поддерживаемых типов для полей сущности см. в [этой статье](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-data-types).
+Настраиваемые поля можно создать в стандартных или пользовательских сущностях. Для каждого такого поля необходимо указать имя, отображаемое имя и тип данных. Полный список поддерживаемых типов для полей сущности см. в [этой статье](https://docs.microsoft.com/common-data-service/entity-reference/field-data-types).
 
 ## <a name="lookup-relationships"></a>Связи для подстановки
 Вы можете переходить от одной записи в сущности к другой, если между ними есть связь, которая определяется с помощью **поля подстановки**. Чтобы создать отношение подстановки, добавьте поле типа **Lookup** (Подстановка) в одну сущность и наведите указатель на сущность, в которой требуется найти сведения. Дополнительные сведения см. в статье [Связь между сущностями через поле подстановки](data-platform-entity-lookup.md).

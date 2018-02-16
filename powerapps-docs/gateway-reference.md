@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: sharik
-ms.openlocfilehash: 3d5ae546d10c0713fe346db1fbe49a6f6701f7a1
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: e5bcf28febb2d37284203a4856a8fea590637aed
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Общие сведения о локальных шлюзах данных в Microsoft PowerApps
 ## <a name="installation-and-configuration"></a>Установка и настройка
@@ -85,7 +85,7 @@ ms.lasthandoff: 01/23/2018
 
 **Настройка брандмауэра или прокси-сервера**
 
-Сведения о том, как указать сведения о прокси-сервере для шлюза, см. в разделе [Настройка параметров прокси-сервера](https://powerbi.microsoft.com/en-us/documentation/powerbi-gateway-proxy/).
+Сведения о том, как указать сведения о прокси-сервере для шлюза, см. в разделе [Настройка параметров прокси-сервера](https://docs.microsoft.com/power-bi/service-gateway-proxy).
 
 С помощью указанной ниже команды в командной строке PowerShell можно проверить, не блокирует ли брандмауэр или прокси-сервер соединения. Эта команда проверяет наличие связи со служебной шиной Azure. Она только проверяет подключение к сети и не имеет ничего общего с облачной службой сервера или шлюзом. Команда помогает определить, имеет ли компьютер выход в Интернет.
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 01/23/2018
 
 Это не учетная запись, используемая для подключения к локальным источникам данных, и не рабочая или учебная учетная запись, с помощью которой выполняется вход в облачные службы.
 
-Если возникают проблемы с прокси-сервером из-за проверки подлинности, можно изменить учетную запись службы Windows на учетную запись пользователя домена или на управляемую учетную запись службы, как описано в разделе [Настройка прокси-сервера](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user).
+Если возникают проблемы с прокси-сервером из-за проверки подлинности, можно изменить учетную запись службы Windows на учетную запись пользователя домена или на управляемую учетную запись службы, как описано в разделе [Настройка прокси-сервера](https://docs.microsoft.com/power-bi/service-gateway-proxy#changing-the-gateway-service-account-to-a-domain-user).
 
 ## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 #### <a name="general"></a>Общие

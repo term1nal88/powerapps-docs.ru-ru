@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: sharik
-ms.openlocfilehash: 7a81e7287f2891e428062241d747ea451dff9e10
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: d530fb5f77f00cb37322383a3817e9c38533ca1d
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="create-an-app-from-scratch"></a>Создание приложения с нуля
 Создайте собственное приложение с нуля с помощью одного из различных источников данных, которые в дальнейшем можно расширить. Укажите внешний вид и поведение каждого элемента пользовательского интерфейса, чтобы оптимизировать результат в соответствии с конкретными целями и рабочим процессом. Этот подход требует намного больше времени, чем [автоматическое создание приложения](get-started-create-from-data.md), однако позволяет опытному пользователю создать приложение, оптимальным образом отвечающее его потребностям.
@@ -51,7 +51,7 @@ ms.lasthandoff: 01/23/2018
 
 2. Отформатируйте данные в виде таблицы под названием **Schedule**, чтобы приложение PowerApps могло проанализировать их.
 
-    Дополнительные сведения см. в статье о [создании таблицы Excel на листе](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664).
+    Дополнительные сведения см. в статье о [создании таблицы Excel на листе](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664).
 
 3. Сохраните файл под именем **eventsignup.xls**, а затем отправьте его в [облачное хранилище](connections/cloud-storage-blob-connections.md), например OneDrive.
 

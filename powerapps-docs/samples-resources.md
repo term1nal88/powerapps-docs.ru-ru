@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: 156a213fbf2bb1d5c7d4f032331ce4ca91f2641c
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: f8fb8da441c037e47f508282e9677fdda35874a0
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="samples-and-other-resources--for-the-common-data-service"></a>Примеры и другие ресурсы для Common Data Service
 ## <a name="samples"></a>Примеры
@@ -36,5 +36,5 @@ ms.lasthandoff: 01/12/2018
 Многие сеансы конференции Microsoft Ignite были записаны и размещены для просмотра на сайте [Microsoft Ignite On-Demand](https://myignite.microsoft.com/videos). Выполните поиск "PowerApps" и "common data model".
 
 ## <a name="overview"></a>Обзор
-Узнайте больше о службе Common Data Service и модели Common Data Model, прочитав [обзор Common Data Service и Common Data Model](https://docs.microsoft.com/en-us/common-data-service/entity-reference/security-model).
+Узнайте больше о службе Common Data Service и модели Common Data Model, прочитав [обзор Common Data Service и Common Data Model](https://docs.microsoft.com/common-data-service/entity-reference/security-model).
 

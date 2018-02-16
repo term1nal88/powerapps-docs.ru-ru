@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: bbde4b033afcd530128f330432f262257f5d771c
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 40feb1f2412408e732be91e649ab2b4c54e4ba98
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>План сообщества PowerApps. Бесплатная среда разработки для индивидуального использования
 Если вы хотите приобрести навыки и узнать больше о PowerApps, Microsoft Flow и Common Data Service, план сообщества PowerApps вам подходит. План сообщества PowerApps предоставляет бесплатную среду разработки для индивидуального использования, в которой можно:
 
 * научиться создавать бизнес-приложения и рабочие процессы с полным набором функций PowerApps и Microsoft Flow;
 * подключаться к любому источнику данных с помощью более 100 [готовых соединителей](connections-list.md) или путем создания собственных [настраиваемых соединителей](register-custom-api.md);
-* узнать, как можно использовать [Common Data Service](https://docs.microsoft.com/en-us/common-data-service/entity-reference/introduction) для создания мощных бизнес-приложений с использованием общей модели данных и [пакета SDK](https://aka.ms/eek20s);
+* узнать, как можно использовать [Common Data Service](https://docs.microsoft.com/common-data-service/entity-reference/introduction) для создания мощных бизнес-приложений с использованием общей модели данных и [пакета SDK](https://aka.ms/eek20s);
 * экспортировать созданные решения в отдельную среду и [размещать их в AppSource](dev-appsource-test-drive.md), чтобы пользователи смогли оценить их возможности.
 
 ## <a name="who-can-sign-up-for-the-powerapps-community-plan"></a>Какие пользователи могут зарегистрироваться в плане сообщества PowerApps?

@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 849bde71d8f5dcf6505721758e2edca0921146bb
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 49ff8b15b3697afb7367aa5d4a587b389c9b538c
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>Использование файлов мультимедиа в PowerApps
 В этой статье описано, как внедрить файлы мультимедиа в приложение, отправить нарисованные с помощью пера рисунки в источник данных и просмотреть изображения из источника данных в приложении. В качестве источника данных мы используем файл Excel в OneDrive для бизнеса.
@@ -119,7 +119,7 @@ ms.lasthandoff: 01/23/2018
 
        ![Создание таблицы](./media/add-images-pictures-audio-video/create-table.png)
 
-       Теперь файл Excel имеет формат таблицы. Дополнительные сведения о формате таблицы в Excel см. в статье [Форматирование таблицы Excel](https://support.office.com/en-us/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370).
+       Теперь файл Excel имеет формат таблицы. Дополнительные сведения о формате таблицы в Excel см. в статье [Форматирование таблицы Excel](https://support.office.com/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370).
 
    4. Присвойте этой таблице имя **Drawings**:
 

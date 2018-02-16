@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 1e51ca684129c538ced47863c73269284cc13719
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6b3bab666ddd842c868dfdac752cd8897a5427b2
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>Отправка push-уведомлений в PowerApps
 Push-уведомления используются в мобильных приложениях преимущественно при работе с потребителями и в бизнес-сценариях для привлечения пользователей приложений и определения приоритетности ключевых задач. В PowerApps уведомления можно отправлять с помощью соединителя PowerApps Notification. Системные push-уведомления можно отправлять в любое приложение, которое создается в PowerApps. В будущем мы планируем добавить больше типов уведомлений.
@@ -141,5 +141,5 @@ PowerAppsNotification.SendPushNotification(
 * В уведомлениях отображается стандартный значок PowerApps вместо значка определенного приложения.
 * С помощью Microsoft Flow вы можете за один раз отправить уведомление только одному получателю.
 
-Справочные сведения см. в [справочнике по соединителю PowerApps Notification](https://docs.microsoft.com/en-us/connectors/powerappsnotification/).
+Справочные сведения см. в [справочнике по соединителю PowerApps Notification](https://docs.microsoft.com/connectors/powerappsnotification/).
 

@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/15/2016
 ms.author: anneta
-ms.openlocfilehash: 5ba6f02db0de796cb75c57d914abf41caa259cbf
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: e789a253a2c1d52cc85dadc6f532604021f6b004
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>Как сохранить изображения в файл Excel и добавить их в приложение
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 01/23/2018
    2. На ленте **Вставка** выберите элемент **Таблица**.
    3. В диалоговом окне выберите вариант **Таблица с заголовками** и выберите **ОК**.
       
-      Теперь файл Excel имеет формат таблицы. Статья [Форматирование таблицы Excel](https://support.office.com/en-us/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370) содержит дополнительные сведения о формате таблицы в Excel.
+      Теперь файл Excel имеет формат таблицы. Статья [Форматирование таблицы Excel](https://support.office.com/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370) содержит дополнительные сведения о формате таблицы в Excel.
    4. Присвойте этой таблице имя **Drawings**:  
       
       ![Изменение имени таблицы на Drawings](./media/tutorial-working-with-images-in-excel/drawings-table.png)
