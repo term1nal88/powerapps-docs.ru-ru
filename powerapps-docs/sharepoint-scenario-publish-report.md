@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 01/30/2018
 ms.author: mblythe
-ms.openlocfilehash: cb300617fbf08f7b9ed5ff87ed5633d7714d51e0
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6f54274af043964f02ef02a5ce97c261a410391d
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Публикация отчета о проекте и создание панели мониторинга в Power BI
 > [!NOTE]
@@ -37,20 +37,17 @@ ms.lasthandoff: 01/23/2018
 3. Введите пароль и нажмите кнопку **Войти**.
    
     ![Ввод пароля учетной записи](./media/sharepoint-scenario-publish-report/06-01-03-password.png)
-4. Выберите целевую рабочую область для отчета и нажмите кнопку **Выбрать**. Мы рекомендуем публиковать отчет в рабочей области группы, чтобы упростить доступ к нему в SharePoint. В этом примере мы опубликуем отчет в рабочей области группы **Управление проектами**. См. дополнительные сведения о [создании групп в Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-create-a-group-in-power-bi).
+4. Выберите целевую рабочую область для отчета и нажмите кнопку **Выбрать**. Мы рекомендуем публиковать отчет в рабочей области группы, чтобы упростить доступ к нему в SharePoint. В этом примере мы опубликуем отчет в рабочей области группы **Управление проектами**. Дополнительные сведения см. в разделе [Совместная работа в рабочей области приложения Power BI](https://docs.microsoft.com/power-bi/service-collaborate-power-bi-workspace).
    
     ![Целевая рабочая область](./media/sharepoint-scenario-publish-report/06-01-04-workspace.png)
 5. Опубликовав отчет, перейдите по ссылке **Открыть project-analysis.pbx в Power BI**.
    
     ![Публикация выполнена](./media/sharepoint-scenario-publish-report/06-01-05-open-report.png)
-6. Служба Power BI загрузит отчет в браузер. Откройте меню в левом верхнем углу **(а)**, чтобы открыть панель навигации слева.
+6. Служба Power BI загрузит отчет в браузер. Если панель навигации слева не развернута, откройте меню в левом верхнем углу **(а)**.
    
     ![Отчет в службе Power BI](./media/sharepoint-scenario-publish-report/06-01-06-service-report.png)
    
-    Как видите, после публикации отчета в Power BI Desktop загружается набор **(г)** и отчет **(в)**. Панели мониторинга создаются в службе, а не приложении Power BI Desktop. В этой рабочей области еще нет панелей мониторинга **(б)**. Мы создадим ее на следующем шаге.
-   
-    > [!NOTE]
-> В Power BI доступны новые возможности навигации. Их можно включить на вашем сайте. Если панель навигации слева отличается от приведенной на рис. выше, ознакомьтесь со статьей [Новый интерфейс навигации по Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-the-new-power-bi-experience).
+    Как видите, после публикации отчета в Power BI Desktop загружается набор **(г)** и отчет **(в)**. Панели мониторинга создаются в службе, а не приложении Power BI Desktop. В этой рабочей области еще нет панелей мониторинга **(б)**. Скоро мы создадим ее.
 
 ## <a name="step-2-configure-credentials-for-refresh"></a>Шаг 2. Настройка учетных данных для обновления
 1. В правом верхнем углу службы щелкните ![Значок с шестеренкой](./media/sharepoint-scenario-publish-report/icon-gear.png) и выберите **Параметры**.
@@ -72,13 +69,16 @@ ms.lasthandoff: 01/23/2018
     ![Источник данных обновлен](./media/sharepoint-scenario-publish-report/06-01-11-updated.png)
 
 ## <a name="step-3-create-a-dashboard"></a>Шаг 3. Создание панели мониторинга
-1. В левом верхнем углу службы щелкните диаграмму, а затем — ![Значок булавки](./media/sharepoint-scenario-publish-report/icon-pin.png).
+
+1. Чтобы вернуться к отчету, в разделе **Отчеты** выберите **project-analysis**.
+
+1. В левом верхнем углу нажмите диаграмму, а затем — ![Значок булавки](./media/sharepoint-scenario-publish-report/icon-pin.png).
    
     ![Закрепление диаграммы](./media/sharepoint-scenario-publish-report/06-01-12-pin-projected.png)
 2. Введите имя панели мониторинга, на которой нужно закрепить диаграмму, и нажмите кнопку **Закрепить**.
    
     ![Закрепление диаграммы на новой панели мониторинга](./media/sharepoint-scenario-publish-report/06-01-13-pin-new.png)
-3. В левом верхнем углу щелкните диаграмму, а затем — ![Значок булавки](./media/sharepoint-scenario-publish-report/icon-pin.png).
+3. В правом верхнем углу нажмите диаграмму, а затем — ![Значок булавки](./media/sharepoint-scenario-publish-report/icon-pin.png).
    
     ![Закрепление диаграммы](./media/sharepoint-scenario-publish-report/06-01-14-pin-variance.png)
 4. Выберите существующую панель мониторинга и нажмите кнопку **Закрепить**.

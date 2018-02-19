@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: a5c0e2c69ccf5e7359318794e4c39bb66bba9dac
-ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
+ms.openlocfilehash: 9d0248cde622fbb153549cc94101352416822258
+ms.sourcegitcommit: 290e81488ec5c2e0bb820ef0e3b7f5c0f54c80eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>Интеграция PowerApps в веб-сайты и другие службы
 Приложения, которые вы создаете, как правило, наиболее полезны, когда они доступны прямо там, где люди делают свою работу. PowerApps позволяет внедрять приложения в IFrame, чтобы эти приложения можно было интегрировать в веб-сайты и другие службы, такие как Power BI или SharePoint.
@@ -72,10 +72,13 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 Внедрить приложение теперь так же просто, как добавить IFrame в HTML-код вашего сайта (или любую другую службу, поддерживающую IFrame, например Power BI или SharePoint):
 
 ```
-<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]"/>
+<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]" allow="geolocation; microphone; camera"/>
 ```
 
 Укажите значения высоты и ширины IFrame и идентификатор приложения вместо `[AppID]`.
+
+> [!NOTE]
+> Включите `allow="geolocation; microphone; camera"` в HTML-код интернет-кадра, чтобы разрешить приложениям использовать эти возможности в Google Chrome.
 
 На следующем изображении показано приложение для заказа товаров на примере веб-сайта Contoso.
 

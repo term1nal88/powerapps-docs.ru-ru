@@ -13,16 +13,27 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2018
+ms.date: 02/13/2018
 ms.author: sharik
-ms.openlocfilehash: f98d8f3dd19d39a31f6f8e7ca2551efb6de18e34
-ms.sourcegitcommit: 19a83f07ad11e630e6b85b3540d78a2d2428d7b9
+ms.openlocfilehash: b8d06bb8ffbe1446f4c918e6cf1c6657c1890e65
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Новые возможности PowerApps
 Сведения об известных ограничениях см. в статье [Типичные проблемы и решения](common-issues-and-resolutions.md).
+
+> [!NOTE]
+> Выпуски развертываются в течение нескольких дней. Возможно, новые и обновленные функции будут доступны не сразу.
+
+## <a name="feb-12"></a>12 февраля
+* Добавлен регулятор громкости для воспроизведения внедренных [видео-](controls/control-audio-video.md) и [аудиофайлов](controls/control-audio-video.md). Чтобы управлять звуковоспроизведением, вместо кнопки теперь используется регулятор громкости.
+
+## <a name="feb-7"></a>7 февраля
+1. Удалены свойства масштаба, яркости и контрастности для элементов управления [Камера](controls/control-camera.md) и [Сканер штрихкодов](controls/control-barcodescanner.md).
+2. Устранена проблема, при которой кнопки очистки в элементах управления [Ввод текста](controls/control-text-input.md) ограничивали область для ввода данных пользователем. В результате этого исправления свойство [очистки](controls/control-text-input.md#additional-properties) для элемента управления "Ввод текста" поддерживается только в веб-браузерах Microsoft Edge (последняя версия) и Internet Explorer 11.
+3. Расширены специальные возможности для элементов управления [мультимедиа](add-images-pictures-audio-video.md).
 
 ## <a name="jan-31"></a>31 января
 1. Добавление скрытых субтитров в элементы управления [Видео](controls/control-audio-video.md).
@@ -63,7 +74,3 @@ ms.lasthandoff: 02/01/2018
 ## <a name="sept-6"></a>6 сентября
 1. [Отслеживание использования](app-analytics.md) приложений, которые вы создаете, на встроенной панели мониторинга Power BI.
 2. Использование функции  **[ Разделение ](functions/function-split.md)** , чтобы разбить текстовую строку на части с помощью разделителя.
-
-## <a name="aug-15"></a>15 августа
-1. Скачайте [список приложений](admin-view-apps.md), используемых в вашей организации.
-2. Делегируйте функции **Sum**, **Average**, **Min** и **Max** в SQL Server.
