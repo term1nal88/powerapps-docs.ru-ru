@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: 57f2b9a23207c2c866738ac40f46a37747fcd54d
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/06/2018
 ---
 # <a name="global-support"></a>Глобальная поддержка
 PowerApps является глобальным продуктом.  Вы можете создать приложения на разных языках и для разных регионов и использовать их.
