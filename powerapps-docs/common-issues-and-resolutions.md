@@ -5,7 +5,7 @@ services:
 suite: powerapps
 documentationcenter: na
 author: skjerland
-manager: anneta
+manager: kfile
 editor: 
 tags: 
 ms.service: powerapps
@@ -13,16 +13,20 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/24/2018
+ms.date: 03/05/2018
 ms.author: sharik
-ms.openlocfilehash: f6b91bcc8b5e4c9d0128c2cba1eb3f772c6f7451
-ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
+ms.openlocfilehash: c2faa505e62e4460e2fe65707946e3190b5b0350
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Распространенные проблемы в PowerApps и их решение
 ## <a name="recently-addedchanged"></a>Недавно добавлено или изменено
+1. **Изменение макета форм SharePoint**
+
+    Если при настройке списка форм SharePoint на некоторых языках попытаться изменить макет с книжной ориентации (по умолчанию) на альбомную, приложение может отобразить несколько ошибок (желтых треугольников в элементах управления). Чтобы устранить эти ошибки и сохранить альбомную ориентацию документа, щелкните **Отменить**.
+
 1. **Приложение не работает**
 
     Если созданное вами приложение прекращает работу без предупреждения, это может быть вызвано тем, что приложение не обновлялось и не публиковалось повторно за последние шесть месяцев. Чтобы устранить эту проблему, обновите или повторно опубликуйте приложение, чтобы синхронизировать его с последней версией PowerApps, и продолжайте обновлять или повторно опубликуйте приложение в течение шести месяцев с последней публикации.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: 8aa5fb671878af21fa483dde348460bf7c05fc70
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 11f3a29989057a3dc1a75c40877314596a62859d
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="controls-and-properties-in-powerapps"></a>Элементы управления и свойства в PowerApps
 Настройка оформления и поведения элемента управления с помощью задания одного из его свойств. У каждого типа элемента управления имеется собственный набор свойств. Некоторые свойства, такие как **Height** и **Width**, являются общими почти для всех типов элементов управления, но другие свойства, такие как **CheckboxSize**, характерны для одного типа.
@@ -31,7 +31,7 @@ ms.lasthandoff: 01/23/2018
 
 **[Звук](controls/control-audio-video.md)** — воспроизведение аудиоклипа или звуковой дорожки видеоклипа.
 
-**[Сканер штрихкодов](controls/control-barcodescanner.md)** — сканирование штрихкода с помощью устройства с камерой.
+**[Сканер штрихкодов (экспериментальная функция)](controls/control-barcodescanner.md)** — сканирование штрихкода с помощью устройства с камерой.
 
 **[Кнопка](controls/control-button.md)** — взаимодействие с приложением с помощью щелчка или касания.
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 01/23/2018
 
 **[Микрофон](controls/control-microphone.md)** — запись и сохранение звуков в приложении или источнике данных.
 
-**[Средство просмотра PDF](controls/control-pdf-viewer.md)** — отображение содержимого PDF-файла в Интернете.
+**[Средство просмотра PDF (экспериментальная функция)](controls/control-pdf-viewer.md)** — отображение содержимого PDF-файла в Интернете.
 
 **[Ввод с помощью пера](controls/control-pen-input.md)** — рисование изображения или рукописный ввод текста и его сохранение в приложении или источнике данных.
 
