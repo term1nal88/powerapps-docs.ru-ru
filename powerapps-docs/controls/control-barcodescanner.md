@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c27a2319d74db9a50acff84e40ea7df83dc1c126
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 264c360af0175b6a5dddd74306b32c7d1ecaef1d
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="barcode-scanner-control-in-powerapps"></a>Элемент управления "Штрихкод" в PowerApps
-"Штрихкод" — это элемент управления, с помощью которого пользователь может делать фотографии, используя сканер штрихкодов устройства.
+# <a name="barcode-scanner-control-experimental-in-powerapps"></a>Элемент управления "Сканер штрихкодов" (экспериментальная функция) в PowerApps
+Экспериментальный элемент управления, с помощью которого пользователь может делать фотографии, используя сканер штрихкодов устройства.
 
 ## <a name="description"></a>Описание
 Если этот элемент управления добавлен в приложение, пользователь может обновить источник данных одной или несколькими фотографиями.
@@ -73,9 +73,8 @@ ms.lasthandoff: 01/12/2018
 ## <a name="example"></a>Пример
 ### <a name="add-photos-to-an-image-gallery-control"></a>Добавление фотографий в коллекцию изображений
 1. Добавьте в приложение элемент управления **Штрихкод** и назовите его **Mybarcode scanner**.
-   
+
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
 2. Добавьте элемент управления **Метка** и назначьте в качестве его вывода значение штрихода.  
 3. Сканируйте штрихкод, тип которого задан с помощью свойства BarcodeType.
 4. В метке будет отображен сканированный штрихкод.
-
