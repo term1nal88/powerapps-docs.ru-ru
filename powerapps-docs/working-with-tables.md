@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
 ms.openlocfilehash: 794263448bc067ef8bf44ae46480865c56fdbdf8
-ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
+ms.sourcegitcommit: 397a968f57ce5aaaf2b86e804dfedda8cf34f307
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/19/2018
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>Общие сведения о таблицах и записях в PowerApps
 Вы можете создать приложение с доступом к сведениям в Microsoft Excel, SharePoint, SQL Server и ряде других источников, хранящих данные в виде записей и таблиц. Чтобы работать с данными такого типа максимально эффективно, ознакомьтесь с основными понятиями, которые лежат в основе этих структур.

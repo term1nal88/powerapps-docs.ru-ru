@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 03/11/2017
 ms.author: aneesa
 ms.openlocfilehash: d791d04965873c133be85013feb181dc5a1e1bad
-ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
+ms.sourcegitcommit: 397a968f57ce5aaaf2b86e804dfedda8cf34f307
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/19/2018
 ---
 # <a name="use-field-groups"></a>Использование групп полей
 Группы полей позволяют группировать одно или несколько полей сущности, а также ускоряют и упрощают создание и обслуживание приложений. Группа полей содержит одно или несколько полей. Поле может использоваться во множестве групп полей. В группе полей не могут использоваться повторяющиеся поля.
