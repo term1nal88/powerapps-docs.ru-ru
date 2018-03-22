@@ -1,13 +1,13 @@
 ---
-title: "Функции Enable и Disable | Документация Майкрософт"
-description: "Справочные сведения о функциях Enable и Disable в PowerApps, включая описание синтаксиса и примеры."
-services: 
+title: Функции Enable и Disable | Документация Майкрософт
+description: Справочные сведения о функциях Enable и Disable в PowerApps, включая описание синтаксиса и примеры.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 3b9801e804284cb52d389aa0c57d1247a008dd0d
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="enable-and-disable-functions-in-powerapps"></a>Функции Enable и Disable в PowerApps
 Включает или отключает [сигнал](signals.md).

@@ -1,13 +1,13 @@
 ---
-title: "Общие сведения о лицензировании | Документация Майкрософт"
-description: "Обзор лицензирования Microsoft PowerApps."
-services: 
+title: Общие сведения о лицензировании | Документация Майкрософт
+description: Обзор лицензирования Microsoft PowerApps.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: jamesol-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 01/19/2017
 ms.author: jamesol
 ms.openlocfilehash: f3b53905bb335cf61eae3e184d4984d56907fe4c
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="licensing-overview"></a>Общие сведения о лицензировании
 PowerApps лицензируется отдельно для каждого пользователя. Лицензия необходима для каждого пользователя, осуществляющего доступ к службе для создания и запуска приложений. Пользователи Office 365 и Dynamics 365 могут сразу же использовать возможности PowerApps и Microsoft Flow, которые содержатся в этих предложениях. Пользователи, желающие создавать приложения и последовательности, которые получают доступ к источникам данных за пределами Office 365 и Dynamics 365, или желающие расширить функциональные возможности, могут приобрести автономные подписки PowerApps и Microsoft Flow. Между этими группами лицензий имеются существенные различия в функциональности.
