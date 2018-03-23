@@ -1,13 +1,13 @@
 ---
-title: "Справка по элементу управления \"Таймер\" | Документация Майкрософт"
-description: "Сведения об элементе управления \"Таймер\" с описанием его свойств и примерами"
-services: 
+title: Справка по элементу управления "Таймер" | Документация Майкрософт
+description: Сведения об элементе управления "Таймер" с описанием его свойств и примерами
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 008c992ad3452c1844064335a51593c222fb1ac1
-ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="timer-control-in-powerapps"></a>Элемент управления "Таймер" в PowerApps
 Элемент управления, определяющий поведение приложения по истечении заданного количества времени.

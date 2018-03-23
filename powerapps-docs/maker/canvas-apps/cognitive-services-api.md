@@ -1,13 +1,13 @@
 ---
-title: "Использование служб Cognitive Services с PowerApps | Документация Майкрософт"
-description: "Создание простого приложения, использующего API-интерфейс Microsoft Cognitive Services для анализа текста."
-services: 
+title: Использование служб Cognitive Services с PowerApps | Документация Майкрософт
+description: Создание простого приложения, использующего API-интерфейс Microsoft Cognitive Services для анализа текста.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: mgblythe
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 12/08/2017
 ms.author: mblythe
 ms.openlocfilehash: 2e82feb9df4121b24ffd1f5cad7669c6aa58c8e8
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>Использование служб Cognitive Services с PowerApps
 Из этой статьи вы узнаете, как создать базовое приложение, использующее [API анализа текста Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview), чтобы анализировать текст. Мы объясним, как установить API анализа текста и подключиться к нему с помощью [соединителя для анализа текста](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/). Затем мы покажем, как создать приложение, которое вызывает API.

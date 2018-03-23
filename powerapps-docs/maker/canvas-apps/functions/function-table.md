@@ -1,13 +1,13 @@
 ---
-title: "Функция Table | Документация Майкрософт"
-description: "Справочные сведения, включая описание синтаксиса и примеры, относительно функции Table в PowerApps"
-services: 
+title: Функция Table | Документация Майкрософт
+description: Справочные сведения, включая описание синтаксиса и примеры, относительно функции Table в PowerApps
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 2f543a75019bfe5d665aedb2e6171200e8321690
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="table-function-in-powerapps"></a>Функция Table в PowerApps
 Создание временной [таблицы](../working-with-tables.md).

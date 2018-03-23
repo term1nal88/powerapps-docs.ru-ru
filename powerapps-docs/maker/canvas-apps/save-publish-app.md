@@ -1,13 +1,13 @@
 ---
-title: "Сохранение и публикация приложения | Документация Майкрософт"
-description: "Пошаговые инструкции по сохранению и публикации приложения для разработчиков приложений."
-services: 
+title: Сохранение и публикация приложения | Документация Майкрософт
+description: Пошаговые инструкции по сохранению и публикации приложения для разработчиков приложений.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: SKjerland
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/14/2017
 ms.author: sharik
 ms.openlocfilehash: 739813b2b4905653543461008986901d4e2ee95b
-ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="save-and-publish-an-app-in-powerapps"></a>Сохранение и публикация приложения в PowerApps
 Когда вы сохраняете изменения в приложении, они автоматически публикуются только для вас и пользователей, у которых есть разрешения на изменение этого приложения. Внесенные изменения следует опубликовать явным образом, чтобы сделать доступными для всех пользователей, которым предоставлен общий доступ к приложению.

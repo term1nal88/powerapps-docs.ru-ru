@@ -1,13 +1,13 @@
 ---
-title: "Справка по элементу управления \"Поле со списком\" | Документация Майкрософт"
-description: "Сведения об элементе управления \"Поле со списком\" с описанием его свойств и примерами"
-services: 
+title: Справка по элементу управления "Поле со списком" | Документация Майкрософт
+description: Сведения об элементе управления "Поле со списком" с описанием его свойств и примерами
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/13/2017
 ms.author: fikaradz
 ms.openlocfilehash: 4d298e24ea967cbf5cb47638d4296f6efbd758c7
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>Элемент управления "Поле со списком" в PowerApps
 Это элемент управления, который позволяет выбирать из доступных вариантов.  Поддерживает поиск и выбор нескольких вариантов.

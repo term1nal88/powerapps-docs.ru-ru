@@ -1,13 +1,13 @@
 ---
-title: "Добавление экрана и переход между экранами | Документация Майкрософт"
-description: "Добавление экрана в приложение PowerApps и переход между экранами с помощью стрелок вперед и назад"
-services: 
+title: Добавление экрана и переход между экранами | Документация Майкрософт
+description: Добавление экрана в приложение PowerApps и переход между экранами с помощью стрелок вперед и назад
+services: ''
 suite: powerapps
 documentationcenter: na
 author: skjerland
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/10/2017
 ms.author: sharik
 ms.openlocfilehash: 64c38e561be90cbebabe17f73377e4d754d99c54
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="add-a-screen-and-navigate-between-screens"></a>Добавление экрана и переход между экранами
 Узнайте, как создать приложение с несколькими экранами и предоставить пользователям возможность перемещаться между ними.
