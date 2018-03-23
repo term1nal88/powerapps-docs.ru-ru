@@ -1,13 +1,13 @@
 ---
-title: "Делегируемые источники данных | Документация Майкрософт"
-description: "Список всех поддерживаемых делегируемых источников данных"
-services: 
+title: Делегируемые источники данных | Документация Майкрософт
+description: Список всех поддерживаемых делегируемых источников данных
+services: ''
 suite: powerapps
 documentationcenter: na
 author: archnair
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: archanan
 ms.openlocfilehash: e073c0a8c471dc8b863894e2d229b15b66b3ce60
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="delegable-data-sources"></a>Делегируемые источники данных
 Как подробно описано в статье с [основными сведениями о делегировании](delegation-overview.md), делегирование — это передача службой PowerApps обязанностей по обработке данных источнику вместо переноса данных в приложение для локальной обработки.

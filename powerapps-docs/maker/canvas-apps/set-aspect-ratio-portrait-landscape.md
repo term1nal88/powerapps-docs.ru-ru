@@ -1,13 +1,13 @@
 ---
-title: "Изменение размера и ориентации экрана | Документация Майкрософт"
-description: "Пошаговые инструкции по изменению параметров, в частности размера и ориентации экрана"
-services: 
+title: Изменение размера и ориентации экрана | Документация Майкрософт
+description: Пошаговые инструкции по изменению параметров, в частности размера и ориентации экрана
+services: ''
 suite: powerapps
 documentationcenter: na
 author: lonu
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/16/2016
 ms.author: lonu
 ms.openlocfilehash: be123445c1b719012dcb71c7aa93d93dace64935
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="change-screen-size-and-orientation-in-powerapps"></a>Изменение размера и ориентации экрана в PowerApps
 Настройте приложение, изменив размер и ориентацию его экрана.

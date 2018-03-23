@@ -1,13 +1,13 @@
 ---
-title: "Справка по элементу управления \"Вложения\" | Документация Майкрософт"
-description: "Сведения об элементе управления \"Вложения\" с описанием его свойств и примерами"
-services: 
+title: Справка по элементу управления "Вложения" | Документация Майкрософт
+description: Сведения об элементе управления "Вложения" с описанием его свойств и примерами
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
 ms.openlocfilehash: b58e99e4775ed5c18d3498864c6e652e814ddf19
-ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>Элемент управления "Вложения" в PowerApps
 Элемент управления, который позволяет пользователям скачивать файлы на устройства, а также добавлять их в список SharePoint и удалять их оттуда.

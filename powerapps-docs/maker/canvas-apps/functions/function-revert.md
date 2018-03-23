@@ -1,13 +1,13 @@
 ---
-title: "Функция Revert | Документация Майкрософт"
-description: "Справочные сведения, включая описание синтаксиса и пример, относительно функции Revert в PowerApps"
-services: 
+title: Функция Revert | Документация Майкрософт
+description: Справочные сведения, включая описание синтаксиса и пример, относительно функции Revert в PowerApps
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
 ms.openlocfilehash: e61566077ccdf9f3b2913ec0293868c1863c26fa
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="revert-function-in-powerapps"></a>Функция Revert в PowerApps
 Обновляет содержимое и удаляет ошибки для [записей](../working-with-tables.md#records) в [источнике данных](../working-with-data-sources.md).

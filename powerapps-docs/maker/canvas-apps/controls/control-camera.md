@@ -1,13 +1,13 @@
 ---
-title: "Справка по элементу управления \"Камера\" | Документация Майкрософт"
-description: "Сведения об элементе управления \"Камера\" с описанием его свойств и примерами"
-services: 
+title: Справка по элементу управления "Камера" | Документация Майкрософт
+description: Сведения об элементе управления "Камера" с описанием его свойств и примерами
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: a3a724ad42082962ec8aea4e616f1d75aa7299ec
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="camera-control-in-powerapps"></a>Элемент управления "Камера" в PowerApps
 С помощью элемента управления "Камера" пользователь может делать фотографии, используя камеру устройства.

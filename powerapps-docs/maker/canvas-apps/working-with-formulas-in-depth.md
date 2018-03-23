@@ -1,13 +1,13 @@
 ---
-title: "Основные сведения о формулах поведения | Документация Майкрософт"
-description: "Справочные сведения о работе с формулами поведения"
-services: 
+title: Основные сведения о формулах поведения | Документация Майкрософт
+description: Справочные сведения о работе с формулами поведения
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/10/2015
 ms.author: gregli
 ms.openlocfilehash: 7bb0d9f3db9353511e8a5ed85f016049a96f7dae
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="understand-behavior-formulas-in-powerapps"></a>Основные сведения о формулах поведения в PowerApps
 

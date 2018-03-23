@@ -1,13 +1,13 @@
 ---
-title: "Общие сведения о таблицах | Документация Майкрософт"
-description: "Справочные сведения о работе с таблицами, столбцами и записями"
-services: 
+title: Общие сведения о таблицах | Документация Майкрософт
+description: Справочные сведения о работе с таблицами, столбцами и записями
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
 ms.openlocfilehash: 794263448bc067ef8bf44ae46480865c56fdbdf8
-ms.sourcegitcommit: 397a968f57ce5aaaf2b86e804dfedda8cf34f307
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>Общие сведения о таблицах и записях в PowerApps
 Вы можете создать приложение с доступом к сведениям в Microsoft Excel, SharePoint, SQL Server и ряде других источников, хранящих данные в виде записей и таблиц. Чтобы работать с данными такого типа максимально эффективно, ознакомьтесь с основными понятиями, которые лежат в основе этих структур.

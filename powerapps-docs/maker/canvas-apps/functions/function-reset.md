@@ -1,13 +1,13 @@
 ---
-title: "Функция Reset | Документация Майкрософт"
-description: "Справочные сведения о функции Reset в PowerApps, включая описание синтаксиса и пример"
-services: 
+title: Функция Reset | Документация Майкрософт
+description: Справочные сведения о функции Reset в PowerApps, включая описание синтаксиса и пример
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
 ms.openlocfilehash: c08776071e694bfe1a9b4a8263ab9eead2547024
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="reset-function-in-powerapps"></a>Функция Reset в PowerApps
 Сбрасывает элемент управления до значения по умолчанию и отменяет все изменения, внесенные пользователем.  
