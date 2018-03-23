@@ -1,13 +1,13 @@
 ---
-title: "Сигналы Acceleration, App, Compass, Connection и Location | Документация Майкрософт"
-description: "Справочные сведения о датчиках ускорения, приложения, компаса, подключения и расположения в PowerApps, в том числе описание синтаксиса"
-services: 
+title: Сигналы Acceleration, App, Compass, Connection и Location | Документация Майкрософт
+description: Справочные сведения о датчиках ускорения, приложения, компаса, подключения и расположения в PowerApps, в том числе описание синтаксиса
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: ae649c4935a92d9db800dcd75fddf848eccbfcc1
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>Сигналы Acceleration, App, Compass, Connection и Location в PowerApps
 Эти сигналы возвращают сведения о среде приложения, например, где находится пользователь и какой экран отображается.  
