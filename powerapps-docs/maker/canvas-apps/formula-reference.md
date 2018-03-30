@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: dac61ab9ce4195f6336fe1625cea12f728eb3e41
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 3ceb9eae42e88e7cfb78492f9e58812481a0881d
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="formula-reference-for-powerapps"></a>Справочник формул для PowerApps
 Формулы объединяют множество элементов.  Ниже перечислены следующие элементы:
@@ -165,7 +165,9 @@ ms.lasthandoff: 03/22/2018
 **[Hour](functions/function-datetime-parts.md)** — возвращает данные времени в часах из значения даты и времени.
 
 ## <a name="i"></a>I
-**[If](functions/function-if.md)** — возвращает одно значение, если условие выполняется, и другое, если то же условие не выполняется.  
+**[If](functions/function-if.md)** — возвращает одно значение, если условие выполняется, и другое, если то же условие не выполняется. 
+
+**[IfError](functions/function-iferror.md)** — обнаруживает ошибки и предоставляет альтернативное значение или выполняет действие. 
 
 **[IsBlank](functions/function-isblank-isempty.md)** — проверяет наличие значений [blank](functions/function-isblank-isempty.md) (пусто).
 
@@ -281,6 +283,8 @@ ms.lasthandoff: 03/22/2018
 **[Set](functions/function-set.md)** — задает значение глобальной переменной.
 
 **[ShowColumns](functions/function-table-shaping.md)** — возвращает таблицу только с выбранными столбцами.
+
+**[ShowError](functions/function-showerror.md)** — отображает сообщение об ошибке для пользователя.
 
 **[Shuffle](functions/function-shuffle.md)** — случайным образом изменяет порядок записей в таблице.
 
