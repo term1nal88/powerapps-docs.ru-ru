@@ -1,0 +1,8 @@
+- name: Обзор
+  href: overview.md
+- name: Использование веб-ресурсов
+  href: web-resources.md
+- name: Создание скриптов для клиента
+  href: client-scripting.md
+- name: Настройка команд
+  href: customize-commands.md
