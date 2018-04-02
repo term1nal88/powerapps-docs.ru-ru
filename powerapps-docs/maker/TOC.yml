@@ -1,0 +1,231 @@
+- name: Создание приложений
+  href: index.md
+  expanded: true
+  items:
+    - name: Регистрация для получения 30-дневной пробной версии
+      href: signup-for-powerapps.md
+    - name: Регистрация в плане сообщества PowerApps
+      href: dev-community-plan.md
+- name: Приложения на основе холста
+  href: ./canvas-apps/getting-started.md
+  items:
+    - name: Быстрое начало работы
+      items:
+        - name: Открытие примера приложения
+          href: ./canvas-apps/open-and-run-a-sample-app.md
+        - name: Создание приложения
+          items:
+            - name: "На основе службы Common\_Data\_Service для приложений"
+              href: ./canvas-apps/data-platform-create-app.md
+            - name: На основе SharePoint
+              href: ./canvas-apps/app-from-sharepoint.md
+            - name: На основе Excel
+              href: ./canvas-apps/get-started-create-from-data.md
+        - name: Настройка формы списка SharePoint
+          href: ./canvas-apps/customize-list-form.md
+        - name: Создание приложения из SharePoint
+          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
+    - name: Учебники
+      items:
+        - name: Настройка созданного приложения
+          items:
+            - name: Настройка экрана обзора
+              href: ./canvas-apps/customize-layout-sharepoint.md
+            - name: Настройка формы
+              href: ./canvas-apps/customize-forms-sharepoint.md
+            - name: Настройка карточки
+              href: ./canvas-apps/customize-card.md
+        - name: Создание приложения с нуля
+          href: ./canvas-apps/data-platform-create-app-scratch.md
+        - name: Общий доступ к приложению
+          href: ./canvas-apps/share-app.md
+        - name: "Внедрение приложения в Power\_BI"
+          href: ./canvas-apps/embed-powerapps-powerbi.md
+    - name: Концепции
+      items:
+        - name: Начало работы с формулами
+          href: ./canvas-apps/working-with-formulas.md
+        - name: Таблицы и записи
+          href: ./canvas-apps/working-with-tables.md
+        - name: Формы данных
+          href: ./canvas-apps/working-with-forms.md
+        - name: Макет формы данных
+          href: ./canvas-apps/working-with-form-layout.md
+        - name: Карточки данных
+          href: ./canvas-apps/working-with-cards.md
+        - name: Переменные
+          href: ./canvas-apps/working-with-variables.md
+        - name: формулы
+          href: ./canvas-apps/working-with-formulas-in-depth.md
+        - name: Даты и время
+          href: ./canvas-apps/show-text-dates-times.md
+        - name: Источники данных
+          href: ./canvas-apps/working-with-data-sources.md
+        - name: Общие сведения об интеграции форм SharePoint
+          href: ./canvas-apps/sharepoint-form-integration.md
+        - name: Пользовательский визуальный элемент PowerApps
+          href: ./canvas-apps/powerapps-custom-visual.md
+        - name: Разработка приложений на основе холста
+          items:
+            - name: "PowerApps для разработчиков корпоративных приложений, партнеров и независимых поставщиков\_ПО"
+              href: ./canvas-apps/dev-enterprise-intro.md
+            - name: Создание и сертификация настраиваемых соединителей
+              href: ./canvas-apps/register-custom-api.md
+            - name: Интеграция с веб-сайтами и другими технологиями
+              href: ./canvas-apps/embed-apps-dev.md
+            - name: 'Разработка приложений, поддерживающих автономный режим работы'
+              href: ./canvas-apps/offline-apps.md
+            - name: Дайте возможность клиентам протестировать ваши приложения
+              href: ./canvas-apps/dev-appsource-test-drive.md
+    - name: Практические руководства
+      items:
+        - name: Создание приложения на основе шаблона
+          href: ./canvas-apps/get-started-test-drive.md
+        - name: Создание приложения Excel с нуля
+          href: ./canvas-apps/get-started-create-from-blank.md
+        - name: Настройка приложения
+          items:
+            - name: Добавление и настройка средств контроля
+              href: ./canvas-apps/add-configure-controls.md
+            - name: Добавление экрана
+              href: ./canvas-apps/add-screen-context-variables.md
+            - name: Добавление подключения к данным
+              href: ./canvas-apps/add-data-connection.md
+            - name: Отображение списка элементов
+              href: ./canvas-apps/add-gallery.md
+            - name: Отображение элементов разной высоты
+              href: ./canvas-apps/gallery-dynamic-sizing.md
+            - name: Добавление формы
+              href: ./canvas-apps/add-form.md
+            - name: Вывод текущего пользователя
+              href: ./canvas-apps/show-current-user.md
+            - name: Добавление элемента управления "Список"
+              href: ./canvas-apps/add-list-box-drop-down-list-radio-button.md
+            - name: Подключение списков с использованием подстановок
+              href: ./canvas-apps/sharepoint-lookup-fields.md
+            - name: Добавление диаграммы
+              href: ./canvas-apps/use-line-pie-bar-chart.md
+            - name: Добавление мультимедиа
+              href: ./canvas-apps/add-images-pictures-audio-video.md
+            - name: Сканирование штрихкода
+              href: ./canvas-apps/scan-barcode.md
+            - name: Добавление потока
+              href: ./canvas-apps/using-logic-flows.md
+            - name: Добавление прокручиваемого экрана
+              href: ./canvas-apps/add-scrolling-screen.md
+            - name: Создание глобального приложения
+              href: ./canvas-apps/global-apps.md
+        - name: Управление приложением
+          items:
+            - name: Основные сведения о сайте powerapps.com
+              href: ./canvas-apps/intro-maker-portal.md
+            - name: Изменение приложения
+              href: ./canvas-apps/edit-app.md
+            - name: Изменение размера и ориентации экрана
+              href: ./canvas-apps/set-aspect-ratio-portrait-landscape.md
+            - name: Изменение имени и элемента приложения
+              href: ./canvas-apps/set-name-tile.md
+            - name: Сохранение и публикация приложения
+              href: ./canvas-apps/save-publish-app.md
+            - name: Удаление приложения
+              href: ./canvas-apps/delete-app.md
+            - name: Восстановление приложения до предыдущей версии
+              href: ./canvas-apps/restore-an-app.md
+        - name: Подключение к данным
+          items:
+            - name: Управление подключениями к данным
+              href: ./canvas-apps/add-manage-connections.md
+            - name: Подключение к сайту SharePoint
+              href: ./canvas-apps/connect-to-sharepoint.md
+            - name: Делегирование
+              href: ./canvas-apps/delegation-overview.md
+            - name: Делегируемые источники данных
+              href: ./canvas-apps/delegation-list.md
+            - name: Управление шлюзами
+              href: ./canvas-apps/gateway-management.md
+            - name: Знакомство со шлюзами
+              href: ./canvas-apps/gateway-reference.md
+        - name: Интеграция с другими технологиями
+          items:
+            - name: SharePoint Online
+              items:
+                - name: Общие сведения об интеграции SharePoint Online
+                  href: ./canvas-apps/sharepoint-scenario-intro.md
+                - name: Настраивание списков SharePoint Online
+                  href: ./canvas-apps/sharepoint-scenario-setup.md
+                - name: Создание приложения
+                  href: ./canvas-apps/sharepoint-scenario-generate-app.md
+                - name: Создание последовательности для утверждений
+                  href: ./canvas-apps/sharepoint-scenario-approval-flow.md
+                - name: Создание приложения с нуля
+                  href: ./canvas-apps/sharepoint-scenario-build-app.md
+                - name: "Создание отчета Power\_BI"
+                  href: ./canvas-apps/sharepoint-scenario-build-report.md
+                - name: "Публикация отчета Power\_BI"
+                  href: ./canvas-apps/sharepoint-scenario-publish-report.md
+                - name: "Внедрение отчета Power\_BI"
+                  href: ./canvas-apps/sharepoint-scenario-embed-report.md
+                - name: Создание последовательности для оповещений
+                  href: ./canvas-apps/sharepoint-scenario-alerts-flow.md
+                - name: Пошаговые инструкции к полному сценарию
+                  href: ./canvas-apps/sharepoint-scenario-summary.md
+            - name: Cognitive Services
+              href: ./canvas-apps/cognitive-services-api.md
+    - name: Справочные материалы
+      items:
+        - name: Справочник формул
+          href: ./canvas-apps/formula-reference.md
+        - name: Справочник элементов управления
+          href: ./canvas-apps/reference-properties.md
+        - name: Справочник по соединителям
+          href: ./canvas-apps/connections-list.md
+        - name: 'Требования к системе, ограничения и конфигурация'
+          href: ./canvas-apps/limits-and-config.md
+    - name: Ресурсы
+      items:
+        - name: Работа со средами
+          href: ./canvas-apps/working-with-environments.md
+        - name: Новые возможности
+          href: ./canvas-apps/release-notes.md
+        - name: Типичные проблемы и решения
+          href: ./canvas-apps/common-issues-and-resolutions.md
+        - name: Предстоящие и недавние вебинары
+          href: ./canvas-apps/webinars-listing.md
+- name: Приложения на основе модели
+  href: ./model-driven-apps/model-driven-app-overview.md
+  items:
+    - name: Общие сведения о примерах приложений
+      href: ./model-driven-apps/overview-model-driven-samples.md
+    - name: Предоставление доступа к приложению на основе модели
+      href: ./model-driven-apps/share-model-driven-app.md
+    - name: Запуск приложения на основе модели на мобильном устройстве
+      href: ./model-driven-apps/run-app-client-model-driven.md
+- name: "Служба Common\_Data\_Service для приложений"
+  href: ./common-data-service/data-platform-intro.md
+  items:
+    - name: Быстрое начало работы
+      items:
+        - name: Создание сущности
+          href: ./common-data-service/data-platform-create-entity.md
+        - name: Создание настраиваемой сущности на основе данных
+          href: ./common-data-service/data-platform-cds-newentity-pq.md
+        - name: Управление полями
+          href: ./common-data-service/data-platform-manage-fields.md
+        - name: Создание набора параметров
+          href: ./common-data-service/custom-picklists.md
+        - name: Создание связи
+          href: ./common-data-service/data-platform-entity-lookup.md
+        - name: Создание бизнес-правила
+          href: ./common-data-service/data-platform-create-business-rule.md
+        - name: Удаление настраиваемой сущности
+          href: ./common-data-service/data-platform-delete-entity.md
+    - name: Учебники
+      items:
+        - name: Создание настраиваемой сущности с компонентами
+          href: ./common-data-service/create-custom-entity.md
+    - name: Примеры и ресурсы
+      href: ./common-data-service/samples-resources.md
+    - name: Для разработчиков
+      href: ../developer/common-data-service/TOC.yml
+- name: Модель общих данных
+  href: ../common-data-model/overview.md

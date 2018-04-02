@@ -1,0 +1,19 @@
+- name: Обзор
+  href: overview.md
+- name: Общие сведения о решениях
+  href: introduction-solutions.md
+- name: "Сущности данных в Common\_Data\_Service для приложений"
+  href: entities.md
+  items:
+    - name: Метаданные сущности
+      href: entity-metadata.md
+    - name: Метаданные атрибута
+      href: entity-attribute-metadata.md
+    - name: Метаданные связей между сущностями
+      href: entity-relationship-metadata.md
+    - name: Ссылка на сущность
+      href: reference/entities/toc.yml
+- name: Применение бизнес-логики с помощью кода
+  href: apply-business-logic-with-code.md
+- name: "Использование веб-служб Common\_Data\_Service для приложений"
+  href: use-web-services.md

@@ -1,0 +1,40 @@
+- name: Администрирование PowerApps
+  href: index.md
+- name: Быстрое начало работы
+  items:
+    - name: Создание среды
+      href: create-environment.md
+    - name: Создание политики защиты от потери данных
+      href: create-dlp-policy.md
+    - name: Просмотр активных пользователей в клиенте
+      href: admin-view-user-licenses.md
+    - name: Просмотр приложений в средах
+      href: admin-view-apps.md
+- name: Концепции
+  items:
+    - name: Общие сведения о лицензировании
+      href: pricing-billing-skus.md
+    - name: Обзор сред
+      href: environments-overview.md
+    - name: Основные сведения о группах данных
+      href: introduction-to-data-groups.md
+    - name: Обзор регионов
+      href: regions-overview.md
+- name: Практические руководства
+  items:
+    - name: Приобретение PowerApps
+      href: signup-for-powerapps-admin.md
+    - name: Управление лицензиями в организации
+      href: signup-question-and-answer.md
+    - name: Управление политиками защиты от потери данных
+      href: prevent-data-loss.md
+    - name: Создание базы данных
+      href: create-database.md
+    - name: Администрирование сред
+      href: environments-administration.md
+    - name: Настройка безопасности среды
+      href: database-security.md
+    - name: Управление приложениями в организации
+      href: admin-manage-apps.md
+    - name: Перемещение приложения между клиентами и средами
+      href: environment-and-tenant-migration.md
