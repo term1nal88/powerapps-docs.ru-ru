@@ -13,6 +13,10 @@
       items:
         - name: Открытие примера приложения
           href: ./canvas-apps/open-and-run-a-sample-app.md
+        - name: Создание приложения на основе шаблона
+          href: ./canvas-apps/get-started-test-drive.md
+        - name: Создание приложения из SharePoint
+          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
         - name: Создание приложения
           items:
             - name: "На основе службы Common\_Data\_Service для приложений"
@@ -21,10 +25,6 @@
               href: ./canvas-apps/app-from-sharepoint.md
             - name: На основе Excel
               href: ./canvas-apps/get-started-create-from-data.md
-        - name: Настройка формы списка SharePoint
-          href: ./canvas-apps/customize-list-form.md
-        - name: Создание приложения из SharePoint
-          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
     - name: Учебники
       items:
         - name: Настройка созданного приложения
@@ -79,8 +79,8 @@
               href: ./canvas-apps/dev-appsource-test-drive.md
     - name: Практические руководства
       items:
-        - name: Создание приложения на основе шаблона
-          href: ./canvas-apps/get-started-test-drive.md
+        - name: Настройка формы списка SharePoint
+          href: ./canvas-apps/customize-list-form.md
         - name: Создание приложения Excel с нуля
           href: ./canvas-apps/get-started-create-from-blank.md
         - name: Настройка приложения
@@ -145,6 +145,8 @@
               href: ./canvas-apps/gateway-management.md
             - name: Знакомство со шлюзами
               href: ./canvas-apps/gateway-reference.md
+            - name: "Устранение неполадок Power\_Query"
+              href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
         - name: Интеграция с другими технологиями
           items:
             - name: SharePoint Online
@@ -198,8 +200,8 @@
       href: ./model-driven-apps/overview-model-driven-samples.md
     - name: Предоставление доступа к приложению на основе модели
       href: ./model-driven-apps/share-model-driven-app.md
-    - name: Запуск приложения на основе модели на мобильном устройстве
-      href: ./model-driven-apps/run-app-client-model-driven.md
+    - name: Для разработчиков
+      href: ../developer/model-driven-apps/TOC.yml
 - name: "Служба Common\_Data\_Service для приложений"
   href: ./common-data-service/data-platform-intro.md
   items:
