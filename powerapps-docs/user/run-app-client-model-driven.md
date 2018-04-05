@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: cf484054928a34eb3f3383acbfc9490bc95a0aa3
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: 73b8aca29af2e9ee5fa117a7e7b79a8d3dbaca9f
+ms.sourcegitcommit: a9ac8a3ed734cb5f70b61476168d1bff5de844f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="quickstart-run-a-model-driven-app-on-a-mobile-device"></a>Краткое руководство: запуск приложения на основе модели на мобильном устройстве
 
@@ -49,4 +49,4 @@ ms.lasthandoff: 03/28/2018
 Из этого краткого руководства вы узнали, как запустить приложение на основе модели на мобильном устройстве. Вы также можете запустить приложение на основе холста на мобильном устройстве.
 
 > [!div class="nextstepaction"]
-> [Запуск приложения на основе модели на мобильном устройстве](run-app-client.md)
+> [Запуск приложения на основе холста на мобильном устройстве](run-app-client.md)
