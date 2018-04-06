@@ -115,6 +115,8 @@
               href: ./canvas-apps/add-scrolling-screen.md
             - name: Создание глобального приложения
               href: ./canvas-apps/global-apps.md
+            - name: Создание приложений со специальными возможностями
+              href: ./canvas-apps/accessible-apps.md
         - name: Управление приложением
           items:
             - name: Основные сведения о сайте powerapps.com
