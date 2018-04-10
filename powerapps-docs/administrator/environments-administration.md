@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 0a6080b7ceb14de14b7ad6ae2f851843bac0c73b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: d94ebeeada15f5e7f176b20575f7570c73e28c08
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="administer-environments-in-powerapps"></a>Администрирование сред в PowerApps
 В [центре администрирования PowerApps][1] можно управлять созданными средами, а также средами, в которых вам назначена роль администратора среды или системного администратора. В центре администрирования можно выполнять следующие действия:
@@ -47,10 +47,10 @@ ms.lasthandoff: 03/22/2018
 
 * или роль глобального администратора клиента Azure AD или клиента Office 365.
 
-Кроме того, для доступа к центру администрирования вам также потребуется план 2 службы PowerApps или план 2 службы Flow. Дополнительные сведения см. на [странице с ценами на PowerApps][3].
+Кроме того, для доступа к центру администрирования вам потребуется лицензия плана 2 для PowerApps или плана 2 для Microsoft Flow. Дополнительные сведения см. на [странице с ценами на PowerApps][3].
 
 > [!IMPORTANT]
-> Все изменения, внесенные в центре администрирования PowerApps, применяются в [центре администрирования Flow][4] и наоборот.
+> Все изменения, внесенные в центре администрирования PowerApps, применяются в [центре администрирования Microsoft Flow][4] и наоборот.
 
 ## <a name="create-an-environment"></a>Создание среды
 Инструкции по созданию среды см. в разделе [Краткое руководство по созданию среды](create-environment.md).
@@ -66,7 +66,7 @@ ms.lasthandoff: 03/22/2018
 1. Откройте [центр администрирования PowerApps][1], найдите в списке среду, имя которой нужно изменить, и щелкните ее.
 
     ![](./media/environment-admin/environment-list-updated3.png)
- 
+
 2. Щелкните **Сведения**.
 
     ![](./media/environment-admin/environment-rename-details-2.png)

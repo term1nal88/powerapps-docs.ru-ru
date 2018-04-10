@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 1d8034d877aee9131a98517d981ac68275b49a4d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a9138c636d70ea4701cbf685c3d7c7965c0e8469
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="quickstart-create-an-environment"></a>Краткое руководство по созданию среды
 Среда — это пространство для хранения и совместного использования бизнес-данных, приложений и последовательностей вашей организации, а также управления ими. Она также служит контейнером для разделения приложений, связанных с разными ролями, требованиями к безопасности и целевыми аудиториями. PowerApps автоматически создает отдельную среду по умолчанию для каждого клиента. Доступ к ней получают все пользователи этого клиента.
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="prerequisites"></a>Технические условия
  Чтобы быстро приступить к работе, потребуется следующее:
- * План 2 для PowerApps или план 2 для Flow. Кроме того, вы можете получить [бесплатную пробную версию плана 2 для PowerApps](https://web.powerapps.com/signup?redirect=marketing&email=).
+ * Лицензия плана 2 для PowerApps или плана 2 для Microsoft Flow. Кроме того, вы можете получить [бесплатную пробную версию плана 2 для PowerApps](https://web.powerapps.com/signup?redirect=marketing&email=).
  * Разрешения администратора среды PowerApps, глобального администратора Office 365 или администратора клиента Azure Active Directory. Дополнительные сведения см. в статье [Администрирование сред в PowerApps](environments-administration.md).
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>Вход в центр администрирования PowerApps

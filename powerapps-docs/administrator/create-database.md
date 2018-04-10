@@ -14,16 +14,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 2215d02af78d0983292cfca8c9f8ac4f6737a3d0
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: cc068fc475643ae68e74d22981679dd9b038eb83
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Создание базы данных Common Data Service
 Служба Common Data Service может служить хранилищем данных для базы данных и приложений. При этом вы можете создавать собственные настраиваемые сущности или использовать стандартные сущности. Прежде чем создавать базу данных, нужно сначала создать среду (либо вас должны назначить **администратором среды** для существующей среды). Кроме того, вам должна быть назначена соответствующая лицензия. Сведения о приобретении плана для использования службы Common Data Service см. в [информации о ценах](pricing-billing-skus.md).
 
-Базу данных можно создать тремя способами.
+Базу данных можно создать разными способами.
 
 * В центре администрирования PowerApps
 * В области **Entities** (Сущности) на сайте powerapps.com

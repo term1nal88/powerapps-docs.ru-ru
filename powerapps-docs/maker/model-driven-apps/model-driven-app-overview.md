@@ -15,15 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 94ae54308f49838159ff06e0e642ab9f2503eab1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 872e06e3d260480f09f66c52b592540bae44bdda
+ms.sourcegitcommit: a9ac8a3ed734cb5f70b61476168d1bff5de844f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>Общие сведения о создании приложения на основе модели
 
-Создание приложений на основе модели — это бескодовый или малокодовый ориентированный на компоненты подход к разработке приложений. В отличие от разработки приложений на основе холста, при которой проектировщик имеет полный контроль над макетом приложения, в приложениях на основе модели макет в основном определяется автоматически компонентами, добавляемыми в приложение. 
+Создание приложений на основе модели — это ориентированный на компоненты подход к разработке приложений. Разработка приложений на основе модели не требует написания кода, а создаваемые приложения могут быть как простыми, так и очень сложными.  В отличие от разработки приложений на основе холста, при которой проектировщик имеет полный контроль над макетом приложения, в приложениях на основе модели макет в основном определяется автоматически компонентами, добавляемыми в приложение. 
 
 ![Пример приложения на основе модели](media/model-driven-app-overview/model-app-sample.png)
 
@@ -44,12 +44,12 @@ ms.lasthandoff: 03/22/2018
 - компоновка приложения.
 
 ### <a name="modeling-business-data"></a>Моделирование бизнес-данных
-Чтобы смоделировать бизнес-данные, необходимо определить, какие данные будут требоваться приложению и как они будут связаны с другими данными. При проектировании на основе модели используется архитектура на основе метаданных, позволяющая разработчикам настраивать приложение без написания кода. Метаданные — это "данные о данных". Они определяют структуру данных, хранящихся в системе.
+Чтобы смоделировать бизнес-данные, необходимо определить, какие данные будут требоваться приложению и как они будут связаны с другими данными. При проектировании на основе модели используется архитектура на основе метаданных, позволяющая разработчикам настраивать приложение без написания кода. Метаданные — это "данные о данных". Они определяют структуру данных, хранящихся в системе. [Учебник. Создание настраиваемой сущности с компонентами в PowerApps](../common-data-service/create-custom-entity.md)
 
 ### <a name="defining-business-processes"></a>Определение бизнес-процессов
 Определение и реализация согласованных бизнес-процессов — важнейший аспект разработки приложений на основе модели. Благодаря согласованным процессам пользователи могут сосредоточиться на работе и не запоминать порядок выполнения действий. Процессы могут быть разными по степени сложности и часто со временем меняются. Чтобы создать процесс, выберите элемент **Дополнительно**. Откроется [обозреватель решений](#advanced-model-driven-app-making). В обозревателе решений в левой области навигации выберите **Процессы**, а затем выберите **Создать**. Дополнительные сведения см. в разделе [Работа с бизнес-логикой](#working-with-business-logic).  
 
-### <a name="composing-the-app"></a>Компоновка приложения
+### <a name="composing-the-model-driven-app"></a>Создание приложения на основе модели
 После моделирования данных и определения процессов вы создаете приложение, выбирая и настраивая нужные компоненты с помощью конструктора приложений.
 
 ![Конструктор приложений](media/model-driven-app-overview/app-designer.png)
@@ -119,14 +119,16 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="model-driven-app-development-resources"></a>Ресурсы по разработке приложений на основе модели
 Дополнительные сведения о разработке приложений на основе модели см. в приведенных ниже статьях.
-### <a name="modeling-and-composing-your-app"></a>Моделирование и компоновка приложения
+### <a name="modeling-your-data"></a>Моделирование данных
 - [Разработка настраиваемых бизнес-приложений с помощью конструктора приложения](https://docs.microsoft.com/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
-- [Создание или изменение сущностей](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entities)
 - [Создание и разработка форм](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-design-forms)
+- [Создание и изменение представлений](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views)  
+
+### <a name="modeling-and-composing-your-app"></a>Моделирование и компоновка приложения
+- [Создание или изменение сущностей](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entities)
+- [Создание и изменение отношений](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entity-relationships) 
 - [Создание и изменение полей](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-fields)
 - [Создание и изменение наборов глобальных параметров ](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-global-option-sets)
-- [Создание и изменение представлений](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views)  
-- [Создание и изменение отношений](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entity-relationships) 
 
 ### <a name="working-with-business-logic"></a>Работа с бизнес-логикой
 - [Обзор последовательности операций бизнес-процесса](https://docs.microsoft.com/dynamics365/customer-engagement/customize/business-process-flows-overview)
@@ -143,5 +145,7 @@ ms.lasthandoff: 03/22/2018
 [Создание решения](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-solution)
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Создание пользовательской сущности в PowerApps](../common-data-service/create-custom-entity.md)
+[Краткое руководство. Создание настраиваемой сущности](../common-data-service/data-platform-create-entity.md)
+
+[Учебник. Создание настраиваемой сущности с компонентами в PowerApps](../common-data-service/create-custom-entity.md)
 

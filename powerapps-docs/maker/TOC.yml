@@ -41,6 +41,12 @@
           href: ./canvas-apps/share-app.md
         - name: "Внедрение приложения в Power\_BI"
           href: ./canvas-apps/embed-powerapps-powerbi.md
+    - name: Примеры
+      items:
+        - name: Приложение для формирования отчета о расходах
+          href: ./canvas-apps/expense-report-install.md
+        - name: Приложение службы поддержки
+          href: ./canvas-apps/help-desk-install.md
     - name: Концепции
       items:
         - name: Начало работы с формулами
@@ -65,6 +71,8 @@
           href: ./canvas-apps/sharepoint-form-integration.md
         - name: Пользовательский визуальный элемент PowerApps
           href: ./canvas-apps/powerapps-custom-visual.md
+        - name: Преобразуйте формы InfoPath в приложения PowerApps
+          href: ./canvas-apps/transform-infopath.md
         - name: Разработка приложений на основе холста
           items:
             - name: "PowerApps для разработчиков корпоративных приложений, партнеров и независимых поставщиков\_ПО"

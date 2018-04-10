@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: f8bafc0d4a2e06563142a3a8f575cf96437e097a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 8d1f04f5b559e179e1549c92e75c16dac79210df
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="quickstart-download-a-list-of-active-users-in-your-tenant"></a>Краткое руководство. Скачивание списка активных пользователей в клиенте
-Если вы являетесь глобальным администратором Office 365 или клиентом Azure Active Directory, то можете скачать список активных пользователей в своем клиенте, чтобы можно было просмотреть не только пользователей, которые получали доступ к PowerApps и Microsoft Flow, но и назначенные им лицензии.
+Если вы являетесь глобальным администратором Office 365 или администратором клиента Azure Active Directory, то можете скачать список активных пользователей в своем клиенте, чтобы можно было просмотреть не только пользователей, которые получали доступ к PowerApps и Microsoft Flow, но и назначенные им лицензии.
 
 В этом кратком руководстве вы узнаете, как скачать список активных пользователей в виде CSV-файла и затем просмотреть его в Excel.
 

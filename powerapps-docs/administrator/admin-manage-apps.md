@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 09ae4b56ea97ecabdc3d1835699c27abb410e0bd
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 307951163c4291ff29d8fe0bdec9237e0bbbe0e4
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-apps-created-in-your-organization"></a>Управление приложениями, созданными в организации
 Администратор среды, глобальный администратор Office 365 или администратор клиента Azure Active Directory может управлять приложениями, созданными в организации.
@@ -30,14 +30,14 @@ ms.lasthandoff: 03/22/2018
 * просматривать источники данных, используемые приложением.
 
 ## <a name="prerequisites"></a>Технические условия
-* План 2 для PowerApps или план 2 для Flow. Кроме того, вы можете получить [бесплатную пробную версию плана 2 для PowerApps](https://web.powerapps.com/signup?redirect=marketing&email=).
-* Разрешения администратора среды PowerApps, глобального администратора Office 365 или администратора клиента Azure Active Directory. Дополнительные сведения см. в статье [Администрирование сред в PowerApps](environments-administration.md).
+* Лицензия плана 2 для PowerApps или плана 2 для Microsoft Flow. Кроме того, вы можете получить [бесплатную пробную версию плана 2 для PowerApps](https://web.powerapps.com/signup?redirect=marketing&email=).
+* Разрешения администратора среды PowerApps, глобального администратора Office 365 или администратора клиента Azure Active Directory. Дополнительные сведения см. в статье [Администрирование сред в PowerApps](environments-administration.md).
 
 ## <a name="manage-an-app"></a>Управление приложением
 1. Войдите в центр администрирования по адресу [https://admin.powerapps.com]([https://admin.powerapps.com).
 2. В области навигации выберите элемент **Среды**, а затем среду, которая содержит приложение, подлежащее управлению.
 
-    Если элемент **Среды** отсутствует в области навигации, это означает, что у вас нет плана 2 для PowerApps, плана 2 для Flow или пробной лицензии на план 2 для PowerApps.
+    Если элемент **Среды** отсутствует в области навигации, это означает, что у вас нет плана 2 для PowerApps, плана 2 для Microsoft Flow или пробной лицензии на план 2 для PowerApps.
 
     ![Меню "Файл", пункт "Общий доступ"](./media/admin-manage-apps/environment.png)
 3. На вкладке **Ресурсы** выберите элемент **Приложения**, а затем приложение, которым необходимо управлять.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: ecfcc5ca60ac453d1cbeb252d6ad97085934c3b2
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: debe9dd0ab3aa948537820cccd3304a6b4225c54
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>Краткое руководство. Скачивание списка приложений, созданных в ваших средах
 Если вы являетесь администратором среды, то можете просмотреть и скачать список приложений в администрируемых вами средах. Если вы являетесь глобальным администратором Office 365 или администратором клиента Azure Active Directory, вы можете просмотреть и скачать список приложений, созданных во всех средах в своей организации.
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="prerequisites"></a>Технические условия
  Чтобы быстро приступить к работе, потребуется следующее:
- * План 2 для PowerApps или план 2 для Flow. Кроме того, вы можете получить [бесплатную пробную версию плана 2 для PowerApps](https://web.powerapps.com/signup?redirect=marketing&email=).
+ * Лицензия плана 2 для PowerApps или плана 2 для Microsoft Flow. Кроме того, вы можете получить [бесплатную пробную версию плана 2 для PowerApps](https://web.powerapps.com/signup?redirect=marketing&email=).
  * Разрешения администратора среды PowerApps, глобального администратора Office 365 или администратора клиента Azure Active Directory. Дополнительные сведения см. в статье [Администрирование сред в PowerApps](environments-administration.md).
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>Вход в центр администрирования PowerApps
