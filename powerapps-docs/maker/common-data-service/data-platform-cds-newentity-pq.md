@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: def53153d3db75b0f56d7878324fa1391c8c58a8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 77906602fad6708857a6c34f44d1bc3c7c258f6c
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="quickstart-add-data-to-an-entity-in-the-common-data-service-by-using-power-query"></a>Краткое руководство. Добавление данных в сущность в Common Data Service с помощью Power Query
 В этой процедуре вы создадите сущность в [Common Data Service для приложений](data-platform-intro.md) и заполните ее данными из веб-канала OData с помощью Power Query. Этим же способом можно интегрировать данные, помимо прочего, из следующих источников в Интернете и локальных источников:
@@ -91,3 +91,4 @@ ms.lasthandoff: 03/22/2018
 
 Мы рады появлению этой функциональной возможности и хотим узнать ваше мнение о ней. [Присылайте нам свои предложения и отзывы](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1) об этой функции.
 
+Если появляется [сообщение об ошибке разрешений](data-platform-cds-newentity-troubleshooting-mashup.md), обратитесь к администратору.
