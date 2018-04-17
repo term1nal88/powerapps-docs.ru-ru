@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: jamesol
-ms.openlocfilehash: 01614846f0b1172e23e2399aa0f1f03f646df84d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5d6db5bded909387b5bc4ef15dc0bf6c163bfa7a
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="manage-licenses-in-my-org"></a>Управление лицензиями в организации
 Эта статья описывает доступ к службе PowerApps и управление им.
@@ -60,9 +60,9 @@ Microsoft PowerApps позволяет пользователям создава
 
 ## <a name="administration-of-powerapps"></a>Администрирование PowerApps
 ### <a name="why-has-the-powerapps-icon-appeared-in-the-office-365-app-launcher"></a>Почему в средстве запуска приложений Office 365 появился значок PowerApps?
-Как было объявлено в августе, Microsoft PowerApps теперь является основной частью пакета Office 365. Через три месяца после этого объявления служба Microsoft PowerApps была включена в рамках существующих номеров SKU Office 365. Теперь пользователи со всего мира могут использовать службу Microsoft PowerApps, и поэтому ее значок появился в средстве запуска приложений. Дополнительные сведения о том, в каких номерах SKU Office 365 присутствует PowerApps, см. в статье [Licensing overview](pricing-billing-skus.md) (Общие сведения о лицензировании).
+Платформа Microsoft PowerApps является основной частью пакета Office 365 и включена в качестве службы в существующем SKU Office 365. Теперь пользователи со всего мира могут использовать службу Microsoft PowerApps: она отображается в разделе "Все приложения" в средстве запуска приложений. Дополнительные сведения о том, в каких номерах SKU Office 365 присутствует PowerApps, см. в статье [Licensing overview](pricing-billing-skus.md) (Общие сведения о лицензировании).
 
-В следующем разделе представлены сведения о том, как удалить плитку PowerApps из средства запуска приложений по умолчанию.
+В следующем разделе представлены сведения о том, как удалить плитку PowerApps из списка "Все приложения" по умолчанию.
 
 ### <a name="how-do-i-remove-powerapps-from-existing-users"></a>Как удалить PowerApps у существующих пользователей?
 Если пользователю была назначена лицензия PowerApps (план 1 или план 2), выполните следующие действия, чтобы удалить ее для этого пользователя:
