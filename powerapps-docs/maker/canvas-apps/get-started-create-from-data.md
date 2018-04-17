@@ -14,20 +14,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 6556e16fef3908a77be02f270fdb25f2f01ed4b4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a2bbcead313961e064a57d2ea567b5596ece4f7a
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="generate-an-app-from-excel-in-powerapps"></a>Создание приложения на основе данных Excel в PowerApps
 В этой статье вы автоматически создадите свое первое приложение в PowerApps с помощью данных из таблицы Excel. Вы выберете файл Excel, создадите приложение, а затем запустите его. Каждое создаваемое приложение имеет экраны для просмотра списка записей и подробных сведений об отдельных записях, а также для создания и изменения записей. Вы можете быстро создать приложение, использующее данные Excel, а затем настроить его так, как вам требуется. 
 
 Файл Excel должен находиться в облачной учетной записи хранения, например OneDrive, Dropbox или Google Диск. В этой статье используется OneDrive для бизнеса.
 
-Для выполнения инструкций в этой статье скачайте файл [FlooringEstimates](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) в Excel и сохраните его [облачной учетной записи хранения](connections/cloud-storage-blob-connections.md). В качестве альтернативы можно использовать собственный файл Excel, если данные в нем [отформатированы в виде таблицы](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664). 
-
 Если у вас нет лицензии на PowerApps, вы можете [зарегистрироваться для получения бесплатной версии](../signup-for-powerapps.md).
+
+## <a name="prerequisites"></a>Технические условия ##
+Для точного выполнения инструкций в этой статье скачайте файл [FlooringEstimates](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) в Excel и сохраните его в [облачной учетной записи хранения](connections/cloud-storage-blob-connections.md).
+
+> [!IMPORTANT]
+> Вы можете использовать собственный файл Excel, однако данные в нем должны быть отформатированы в виде таблицы. Дополнительные сведения см. в разделе [Форматирование таблицы](how-to-excel-tips.md). 
 
 ## <a name="generate-the-app"></a>Создание приложения
 1. Войдите в [PowerApps](https://web.powerapps.com).
