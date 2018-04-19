@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
 ms.openlocfilehash: 307951163c4291ff29d8fe0bdec9237e0bbbe0e4
-ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="manage-apps-created-in-your-organization"></a>Управление приложениями, созданными в организации
 Администратор среды, глобальный администратор Office 365 или администратор клиента Azure Active Directory может управлять приложениями, созданными в организации.

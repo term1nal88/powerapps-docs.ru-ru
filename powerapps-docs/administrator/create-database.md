@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
 ms.openlocfilehash: cc068fc475643ae68e74d22981679dd9b038eb83
-ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Создание базы данных Common Data Service
 Служба Common Data Service может служить хранилищем данных для базы данных и приложений. При этом вы можете создавать собственные настраиваемые сущности или использовать стандартные сущности. Прежде чем создавать базу данных, нужно сначала создать среду (либо вас должны назначить **администратором среды** для существующей среды). Кроме того, вам должна быть назначена соответствующая лицензия. Сведения о приобретении плана для использования службы Common Data Service см. в [информации о ценах](pricing-billing-skus.md).
