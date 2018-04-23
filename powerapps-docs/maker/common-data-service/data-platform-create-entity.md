@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 3/21/2018
 ms.author: clwesene
 ms.openlocfilehash: e22a18bacb258ca46c8f36d647f9ebcc45282929
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Краткое руководство. Создание настраиваемой сущности
 Вы можете создать настраиваемую сущность для хранения данных вашей организации. Для демонстрации этих данных можно разработать приложение, которое использует созданную сущность. После создания сущности можно [создать или изменить в ней одно или несколько полей](data-platform-manage-fields.md) и [создать связь между сущностями](data-platform-entity-lookup.md).

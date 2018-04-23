@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
 ms.openlocfilehash: debe9dd0ab3aa948537820cccd3304a6b4225c54
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>Краткое руководство. Скачивание списка приложений, созданных в ваших средах
 Если вы являетесь администратором среды, то можете просмотреть и скачать список приложений в администрируемых вами средах. Если вы являетесь глобальным администратором Office 365 или администратором клиента Azure Active Directory, вы можете просмотреть и скачать список приложений, созданных во всех средах в своей организации.
