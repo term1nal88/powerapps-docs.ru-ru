@@ -6,6 +6,12 @@
       href: signup-for-powerapps.md
     - name: Регистрация в плане сообщества PowerApps
       href: dev-community-plan.md
+    - name: Новые возможности
+      href: ./canvas-apps/release-notes.md
+    - name: Типичные проблемы и решения
+      href: ./canvas-apps/common-issues-and-resolutions.md
+    - name: Предстоящие и недавние вебинары
+      href: ./canvas-apps/webinars-listing.md
 - name: Приложения на основе холста
   href: ./canvas-apps/getting-started.md
   items:
@@ -123,12 +129,14 @@
               href: ./canvas-apps/add-scrolling-screen.md
             - name: Создание глобального приложения
               href: ./canvas-apps/global-apps.md
-            - name: Создание приложений со специальными возможностями
+            - name: Создание приложения со специальными возможностями
               href: ./canvas-apps/accessible-apps.md
         - name: Управление приложением
           items:
             - name: Основные сведения о сайте powerapps.com
               href: ./canvas-apps/intro-maker-portal.md
+            - name: Работа со средами
+              href: ./canvas-apps/working-with-environments.md
             - name: Изменение приложения
               href: ./canvas-apps/edit-app.md
             - name: Изменение размера и ориентации экрана
@@ -195,21 +203,13 @@
           href: ./canvas-apps/connections-list.md
         - name: 'Требования к системе, ограничения и конфигурация'
           href: ./canvas-apps/limits-and-config.md
-    - name: Ресурсы
-      items:
-        - name: Работа со средами
-          href: ./canvas-apps/working-with-environments.md
-        - name: Новые возможности
-          href: ./canvas-apps/release-notes.md
-        - name: Типичные проблемы и решения
-          href: ./canvas-apps/common-issues-and-resolutions.md
-        - name: Предстоящие и недавние вебинары
-          href: ./canvas-apps/webinars-listing.md
 - name: Приложения на основе модели
   href: ./model-driven-apps/model-driven-app-overview.md
   items:
     - name: Общие сведения о примерах приложений
       href: ./model-driven-apps/overview-model-driven-samples.md
+    - name: Создание первого приложения на основе модели
+      href: .//model-driven-apps/build-first-model-driven-app.md
     - name: Предоставление доступа к приложению на основе модели
       href: ./model-driven-apps/share-model-driven-app.md
     - name: Для разработчиков
