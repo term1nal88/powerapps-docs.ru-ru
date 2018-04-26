@@ -1,7 +1,6 @@
 ---
 title: Краткое руководство по созданию настраиваемой сущности | Документы Майкрософт
 description: Краткое руководство по созданию настраиваемой сущности с нуля или на основе другой сущности.
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: e22a18bacb258ca46c8f36d647f9ebcc45282929
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: 2232083de556bafcc978423dafb0e98e564aaa3b
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Краткое руководство. Создание настраиваемой сущности
 Вы можете создать настраиваемую сущность для хранения данных вашей организации. Для демонстрации этих данных можно разработать приложение, которое использует созданную сущность. После создания сущности можно [создать или изменить в ней одно или несколько полей](data-platform-manage-fields.md) и [создать связь между сущностями](data-platform-entity-lookup.md).

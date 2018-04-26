@@ -1,25 +1,22 @@
 ---
 title: Настройка списков для интеграции SharePoint Online с PowerApps, Microsoft Flow и Power BI | Документация Майкрософт
 description: В этом примере мы настроим списки SharePoint, чтобы использовать их в качестве источника данных для приложений, потоков, отчетов и панелей мониторинга.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 12/19/2017
 ms.author: mblythe
-ms.openlocfilehash: ad9033b51142d1bb6b014abe0cc049a0b5c27ee5
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1dde9695f3fb3f0fe7351a22a1a6f5300fb53da8
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="set-up-lists-for-sharepoint-online-integration-with-powerapps-microsoft-flow-and-power-bi"></a>Настройка списков для интеграции SharePoint Online с PowerApps, Microsoft Flow и Power BI
 > [!NOTE]

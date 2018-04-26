@@ -1,25 +1,22 @@
 ---
 title: Общие сведения о делегировании | Документация Майкрософт
 description: Делегирование помогает эффективно обрабатывать большие наборы данных.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/27/2018
 ms.author: gregli
-ms.openlocfilehash: 98cf32e1b379812e1d3175e6403b7c6fd7fb794b
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: 0800adf43f5a7d74d0334e9f39216a70b9350d6d
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-delegation"></a>Общие сведения о делегировании
 PowerApps поддерживает целый ряд эффективных и полезных функций для фильтрации, сортировки и форматирования таблиц с данными, такие как **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)**, **[AddColumns](functions/function-table-shaping.md)** и многие другие.  Эти функции помогают обеспечить пользователям доступ именно к той информации, которая им необходима.  Для тех, у кого есть опыт работы с базами данных, использование этих функций можно сравнить с составлением запросов к базе.  

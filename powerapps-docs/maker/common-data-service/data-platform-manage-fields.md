@@ -1,7 +1,6 @@
 ---
 title: Краткое руководство по управлению пользовательскими полями в сущности | Документы Майкрософт
 description: Краткое руководство по созданию, просмотру, обновлению и удалению пользовательских полей в сущности.
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 2175b684d88d1823fd2672f672e776ca1e26f164
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a2dfe95cd9e858326a9f014aaac4e595fb27be48
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-manage-custom-fields"></a>Краткое руководство. Управление пользовательскими полями
 Вы можете создать и обновить одно или несколько настраиваемых полей в любой сущности. При создании настраиваемого поля задается набор свойств, таких как имя поля, его отображаемое имя и тип данных, которые оно будет содержать. Дополнительные сведения см. в статье [Метаданные атрибутов](../../developer/common-data-service/entity-attribute-metadata.md).

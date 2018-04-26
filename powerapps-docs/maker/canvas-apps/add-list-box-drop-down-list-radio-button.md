@@ -1,24 +1,21 @@
 ---
 title: Добавление списка, раскрывающегося списка и переключателей | Документация Майкрософт
 description: Создание и настройка элементов множественного выбора в PowerApps
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: lonu
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 8eacac89f7578a83757299b8e627cf757fb1c6d7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1fbaf4f9d740084a1ed0d630b94d1cd41713ba03
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-a-list-box-a-drop-down-list-or-radio-buttons"></a>Добавление списка, раскрывающегося списка и переключателей
 В PowerApps есть элементы управления с возможностью выбора одного или нескольких вариантов, включая переключатели, обычный и раскрывающийся список. В этой статье мы добавим эти элементы управления и воспользуемся формулой **Table** для создания списков. При выборе элемента в списке обновляются другие элементы управления.

@@ -1,25 +1,22 @@
 ---
 title: Функции Update и UpdateIf | Документация Майкрософт
 description: Справочные сведения, содержащие синтаксис и примеры использования функций Update и UpdateIf в PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 1c117bdc138db757efa9de06bd2757c590269dbe
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 3046aa93941a07d44345e09b442cb57b623946c3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="update-and-updateif-functions-in-powerapps"></a>Функции Update и UpdateIf в PowerApps
 Обновление [записей](../working-with-tables.md#records) в [источнике данных](../working-with-data-sources.md).
@@ -55,8 +52,8 @@ ms.lasthandoff: 03/22/2018
 **UpdateIf**( *DataSource*, *Condition1*, *ChangeRecord1* [, *Condition2*, *ChangeRecord2*, ... ] )
 
 * *источник_данных* — обязательный аргумент. Это источник данных, содержащий запись или записи, которые требуется изменить.
-* *Condition(s)* — обязательный аргумент. Формула, возвращающая значение **true** для одной или нескольких записей, которые необходимо изменить.  В формуле можно использовать названия столбцов из аргумента *DataSource*.  
-* *ChangeRecord(s)* — обязательный аргумент.  Для каждого соответствующего условия запись изменений нового значения свойства должна применяться к записям аргумента *DataSource*, которые удовлетворяют этому условию. Если запись указывается в фигурных скобках, значения свойств существующей записи можно использовать в формулах свойств.
+* *Condition(s)*  — обязательный аргумент. Формула, возвращающая значение **true** для одной или нескольких записей, которые необходимо изменить.  В формуле можно использовать названия столбцов из аргумента *DataSource*.  
+* *ChangeRecord(s)*  — обязательный аргумент.  Для каждого соответствующего условия запись изменений нового значения свойства должна применяться к записям аргумента *DataSource*, которые удовлетворяют этому условию. Если запись указывается в фигурных скобках, значения свойств существующей записи можно использовать в формулах свойств.
 
 ## <a name="examples"></a>Примеры
 В этих примерах выполняется замена или изменение записей в источнике данных под названием **IceCream**, в начале которого указаны данные из этой таблицы:

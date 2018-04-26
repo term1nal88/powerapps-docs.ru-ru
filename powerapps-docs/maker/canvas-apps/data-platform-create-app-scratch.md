@@ -1,7 +1,6 @@
 ---
 title: Создание приложения с нуля с помощью базы данных Common Data Service | Документация Майкрософт
 description: Узнайте, как создать приложение для добавления, обновления и удаления записей.
-services: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: cb60ea139be12e51ea9faac7f61ca769d80c1af7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a0aab890e52b49bb0cac382338a8fa02eec736a0
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-an-app-from-scratch-using-a-common-data-service-database"></a>Создание приложения с нуля с помощью базы данных Common Data Service
 Вы можете создать приложение для управления данными в службе Common Data Service с использованием стандартных (встроенных) или настраиваемых сущностей, а также сочетания тех и других.
@@ -41,7 +39,6 @@ ms.lasthandoff: 03/22/2018
     Вы можете разработать приложение с нуля для телефонов или других устройств (например, планшетов). В этой статье будет рассмотрено создание приложения для телефонов.
 
 ## <a name="specify-an-entity"></a>Указание сущности
-
 1. В центре экрана нажмите **подключиться к данным**, а затем в области **Данные** выберите подключение **Common Data Service**.
 
 1. В поле поиска введите или вставьте первые несколько букв фразы **учетные записи**, чтобы отфильтровать список сущностей, установите флажок рядом с пунктом **Учетные записи**, а затем нажмите кнопку **Подключиться**.
@@ -122,7 +119,7 @@ ms.lasthandoff: 03/22/2018
     ![Значок "Далее"](./media/data-platform-create-app-scratch/next-icon.png)
 
 1. В окне **FormScreen** нажмите значок отмены и задайте в качестве значения его свойства **OnSelect** следующую формулу:<br>
-`ResetForm(EditForm1);Navigate(FormScreen, ScreenTransition.None)`
+`ResetForm(EditForm1);Navigate(BrowseScreen, ScreenTransition.None)`
 
     ![Значок отмены](./media/data-platform-create-app-scratch/cancel-icon.png)
 

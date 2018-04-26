@@ -1,25 +1,22 @@
 ---
 title: Функция Validate | Документация Майкрософт
 description: Справочные сведения, включая описание синтаксиса и примеры, относительно функции Validate в PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 933e97d569eb1be173dac7e609fa1a7151df1e18
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 2b3d91a6da0e17ded435aec74a88ea1bbdd4fac1
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="validate-function-in-powerapps"></a>Функция Validate в Microsoft PowerApps
 Функция **Validate** проверяет, являются ли значения одного [столбца](../working-with-tables.md#columns) или всей [записи](../working-with-tables.md#records) допустимыми для [источника данных](../working-with-data-sources.md).  

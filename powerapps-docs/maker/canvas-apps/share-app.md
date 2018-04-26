@@ -1,8 +1,6 @@
 ---
 title: Предоставление общего доступа к приложению | Документация Майкрософт
 description: Предоставьте общий доступ к своему приложению, дав другим пользователям разрешение запускать его или изменять.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 22950d866ed8e61dd0824701ef8af86f5bed2dc6
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5a469c875d82670e30d0be8bef86cc476ca5ea19
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="share-an-app-in-powerapps"></a>Предоставление общего доступа к приложению в PowerApps
 Вы можете создавать приложения, которые помогают решать бизнес-задачи. Но помимо этого вы также можете использовать PowerApps для предоставления совместного доступа к этим приложениям. В этой статье вы узнаете, как предоставить общий доступ к приложениям определенным пользователям, группам безопасности или всей организации.

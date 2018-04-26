@@ -1,32 +1,29 @@
 ---
 title: Общие сведения об источниках данных | Документация Майкрософт
 description: Справочные сведения по работе с подключениями и источниками данных в Microsoft PowerApps.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: ae53ebb6c0ae4743ffd4e978e680920a56452a7d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5e9b9ec980e6dd4aeacfef42b40fe7f52c19d558
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-data-sources-in-powerapps"></a>Общие сведения об источниках данных в PowerApps
 Большинство приложений PowerApps используют внешние сведения, хранящиеся в облачных службах, которые называются **источниками данных**. Типичный пример — это таблица в файле Excel, который хранится в OneDrive для бизнеса. Приложения получают доступ к источникам данных с помощью **подключений**.
 
 В этой статье описаны различные типы источников данных, а также то, как работать с табличными источниками данных.
 
-Вы можете легко создать приложение, выполняющее базовые операции чтения и записи в источнике данных. Но иногда требуется больший уровень контроля над передачей данных в приложение и из него.  В этой статье описываются функции **[Patch](functions/function-patch.md)**, **[DataSourceInfo](functions/function-datasourceinfo.md)**, **[Validate](functions/function-validate.md)** и  **[Errors](functions/function-errors.md)** , которые предоставляют дополнительные возможности управления.
+Вы можете легко создать приложение, выполняющее базовые операции чтения и записи в источнике данных. Но иногда требуется больший уровень контроля над передачей данных в приложение и из него.  В этой статье описываются функции **[Patch](functions/function-patch.md)**, **[DataSourceInfo](functions/function-datasourceinfo.md)**, **[Validate](functions/function-validate.md)** и **[Errors](functions/function-errors.md)**, которые предоставляют дополнительные возможности управления.
 
 ## <a name="kinds-of-data-sources"></a>Типы источников данных
 Источники данных можно подключить к облачной службе или они могут быть локальными для приложения.

@@ -1,25 +1,22 @@
 ---
 title: Функции Filter, Search и LookUp | Документация Майкрософт
 description: Справочные сведения о функциях Filter и LookUp в PowerApps, в том числе описание синтаксиса.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: 2a9fa8c08423cfdfb5094547602041b8dda571f2
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 35dec320b52dd934d616ba067932228b0e15ee3d
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>Функции Filter, Search и LookUp в PowerApps
 Эти функции выполняют поиск [записей](../working-with-tables.md#records) в [таблице](../working-with-tables.md).
@@ -51,7 +48,7 @@ ms.lasthandoff: 03/22/2018
 
 * *Table* — обязательный аргумент. Таблица для поиска.
 * *SearchString* — обязательный параметр. Строка для поиска. Если указать *пустое значение* или пустую строку, возвращаются все записи.
-* *Column(s)* — обязательный параметр. Имена столбцов в *таблице* для поиска. Столбцы для поиска должны содержать текст. Имена столбцов должны быть строками, заключенными в двойные кавычки. Тем не менее эти имена должны быть статическими и не могут вычисляться с помощью формулы. Если параметр *SearchString* найден в данных любого из этих столбцов в виде частичного совпадения, возвращается полная запись.
+* *Column(s)*  — обязательный параметр. Имена столбцов в *таблице* для поиска. Столбцы для поиска должны содержать текст. Имена столбцов должны быть строками, заключенными в двойные кавычки. Тем не менее эти имена должны быть статическими и не могут вычисляться с помощью формулы. Если параметр *SearchString* найден в данных любого из этих столбцов в виде частичного совпадения, возвращается полная запись.
 
 > [!NOTE]
 > Для источников данных SharePoint и Excel, содержащих имена столбцов с пробелами, вместо каждого пробела укажите **"\_x0020\_"**. Например, **Имя столбца** укажите как **Имя_x0020_столбца**.

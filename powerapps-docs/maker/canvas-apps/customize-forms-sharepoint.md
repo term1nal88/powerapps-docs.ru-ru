@@ -1,8 +1,6 @@
 ---
 title: Настройка форм | Документация Майкрософт
 description: Укажите, какие данные должны отображаться в форме, в каком порядке и в каких элементах управления.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: efb5c4f256f7b8bd24eb0c1d7ae64e4389cf54c2
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 98162ce4d291b976c816326efc5d4c6d4d18c870
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="customize-forms-in-powerapps"></a>Настройка форм в PowerApps
 Настройте элементы управления **Форма просмотра** и **Форма редактирования** таким образом, чтобы наиболее важные данные отображались в них в интуитивно понятном порядке, упрощающих восприятие и изменение данных.

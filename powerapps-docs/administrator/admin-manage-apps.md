@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 307951163c4291ff29d8fe0bdec9237e0bbbe0e4
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: ccecf87da6ea93cf9764cce7fd9449e1e5c75934
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="manage-apps-created-in-your-organization"></a>Управление приложениями, созданными в организации
 Администратор среды, глобальный администратор Office 365 или администратор клиента Azure Active Directory может управлять приложениями, созданными в организации.
@@ -34,7 +34,7 @@ ms.lasthandoff: 04/23/2018
 * Разрешения администратора среды PowerApps, глобального администратора Office 365 или администратора клиента Azure Active Directory. Дополнительные сведения см. в статье [Администрирование сред в PowerApps](environments-administration.md).
 
 ## <a name="manage-an-app"></a>Управление приложением
-1. Войдите в центр администрирования по адресу [https://admin.powerapps.com]([https://admin.powerapps.com).
+1. Войдите в центр администрирования по адресу [https://admin.powerapps.com](https://admin.powerapps.com).
 2. В области навигации выберите элемент **Среды**, а затем среду, которая содержит приложение, подлежащее управлению.
 
     Если элемент **Среды** отсутствует в области навигации, это означает, что у вас нет плана 2 для PowerApps, плана 2 для Microsoft Flow или пробной лицензии на план 2 для PowerApps.
