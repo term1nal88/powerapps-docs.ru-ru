@@ -1,24 +1,22 @@
 ---
 title: Использование элемента управления "Форма сущности" | Документация Майкрософт
 description: Создавайте приложения быстрее, используя элемент управления "Форма сущности" для добавления многофункциональных форм для сущности Common Data Service.
-services: powerapps
 documentationcenter: na
 author: aneesmsft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/11/2017
 ms.author: aneesa
-ms.openlocfilehash: 9e9241db35928437651d79b1bc18649e9c5d90ed
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: fd3c3c002ab877b78a2065e37c6a8f2ddcb91fb6
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-the-entity-form-control"></a>Использование элемента управления "Форма сущности"
 Создавайте приложения быстрее, используя элемент управления **Форма сущности** для добавления полнофункциональных форм для сущности Common Data Service.

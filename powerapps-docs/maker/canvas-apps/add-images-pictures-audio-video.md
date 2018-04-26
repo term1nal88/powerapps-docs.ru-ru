@@ -1,24 +1,21 @@
 ---
 title: Внедрение файлов мультимедиа в приложение и их отправка | Документация Майкрософт
 description: Сведения об отображении файлов мультимедиа в приложении и их отправке в источник данных.
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: karthik-1
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 75ec8131a4e9a4be796f06669d8d25ff559eaf69
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7ee752f5606f10f66ad7c8dc49e05233225c0a89
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>Использование файлов мультимедиа в PowerApps
 В этой статье описано, как внедрить файлы мультимедиа в приложение, отправить нарисованные с помощью пера рисунки в источник данных и просмотреть изображения из источника данных в приложении. В качестве источника данных мы используем файл Excel в OneDrive для бизнеса.

@@ -1,25 +1,22 @@
 ---
 title: Отображение списка элементов | Документация Майкрософт
 description: С помощью коллекции вы можете отобразить в приложении список элементов, а также отфильтровать его по определенному критерию.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: karthik-1
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 09/28/2017
 ms.author: sharik
-ms.openlocfilehash: 04499f276e179fe6b57103a3d28a68ba6fe6b7bb
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 60ec1fc7f896aeb3391ed794920e987b232d09f3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>Отображение списка элементов в PowerApps
 Чтобы отобразить список элементов из любого источника данных, добавьте в приложение элемент управления **[Gallery](controls/control-gallery.md)** (Коллекция). В этой статье в качестве источника данных используется Excel. Чтобы отфильтровать список, настройте элемент управления **Коллекция** таким образом, чтобы в нем отображались только элементы, соответствующие определенному условию, которое задается в **[поле для ввода текста](controls/control-text-input.md)**.

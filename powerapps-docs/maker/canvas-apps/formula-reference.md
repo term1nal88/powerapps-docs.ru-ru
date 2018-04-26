@@ -1,25 +1,22 @@
 ---
 title: Функции, сигналы и перечисления | Документация Майкрософт
 description: Справочные сведения о функциях, сигналах и перечислениях в PowerApps.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: 3ceb9eae42e88e7cfb78492f9e58812481a0881d
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: d7dd33954d337bbfc65b486333e89c4598b11305
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="formula-reference-for-powerapps"></a>Справочник формул для PowerApps
 Формулы объединяют множество элементов.  Ниже перечислены следующие элементы:
@@ -60,7 +57,7 @@ ms.lasthandoff: 03/28/2018
 ## <a name="b"></a>B
 **[Back](functions/function-navigate.md)** — отображает предыдущий экран.  
 
-**[Blank](functions/function-isblank-isempty.md)** — возвращает *пустое* значение, которое может использоваться для вставки значения NULL в источник данных.
+**[Blank](functions/function-isblank-isempty.md)**  — возвращает *пустое* значение, которое может использоваться для вставки значения NULL в источник данных.
 
 ## <a name="c"></a>C
 **[Calendar](functions/function-clock-calendar.md)** — извлекает календарные данные для текущего значения языкового стандарта.

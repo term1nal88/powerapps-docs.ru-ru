@@ -1,25 +1,22 @@
 ---
 title: Начало работы с формулами | Документация Майкрософт
 description: Используйте формулы для настройки приложения.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 076b9a67d700cc318491471182fe273b2edaaff9
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: bf87535f31e214119bc59eca89e50d78a51637e6
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="get-started-with-formulas"></a>Начало работы с формулами
 Настраивайте приложения с помощью формул, которые не только вычисляют значения и выполняют другие задачи (как в Excel), но и реагируют на ввод данных пользователем (согласно требованиям приложения).
@@ -86,7 +83,7 @@ ms.lasthandoff: 03/22/2018
 
 ![Иллюстрация пересчета в Excel с добавлением двух чисел](./media/working-with-formulas/excel-recalc.png)
 
-Чтобы достичь аналогичного результата в PowerApps, нужно добавить элементы управления и задать их свойства. В этом примере показана метка из предыдущей процедуры и два элемента управления **[Текстовое поле](controls/control-text-input.md)** — **TextInput1** и **TextInput2**.
+Чтобы достичь аналогичного результата в PowerApps, нужно добавить элементы управления и задать их свойства. В этом примере показана метка из предыдущей процедуры и два элемента управления **[Текстовое поле](controls/control-text-input.md)**  — **TextInput1** и **TextInput2**.
 
 ![Иллюстрация пересчета в PowerApps с добавлением двух чисел](./media/working-with-formulas/recalc1.png)
 

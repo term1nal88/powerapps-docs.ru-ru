@@ -1,7 +1,6 @@
 ---
 title: Краткое руководство по установлению отношений между сущностями через поле подстановки | Документы Майкрософт
 description: Краткое руководство по созданию отношения между сущностями с помощью поля подстановки
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 37450b6e9f43780deaed4ff34b005472501bdb23
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a607058d1e26f37a4bffa054d9dc148be8b6b011
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-create-a-relationship"></a>Краткое руководство. Создание отношения
 Данные в одной сущности часто связаны с данными в другой. Например, у вас могут быть сущности **Учителя** и **Занятие**, а сущность **Занятие** может быть связана отношением подстановки с сущностью **Учителя** для показа информации о том, кто из учителей ведет занятие. Поле подстановки можно использовать для отображения данных из сущности **Учителя**. Такое поле также называется полем для поиска.

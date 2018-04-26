@@ -1,25 +1,22 @@
 ---
 title: Добавление подключений к источникам данных в облачных службах и управление ими | Документация Майкрософт
 description: Добавление, удаление и обновление подключений к таким источникам данных, как SharePoint, SQL Server, OneDrive для бизнеса, Salesforce и Office 365
-services: ''
-suite: powerapps
 documentationcenter: na
-author: archnair
-manager: anneta
+author: lancedMicrosoft
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/09/2017
-ms.author: archanan
-ms.openlocfilehash: 890bf55524189abb7b4d5c9c62a8318ae1637546
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: lanced
+ms.openlocfilehash: 63db86984ef68571329aa953cb6bbaac505d834e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="manage-your-connections-in-powerapps"></a>Управление подключениями в PowerApps
 На сайте [powerapps.com](https://web.powerapps.com) можно создать или удалить подключение из PowerApps к одному или нескольким источникам данных, а также обновить для него учетные данные.

@@ -1,25 +1,22 @@
 ---
 title: Внедрение отчета о проекте Power BI в SharePoint Online | Документация Майкрософт
 description: В этой задаче мы внедрим отчет Power BI на тот же веб-сайт SharePoint Online, где размещены два наши списка.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 01/30/2018
 ms.author: mblythe
-ms.openlocfilehash: 94efa8b116fac1f6f15509c511fc6e15134e8540
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 0a71bc45fbcc3c36337571b9d80ade0d2cf9cbe2
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-the-power-bi-project-report-in-sharepoint-online"></a>Внедрение отчета о проекте Power BI в SharePoint Online
 > [!NOTE]

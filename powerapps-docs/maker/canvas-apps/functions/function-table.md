@@ -1,25 +1,22 @@
 ---
 title: Функция Table | Документация Майкрософт
 description: Справочные сведения, включая описание синтаксиса и примеры, относительно функции Table в PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 2f543a75019bfe5d665aedb2e6171200e8321690
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 28d393d9be240b3e9ba57d108761c7a38f013b24
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="table-function-in-powerapps"></a>Функция Table в PowerApps
 Создание временной [таблицы](../working-with-tables.md).
@@ -36,7 +33,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="syntax"></a>Синтаксис
 **Table**(*запись_1*[, *запись_2*, ...])
 
-* *запись(_n)* — обязательный аргумент. Записи, добавляемые в таблицу.
+* *запись(_n)*  — обязательный аргумент. Записи, добавляемые в таблицу.
 
 ## <a name="examples"></a>Примеры
 * Задайте для свойства **[Items](../controls/properties-core.md)** (Элементы) списка следующую формулу:

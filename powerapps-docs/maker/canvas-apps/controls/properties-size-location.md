@@ -1,25 +1,22 @@
 ---
 title: Свойства размера и расположения | Документация Майкрософт
 description: Справочные сведения о таких свойствах, как Height и Width.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 991262698ee12d4149dee95e27ecc3df311a849e
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7df2782bc18d1c999383226e31033035fb59cea1
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="size-and-location-properties-in-powerapps"></a>Свойства размера и расположения в PowerApps.
 ## <a name="overview"></a>Обзор

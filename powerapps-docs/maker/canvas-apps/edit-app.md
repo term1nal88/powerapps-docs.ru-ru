@@ -1,25 +1,22 @@
 ---
 title: Изменение приложения | Документация Майкрософт
 description: Пошаговые инструкции по изменению приложений и сценарии блокировки сеансов.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: karthik-1
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 05/19/2017
 ms.author: sharik
-ms.openlocfilehash: a71aa71ec80a60f2aec4ce179abcade3f9eef964
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 782674cd8d9bbcc81580302a9936bcf47de4b68b
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="edit-an-app-in-powerapps"></a>Изменение приложения в PowerApps
 Вы можете изменить любое приложение, которое вы создали, которым вы владеете или для которого у вас есть разрешения **Может изменять**. Изменить приложение можно в PowerApps Studio в Интернете или PowerApps Studio для Windows. При попытке изменить приложение, которое уже открыто для редактирования в другом месте, появится сообщение о том, что приложение уже открыто вами или другим пользователем.

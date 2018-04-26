@@ -1,25 +1,22 @@
 ---
 title: Операторы | Документация Майкрософт
 description: Справочные сведения об операторах в PowerApps, в том числе описание синтаксиса и примеры
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: 3250251e02170d2dd7bab441bc3c94705216ec00
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9dce0ac36cd16faaa9c8b9a0b34d15eff086ab2e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="operators-and-data-types-in-powerapps"></a>Операторы и типы данных в PowerApps
 Некоторые из этих операторов зависят от языка, используемого на компьютере автора.  Дополнительные сведения см. в статье [Глобальная поддержка](../global-apps.md).
@@ -42,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 | **&lt;=** |&nbsp; |**Price &lt;= 100** |Меньше или равно |
 | **&lt;&gt;** |&nbsp; |**Price &lt;&gt; 100** |Не равно |
 | **&amp;** |Оператор объединения строк |**&quot;hello&quot; &amp; &quot; &quot; &amp; &quot;world&quot;** |Непрерывно отображает несколько строк. |
-| **&amp;&amp;**или **And** |Логические операторы |**Price &lt; 100 &amp;&amp; Slider1.Value = 20**<br>или **Price &lt; 100 And Slider1.Value = 20** |Логическая конъюнкция (эквивалентна функции **[And](function-logicals.md)**). |
+| **&amp;&amp;** или **And** |Логические операторы |**Price &lt; 100 &amp;&amp; Slider1.Value = 20**<br>или **Price &lt; 100 And Slider1.Value = 20** |Логическая конъюнкция (эквивалентна функции **[And](function-logicals.md)**). |
 | **&#124;&#124;** или **Or** |&nbsp; |**Price &lt; 100 &#124;&#124; Slider1.Value = 20** или **Price &lt; 100 Or Slider1.Value = 20** |Логическое сложение, эквивалентное функции **[Or](function-logicals.md)** |
 | **!** или **Not** |&nbsp; |**!(Price &lt; 100)** или **Not (Price &lt; 100)** |Логическое отрицание (эквивалентно функции **[Not](function-logicals.md)**). |
 | **exactin** |[Операторы принадлежности](#in-and-exactin-operators) |**Gallery1.Selected exactin SavedItems** |Принадлежит [коллекции](../working-with-data-sources.md#collections) или таблице. |
@@ -86,7 +83,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="disambiguation-operator"></a>Оператор устранения неоднозначности
 Некоторые функции создают [области записей](../working-with-tables.md#record-scope) для доступа к полям таблицы при обработке каждой записи, например **Filter**, **AddColumns** и **Sum**.  Имена полей, добавленные с помощью области записи, переопределяют такие же имена из любого другого места в приложении.  В этом случае с помощью оператора устранения неоднозначности **@** можно по-прежнему получать доступ к значениям за пределами области записи.
 
-* Для доступа к значениям из вложенных областей записей используйте оператор **@**, указав имя нужной таблицы в формате ***Table*[@*FieldName*]**.  
+* Для доступа к значениям из вложенных областей записей используйте оператор **@**, указав имя нужной таблицы в формате ***Table *[@* FieldName*]**.  
 * Чтобы получить доступ к глобальным значениям, таким как источники данных, коллекции и переменные контекста, используйте шаблон **[@*ObjectName*]** (без обозначения таблицы).
 
 Дополнительные сведения и примеры см. в разделе об [областях записей](../working-with-tables.md#record-scope).

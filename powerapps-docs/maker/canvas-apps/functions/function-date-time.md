@@ -1,25 +1,22 @@
 ---
 title: Функции Date и Time | Документация Майкрософт
 description: Справочные сведения о функциях Date и Time в PowerApps, включая описание синтаксиса и примеры.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: bed2bc9b13b4d167d6852b7029e4e69d54d50413
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1d6c2485a8f54e0676cee5443085fb962f144831
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="date-and-time-functions-in-powerapps"></a>Функции Date и Time в PowerApps
 Преобразуют компоненты даты и времени в значение даты и времени.

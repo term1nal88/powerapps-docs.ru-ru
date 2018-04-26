@@ -1,25 +1,22 @@
 ---
 title: Общие сведения о таблицах | Документация Майкрософт
 description: Справочные сведения о работе с таблицами, столбцами и записями
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 794263448bc067ef8bf44ae46480865c56fdbdf8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 42a7c0db6aaf46d8cdbd112cf72c6f95f58dc9ec
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>Общие сведения о таблицах и записях в PowerApps
 Вы можете создать приложение с доступом к сведениям в Microsoft Excel, SharePoint, SQL Server и ряде других источников, хранящих данные в виде записей и таблиц. Чтобы работать с данными такого типа максимально эффективно, ознакомьтесь с основными понятиями, которые лежат в основе этих структур.
@@ -119,17 +116,17 @@ ms.lasthandoff: 03/22/2018
 ### <a name="table-functions-and-control-properties"></a>Функции для таблиц и свойства элементов управления
 Многие функции в PowerApps принимают имя таблицы в качестве аргумента, создают вторую таблицу с теми же данными, обрабатывают новую таблицу на основе других аргументов, а затем возвращают результат. Эти функции не изменяют исходную таблицу, даже если она является источником данных.
 
-* **[Sort](functions/function-sort.md)**, **[Filter](functions/function-filter-lookup.md)** — сортирует и фильтрует записи.
-* **[FirstN](functions/function-first-last.md)**, **[LastN](functions/function-first-last.md)** — возвращает первые или последние N записей таблицы.
-* **[Abs](functions/function-numericals.md)**, **[Sqrt](functions/function-numericals.md)**, **[Round](functions/function-round.md)**, **[RoundUp](functions/function-round.md)**, **[RoundDown](functions/function-round.md)** — выполняет с каждой записью таблицы из одного столбца арифметические операции, результатом которых является таблица с одним столбцом.
-* **[Left](functions/function-left-mid-right.md)**, **[Mid](functions/function-left-mid-right.md)**, **[Right](functions/function-left-mid-right.md)**, **[Replace](functions/function-replace-substitute.md)**, **[Substitute](functions/function-replace-substitute.md)**, **[Trim](functions/function-trim.md)**, **[Lower](functions/function-lower-upper-proper.md)**, **[Upper](functions/function-lower-upper-proper.md)**, **[Proper](functions/function-lower-upper-proper.md)** — обрабатывает строки каждой записи таблицы из одного столбца, создавая в результате таблицу строк с одним столбцом.
-* **[Len](functions/function-len.md)** — возвращает таблицу из одного столбца, содержащего длины каждой из строк, для столбца строк.
-* **[Concatenate](functions/function-concatenate.md)** — объединяет несколько столбцов строк, создавая в результате таблицу строк из одного столбца.
-* **[AddColumns](functions/function-table-shaping.md)**, **[DropColumns](functions/function-table-shaping.md)**, **[RenameColumns](functions/function-table-shaping.md)**, **[ShowColumns](functions/function-table-shaping.md)** — обрабатывает столбец таблицы, в результате чего создается новая таблица с различными столбцами.
-* **[Distinct](functions/function-distinct.md)** — удаляет дубликаты записей.
-* **[Shuffle](functions/function-shuffle.md)** — переставляет записи в произвольном порядке.
-* **[HashTags](functions/function-hashtags.md)** — ищет хэш-теги в строке.
-* **[Errors](functions/function-errors.md)** — предоставляет сведения об ошибке при работе с источником данных.
+* **[Sort](functions/function-sort.md)**, **[Filter](functions/function-filter-lookup.md)**  — сортирует и фильтрует записи.
+* **[FirstN](functions/function-first-last.md)**, **[LastN](functions/function-first-last.md)**  — возвращает первые или последние N записей таблицы.
+* **[Abs](functions/function-numericals.md)**, **[Sqrt](functions/function-numericals.md)**, **[Round](functions/function-round.md)**, **[RoundUp](functions/function-round.md)**, **[RoundDown](functions/function-round.md)**  — выполняет с каждой записью таблицы из одного столбца арифметические операции, результатом которых является таблица с одним столбцом.
+* **[Left](functions/function-left-mid-right.md)**, **[Mid](functions/function-left-mid-right.md)**, **[Right](functions/function-left-mid-right.md)**, **[Replace](functions/function-replace-substitute.md)**, **[Substitute](functions/function-replace-substitute.md)**, **[Trim](functions/function-trim.md)**, **[Lower](functions/function-lower-upper-proper.md)**, **[Upper](functions/function-lower-upper-proper.md)**, **[Proper](functions/function-lower-upper-proper.md)**  — обрабатывает строки каждой записи таблицы из одного столбца, создавая в результате таблицу строк с одним столбцом.
+* **[Len](functions/function-len.md)**  — возвращает таблицу из одного столбца, содержащего длины каждой из строк, для столбца строк.
+* **[Concatenate](functions/function-concatenate.md)**  — объединяет несколько столбцов строк, создавая в результате таблицу строк из одного столбца.
+* **[AddColumns](functions/function-table-shaping.md)**, **[DropColumns](functions/function-table-shaping.md)**, **[RenameColumns](functions/function-table-shaping.md)**, **[ShowColumns](functions/function-table-shaping.md)**  — обрабатывает столбец таблицы, в результате чего создается новая таблица с различными столбцами.
+* **[Distinct](functions/function-distinct.md)**  — удаляет дубликаты записей.
+* **[Shuffle](functions/function-shuffle.md)**  — переставляет записи в произвольном порядке.
+* **[HashTags](functions/function-hashtags.md)**  — ищет хэш-теги в строке.
+* **[Errors](functions/function-errors.md)**  — предоставляет сведения об ошибке при работе с источником данных.
 
 Функцию, которой требуется один столбец в качестве аргумента, можно выполнить для таблицы, содержащей несколько столбцов. Чтобы извлечь один столбец из таблицы с несколькими столбцами, используйте функцию **[ShowColumns](functions/function-table-shaping.md)** в качестве аргумента функции, которую необходимо применить, как показано в следующем примере:<br>**Lower( ShowColumns( Products, "Name" ) )**
 
@@ -137,9 +134,9 @@ ms.lasthandoff: 03/22/2018
 
 Если указать в качестве аргумента для одной из этих функций источник данных, функция изменит записи этого источника и в общем случае возвратит новое значение источника данных в виде таблицы.
 
-* **[Collect](functions/function-clear-collect-clearcollect.md)**, **[Clear](functions/function-clear-collect-clearcollect.md)**, **[ClearCollect](functions/function-clear-collect-clearcollect.md)** — создает и добавляет записи в коллекцию, а также удаляет их из нее.
-* **[Update](functions/function-update-updateif.md)**, **[UpdateIf](functions/function-update-updateif.md)** — обновляет записи, которые соответствуют одному или нескольким заданным условиям.
-* **[Remove](functions/function-remove-removeif.md)**, **[RemoveIf](functions/function-remove-removeif.md)** — удаляет записи, которые соответствуют одному или нескольким заданным условиям.
+* **[Collect](functions/function-clear-collect-clearcollect.md)**, **[Clear](functions/function-clear-collect-clearcollect.md)**, **[ClearCollect](functions/function-clear-collect-clearcollect.md)**  — создает и добавляет записи в коллекцию, а также удаляет их из нее.
+* **[Update](functions/function-update-updateif.md)**, **[UpdateIf](functions/function-update-updateif.md)**  — обновляет записи, которые соответствуют одному или нескольким заданным условиям.
+* **[Remove](functions/function-remove-removeif.md)**, **[RemoveIf](functions/function-remove-removeif.md)**  — удаляет записи, которые соответствуют одному или нескольким заданным условиям.
 
 Свойства следующих элементов управления являются таблицами:
 
@@ -182,16 +179,16 @@ ms.lasthandoff: 03/22/2018
 ### <a name="record-functions-and-control-properties"></a>Функции для записей и свойства элементов управления
 Функции, возвращающие записи:
 
-* **[FirstN](functions/function-first-last.md)**, **[LastN](functions/function-first-last.md)** — возвращает одну или несколько первых или последних записей таблицы.
-* **[Lookup](functions/function-filter-lookup.md)** — возвращает первую запись таблицы, которая соответствует одному или нескольким условиям.
-* **[Patch](functions/function-patch.md)** — обновляет источник данных или выполняет слияние записей.
-* **[Defaults](functions/function-defaults.md)** — возвращает значения по умолчанию для источника данных.
+* **[FirstN](functions/function-first-last.md)**, **[LastN](functions/function-first-last.md)**  — возвращает одну или несколько первых или последних записей таблицы.
+* **[Lookup](functions/function-filter-lookup.md)**  — возвращает первую запись таблицы, которая соответствует одному или нескольким условиям.
+* **[Patch](functions/function-patch.md)**  — обновляет источник данных или выполняет слияние записей.
+* **[Defaults](functions/function-defaults.md)**  — возвращает значения по умолчанию для источника данных.
 
 Свойства, возвращающие записи:
 
 * **Selected** — применяется для коллекций и списков. Возвращает выбранную в данный момент запись.
 * **Updates** — применяется для коллекций.  Объединяет все изменения, вносимые пользователем в форме ввода данных.
-* **[Update](functions/function-update-updateif.md)** — применяется для элементов управления вводом, например элементов управления текстовым вводом и ползунков. Задает отдельные свойства, собираемые в коллекции.
+* **[Update](functions/function-update-updateif.md)**  — применяется для элементов управления вводом, например элементов управления текстовым вводом и ползунков. Задает отдельные свойства, собираемые в коллекции.
 
 ## <a name="record-scope"></a>Область действия записи
 Некоторые функции при выполнении вычисляют формулы для всех записей таблицы по отдельности.  Результат формулы используется различными способами:  
@@ -237,7 +234,7 @@ ms.lasthandoff: 03/22/2018
 ### <a name="disambiguation"></a>Устранение неоднозначности
 Имена полей, добавленные с использованием области записи, переопределяют такие же имена из любого места в приложении.  В этом случае с помощью [оператора устранения неоднозначности **@**](functions/operators.md) можно по-прежнему получать доступ к значениям за пределами области записи.
 
-* Для доступа к значениям из вложенных областей записей используйте оператор **@**, указав имя нужной таблицы в формате ***Table*[@*FieldName*]**.  
+* Для доступа к значениям из вложенных областей записей используйте оператор **@**, указав имя нужной таблицы в формате ***Table *[@* FieldName*]**.  
 * Чтобы получить доступ к глобальным значениям, таким как источники данных, коллекции и переменные контекста, используйте шаблон **[@*ObjectName*]** (без обозначения таблицы).
 
 Если таблица, над которой выполняется операция, представляет собой выражение, например **Filter( *table*, ... )**, оператор устранения неоднозначности использовать нельзя.  Не используя оператор устранения неоднозначности, получить доступ к полям этого табличного выражения можно только в наиболее глубоко вложенной области записи.
