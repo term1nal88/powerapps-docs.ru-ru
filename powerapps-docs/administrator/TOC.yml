@@ -38,17 +38,19 @@
       href: admin-manage-apps.md
     - name: Перемещение приложения между клиентами и средами
       href: environment-and-tenant-migration.md
-    - name: Реагирование на запросы субъектов данных на доступ к системным журналам
-      href: powerapps-gdpr-dsr-guide-systemlogs.md
-    - name: Реагирование на запросы субъектов данных на доступ к данным клиентов PowerApps
-      href: powerapps-gdpr-dsr-guide.md
+    - name: Реагирование на запросы субъектов данных
       items:
-        - name: Реагирование на запросы субъектов данных на экспорт данных
-          href: powerapps-gdpr-export-dsr.md
-        - name: Реагирование на запросы субъектов данных на удаление данных
-          href: powerapps-gdpr-delete-dsr.md
-    - name: Реагирование на запросы субъектов данных на доступ к данным клиентов CDS for Apps
-      href: common-data-service-gdpr-dsr-guide.md
+        - name: Системные журналы
+          href: powerapps-gdpr-dsr-guide-systemlogs.md
+        - name: Данные клиента PowerApps
+          href: powerapps-gdpr-dsr-guide.md
+          items:
+            - name: Экспорт данных
+              href: powerapps-gdpr-export-dsr.md
+            - name: Удаление данных
+              href: powerapps-gdpr-delete-dsr.md
+        - name: Данные клиента CDS for Apps
+          href: common-data-service-gdpr-dsr-guide.md
 - name: Справочные материалы
   items:
     - name: Поддержка PowerShell в PowerApps (предварительная версия)

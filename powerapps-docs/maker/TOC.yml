@@ -35,14 +35,18 @@
       items:
         - name: Настройка созданного приложения
           items:
-            - name: Настройка экрана обзора
+            - name: "1.\_Коллекции"
               href: ./canvas-apps/customize-layout-sharepoint.md
-            - name: Настройка формы
+            - name: "2.\_Формы"
               href: ./canvas-apps/customize-forms-sharepoint.md
-            - name: Настройка карточки
+            - name: "3.\_Карточки"
               href: ./canvas-apps/customize-card.md
         - name: Создание приложения с нуля
-          href: ./canvas-apps/data-platform-create-app-scratch.md
+          items:
+            - name: "Служба Common\_Data\_Service для приложений"
+              href: ./canvas-apps/data-platform-create-app-scratch.md
+            - name: Excel
+              href: ./canvas-apps/get-started-create-from-blank.md
         - name: Общий доступ к приложению
           href: ./canvas-apps/share-app.md
         - name: "Внедрение приложения в Power\_BI"
@@ -95,8 +99,6 @@
       items:
         - name: Настройка формы списка SharePoint
           href: ./canvas-apps/customize-list-form.md
-        - name: Создание приложения Excel с нуля
-          href: ./canvas-apps/get-started-create-from-blank.md
         - name: Настройка приложения
           items:
             - name: Добавление и настройка средств контроля
@@ -131,6 +133,9 @@
               href: ./canvas-apps/global-apps.md
             - name: Создание приложения со специальными возможностями
               href: ./canvas-apps/accessible-apps.md
+              items:
+                - name: Цвет
+                  href: ./canvas-apps/accessible-apps-color.md
         - name: Управление приложением
           items:
             - name: Основные сведения о сайте powerapps.com
