@@ -1,6 +1,6 @@
 ---
-title: Введение | Документация Майкрософт
-description: Информация о создании и использовании пользовательских бизнес-приложений с помощью Microsoft PowerApps
+title: Основные сведения о приложениях на основе холста | Документация Microsoft
+description: Сведения о проектировании и создании пользовательских бизнес-приложений на холсте в PowerApps
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -15,13 +15,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/14/2018
 ms.author: anneta
-ms.openlocfilehash: 2d45f6a054fb95ab3a4ebf037ac1115497724ef4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 984c53417f8684add431dffc6d7c7d89d707eaf2
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 ---
-# <a name="introduction-to-powerapps"></a>Введение в PowerApps
+# <a name="what-are-canvas-apps-in-powerapps"></a>Основные сведения о приложениях на основе холста в PowerApps
 Вас приветствует служба PowerApps. Служба PowerApps позволяет создавать бизнес-приложения, выполняемые в браузере, на телефоне или планшете, даже не имея опыта в программировании. PowerApps объединяет концепции визуального конструирования в стиле PowerPoint с выражениями Excel для логики и работы с данными.
 
 Благодаря PowerApps можно интегрировать бизнес-данные из [разнообразных источников Майкрософт и сторонних поставщиков](connections-list.md) в одном эффективном приложении. Вы также можете создавать приложения, работающие в SharePoint, Power BI и Teams.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 913e9b78445db03fbd59fedbdd0bf9d992175bf1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e9ddbc3e413b99fd7afb8d483a161d50f9034673
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="color-and-border-properties-in-powerapps"></a>Свойства цвета и границы в PowerApps
 ## <a name="overview"></a>Обзор
@@ -48,12 +48,17 @@ ms.lasthandoff: 03/22/2018
 
 * Применяется к элементам управления **[Добавить изображение](control-add-picture.md)**, **[Звук](control-audio-video.md)**, **[Кнопка](control-button.md)**, **[Карта](control-card.md)**, **[Флажок](control-check-box.md)**, **[Средство выбора даты](control-date-picker.md)**, **[Форма просмотра](control-form-detail.md)**, **[Раскрывающийся список](control-drop-down.md)**, **[Форма редактирования](control-form-detail.md)**, **[Экспорт](control-export-import.md)**, **[Коллекция](control-gallery.md)**, **[HTML-текст](control-html-text.md)**, **[Значок](control-shapes-icons.md)**, **[Изображение](control-image.md)**, **[Импорт](control-export-import.md)**, **[Метка](control-text-box.md)**, **[Список](control-list-box.md)**, **[Микрофон](control-microphone.md)**, **[Средство просмотра PDF](control-pdf-viewer.md)**, **[Ввод с помощью пера](control-pen-input.md)**, **[Переключатель](control-radio.md)**, **[Оценка](control-rating.md)**, **[Экран](control-screen.md)**, **[Форма](control-shapes-icons.md)**, **[Ввод текста](control-text-input.md)**, **[Таймер](control-timer.md)**, **[Переключатель](control-toggle.md)** и **[Видео](control-audio-video.md)**.
 
-**FocusedBorderThickness** — толщина границы элемента управления, когда он находится в фокусе клавиатуры.
+## <a name="focused"></a>Режим фокусировки
+Эти свойства действуют при фокусировании на элементе управления.
 
-* Применяется к элементам управления **[Добавить изображение](control-add-picture.md)**, **[Звук](control-audio-video.md)**, **[Кнопка](control-button.md)**, **[Карта](control-card.md)**, **[Флажок](control-check-box.md)**, **[Средство выбора даты](control-date-picker.md)**, **[Форма просмотра](control-form-detail.md)**, **[Раскрывающийся список](control-drop-down.md)**, **[Форма редактирования](control-form-detail.md)**, **[Экспорт](control-export-import.md)**, **[Коллекция](control-gallery.md)**, **[HTML-текст](control-html-text.md)**, **[Значок](control-shapes-icons.md)**, **[Изображение](control-image.md)**, **[Импорт](control-export-import.md)**, **[Метка](control-text-box.md)**, **[Список](control-list-box.md)**, **[Микрофон](control-microphone.md)**, **[Средство просмотра PDF](control-pdf-viewer.md)**, **[Ввод с помощью пера](control-pen-input.md)**, **[Переключатель](control-radio.md)**, **[Оценка](control-rating.md)**, **[Экран](control-screen.md)**, **[Форма](control-shapes-icons.md)**, **[Ввод текста](control-text-input.md)**, **[Переключатель](control-toggle.md)** и **[Видео](control-audio-video.md)**.
+**FocusedBorderColor** – цвет границы элемента управления при наведении фокуса.
+
+**FocusedBorderThickness** — толщина границы элемента управления при наведении фокуса.
+
+* Эти свойства применяются к элементам управления **[Add picture](control-add-picture.md)**, **[Attachments](control-attachments.md)**, **[Audio](control-audio-video.md)**, **[Button](control-button.md)**, **[Camera](control-camera.md)**, **[Check box](control-check-box.md)**, **[Combo box](control-combo-box.md)**, **[Date Picker](control-date-picker.md)**, **[Drop down](control-drop-down.md)**, **[Export](control-export-import.md)**, **[Gallery](control-gallery.md)**, **[Icon](control-shapes-icons.md)**, **[Image](control-image.md)**, **[Import](control-export-import.md)**, **[Label](control-text-box.md)**, **[List Box](control-list-box.md)**, **[Microphone](control-microphone.md)**, **[Radio](control-radio.md)**, **[Rating](control-rating.md)**, **[Shape](control-shapes-icons.md)**, **[Slider](control-slider.md)**, **[Text input](control-text-input.md)**, **[Timer](control-timer.md)**, **[Toggle](control-toggle.md)** и **[Video](control-audio-video.md)**.
 
 ## <a name="disabled"></a>Отключен
-Эти свойства действуют, если элементы управления отключены.  Элемент управления может быть отключен, его свойству **[Disabled](properties-core.md)** присвоено значение *true*.
+Эти свойства действуют, если элемент управления отключен.  Элемент управления может быть отключен, его свойству **[Disabled](properties-core.md)** присвоено значение *true*.
 
 **DisabledBorderColor** — цвет границы элемента управления, если для его свойства **[DisplayMode](properties-core.md)** установлено значение **Отключено**.
 

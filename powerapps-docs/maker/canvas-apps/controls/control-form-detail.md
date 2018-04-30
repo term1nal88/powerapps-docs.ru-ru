@@ -1,25 +1,22 @@
 ---
 title: Справка по элементам управления "Форма отображения" и "Форма изменения" | Документация Майкрософт
 description: Сведения об элементах управления "Отображать форму" и "Изменить форму" с описанием их свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: c238a441c147c148fa619e6068579b75d643339a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 78615949ab5c05b4cf7da56eae23dd1a0194c7ff
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Элементы управления "Изменить форму" и "Отображать форму" в PowerApps
 Элементы управления "Отображать форму" и "Изменить форму" служат для отображения, изменения и создания записей в источнике данных.
@@ -158,24 +155,27 @@ ms.lasthandoff: 03/22/2018
     **SubmitButton.Enabled = IsBlank( Form.Error ) || Form.Valid**
 
 ## <a name="additional-properties"></a>Дополнительные свойства
-**[BorderColor](properties-color-border.md)** — цвет границы элемента управления.
+**[BorderColor](properties-color-border.md)**  — цвет границы элемента управления.
 
-**[BorderStyle](properties-color-border.md)** — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
+**[BorderStyle](properties-color-border.md)**  — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
 
-**[BorderThickness](properties-color-border.md)** — толщина границы элемента управления.
+**[BorderThickness](properties-color-border.md)**  — толщина границы элемента управления.
 
-**[Fill](properties-color-border.md)** — цвет фона элемента управления.
+**[Fill](properties-color-border.md)**  — цвет фона элемента управления.
 
-**[Height](properties-size-location.md)** — расстояние между верхним и нижним краем элемента управления.
+**[Height](properties-size-location.md)**  — расстояние между верхним и нижним краем элемента управления.
 
 **[Visible](properties-core.md)** определяет, отображается ли элемент управления или он скрыт.
 
-**[Width](properties-size-location.md)** — расстояние между левым и правым краем элемента управления.
+**[Width](properties-size-location.md)**  — расстояние между левым и правым краем элемента управления.
 
-**[X](properties-size-location.md)** — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
+**[X](properties-size-location.md)**  — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
-**[Y](properties-size-location.md)** — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет).
+**[Y](properties-size-location.md)**  — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
 ## <a name="more-information"></a>Дополнительные сведения
 Подробный обзор работы форм см. в разделе [Общие сведения о формах данных в Microsoft PowerApps](../working-with-forms.md).
 
+## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
+### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
+* Рекомендуем добавить в форму заголовок с помощью элемента **[Label](control-text-box.md)**.

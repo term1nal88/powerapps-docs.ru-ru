@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/03/2016
+ms.date: 04/03/2018
 ms.author: yifwang
-ms.openlocfilehash: ccece4f2915460e623bf0a7e527a7105e9ff2954
-ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
+ms.openlocfilehash: 69e46e1e55b3f1dd4b1e0df20ef274a56e657809
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="format-a-table-in-excel-and-naming-tips"></a>Советы по форматированию таблицы в Excel и присвоению имен
 Для использования данных в PowerApps их необходимо форматировать в Excel как таблицу. Прочитав эту статью, вы узнаете, как форматировать таблицу в Excel, и получите некоторые советы по именованию столбцов Excel.
@@ -41,3 +41,7 @@ ms.lasthandoff: 04/06/2018
 В таблице Excel попробуйте добавить ключевое слово "изображение" в столбец изображений. Это обеспечит привязку столбца изображения к элементу управления "изображение", если эта таблица будет использоваться в коллекции с элементами управления "изображение".
 
 ![Подключение таблицы Excel с изображениями](./media/how-to-excel-tips/connect-gallery.png)
+
+## <a name="next-steps"></a>Дальнейшие действия
+* [Сгенерируйте в PowerApps приложение на основе указанной таблицы Excel](get-started-create-from-data.md). По умолчанию приложение будет включать три экрана: для просмотра записей, для отображения сведений об отдельной записи, а также для создания или обновления записи.
+* [Создайте приложение с нуля](get-started-create-from-blank.md) с помощью отформатированной в Excel таблицы. Приложение можно создать и настроить вручную. В нем вы также сможете просматривать, искать и изменять данные в таблице.

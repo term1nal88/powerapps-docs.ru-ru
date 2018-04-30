@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/20/2018
+ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 0a4c35fe756e6ba9baf899a302d739467e21b591
-ms.sourcegitcommit: eac8ad7b54a0b0eba6444a38a952dbfd17bc64b5
+ms.openlocfilehash: a63504b0438f50584da6739b9f397300e36d4ce6
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="install-and-configure-the-expense-report-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Отчет о расходах"
 
@@ -385,7 +385,10 @@ ms.lasthandoff: 04/08/2018
 
 [![Установка приложения "Отчет о расходах"](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
 
-
+##<a name="next-steps"></a>Дальнейшие действия
+- [Настройка формы списка SharePoint с помощью PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
+- [Добавление и настройка элемента управления в PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
+- [Управление разрешениями для списка или библиотеки SharePoint](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
 
 
 

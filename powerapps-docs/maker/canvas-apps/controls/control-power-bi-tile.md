@@ -1,28 +1,25 @@
 ---
 title: Справка по элементу управления "Плитка Power BI" | Документация Майкрософт
 description: Сведения об элементе управления "Плитка Power BI" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/07/2016
 ms.author: fikaradz
-ms.openlocfilehash: 1f351877e3c05b83b4bd9cfa104a7eb22cef5028
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e7bc2e7e0aafa4d933c47bcf47300dc243c38523
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>Элемент управления "Плитка Power BI" в PowerApps
-Элемент управления, который отвечает за отображение плитки [Power BI](https://powerbi.microsoft.com) в приложении.
+Элемент управления, который отвечает за отображение плитки [Power BI](https://powerbi.microsoft.com) в приложении.
 
 ## <a name="description"></a>Описание
 Воспользуйтесь всеми преимуществами анализа данных и отчетности, отобразив в своих приложениях **[плитки Power BI](https://docs.microsoft.com/power-bi/service-dashboard-tiles)**.  Выберите плитку, которую требуется отобразить, задав для нее свойства **Рабочая область**, **Панель мониторинга** и **Плитка** на вкладке **Данные** на панели параметров.
@@ -38,25 +35,25 @@ ms.lasthandoff: 03/22/2018
 **Плитка** — имя плитки Power BI, которую нужно отобразить.
 
 ## <a name="additional-properties"></a>Дополнительные свойства
-**[BorderColor](properties-color-border.md)** — цвет границы элемента управления.
+**[BorderColor](properties-color-border.md)**  — цвет границы элемента управления.
 
-**[BorderStyle](properties-color-border.md)** — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
+**[BorderStyle](properties-color-border.md)**  — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
 
-**[BorderThickness](properties-color-border.md)** — толщина границы элемента управления.
+**[BorderThickness](properties-color-border.md)**  — толщина границы элемента управления.
 
 **[DisplayMode](properties-core.md)** — в зависимости от значения этого режима элемент управления разрешает пользователю вводить данные (**Изменение**), только отображает данные (**Просмотр**) или элемент вообще отключен (**Отключено**).
 
-**[Height](properties-size-location.md)** — расстояние между верхним и нижним краем элемента управления.
+**[Height](properties-size-location.md)**  — расстояние между верхним и нижним краем элемента управления.
 
-**[OnSelect](properties-core.md)** — поведение приложения, когда пользователь щелкает элемент управления или касается его. По умолчанию направляет пользователя к отчету Power BI, связанному с плиткой.
+**[OnSelect](properties-core.md)**  — поведение приложения, когда пользователь щелкает элемент управления или касается его. По умолчанию направляет пользователя к отчету Power BI, связанному с плиткой.
 
 **[Visible](properties-core.md)** определяет, отображается ли элемент управления или он скрыт.
 
-**[Width](properties-size-location.md)** — расстояние между левым и правым краем элемента управления.
+**[Width](properties-size-location.md)**  — расстояние между левым и правым краем элемента управления.
 
-**[X](properties-size-location.md)** — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
+**[X](properties-size-location.md)**  — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
-**[Y](properties-size-location.md)** — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет).
+**[Y](properties-size-location.md)**  — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
 ## <a name="example"></a>Пример
 1. Добавьте элемент управления **Плитка Power BI** из вкладки **Вставка** в меню **Элементы управления**.  
@@ -68,3 +65,9 @@ ms.lasthandoff: 03/22/2018
    
    Еще не используете Power BI? [Зарегистрируйтесь](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi).
 
+
+## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
+**Плитка Power BI** — это просто контейнер для содержимого Power BI. Узнайте, как создать соответствующее содержимое с помощью этих [советов по настройке специальных возможностей в Power BI](https://docs.microsoft.com/power-bi/desktop-accessibility).
+
+### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
+* Попробуйте добавить заголовок с помощью элемента **[Label](control-text-box.md)**, если содержимое Power BI не имеет заголовка. Заголовок может располагаться непосредственно перед **плиткой Power BI**.

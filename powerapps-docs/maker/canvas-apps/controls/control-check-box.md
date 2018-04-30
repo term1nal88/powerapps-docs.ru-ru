@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3784e90bbf6ed45d2b67b6211efaab279e37feca
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9b51e1cf59c5df163027e8768c21d6ae544d7ba1
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="check-box-control-in-powerapps"></a>Элемент управления "Флажок" в PowerApps
 Элемент управления, который пользователь может установить или снять, задавая значение **true** или **false** соответственно.
@@ -30,16 +30,16 @@ ms.lasthandoff: 03/22/2018
 ## <a name="key-properties"></a>Основные свойства
 **[Default](properties-core.md)**. Начальное значение элемента управления до его изменения пользователем.
 
-**[Text](properties-core.md)** — текст, отображаемый в элементе управления, или текст, который пользователь вводит в элемент управления.
+**[Text](properties-core.md)**  — текст, отображаемый в элементе управления, или текст, который пользователь вводит в элемент управления.
 
-**[Value](properties-core.md)** — значение элемента управления.
+**[Value](properties-core.md)**  — значение элемента управления.
 
 ## <a name="additional-properties"></a>Дополнительные свойства
-**[BorderColor](properties-color-border.md)** — цвет границы элемента управления.
+**[BorderColor](properties-color-border.md)**  — цвет границы элемента управления.
 
-**[BorderStyle](properties-color-border.md)** — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
+**[BorderStyle](properties-color-border.md)**  — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
 
-**[BorderThickness](properties-color-border.md)** — толщина границы элемента управления.
+**[BorderThickness](properties-color-border.md)**  — толщина границы элемента управления.
 
 **CheckboxBackgroundFill** — фоновый цвет поля вокруг значка флажка.
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/22/2018
 
 **CheckmarkFill** — цвет значка флажка.
 
-**[Color](properties-color-border.md)** — цвет текста в элементе управления.
+**[Color](properties-color-border.md)**  — цвет текста в элементе управления.
 
 **[DisplayMode](properties-core.md)** — в зависимости от значения этого режима элемент управления разрешает пользователю вводить данные (**Изменение**), только отображает данные (**Просмотр**) или элемент вообще отключен (**Отключено**).
 
@@ -59,61 +59,67 @@ ms.lasthandoff: 03/22/2018
 
 **[DisabledFill](properties-color-border.md)** — цвет фона элемента управления, если для его свойства **[DisplayMode](properties-core.md)** установлено значение **Отключено**.
 
-**[Fill](properties-color-border.md)** — цвет фона элемента управления.
+**[Fill](properties-color-border.md)**  — цвет фона элемента управления.
 
-**[Font](properties-text.md)** — имя семейства шрифтов, используемых для отображения текста.
+**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления в тот момент, когда он активен.
 
-**[FontWeight](properties-text.md)** — толщина текста в элементе управления: **Жирный**, **Полужирный**, **Обычный** или **Очень тонкий**.
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления в тот момент, когда он активен.
 
-**[Height](properties-size-location.md)** — расстояние между верхним и нижним краем элемента управления.
+**[Font](properties-text.md)**  — имя семейства шрифтов, используемых для отображения текста.
 
-**[HoverBorderColor](properties-color-border.md)** — цвет границы элемента управления при удерживании указателя мыши на нем.
+**[FontWeight](properties-text.md)**  — толщина текста в элементе управления: **Жирный**, **Полужирный**, **Обычный** или **Очень тонкий**.
 
-**[HoverColor](properties-color-border.md)** — цвет текста в элементе управления при удерживании указателя мыши на нем.
+**[Height](properties-size-location.md)**  — расстояние между верхним и нижним краем элемента управления.
 
-**[HoverFill](properties-color-border.md)** — цвет фона элемента управления при удерживании указателя мыши на нем.
+**[HoverBorderColor](properties-color-border.md)**  — цвет границы элемента управления при удерживании указателя мыши на нем.
+
+**[HoverColor](properties-color-border.md)**  — цвет текста в элементе управления при удерживании указателя мыши на нем.
+
+**[HoverFill](properties-color-border.md)**  — цвет фона элемента управления при удерживании указателя мыши на нем.
 
 **[Italic](properties-text.md)** определяет, когда текст в элементе управления отображается курсивом.
 
 **OnCheck** — поведение приложения, когда значение флажка или переключателя изменяется на **true**.
 
-**[OnSelect](properties-core.md)** — поведение приложения, когда пользователь щелкает элемент управления или касается его.
+**[OnSelect](properties-core.md)**  — поведение приложения, когда пользователь щелкает элемент управления или касается его.
 
 **OnUncheck** — поведение приложения, когда значение флажка или переключателя изменяется на **false**.
 
-**[PaddingBottom](properties-size-location.md)** — расстояние между текстом в элементе управления и нижним краем элемента управления.
+**[PaddingBottom](properties-size-location.md)**  — расстояние между текстом в элементе управления и нижним краем элемента управления.
 
-**[PaddingLeft](properties-size-location.md)** — расстояние между текстом в элементе управления и левым краем элемента управления.
+**[PaddingLeft](properties-size-location.md)**  — расстояние между текстом в элементе управления и левым краем элемента управления.
 
-**[PaddingRight](properties-size-location.md)** — расстояние между текстом в элементе управления и правым краем элемента управления.
+**[PaddingRight](properties-size-location.md)**  — расстояние между текстом в элементе управления и правым краем элемента управления.
 
-**[PaddingTop](properties-size-location.md)** — расстояние между текстом в элементе управления и верхним краем элемента управления.
+**[PaddingTop](properties-size-location.md)**  — расстояние между текстом в элементе управления и верхним краем элемента управления.
 
-**[PressedBorderColor](properties-color-border.md)** — цвет границы элемента управления при щелчке или касании.
+**[PressedBorderColor](properties-color-border.md)**  — цвет границы элемента управления при щелчке или касании.
 
-**[PressedColor](properties-color-border.md)** — цвет текста в элементе управления при щелчке или касании.
+**[PressedColor](properties-color-border.md)**  — цвет текста в элементе управления при щелчке или касании.
 
-**[PressedFill](properties-color-border.md)** — цвет фона элемента управления при щелчке или касании.
+**[PressedFill](properties-color-border.md)**  — цвет фона элемента управления при щелчке или касании.
 
-**[Reset](properties-core.md)** — определяет, возвращается ли элемент управления к значению по умолчанию.
+**[Reset](properties-core.md)**  — определяет, возвращается ли элемент управления к значению по умолчанию.
 
-**[Size](properties-text.md)** — размер шрифта текста, отображаемого в элементе управления.
+**[Size](properties-text.md)**  — размер шрифта текста, отображаемого в элементе управления.
 
 **[Strikethrough](properties-text.md)** определяет, когда через текст, отображаемый в элементе управления, проходит линия.
+
+**[TabIndex](properties-accessibility.md)** — порядок навигации с помощью клавиатуры относительно других элементов управления.
 
 **[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
 
 **[Underline](properties-text.md)** определяет, когда под текстом, отображаемым в элементе управления, проходит линия.
 
-**[VerticalAlign](properties-text.md)** — расположение текста в элементе управления относительно центра этого элемента управления по вертикали.
+**[VerticalAlign](properties-text.md)**  — расположение текста в элементе управления относительно центра этого элемента управления по вертикали.
 
 **[Visible](properties-core.md)** определяет, отображается ли элемент управления или он скрыт.
 
-**[Width](properties-size-location.md)** — расстояние между левым и правым краем элемента управления.
+**[Width](properties-size-location.md)**  — расстояние между левым и правым краем элемента управления.
 
-**[X](properties-size-location.md)** — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
+**[X](properties-size-location.md)**  — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
-**[Y](properties-size-location.md)** — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет).
+**[Y](properties-size-location.md)**  — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
 ## <a name="related-functions"></a>Связанные функции
 [**If**( *Condition*; *Result* )](../functions/function-if.md)
@@ -131,3 +137,21 @@ ms.lasthandoff: 03/22/2018
     Элемент управления **[Средство выбора даты](control-date-picker.md)** отображается, когда свойство **[Value](properties-core.md)** элемента **chkReserve** имеет значение **true**, но не отображается при значении **false**.
 4. Нажмите клавишу ESC, чтобы вернуться в рабочую область по умолчанию.
 
+
+## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
+### <a name="color-contrast"></a>Контрастность
+Необходимо настроить достаточный контраст для следующих элементов:
+* **CheckmarkFill** и **CheckboxBackgroundFill**;
+* **CheckboxBackgroundFill** и **[Fill](properties-color-border.md)**;
+* **CheckboxBackgroundFill** и **[PressedFill](properties-color-border.md)**;
+* **CheckboxBackgroundFill** и **[HoverFill](properties-color-border.md)**.
+
+Это дополнение к стандартным требованиям к контрастности.
+
+### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
+* Должен присутствовать элемент **[Text](properties-core.md)**.
+
+### <a name="keyboard-support"></a>Поддержка клавиатуры
+* Значение элемента **[TabIndex](properties-accessibility.md)** должно быть равно нулю или больше нуля, чтобы пользователи могли использовать навигацию с помощью клавиатуры.
+* Индикаторы фокуса должны быть хорошо видны. Для этого используются элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.
+ 

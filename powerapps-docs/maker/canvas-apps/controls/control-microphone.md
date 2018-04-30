@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3ffede0018a371b3c3a4cf4a3a1f9fc8115140de
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 8f49b7dbe6186c9c984b27f4c5b07273e88f1963
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microphone-control-in-powerapps"></a>Элемент управления "Микрофон" в PowerApps
 С помощью элемента управления "Микрофон" пользователь может записывать звук.
@@ -33,13 +33,15 @@ ms.lasthandoff: 03/22/2018
 **OnStop** — поведение приложения, когда пользователь останавливает запись с помощью элемента управления "Микрофон".
 
 ## <a name="additional-properties"></a>Дополнительные свойства
-**[BorderColor](properties-color-border.md)** — цвет границы элемента управления.
+**[AccessibleLabel](properties-accessibility.md)** — метка для средств чтения с экрана. Необходимо описать назначение микрофона.
 
-**[BorderStyle](properties-color-border.md)** — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
+**[BorderColor](properties-color-border.md)**  — цвет границы элемента управления.
 
-**[BorderThickness](properties-color-border.md)** — толщина границы элемента управления.
+**[BorderStyle](properties-color-border.md)**  — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
 
-**[Color](properties-color-border.md)** — цвет текста в элементе управления.
+**[BorderThickness](properties-color-border.md)**  — толщина границы элемента управления.
+
+**[Color](properties-color-border.md)**  — цвет текста в элементе управления.
 
 **[DisplayMode](properties-core.md)** — в зависимости от значения этого режима элемент управления разрешает пользователю вводить данные (**Изменение**), только отображает данные (**Просмотр**) или элемент вообще отключен (**Отключено**).
 
@@ -49,41 +51,47 @@ ms.lasthandoff: 03/22/2018
 
 **[DisabledFill](properties-color-border.md)** — цвет фона элемента управления, если для его свойства **[DisplayMode](properties-core.md)** установлено значение **Отключено**.
 
-**[Fill](properties-color-border.md)** — цвет фона элемента управления.
+**[Fill](properties-color-border.md)**  — цвет фона элемента управления.
 
-**[Height](properties-size-location.md)** — расстояние между верхним и нижним краем элемента управления.
+**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления при наведении фокуса.
 
-**[HoverBorderColor](properties-color-border.md)** — цвет границы элемента управления при удерживании указателя мыши на нем.
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления при наведении фокуса.
 
-**[HoverColor](properties-color-border.md)** — цвет текста в элементе управления при удерживании указателя мыши на нем.
+**[Height](properties-size-location.md)**  — расстояние между верхним и нижним краем элемента управления.
 
-**[HoverFill](properties-color-border.md)** — цвет фона элемента управления при удерживании указателя мыши на нем.
+**[HoverBorderColor](properties-color-border.md)**  — цвет границы элемента управления при удерживании указателя мыши на нем.
+
+**[HoverColor](properties-color-border.md)**  — цвет текста в элементе управления при удерживании указателя мыши на нем.
+
+**[HoverFill](properties-color-border.md)**  — цвет фона элемента управления при удерживании указателя мыши на нем.
 
 **[Image](properties-visual.md)**  — имя изображения, которое отображается в элементе управления "Изображение", "Звук" или "Микрофон".
 
 **[ImagePosition](properties-visual.md)** — расположение изображения на экране или в элементе управления, если его размеры отличаются от размеров изображения: **Fill** (Заполнить), **Fit** (По размеру), **Stretch** (Растянуть), **Tile** (Плитка) или **Center** (По центру).
 
-**[OnSelect](properties-core.md)** — поведение приложения, когда пользователь щелкает элемент управления или касается его.
+**[OnSelect](properties-core.md)**  — поведение приложения, когда пользователь щелкает элемент управления или касается его.
 
 **OnStart** — поведение приложения, когда пользователь начинает запись с помощью элемента управления "Микрофон".
 
-**[PressedBorderColor](properties-color-border.md)** — цвет границы элемента управления при щелчке или касании.
+**[PressedBorderColor](properties-color-border.md)**  — цвет границы элемента управления при щелчке или касании.
 
-**[PressedColor](properties-color-border.md)** — цвет текста в элементе управления при щелчке или касании.
+**[PressedColor](properties-color-border.md)**  — цвет текста в элементе управления при щелчке или касании.
 
-**[PressedFill](properties-color-border.md)** — цвет фона элемента управления при щелчке или касании.
+**[PressedFill](properties-color-border.md)**  — цвет фона элемента управления при щелчке или касании.
 
-**[Reset](properties-core.md)** — определяет, возвращается ли элемент управления к значению по умолчанию.
+**[Reset](properties-core.md)**  — определяет, возвращается ли элемент управления к значению по умолчанию.
+
+**[TabIndex](properties-accessibility.md)** — порядок навигации с помощью клавиатуры относительно других элементов управления.
 
 **[Tooltip](properties-core.md)** — пояснительный текст, отображаемый при наведении указателя мыши на элемент управления.
 
 **[Visible](properties-core.md)** определяет, отображается ли элемент управления или он скрыт.
 
-**[Width](properties-size-location.md)** — расстояние между левым и правым краем элемента управления.
+**[Width](properties-size-location.md)**  — расстояние между левым и правым краем элемента управления.
 
-**[X](properties-size-location.md)** — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
+**[X](properties-size-location.md)**  — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
-**[Y](properties-size-location.md)** — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет).
+**[Y](properties-size-location.md)**  — расстояние между верхним краем элемента управления и верхним краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
 ## <a name="related-functions"></a>Связанные функции
 [**Patch**( *DataSource*; *BaseRecord*; *ChangeRecord* )](../functions/function-patch.md)
@@ -105,3 +113,18 @@ ms.lasthandoff: 03/22/2018
 
 Для сохранения записей на локальном устройстве используйте функцию **[SaveData](../functions/function-savedata-loaddata.md)**, а для обновления источника данных — функцию **[Patch](../functions/function-patch.md)**.
 
+
+## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
+Те же правила применяются к элементу **[Button](control-button.md)** так как элемент **Microphone** — это просто специализированная кнопка. Попробуйте следующее:
+
+### <a name="audio-alternatives"></a>Варианты для аудио
+* Попробуйте добавить альтернативную форму ввода данных для пользователей с ослабленной речью с микрофоном или без него. Например, элемент **[Text input](control-text-input.md)**, чтобы разрешить пользователям вводить текст.
+
+### <a name="color-contrast"></a>Контрастность
+Необходимо настроить достаточный контраст для следующих элементов:
+* элемента **[Image](properties-visual.md)** и текста кнопки и значка (если применимо).
+
+Это дополнение к стандартным требованиям к контрастности.
+
+### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
+* Должен присутствовать элемент **[AccessibleLabel](properties-accessibility.md)**.

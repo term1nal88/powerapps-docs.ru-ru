@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/20/2018
+ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 97ff0c781933fa8d2896a35f0bd507bfb0b75ea9
-ms.sourcegitcommit: eac8ad7b54a0b0eba6444a38a952dbfd17bc64b5
+ms.openlocfilehash: be5a2f1994a55abf6936ded4dfddf84d145115c5
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Служба поддержки"
 
@@ -292,3 +292,9 @@ ms.lasthandoff: 04/08/2018
 Просмотрите это видео, чтобы узнать, как использовать пример приложения PowerApps "Служба поддержки".
 
 [![Демонстрация приложения "Служба поддержки"](./media/help-desk-install/help-desk-demo-video.png)](https://youtu.be/sl5fXwwnvzI)
+
+##<a name="next-steps"></a>Дальнейшие действия
+- [Настройка формы списка SharePoint с помощью PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
+- [Добавление и настройка элемента управления в PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
+- [Управление разрешениями для списка или библиотеки SharePoint](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
+ 

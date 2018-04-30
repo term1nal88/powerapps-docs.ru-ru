@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/05/2017
 ms.author: kfend
-ms.openlocfilehash: 0e9c04c4786ff4cee11d7aae75245054e93391fa
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: cf9a1f71215a2c58d12a726ed88bdd9fe8b9c970
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="column-control-in-powerapps"></a>Элемент управления "Столбец" в PowerApps
 Обеспечивает отображение отдельного поля в элементе управления [**Таблица данных**](control-data-table.md).
@@ -64,3 +64,7 @@ ms.lasthandoff: 03/22/2018
    
     ![Размер элемента управления "Столбец" изменен](./media/control-column/post-resize-column.png)
 
+
+## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
+### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
+* Должен присутствовать элемент **DisplayName**.

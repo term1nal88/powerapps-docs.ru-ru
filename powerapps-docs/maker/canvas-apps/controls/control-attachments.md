@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
-ms.openlocfilehash: 5bb7e4f27ed7ee0a30fb028d4d8dfd20a5fc250b
-ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
+ms.openlocfilehash: 6b46cfd778dcb29553dce252988b8b6a049ba12d
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>Элемент управления "Вложения" в PowerApps
 Элемент управления, который позволяет пользователям скачивать файлы на устройства, а также добавлять их в список SharePoint и удалять их оттуда.
@@ -33,6 +33,8 @@ ms.lasthandoff: 04/06/2018
 1. Функции передачи и удаления поддерживаются только в форме.  Элемент управления вложениями будет недоступен в режиме редактирования, но не в форме.   Учтите, что для сохранения результатов добавления и удаления на серверной части пользователь должен сохранить форму.
 
 1. Вы можете передавать файлы размером до 10 МБ.  
+
+1. Сейчас устройства iOS могут передавать только файлы из документов и облачные учетные записи хранения. Чтобы вложить фото и видео, используйте веб-браузер на устройстве iOS для запуска приложения.
 
 ## <a name="description"></a>Описание
 Элемент управления **Вложения** позволяет открывать файлы, хранящиеся в источнике данных, а также добавлять их в список SharePoint и удалять их оттуда.
@@ -51,27 +53,33 @@ ms.lasthandoff: 04/06/2018
 **[OnSelect](properties-core.md)** — поведение приложения, когда пользователь выбирает вложение.
 
 ## <a name="additional-properties"></a>Дополнительные свойства
-**AccessibleLabel** — метка, объявляемая средствами чтения с экрана.
+**[AccessibleLabel](properties-accessibility.md)** — метка для средств чтения с экрана. Необходимо описать назначение вложений.
 
 **AddAttachmentText** — текст метки для ссылки, с помощью которой добавляется новое вложение.
 
-**[BorderColor](properties-color-border.md)** — цвет границы элемента управления.
+**[BorderColor](properties-color-border.md)**  — цвет границы элемента управления.
 
-**[BorderStyle](properties-color-border.md)** — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
+**[BorderStyle](properties-color-border.md)**  — стиль границы элемента управления: **Сплошная**, **Штриховая**, **Пунктирная** или **Отсутствует**.
 
-**[BorderThickness](properties-color-border.md)** — толщина границы элемента управления.
+**[BorderThickness](properties-color-border.md)**  — толщина границы элемента управления.
 
 **[DisplayMode](properties-core.md)** — в зависимости от значения этого режима элемент управления разрешает пользователю добавлять и редактировать файлы (**Изменение**) или только отображать данные (**Просмотр**), либо элемент будет вообще отключен (**Отключено**).
 
-**[Height](properties-size-location.md)** — расстояние между верхним и нижним краем элемента управления.
+**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления при наведении фокуса.
+
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления при наведении фокуса.
+
+**[Height](properties-size-location.md)**  — расстояние между верхним и нижним краем элемента управления.
 
 **MaxAttachmentsText** — текст, который заменяет ссылку "Присоединить файл", когда элемент управления содержит максимальное допустимое число файлов.
 
 **NoAttachmentsText** — информационный текст, который видит пользователь, когда нет файлов для отображения.
 
+**[TabIndex](properties-accessibility.md)** — порядок навигации с помощью клавиатуры относительно других элементов управления.
+
 **[Visible](properties-core.md)** — отображение или скрытие элемента управления.
 
-**[Width](properties-size-location.md)** — расстояние между левым и правым краем элемента управления.
+**[Width](properties-size-location.md)**  — расстояние между левым и правым краем элемента управления.
 
 **[X](properties-size-location.md)** — расстояние между левым краем элемента управления и левым краем его родительского контейнера (или экрана, если родительского контейнера нет).
 
@@ -89,4 +97,31 @@ ms.lasthandoff: 04/06/2018
 
     Поле "Вложения", связанное со списком SharePoint, отобразится в форме.
 
-Не знаете, как [добавить и настроить элемент управления](../add-configure-controls.md)?
+Узнайте, как [добавлять и настраивать элементы управления](../add-configure-controls.md).
+
+
+## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
+### <a name="color-contrast"></a>Контрастность
+Необходимо настроить достаточный контраст для следующих элементов:
+* **ItemColor** и **ItemFill**
+* **ItemHoverColor** и **ItemHoverFill**
+* **ItemPressedColor** и **ItemPressedFill**
+* **AddedItemColor** и **AddedItemFill**
+* **RemovedItemColor** и **RemovedItemFill**
+* **ItemErrorColor** и **ItemErrorFill**
+* **AddAttachmentColor** и **Fill**
+* **MaxAttachmentsColor** и **Fill**
+* **NoAttachmentsColor** и **Fill**
+
+Это дополнение к стандартным требованиям к контрастности.
+
+### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
+Должны присутствовать следующие свойства:
+* **[AccessibleLabel](properties-accessibility.md)**
+* **AddAttachmentsText**
+* **MaxAttachmentsText**
+* **NoAttachmentsText**
+
+### <a name="keyboard-support"></a>Поддержка клавиатуры
+* Значение элемента **[TabIndex](properties-accessibility.md)** должно быть равно нулю или больше нуля, чтобы пользователи могли использовать навигацию с помощью клавиатуры.
+* Индикаторы фокуса должны быть хорошо видны. Для этого используйте элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.
