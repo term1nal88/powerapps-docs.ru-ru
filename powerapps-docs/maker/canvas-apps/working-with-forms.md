@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: c0e0595fc3e3025ca345e1415fbd3da99f090063
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: a9cd26ad41ceaa5b94678a3ef87bf0ab6dda98a1
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Общие сведения о формах данных в Microsoft PowerApps
 Добавьте три типа элементов управления, чтобы пользователь мог просматривать записи, отображать подробные сведения об этой записи и изменять или создавать запись:
@@ -35,7 +35,7 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="prerequisites"></a>Технические условия
 
-* [Зарегистрируйтесь](../signup-for-powerapps.md) в службе PowerApps, [установите](http://aka.ms/powerappsinstall) и откройте ее, а затем войдите с помощью учетных данных, использованных при регистрации.
+* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com), указав учетные данные, использованные при регистрации.
 * Узнайте, как [настроить элемент управления](add-configure-controls.md) в PowerApps.
 
 ## <a name="explore-a-generated-app"></a>Обзор созданного приложения

@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: 71f527486b16db6344340c14672ede9cdaeb09ab
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: faa8db15596dc0da0d5b5638f5dd9c334517fc7c
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="show-text-and-format-dates-and-times-in-powerapps"></a>Отображение текста, формата, даты и времени в PowerApps
 Добавьте значения даты и времени и отформатируйте, чтобы отобразить их с нужной степенью детализации или с учетом языкового стандарта. Вычислите промежуток времени между двумя датами или вычислите дату, которая следует через определенное время до или после указанной даты. Преобразуйте даты в отдельные значения дней, месяцев и лет (и наоборот) и преобразуйте время в отдельные значения часов, минут и секунд (и наоборот).
@@ -24,7 +24,7 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="prerequisites"></a>Технические условия
 
-* [Зарегистрируйтесь](../signup-for-powerapps.md) в службе PowerApps, [установите](http://aka.ms/powerappsinstall) и откройте ее, а затем войдите с помощью учетных данных, использованных при регистрации.
+* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com), указав учетные данные, использованные при регистрации.
 * Создайте приложение в PowerApps или откройте уже существующее.
 * Узнайте, как [настроить элемент управления](add-configure-controls.md) в PowerApps.
 

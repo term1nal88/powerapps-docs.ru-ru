@@ -12,17 +12,17 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: 90689d708d5b86d243647a14282c6599e51f7450
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 702be2a4f1747b6f3303d1add30d9157f5665ee7
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-and-configure-a-control-in-powerapps"></a>Добавление и настройка элемента управления в PowerApps
 Добавляйте различные элементы пользовательского интерфейса в приложение и настраивайте их внешний вид и поведение напрямую, на панели инструментов, на вкладке **Свойства** или в строке формул. Эти элементы пользовательского интерфейса называются элементами управления, а настраиваемые параметры — свойствами.
 
 ## <a name="prerequisites"></a>Технические условия
-1. [Зарегистрируйтесь](../signup-for-powerapps.md) в службе PowerApps, [установите](http://aka.ms/powerappsinstall) и откройте ее, а затем войдите с помощью учетных данных, использованных при регистрации.
+1. [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com), указав учетные данные, использованные при регистрации.
 
 2. В PowerApps Studio в меню **Файл** (у левого края экрана) выберите **Создать**.
 

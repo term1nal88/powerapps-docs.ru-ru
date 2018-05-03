@@ -15,18 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 73b8aca29af2e9ee5fa117a7e7b79a8d3dbaca9f
-ms.sourcegitcommit: a9ac8a3ed734cb5f70b61476168d1bff5de844f8
+ms.openlocfilehash: a538eb1b6046c4cfd27e969613b44574cec8ff7e
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="quickstart-run-a-model-driven-app-on-a-mobile-device"></a>Краткое руководство: запуск приложения на основе модели на мобильном устройстве
 
 После того как приложение будет создано и предоставлено вам, вы сможете запустить его на популярных мобильных платформах, таких как Windows, iOS или Android, а также в веб-браузере. Из этого краткого руководства вы узнаете, как запустить приложение на основе модели на мобильном устройстве. 
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 Для выполнения действий, описанных в этом руководстве, необходима регистрация в PowerApps. Перед началом работы [пройдите бесплатную регистрацию](https://web.powerapps.com/signup?redirect=marketing&email=). Кроме того, убедитесь, что у вас есть доступ к своему приложению или к приложению, созданному и предоставленному вам другим пользователем.
 

@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 6f9ef24f4ab6f0009c7020008e299f09ecb0762e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: fca166ef388921e08bf71149a8b1274a31a7dc52
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-an-app-to-manage-projects"></a>Создание приложения для управления проектами
 > [!NOTE]
@@ -28,8 +28,6 @@ ms.lasthandoff: 04/26/2018
 > [Пакет загрузки](https://aka.ms/o4ia0f) для нашего примера содержит полную версию этого приложения: project-details-app.msapp.
 
 ## <a name="quick-review-of-powerapps-studio"></a>Краткий обзор PowerApps Studio
-При выполнении последней задачи вы использовали PowerApps Studio для Web. Теперь же, прежде чем переходить к следующей задаче, давайте еще раз проверим, как вы усвоили весь материал. Вы можете и дальше использовать PowerApps Studio для Web или же перейти в [PowerApps Studio для Windows](https://aka.ms/powerappswin).
-
 Интерфейс PowerApps Studio с тремя панелями и лентой напоминает интерфейс для создания слайдов в PowerPoint. Эти элементы управления позволяют легко создавать приложения.
 
 1. На панели навигации слева отображаются эскизы экранов, а также иерархическое представление экранов и элементов управления приложения.
