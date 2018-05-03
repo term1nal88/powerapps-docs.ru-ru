@@ -12,20 +12,17 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 1b9ee344192d84933d25a3208d2feb0873a298c1
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 76571a53c95661d853b7fb326e3c1087a6f432c4
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>Общие сведения о создании приложения на основе модели
 
 Создание приложений на основе модели — это ориентированный на компоненты подход к разработке приложений. Разработка приложений на основе модели не требует написания кода, а создаваемые приложения могут быть как простыми, так и очень сложными.  В отличие от разработки приложений на основе холста, при которой проектировщик имеет полный контроль над макетом приложения, в приложениях на основе модели макет в основном определяется автоматически компонентами, добавляемыми в приложение. 
 
 ![Пример приложения на основе модели](media/model-driven-app-overview/model-app-sample.png)
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 
 Разработка приложений на основе модели дает следующие преимущества:
 - полнофункциональные бескодовые среды проектирования, ориентированные на компоненты; 
