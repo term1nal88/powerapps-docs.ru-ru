@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 68ce23ae4b4a961a69cc60173b4f98ec18f05dd2
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: c32be4dd25da1c2267043b061102b2714a109cc5
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Создание базы данных Common Data Service
 Служба Common Data Service может служить хранилищем данных для базы данных и приложений. При этом вы можете создавать собственные настраиваемые сущности или использовать стандартные сущности. Прежде чем создавать базу данных, нужно сначала создать среду (либо вас должны назначить **администратором среды** для существующей среды). Кроме того, вам должна быть назначена соответствующая лицензия. Сведения о приобретении плана для использования службы Common Data Service см. в [информации о ценах](pricing-billing-skus.md).
@@ -52,6 +52,8 @@ ms.lasthandoff: 04/23/2018
 
     ![](./media/create-database/Create-DB-From-Entities.png)
 
+> [!NOTE]
+> Сейчас создавать базы данных за пределами вашего региона Azure AD нельзя. Эта возможность будет реализована позже, а сейчас создавать базы данных можно в среде, расположенной в вашем регионе Azure AD.
 
 ## <a name="security-model-for-the-databases"></a>Модель безопасности для баз данных
 При создании базы данных пользователи с назначенными ролями среды сохранят эти привилегии.  

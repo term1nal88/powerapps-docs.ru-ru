@@ -1,24 +1,20 @@
 ---
 title: Создание приложения на основе данных Excel | Документы Майкрософт
 description: С помощью PowerApps можно автоматически создать приложение на основе файла Excel, хранящегося в облачной учетной записи хранения
-services: ''
-suite: powerapps
 documentationcenter: na
 author: AFTOWen
 manager: kfile
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.custom: mvc
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: a2bbcead313961e064a57d2ea567b5596ece4f7a
-ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
+ms.openlocfilehash: 54d53d5f3385be4b5d38a2bf220da139ba3bd3a4
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="generate-an-app-from-excel-in-powerapps"></a>Создание приложения на основе данных Excel в PowerApps
 В этой статье вы автоматически создадите свое первое приложение в PowerApps с помощью данных из таблицы Excel. Вы выберете файл Excel, создадите приложение, а затем запустите его. Каждое создаваемое приложение имеет экраны для просмотра списка записей и подробных сведений об отдельных записях, а также для создания и изменения записей. Вы можете быстро создать приложение, использующее данные Excel, а затем настроить его так, как вам требуется. 

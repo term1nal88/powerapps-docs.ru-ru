@@ -1,8 +1,6 @@
 ---
 title: Новые возможности PowerApps | Документация Майкрософт
 description: Обновления в PowerApps, упорядоченные по дате выпуска
-services: powerapps
-suite: powerapps
 documentationcenter: na
 author: skjerland
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 04/09/2018
+ms.topic: conceptual
+ms.component: canvas
+ms.date: 04/23/2018
 ms.author: sharik
-ms.openlocfilehash: 92438c37b870ace2ed5b2ec086cf6c5fb1548fdc
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 00b80bd5b9e0953366dd58d6e3b3266ffe7956bd
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Новые возможности PowerApps
 Сведения об известных ограничениях см. в статье [Типичные проблемы и решения](common-issues-and-resolutions.md).
@@ -33,6 +30,9 @@ ms.lasthandoff: 04/19/2018
 Узнайте о самых последних обновлениях наших бизнес-приложений, а также о целом ряде новых возможностей для построения ваших собственных приложений и расширений на основе нашей платформы. [Загрузите заметки о выпуске – весна 2018 г. PDF](https://aka.ms/businessappsreleasenotes), которые охватывают Dynamics 365, PowerApps, Microsoft Flow и Power BI.
 
 **Ожидается в ближайшее время**. PDF-файл с заметками о выпуске будет постоянно обновляться по мере выхода новых возможностей, информация о которых также будет доступна на веб-страннице.
+
+## <a name="apr-23"></a>23 апреля
+* Скачайте [вложения](controls/control-attachments.md) в Internet Explorer в формах пользовательского списка SharePoint.
 
 ## <a name="apr-9"></a>9 апреля
 * Элементы управления "Вырезать" (CTRL+X), "Копировать" (CTRL+C) и "Вставить" (CTRL+V),&mdash;включая стили, формулы и свойства элементов управления&mdash;для приложений в веб-браузере.

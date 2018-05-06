@@ -5,7 +5,7 @@ services: ''
 suite: powerapps
 documentationcenter: na
 author: jamesol-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/19/2017
+ms.date: 04/24/2018
 ms.author: jamesol
-ms.openlocfilehash: f3b53905bb335cf61eae3e184d4984d56907fe4c
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e74f75df09c22bd37e5459ec720324faf061e2e9
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="licensing-overview"></a>Общие сведения о лицензировании
 PowerApps лицензируется отдельно для каждого пользователя. Лицензия необходима для каждого пользователя, осуществляющего доступ к службе для создания и запуска приложений. Пользователи Office 365 и Dynamics 365 могут сразу же использовать возможности PowerApps и Microsoft Flow, которые содержатся в этих предложениях. Пользователи, желающие создавать приложения и последовательности, которые получают доступ к источникам данных за пределами Office 365 и Dynamics 365, или желающие расширить функциональные возможности, могут приобрести автономные подписки PowerApps и Microsoft Flow. Между этими группами лицензий имеются существенные различия в функциональности.
@@ -35,7 +35,7 @@ PowerApps лицензируется отдельно для каждого по
 |  | Включенные планы |
 | --- | --- |
 | В каких планах Microsoft Office 365 предусмотрена работа со службой PowerApps? |Работа со службой PowerApps предусмотрена в таких планах Office 365: <br><br>Office 365 бизнес базовый; <br>Office 365 бизнес премиум; <br>Office 365 для образования <br>Office 365 для образования плюс <br>Office 365 корпоративный E1; <br>Office 365 корпоративный E3; <br>Office 365 корпоративный E5.<br><br> *Office 365 корпоративный E2 содержит те же возможности, что и Office 365 корпоративный E1, а Office 365 корпоративный E4 содержит те же возможности, что и Office 365 корпоративный E3.*<br><br>Office 365 корпоративный F1 включает PowerApps для Office 365 корпоративный F1. |
-| В каких приложениях и планах Microsoft Dynamics 365 предусмотрена работа со службой PowerApps? |Работа со службой PowerApps предусмотрена в таких приложениях Dynamics 365:<br><br>Dynamics 365 for Sales (корпоративный выпуск); <br>Dynamics 365 for Customer Service (корпоративный выпуск); <br>Dynamics 365 for Operations (корпоративный выпуск); <br>Dynamics 365 for Field Service (корпоративный выпуск); <br>Dynamics 365 for Project Service Automation (корпоративный выпуск); <br>Dynamics 365 for Team Members (корпоративный выпуск); <br>Dynamics 365 for Financials (выпуск для бизнеса); <br>Dynamics 365 for Team Members (выпуск для бизнеса). <br><br>Работа с планом 2 службы PowerApps предусмотрена в таких планах:<br><br>Dynamics 365 (корпоративный выпуск), план 1;<br>Dynamics 365 (корпоративный выпуск), план 2. <br><br> *PowerApps для Dynamics 365 также входит в состав существующих подписок CRM Online Enterprise, Professional, Basic и Essential.* |
+| В каких приложениях и планах Microsoft Dynamics 365 предусмотрена работа со службой PowerApps? |Работа со службой PowerApps предусмотрена в таких приложениях Dynamics 365:<br><br>Dynamics 365 for Sales (корпоративный выпуск); <br>Dynamics 365 for Customer Service (корпоративный выпуск); <br>Dynamics 365 for Operations (корпоративный выпуск); <br>Dynamics 365 for Field Service (корпоративный выпуск); <br>Dynamics 365 for Project Service Automation (корпоративный выпуск); <br>Dynamics 365 for Team Members (корпоративный выпуск); <br>Dynamics 365 for Financials (выпуск для бизнеса); <br>Dynamics 365 for Team Members (выпуск для бизнеса). <br>Dynamics 365 for Talent (корпоративный выпуск); <br>Dynamics 365 for Retail (корпоративный выпуск); <br><br>Работа с планом 2 службы PowerApps предусмотрена в таких планах:<br><br>Dynamics 365 (корпоративный выпуск), план 1;<br>Dynamics 365 (корпоративный выпуск), план 2. <br><br> *PowerApps для Dynamics 365 также входит в состав существующих подписок CRM Online Enterprise, Professional, Basic и Essential.* |
 
 ### <a name="powerapps-for-office-365-enterprise-f1"></a>PowerApps для Office 365 корпоративный F1
 PowerApps входит в состав Office 365 корпоративный F1, позволяя пользователям запускать приложения и автоматизировать рабочие процессы. Тем не менее пользователи не могут создавать приложения с помощью этого плана (в отличие от таких планов, как Office 365 E1, Office 365 E3 и Office 365 E5). Следующая таблица содержит подробные сведения о возможностях PowerApps для Office 365 корпоративный F1.

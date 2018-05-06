@@ -1,27 +1,24 @@
 ---
 title: Сканирование штрихкода | Документация Майкрософт
 description: Сканирование штрихкодов разных типов, например UPC и Codabar
-services: ''
-suite: powerapps
 documentationcenter: na
 author: aftowen
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: 078c53300c4e1489d179f9c91818a8e23616f3ae
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 6960b41effb109f6f2266ba279b4d51ea51e744f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="scan-a-barcode-in-microsoft-powerapps"></a>Сканирование штрихкода в Microsoft PowerApps
+# <a name="scan-a-barcode-in-powerapps"></a>Сканирование штрихкода в PowerApps
 Вы можете сканировать штрихкоды разных типов, создав приложение и запустив его на устройстве с камерой, например на смартфоне. Числовое значение штрихкода отображается в элементе управления **Метка**, и эти данные вы можете отправить в разные [источники данных](connections-list.md).
 
 Если вы еще не работали с PowerApps, см. статью [Введение в PowerApps](getting-started.md).
@@ -38,8 +35,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="create-a-blank-app"></a>Создание пустого приложения
 1. [Подпишитесь на PowerApps](../signup-for-powerapps.md), а затем выполните *одно* из следующих действий:
 
-   * [Откройте PowerApps](https://create.powerapps.com/api/start) в браузере на любом устройстве с камерой.
-   * [Установите PowerApps](http://aka.ms/powerappsinstall) из Магазина Windows на этом устройстве с камерой. Откройте PowerApps, войдите в систему, а затем выберите пункт **Создать** в меню **Файл** (с левой стороны).
+1. [Откройте PowerApps](https://create.powerapps.com) в браузере на любом устройстве с камерой.
 
 2. В разделе **Start with a blank canvas or template** (Начать с пустого холста или шаблона) щелкните или коснитесь **Макет для телефона** на плитке **Пустое приложение**.
 
