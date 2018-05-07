@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 7ee752f5606f10f66ad7c8dc49e05233225c0a89
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4d622eb6cdfaed91547a59be8f5a5dc6651957e5
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>Использование файлов мультимедиа в PowerApps
 В этой статье описано, как внедрить файлы мультимедиа в приложение, отправить нарисованные с помощью пера рисунки в источник данных и просмотреть изображения из источника данных в приложении. В качестве источника данных мы используем файл Excel в OneDrive для бизнеса.
 
 ## <a name="prerequisites"></a>Технические условия
-[Зарегистрируйтесь](../signup-for-powerapps.md) в службе PowerApps и [установите](http://aka.ms/powerappsinstall) ее. Откройте PowerApps и войдите в систему, используя учетные данные, которые вы ввели при регистрации.
+[Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com) с помощью учетных данных, использовавшихся при регистрации.
 
 ## <a name="add-media-from-a-file-or-the-cloud"></a>Добавление мультимедиа из файла или из облака
 Выберите тип добавляемого файла мультимедиа (например, изображение, видео или звуковой файл).

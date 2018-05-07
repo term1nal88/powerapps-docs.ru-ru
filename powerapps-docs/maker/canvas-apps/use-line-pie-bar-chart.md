@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 9a4daa7135f54ed3a0b3e1f206ce0d201c42da8b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: f4b6f604ecd7557f7b7b54769d66da850e18ef4f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>Отображение данных в виде графика, круговой или линейчатой диаграммы в PowerApps
 Используйте графики, круговые диаграммы и гистограммы для отображения данных. При работе с диаграммами импортируемые данные должны быть структурированы следующим образом:
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/26/2018
 Вы можете создавать и использовать эти диаграммы в PowerApps. Приступим.
 
 ## <a name="prerequisites"></a>Технические условия
-* [Зарегистрируйтесь](../signup-for-powerapps.md) в службе PowerApps и [установите](http://aka.ms/powerappsinstall) ее. Откройте PowerApps и войдите в систему, используя учетные данные, которые вы ввели при регистрации.
+* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com) с помощью учетных данных, использовавшихся при регистрации.
 * Создайте приложение с помощью [шаблона](get-started-test-drive.md) или [данных](get-started-create-from-data.md) или создайте его с [нуля](get-started-create-from-blank.md).
 * Узнайте, как [настроить элемент управления](add-configure-controls.md) в PowerApps.
 * Скачайте файл [ChartData.zip](http://pwrappssamples.blob.core.windows.net/samples/ChartData.zip) с демонстрационными данными в виде XML-файла. Выполните действия, описанные в этом разделе, чтобы импортировать его непосредственно в приложение. Кроме того, вы можете распаковать ZIP-файл, открыть XML-файл в Excel и сохранить его в [учетной записи хранения в облаке](connections/cloud-storage-blob-connections.md).

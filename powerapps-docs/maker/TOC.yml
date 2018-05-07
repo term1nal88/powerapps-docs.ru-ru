@@ -228,8 +228,6 @@
           href: ./common-data-service/data-platform-create-entity.md
         - name: Создание настраиваемой сущности на основе данных
           href: ./common-data-service/data-platform-cds-newentity-pq.md
-        - name: Управление полями
-          href: ./common-data-service/data-platform-manage-fields.md
         - name: Создание набора параметров
           href: ./common-data-service/custom-picklists.md
         - name: Создание связи
@@ -244,6 +242,18 @@
           href: ./common-data-service/create-custom-entity.md
     - name: Примеры и ресурсы
       href: ./common-data-service/samples-resources.md
+    - name: Концепции
+      items:
+        - name: Требования к лицензиям для сущностей
+          href: ./common-data-service/data-platform-entity-licenses.md
+    - name: Практические руководства
+      items:
+        - name: Управление настраиваемыми полями в сущности
+          href: ./common-data-service/data-platform-manage-fields.md
+    - name: Справочные материалы
+      items:
+        - name: 'Ограниченные сущности, для которых требуются лицензии Dynamics 365'
+          href: ./common-data-service/data-platform-restricted-entities.md
     - name: Для разработчиков
       href: ../developer/common-data-service/TOC.yml
 - name: Модель общих данных

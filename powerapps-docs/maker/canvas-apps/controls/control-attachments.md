@@ -1,32 +1,29 @@
 ---
 title: Справка по элементу управления "Вложения" | Документация Майкрософт
 description: Сведения об элементе управления "Вложения" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 09/29/2017
+ms.topic: reference
+ms.component: canvas
+ms.date: 04/23/2018
 ms.author: fikaradz
-ms.openlocfilehash: 6b46cfd778dcb29553dce252988b8b6a049ba12d
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 24610e4d70f39f08eec1e828c1be20183d8de3af
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>Элемент управления "Вложения" в PowerApps
 Элемент управления, который позволяет пользователям скачивать файлы на устройства, а также добавлять их в список SharePoint и удалять их оттуда.
 
 ## <a name="limitations"></a>Ограничения
 Элемент управления вложениями имеет следующие временные ограничения:
-1. Загрузка вложений не поддерживается в Internet Explorer.
+1. Скачать вложение можно только в Internet Explorer в формах пользовательского списка SharePoint.
 
 1. Передача вложений поддерживается только источниками данных списка SharePoint.  Поддержка для других источников данных будет добавляться последовательно, начиная с CDS.
 
@@ -97,7 +94,7 @@ ms.lasthandoff: 04/19/2018
 
     Поле "Вложения", связанное со списком SharePoint, отобразится в форме.
 
-Узнайте, как [добавлять и настраивать элементы управления](../add-configure-controls.md).
+[Сведения о том, как добавить и настроить элемент управления].(../add-configure-controls.md)
 
 
 ## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
@@ -113,7 +110,7 @@ ms.lasthandoff: 04/19/2018
 * **MaxAttachmentsColor** и **Fill**
 * **NoAttachmentsColor** и **Fill**
 
-Это дополнение к стандартным требованиям к контрастности.
+Это дополнение к [стандартным требованиям по цветовому контрасту](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 Должны присутствовать следующие свойства:
@@ -124,4 +121,4 @@ ms.lasthandoff: 04/19/2018
 
 ### <a name="keyboard-support"></a>Поддержка клавиатуры
 * Значение элемента **[TabIndex](properties-accessibility.md)** должно быть равно нулю или больше нуля, чтобы пользователи могли использовать навигацию с помощью клавиатуры.
-* Индикаторы фокуса должны быть хорошо видны. Для этого используйте элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.
+* Индикаторы фокуса должны быть хорошо видны. Для этого используются элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.

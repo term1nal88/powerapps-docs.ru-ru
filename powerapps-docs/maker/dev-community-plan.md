@@ -1,25 +1,22 @@
 ---
 title: План сообщества PowerApps. Бесплатная среда разработки для индивидуального использования | Документы Майкрософт
 description: Зарегистрируйтесь для приобретения и закрепления навыков работы c PowerApps, Microsoft Flow и Common Data Service.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: 13952338015fd6ec6f951cb9447cc5203f7159e0
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: 70200430b0cee7356d70795440b908a8837ba18d
+ms.sourcegitcommit: 6a75c4c499bcdbeb9d65d3a9af47dedcf900f38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>План сообщества PowerApps. Бесплатная среда разработки для индивидуального использования
 Если вы хотите приобрести навыки и узнать больше о PowerApps, Microsoft Flow и Common Data Service, план сообщества PowerApps вам подходит. План сообщества PowerApps предоставляет бесплатную среду разработки для индивидуального использования, в которой можно:
@@ -76,7 +73,7 @@ ms.lasthandoff: 04/23/2018
 
 * Нельзя совместно использовать приложения, потоки, подключения и т. д. с другими пользователями вашего клиента. Вы также не можете добавить любого другого пользователя в качестве администратора или разработчика среды или в роли базы данных из центра администрирования.
 
-Возможность создания баз данных с Common Data Service временно отсутствует в индивидуальных средах. Мы вскоре вернем эту возможность. Если вы создали такую базу данных ранее, вы можете и дальше ей пользоваться без каких-либо ограничений. 
+\*\*Возможность создания баз данных с Common Data Service временно отсутствует в индивидуальных средах. Мы вернем в ее ближайшем будущем. Если вы создали такую базу данных ранее, вы можете и дальше ей пользоваться без каких-либо ограничений. 
 
 ## <a name="what-are-the-capacity-limits-for-the-individual-environment"></a>Каковы ограничения емкости для индивидуальной среды?
 | **Емкость** |  |

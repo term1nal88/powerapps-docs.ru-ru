@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: anneta
-ms.openlocfilehash: b15584a1b53625544711f04d074c688ce75eac9c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 29da2a8814b0de7d34915f9992aeb963743785d2
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>Добавление изображений в Excel из PowerApps
 Вы можете автоматически создать приложение, в котором пользователи смогут показывать, добавлять и удалять изображения из файлов и рисунки, созданные с помощью элемента управления **Перо**. Это приложение основано на файле Excel, который вы создаете и отправляете в учетную запись облачного хранилища.
@@ -41,7 +41,7 @@ ms.lasthandoff: 04/26/2018
 6. В разделе **Choose a table** (Выберите таблицу) выберите созданную вами таблицу, а затем щелкните или нажмите **Connect** (Подключиться).
    
     ![Выбор таблицы](./media/add-images-to-excel/select-table.png)
-7. Если вы только установили или обновили PowerApps, ознакомьтесь с кратким обзором либо щелкните или нажмите **Skip** (Пропустить).
+7. Если отображается краткий обзор, ознакомьтесь с ним или нажмите кнопку **Пропустить**.
    
     ![Заставка краткого обзора](./media/add-images-to-excel/quick-tour.png)
 

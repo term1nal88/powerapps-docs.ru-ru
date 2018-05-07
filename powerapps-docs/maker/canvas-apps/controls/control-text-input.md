@@ -1,25 +1,22 @@
 ---
 title: Справка по элементу управления "Текстовое поле" | Документация Майкрософт
 description: Сведения об элементе управления "Текстовое поле" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: fca84b687f6e86905c6eeea18a7cd302f0c58b44
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 3100ebae3d3f9b7cdef839d74e9d289b4059de5d
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="text-input-control-in-powerapps"></a>Элемент управления "Текстовое поле" в PowerApps
 Поле, в котором пользователь может вводить текст, числа и другие данные.
@@ -59,9 +56,9 @@ ms.lasthandoff: 04/16/2018
 
 **[Fill](properties-color-border.md)**  — цвет фона элемента управления.
 
-**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления в тот момент, когда он активен.
+**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления при наведении фокуса.
 
-**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления в тот момент, когда он активен.
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления при наведении фокуса.
 
 **[Font](properties-text.md)**  — имя семейства шрифтов, используемых для отображения текста.
 
@@ -166,7 +163,7 @@ ms.lasthandoff: 04/16/2018
 
 ## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
 ### <a name="color-contrast"></a>Контрастность
-* Применяются стандартные требования к цветовому контрасту.
+* Применяются [стандартные требования по цветовому контрасту](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Должен присутствовать элемент **[AccessibleLabel](properties-accessibility.md)**.

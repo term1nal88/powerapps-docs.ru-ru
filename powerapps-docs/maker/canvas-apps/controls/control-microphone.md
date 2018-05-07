@@ -1,25 +1,22 @@
 ---
 title: Справка по элементу управления "Микрофон" | Документация Майкрософт
 description: Сведения об элементе управления "Микрофон" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 8f49b7dbe6186c9c984b27f4c5b07273e88f1963
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: ae6a8afa71a150ad1b15f8ef0550f3d7412ff3be
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="microphone-control-in-powerapps"></a>Элемент управления "Микрофон" в PowerApps
 С помощью элемента управления "Микрофон" пользователь может записывать звук.
@@ -124,7 +121,7 @@ ms.lasthandoff: 04/16/2018
 Необходимо настроить достаточный контраст для следующих элементов:
 * элемента **[Image](properties-visual.md)** и текста кнопки и значка (если применимо).
 
-Это дополнение к стандартным требованиям к контрастности.
+Это дополнение к [стандартным требованиям по цветовому контрасту](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Должен присутствовать элемент **[AccessibleLabel](properties-accessibility.md)**.

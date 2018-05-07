@@ -7,11 +7,11 @@ ms.topic: tutorial
 ms.component: canvas
 ms.date: 04/24/2018
 ms.author: anneta
-ms.openlocfilehash: 6206d520e8bb07c0919f482700c1af861e41109d
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 3138969cc51d0d0964692d4c53101b6a145ba1cf
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Учебник. Настройка коллекции в PowerApps
 С помощью этого руководства вы настроите коллекцию и внесете ряд других изменений в приложение, автоматически созданное в Microsoft PowerApps. Пользователи смогут управлять данными в приложении и без следующих изменений, но настройка с учетом требований вашей организации упростит работу с приложением:
@@ -28,7 +28,7 @@ ms.lasthandoff: 04/26/2018
 Если у вас нет лицензии на PowerApps, вы можете [зарегистрироваться для получения бесплатной версии](../signup-for-powerapps.md).
 
 ## <a name="prerequisites"></a>Технические условия
-С помощью этой статьи вы можете просто ознакомиться с общими концепциями или выполнить каждый шаг, если создадите [вот это приложение](data-platform-create-app.md).
+[Создайте приложение](data-platform-create-app.md) на основе сущности **Учетные записи** Common Data Service (CDS) для приложений.
 
 ## <a name="open-the-generated-app"></a>Открытие созданного приложения
 1. Войдите в [PowerApps](https://web.powerapps.com), а затем выберите **Приложения** у левого края экрана.

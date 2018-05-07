@@ -1,25 +1,22 @@
 ---
 title: Справка по элементу управления "Кнопка" | Документация Майкрософт
 description: Сведения об элементе управления "Кнопка" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: aec9071cf5cc7cbe451bae32dedc2ba119e21189
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 8a22e1075d15d96b7e1a6383260d5b7ccb653c3a
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="button-control-in-powerapps"></a>Элемент управления "Кнопка" в PowerApps
 Элемент управления, который пользователь нажимает для взаимодействия с приложением.
@@ -53,9 +50,9 @@ ms.lasthandoff: 04/16/2018
 
 **[DisabledFill](properties-color-border.md)** — цвет фона элемента управления, если для его свойства **[DisplayMode](properties-core.md)** установлено значение **Отключено**.
 
-**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления в тот момент, когда он активен.
+**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления при наведении фокуса.
 
-**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления в тот момент, когда он активен.
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления при наведении фокуса.
 
 **[Fill](properties-color-border.md)**  — цвет фона элемента управления.
 
@@ -189,7 +186,7 @@ ms.lasthandoff: 04/16/2018
 
 ## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
 ### <a name="color-contrast"></a>Контрастность
-* Применяются стандартные требования к цветовому контрасту.
+* Применяются [стандартные требования по цветовому контрасту](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Должен присутствовать элемент **[Text](properties-core.md)**.

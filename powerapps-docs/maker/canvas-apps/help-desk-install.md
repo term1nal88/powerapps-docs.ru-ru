@@ -1,25 +1,22 @@
 ---
 title: Установка и настройка примера приложения PowerApps "Служба поддержки" | Документы Майкрософт
 description: Пошаговые инструкции по установке и настройке примера приложения PowerApps "Служба поддержки".
-services: ''
-suite: powerapps
 documentationcenter: na
 author: caburk
-manager: ''
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: sample
+ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: be5a2f1994a55abf6936ded4dfddf84d145115c5
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: e042230acec8bf70a2a99eee316d234cb5cdea15
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Служба поддержки"
 
@@ -85,10 +82,10 @@ ms.lasthandoff: 04/16/2018
 7. В текстовом поле **Значение по умолчанию** введите **Проблема с оборудованием ноутбука или ПК**.
 8. Нажмите кнопку **ОК**.
 
-### <a name="create--complete-column"></a>Создание столбца "% Complete" (Процент выполнения)
+### <a name="create-percentcomplete-column"></a>Создание столбца PercentComplete
 
 1. Щелкните **Создать столбец**.
-2. В текстовом поле **Имя столбца** введите **% Complete**.
+2. В текстовом поле **Имя столбца** введите **PercentComplete**.
 3. В списке переключателей **Type of information in this column is** (Тип данных этого столбца) выберите **Число (1, 10, 100)**.
 4. В списке переключателей **Require that this column contains information** (Требовать, чтобы этот столбец содержал данные) выберите **Нет**.
 5. Нажмите кнопку **ОК**.
@@ -251,6 +248,7 @@ ms.lasthandoff: 04/16/2018
     
     > [!TIP] 
     > Если у вас несколько администраторов, используйте в качестве разделителя запятую.  Пример: "admin1@microsoft.com","admin2@microsoft.com".
+    > Чтобы обеспечить соответствие адресов в списке AdminList формату, ожидаемому PowerApps, выберите "Вид" > "Переменные" > "Глобальные" > "Мой профиль" и просмотрите ожидаемый формат электронной почты в столбце "Почта".
 
 5. Щелкните **Файл**.
 6. Щелкните **Сохранить**.

@@ -12,11 +12,11 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: fe6017ee402f0026aab3ef281a02b472b6a503ad
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 1be4a7a6f1d4080a715f88db8d48892641a19a1f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>Подключение к SharePoint из PowerApps
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -49,13 +49,11 @@ ms.lasthandoff: 04/26/2018
 Столбцы, содержащие пробелы, могут считываться PowerApps, но при этом пробелы заменяются шестнадцатеричным escape-кодом **"\_x0020\_"**. Например, столбец **Имя столбца** из SharePoint будет отображаться как **Имя_x0020_столбца** в PowerApps при отображении в структуре данных или использовании в формуле.
 
 ## <a name="prerequisites"></a>Технические условия
-Откройте PowerApps, выполнив *одно* из следующих действий.
+1. [Регистрация](../../signup-for-powerapps.md) в PowerApps.
 
-* [Зарегистрируйтесь](../../signup-for-powerapps.md) в службе PowerApps, [установите PowerApps Studio для Windows](http://aka.ms/powerappsinstall) и откройте ее, а затем войдите с помощью учетных данных, использованных при регистрации.
+1. Войдите в [PowerApps](http://web.powerapps.com), указав те же учетные данные, что и при регистрации.
 
-* [Откройте PowerApps Studio для Интернета](https://create.powerapps.com/api/start) в браузере.
-
-    Список поддерживаемых браузеров, а также список ограничений в предварительной версии программы PowerApps Studio для Интернета, см. в статье [Create or edit apps in a browser](../create-app-browser.md) (Создание или изменение приложений в браузере).
+1. В левой части выберите **Приложения**, а затем на баннере щелкните **Создать приложение**.
 
 ## <a name="create-an-app"></a>Создание приложения
 * [Автоматически создайте приложение](../app-from-sharepoint.md) на основе данных из списка SharePoint.

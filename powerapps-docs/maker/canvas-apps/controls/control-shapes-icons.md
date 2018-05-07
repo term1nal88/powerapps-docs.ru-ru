@@ -1,25 +1,22 @@
 ---
 title: Справка по элементам управления "Фигуры" и "Значки" | Документация Майкрософт
 description: Сведения о фигурах и значках с описанием их свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 922a34c4acdaa82313edb9bf55bcb24d42af7fed
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: e2c5d384c29766d6c30db8aa85ad4d7d45b48e04
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>Фигуры и значки в PowerApps
 Фигуры и значки — это элементы управления, для которых можно настроить внешний вид и поведение.
@@ -82,7 +79,7 @@ ms.lasthandoff: 04/16/2018
 
 Для значков:
 * **[Color](properties-color-border.md)** и **[Fill](properties-color-border.md)**;
-* применяются стандартные требования к контрастности элементов, используемых в качестве кнопки.
+* применяются другие [стандартные требования по цветовому контрасту](../accessible-apps-color.md) (при использовании в качестве кнопки).
 
 Для фигур с границами:
 * элемент **[BorderColor](properties-color-border.md)** и цвет за его пределами;
@@ -98,11 +95,13 @@ ms.lasthandoff: 04/16/2018
 * **[AccessibleLabel](properties-accessibility.md)** должен быть пустой строкой **""** или пустым, если графический элемент предназначен исключительно для визуализации. В этом случае средства чтения с экрана игнорируют графику.
 * **[AccessibleLabel](properties-accessibility.md)** может быть пустой строкой **""** или пустым, если графика содержит избыточные сведения.
     * Например, для свойства **[AccessibleLabel](properties-accessibility.md)** значка **Настройки** задано значение **Настройки**. Такой значок не используется в качестве кнопки. Он идет за **[меткой](control-text-box.md)**, свойство которой также установлено как **Настройки**. Средства чтения с экрана воспримут этот значок как **Настройки**, а метку как еще одни **Настройки**. Это неуместная многословность. В таком случае значку не нужна метка **[AccessibleLabel](properties-accessibility.md)**.
-> [!IMPORTANT]
+
+    > [!IMPORTANT]
 > Средства чтения с экрана всегда считают значки или фигуры со значением **[TabIndex](properties-accessibility.md)** большим или равным нулю, даже если **[AccessibleLabel](properties-accessibility.md)** пуст. Это происходит потому, что они воспринимаются как кнопки. Если элемент **[AccessibleLabel](properties-accessibility.md)** не указан, средства чтения с экрана будут считывать графику как **кнопку**.
 
 ### <a name="keyboard-support"></a>Поддержка клавиатуры
 * Если графика используется как кнопка, значение **[TabIndex](properties-accessibility.md)** должно быть равно нулю и выше. При этом пользователи смогут применять клавиатуру для навигации.
 * Индикаторы фокусировки должны быть четко видны, если графика используется как кнопка. Для этого используйте элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.
-> [!NOTE]
+
+    > [!NOTE]
 > Если значение **[TabIndex](properties-accessibility.md)** равно нулю или больше него, значок или форма воспринимается в качестве кнопки. Внешне это незаметно, но средства чтения с экрана правильно распознают изображение в качестве кнопки. Если значение **[TabIndex](properties-accessibility.md)** меньше нуля, значок или форма воспринимаются только как изображение.

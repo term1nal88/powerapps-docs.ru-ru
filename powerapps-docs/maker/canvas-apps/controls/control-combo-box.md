@@ -1,25 +1,22 @@
 ---
 title: Справка по элементу управления "Поле со списком" | Документация Майкрософт
 description: Сведения об элементе управления "Поле со списком" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 5fb4ca1a8c3618a81940ef953e2e7d1c9b04dd7e
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 4fde158bbca9d132801236f418c8a7652444728e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>Элемент управления "Поле со списком" в PowerApps
 Это элемент управления, который позволяет выбирать из доступных вариантов.  Поддерживает поиск и выбор нескольких вариантов.
@@ -98,21 +95,23 @@ ms.lasthandoff: 04/16/2018
 ## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
 ### <a name="color-contrast"></a>Контрастность
 Необходимо настроить достаточный контраст для следующих элементов:
-* элементов **ChevronFill** и **ChevronBackground**;
-* элементов **ChevronHoverFill** и **ChevronHoverBackground**;
-* элементов **SelectionColor** и **SelectionFill**;
+* **ChevronFill** и **ChevronBackground**;
+* **ChevronHoverFill** и **ChevronHoverBackground**;
+* **SelectionColor** и **SelectionFill**;
 * элементов **SelectionFill** и **[Fill](properties-color-border.md)**;
 * элементов **SelectionTagColor** и **SelectionTagFill**.
 
-Это дополнение к стандартным требованиям к контрастности.
+Это дополнение к [стандартным требованиям по цветовому контрасту](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Должен присутствовать элемент **[AccessibleLabel](properties-accessibility.md)**.
-> [!NOTE]
+
+    > [!NOTE]
 > На сенсорных экранах пользователи могут применять средства чтения с экрана для последовательного перехода по содержимому поля со списком. Поле со списком используется как кнопка, которая показывает или скрывает его содержимое при нажатии.
 
 ### <a name="keyboard-support"></a>Поддержка клавиатуры
 * Значение элемента **[TabIndex](properties-accessibility.md)** должно быть равно нулю или больше нуля, чтобы пользователи могли использовать навигацию с помощью клавиатуры.
 * Индикаторы фокуса должны быть хорошо видны. Для этого используйте элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.
-> [!NOTE]
+
+    > [!NOTE]
 > Клавиша TAB позволяет переходить к полю со списком. Клавиши со стрелками позволяют переходить по содержимому поля со списком. Клавиша ESC закрывает открытый раскрывающийся список.

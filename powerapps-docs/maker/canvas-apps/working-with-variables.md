@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 74ab73d78e87c25adf0cd300bb8a6321a578d749
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: d77bc3c90b16fae60fb0daf78376beaa31d67098
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="understand-variables-in-powerapps"></a>Общие сведения о переменных PowerApps
 Если вы использовали другое средство программирования, например Visual Basic или JavaScript, у вас может возникнуть вопрос: **Где переменные?** PowerApps немного отличается и требует иного подхода. Вместо того чтобы мыслить в категориях переменных, спросите себя: **Как это делается в Excel?**
@@ -257,5 +257,5 @@ ms.lasthandoff: 04/26/2018
 12. Перейдите в режим предварительного просмотра снова, нажав клавишу F5, введите числа в элементе управления для ввода текста и нажмите кнопки.  Нажмите кнопку **Сохранить**.  Закройте и перезапустите приложение, а затем нажмите кнопку **Загрузить**, чтобы повторно загрузить коллекцию.  
     
     > [!NOTE]
-    > **SaveData** и **LoadData** не поддерживаются при работе в веб-браузере. Необходимо использовать Studio на устройстве Windows или один из проигрывателей для мобильных устройств.  
+    > **SaveData** и **LoadData** не поддерживаются при работе в веб-браузере. Необходимо использовать PowerApps Studio для Windows или PowerApps Mobile.
 

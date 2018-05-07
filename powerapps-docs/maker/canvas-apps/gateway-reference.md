@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/20/2017
 ms.author: anneta
-ms.openlocfilehash: 77e47b79ece6149f7d9068fc4092e09fbdca77d2
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 2c754fa8e479494ae1002e5339d2d8d5eeb2480f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Общие сведения о локальных шлюзах данных в Microsoft PowerApps
 ## <a name="installation-and-configuration"></a>Установка и настройка
@@ -138,6 +138,10 @@ ms.lasthandoff: 04/26/2018
 Это не учетная запись, используемая для подключения к локальным источникам данных, и не рабочая или учебная учетная запись, с помощью которой выполняется вход в облачные службы.
 
 Если возникают проблемы с прокси-сервером из-за проверки подлинности, можно изменить учетную запись службы Windows на учетную запись пользователя домена или на управляемую учетную запись службы, как описано в разделе [Настройка прокси-сервера](https://docs.microsoft.com/power-bi/service-gateway-proxy#changing-the-gateway-service-account-to-a-domain-user).
+
+## <a name="tenant-level-administration"></a>Администрирование на уровне клиента 
+
+Сейчас нет единого места, где администраторы клиентов могли бы управлять всеми шлюзами, установленными и настроенными другими пользователями.  Если вы являетесь администратором клиента, рекомендуется попросить пользователей в организации добавлять вас в качестве администратора в каждый устанавливаемый ими шлюз. В этом случае вы сможете управлять всеми шлюзами в вашей организации на странице параметров шлюза или с помощью [команд PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters).
 
 ## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 #### <a name="general"></a>Общие

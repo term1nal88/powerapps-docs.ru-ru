@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/07/2018
 ms.author: sharik
-ms.openlocfilehash: 5cd2fdf5150d008f905e4c5c8177e6331545848e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 5bf57ec96569751b3db656abdf04cebb1e13133a
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="system-requirements-limits-and-configuration-values"></a>Требования к системе, ограничения и значения конфигурации
 В этой статье приводятся требования к платформе устройств и веб-браузеру, а также ограничения и значения конфигурации для PowerApps.
@@ -37,7 +37,7 @@ ms.lasthandoff: 04/26/2018
 | Mozilla Firefox (последняя версия) |Windows 7 с пакетом обновления 1, 8.1 и 10 <br> Android 5 или более поздней версии <br>iOS 8 или более поздней версии <br>macOS |
 | Apple Safari (последняя версия) |iOS 8 или более поздней версии <br>macOS |
 
-## <a name="supported-browsers-for-powerapps-studio-for-web"></a>Поддерживаемые браузеры для PowerApps Studio для Web
+## <a name="supported-browsers-for-powerapps-studio"></a>Поддерживаемые браузеры для PowerApps Studio
 | **Браузер** | **Операционная система** |
 | --- | --- |
 | Google Chrome (последняя версия)<br>(рекомендуется) |Windows 7 с пакетом обновления 1, 8.1 и 10 <br>macOS |

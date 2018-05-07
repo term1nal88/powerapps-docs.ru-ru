@@ -1,25 +1,22 @@
 ---
 title: Справка по элементу управления "Выключатель" | Документация Майкрософт
 description: Сведения об элементе управления "Переключатель" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 709da9e7b3e80e370488e9bdfb45f40d68dae856
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 0344a43707170bccebfd01d8b3a1bba24f3c183f
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="toggle-control-in-powerapps"></a>Элемент управления "Переключатель" в PowerApps
 "Переключатель" — это элемент управления, который пользователь может включить или отключить.
@@ -134,7 +131,7 @@ ms.lasthandoff: 04/16/2018
 * элемента **TrueFill** и цвета за его пределами;
 * элемента **TrueHoverFill** и цвета за его пределами.
 
-Это дополнение к стандартным требованиям к контрастности.
+Это дополнение к [стандартным требованиям по цветовому контрасту](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Должен присутствовать элемент **[AccessibleLabel](properties-accessibility.md)**.
@@ -146,4 +143,4 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="keyboard-support"></a>Поддержка клавиатуры
 * Значение элемента **[TabIndex](properties-accessibility.md)** должно быть равно нулю или больше нуля, чтобы пользователи могли использовать навигацию с помощью клавиатуры.
-* Индикаторы фокуса должны быть хорошо видны. Для этого используйте элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.
+* Индикаторы фокуса должны быть хорошо видны. Для этого используются элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.

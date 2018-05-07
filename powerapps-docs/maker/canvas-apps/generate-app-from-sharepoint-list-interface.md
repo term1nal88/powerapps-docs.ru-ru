@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 50e897e9d75eec037039e81e6dbed524206b10d3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 51a13472407c5483eed7cc2c202e46855905157d
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>Создание приложения из списка SharePoint с использованием PowerApps
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 04/26/2018
 ## <a name="manage-the-app"></a>Управление приложением
 ![Панель команд](./media/generate-app-from-sharepoint-list-interface/command-bar.png)
 
-* Если выбрать **Edit in PowerApps** (Изменить в PowerApps), приложение откроется на отдельной вкладке браузера и вы сможете внести изменения в его веб-версию в PowerApps Studio.
+* Если выбрать **Edit in PowerApps** (Изменить в PowerApps), приложение откроется на отдельной вкладке браузера, где вы сможете изменить его в PowerApps Studio.
 
 * Если выбрать **Make this view public** (Сделать это представление общедоступным), ваши сотрудники смогут просматривать приложение. По умолчанию создаваемые вами представления доступны только вам. Если вы хотите, чтобы другие пользователи могли вносить изменения в приложение, вам потребуется [предоставить им общий доступ](share-app.md) и разрешения **Можно изменять**.
 
