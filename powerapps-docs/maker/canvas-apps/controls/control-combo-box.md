@@ -12,11 +12,11 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 4fde158bbca9d132801236f418c8a7652444728e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 1a790627ad1dbd1bebecca84cb41ee29dcf148dd
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>Элемент управления "Поле со списком" в PowerApps
 Это элемент управления, который позволяет выбирать из доступных вариантов.  Поддерживает поиск и выбор нескольких вариантов.
@@ -41,6 +41,8 @@ ms.lasthandoff: 04/26/2018
 **SelectMultiple** — позволяет определить, сколько элементов можно выбрать: один или несколько.
 
 **IsSearchable** — позволяет определить, можно ли выполнять поиск элементов, прежде чем их выбрать.
+
+**SearchFields** — поля данных источника данных, по которым ведется поиск, если пользователь вводит текст.  Для поиска по нескольким полям установите значение так: ComboBox1.SearchFields = ["ПервыйСтолбец", "ВторойСтолбец"].
 
 ## <a name="additional-properties"></a>Дополнительные свойства
 **[AccessibleLabel](properties-accessibility.md)** — метка для средств чтения с экрана.
