@@ -1,25 +1,18 @@
 ---
 title: Краткое руководство по запуску приложения на основе холста на мобильном устройстве | Документы Майкрософт
 description: Из этого краткого руководства вы узнаете, как запустить приложение на основе холста на мобильном устройстве.
-services: powerapps
-suite: powerapps
-documentationcenter: na
-author: skjerland
+author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-user
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 555a33460109fdb1edc054cd58cb5e6f88126935
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: e18035a999334cc9fdd5bea279e7f3ce501d5bb6
+ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>Краткое руководство. Запуск приложения на основе холста на мобильном устройстве
 Если вы создали приложение или вам предоставили доступ к приложению, его можно запускать в ОС Windows, iOS, Android или в веб-браузере. Из этого краткого руководства вы узнаете, как запустить приложение на основе холста на мобильном устройстве. Приложения, работающие на мобильных устройствах, могут использовать такие возможности этих устройств, как определение местоположения и съемка на камеру.
