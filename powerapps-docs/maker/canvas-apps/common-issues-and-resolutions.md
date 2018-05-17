@@ -1,28 +1,32 @@
 ---
 title: Распространенные проблемы в PowerApps и их решение | Документация Майкрософт
-description: Сведения о проблемах в PowerApps и способах их решения
-services: ''
-suite: powerapps
-documentationcenter: na
+description: Список распространенных проблем в PowerApps их решений.
 author: skjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 04/12/2018
+ms.topic: conceptual
+ms.component: canvas
+ms.date: 05/10/2018
 ms.author: sharik
-ms.openlocfilehash: 8a241ff41abf5f3fe804330d6678b70cf0576ceb
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 71e6d6977ff84ac8131acb9353f919c5ee80995b
+ms.sourcegitcommit: fe556abcfd6bdfeb5fdeea8f07b185b4b502d02f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Распространенные проблемы в PowerApps и их решение
+В этой статье перечислены некоторые распространенные проблемы, которые могут возникать у вас при работе с PowerApps. Где это возможно, приведены решения.
+
 ## <a name="recently-addedchanged"></a>Недавно добавлено или изменено
+1. **Запуск веб-сайта из встроенного приложения**
+
+    Браузеры Internet Explorer и Microsoft Edge могут блокировать запуск URL-адреса или веб-сайта, находящихся в защищенном режиме или относящихся к более низкой зоне безопасности, чем веб-сайт, на котором загружено приложение. Чтобы устранить эту проблему, [измените параметры безопасности и конфиденциальности](https://support.microsoft.com/en-us/help/17479/windows-internet-explorer-11-change-security-privacy-settings) браузера.
+
+1. **Элементы управления "Поле со списком" в коллекциях**
+
+    При использовании элемента **Поле со списком** в коллекции выбранный пункт сбрасывается, когда пользователь прокручивает коллекцию. Если элемент **Поле со списком** используется в коллекции, которая не прокручивается, проблема не возникает. Решения в настоящее время нет.
+
+
 1. **Использование пользовательского изображения в качестве значка приложения**
 
     В PowerApps Studio для Windows версии 3.18043 невозможно отправить пользовательское изображение для использования в качестве значка приложения. Чтобы решить эту проблему, используйте [PowerApps Studio для Web](https://web.powerapps.com) для отправки пользовательского образа. Кроме того, можно использовать один из значков, предлагаемых в PowerApps Studio для Windows, и настроить цвет фона.

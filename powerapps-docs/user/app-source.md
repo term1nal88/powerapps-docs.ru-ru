@@ -1,25 +1,18 @@
 ---
 title: Поиск приложений через AppSource | Документация Майкрософт
 description: Поиск приложений, доступных для вашей организации, с помощью AppSource
-services: ''
-suite: powerapps
-documentationcenter: na
 author: linhtranms
-manager: anneta
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-user
+ms.topic: conceptual
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: 805a74da29a97902eb700bb949f37cca491c05a0
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 3f1eee4a220b46fcae769054eef71c1c8ad41859
+ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="discover-apps-via-appsource"></a>Поиск приложений через AppSource
 Приложения, которые вы создаете и публикуете с помощью PowerApps, доступны для поиска и использования в службе Dynamics 365 в Интернете. В ней отображаются все приложения: как те, которые вы явным образом выбрали для использования (то есть запустили из сообщения электронной почты о предоставлении доступа или открыли из AppSource), так и те, которые подготовил для вас администратор. Сюда входят все ваши приложения в PowerApps, а также приложения Dynamics 365 от Майкрософт. Вы можете искать приложения, фильтровать их по средам, а также закреплять вверху страницы приложения, которые используете чаще всего.

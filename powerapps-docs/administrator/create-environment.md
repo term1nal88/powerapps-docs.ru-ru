@@ -1,25 +1,18 @@
 ---
 title: Краткое руководство по созданию среды | Документы Майкрософт
 description: Это краткое руководство описывает создание среды.
-services: powerapps
-suite: powerapps
-documentationcenter: na
 author: skjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-admin
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: a9138c636d70ea4701cbf685c3d7c7965c0e8469
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: 322886a485a863d5ebf505ba2d1f5763dcfea60e
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="quickstart-create-an-environment"></a>Краткое руководство по созданию среды
 Среда — это пространство для хранения и совместного использования бизнес-данных, приложений и последовательностей вашей организации, а также управления ими. Она также служит контейнером для разделения приложений, связанных с разными ролями, требованиями к безопасности и целевыми аудиториями. PowerApps автоматически создает отдельную среду по умолчанию для каждого клиента. Доступ к ней получают все пользователи этого клиента.

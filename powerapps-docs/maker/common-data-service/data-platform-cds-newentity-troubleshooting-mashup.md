@@ -1,40 +1,36 @@
 ---
 title: Устранение неполадок в Power Query | Документы Microsoft
-description: Устранение проблем при использовании Power Query для создания настраиваемой сущности в Common Data Service для приложений
-documentationcenter: na
+description: Устранение проблем при использовании Power Query для создания настраиваемой сущности в Common Data Service (CDS) для приложений.
 author: mllopis
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
+ms.topic: conceptual
 ms.date: 08/18/2017
 ms.author: millopis
-ms.openlocfilehash: aa6e54c635db195a254e0f406205d53775f59cd5
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: d71349c90748b1820cd3430613e0925498ce9793
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="troubleshooting-power-query"></a>Устранение неполадок в Power Query
 При использовании Power Query для создания настраиваемой сущности, содержащей данные из внешних источников, может возникать следующая ошибка.
 
 `Your Azure Active Directory administrator has set a policy that prevents you from using this feature. Please contact your administrator, who can grant permissions for this feature on your behalf.`
 
-Ошибка возникает в случае, когда Power Query не может получить доступ к данным организации в PowerApps или Common Data Service. Эта ситуация возникает в одном из двух случаев.
+Ошибка возникает в случае, когда Power Query не может получить доступ к данным организации в PowerApps или Common Data Service (CDS) для приложений. Эта ситуация возникает в одном из двух случаев.
 
 * Администратор клиента Azure Active Directory (AAD) запретил пользователям предоставлять разрешение приложениям, которые обращаются к данным компании от своего имени.
 * Использование неуправляемого клиента Active Directory. Неуправляемый клиент представляет собой каталог без глобального администратора, который был создан для самостоятельной регистрации. Чтобы предотвратить такое развитие событий, пользователи должны сначала преобразовать каталог в управляемый клиент, а затем применить одно из двух решений этой проблемы, описанных в следующем разделе.
 
-Чтобы устранить эту проблему, администратор AAD должен выполнить действия одной из процедур, описанных ниже в этом разделе.
+Чтобы устранить эту проблему, администратор Azure Active Directory должен выполнить действия одной из процедур, описанных ниже в этом разделе.
 
 ## <a name="allow-users-to-consent-to-apps-that-access-company-data"></a>Разрешить пользователям давать разрешения приложениям на доступ к данным компании
 Возможно, это самый простой способ, но он предоставляет более широкие права.
 
 1. На портале [https://portal.azure.com](https://portal.azure.com)откройте колонку **Azure Active Directory** и выберите **Параметры пользователя**.
-1. Выберите значение **Да** рядом с параметром **Пользователи могут разрешать приложениям доступ к корпоративным данным от своего имени**, а затем нажмите кнопку **Сохранить**.
+2. Выберите значение **Да** рядом с параметром **Пользователи могут разрешать приложениям доступ к корпоративным данным от своего имени**, а затем нажмите кнопку **Сохранить**.
 
 ## <a name="allow-power-query-to-access-company-data"></a>Предоставление Power Query доступа к данным компании
 В качестве альтернативного решения администратор клиента может дать Power Query разрешение на доступ без изменения разрешений на уровне клиента.

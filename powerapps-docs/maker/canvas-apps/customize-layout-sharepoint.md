@@ -7,11 +7,11 @@ ms.topic: tutorial
 ms.component: canvas
 ms.date: 04/24/2018
 ms.author: anneta
-ms.openlocfilehash: 3138969cc51d0d0964692d4c53101b6a145ba1cf
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 7a51e2a734426973721fbcb21305f96e6ba7b222
+ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/06/2018
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Учебник. Настройка коллекции в PowerApps
 С помощью этого руководства вы настроите коллекцию и внесете ряд других изменений в приложение, автоматически созданное в Microsoft PowerApps. Пользователи смогут управлять данными в приложении и без следующих изменений, но настройка с учетом требований вашей организации упростит работу с приложением:
@@ -33,16 +33,18 @@ ms.lasthandoff: 05/03/2018
 ## <a name="open-the-generated-app"></a>Открытие созданного приложения
 1. Войдите в [PowerApps](https://web.powerapps.com), а затем выберите **Приложения** у левого края экрана.
 
-    ![Домашняя страница PowerApps](./media/customize-layout-sharepoint/sign-in.png)
+    [![Домашняя страница PowerApps](./media/customize-layout-sharepoint/sign-in.png)](./media/customize-layout-sharepoint/sign-in.png#lightbox)
 
 1. Найдите созданное приложение, щелкните значок многоточия (**...**), а затем выберите **Редактировать**.
 
+    ![Открытие приложения для изменения](./media/customize-layout-sharepoint/open-app.png)
+
 ## <a name="change-the-layout"></a>изменить макета;
-1. На экране обзора выберите коллекцию, щелкнув любой элемент (кроме первого) или коснувшись его в списке учетных записей.
+1. В области навигации слева выберите **BrowseGallery1**.
 
     После выбора коллекции вокруг нее появится рамка выделения с маркерами захвата.
 
-    ![Выбранная коллекция](./media/customize-layout-sharepoint/select-gallery.png)
+    ![Выбор коллекции](media/customize-layout-sharepoint/select-gallery-1.png)
 
 1. Рядом с правым краем выберите **Учетные записи**, чтобы открыть область **Данные**.
 
@@ -56,7 +58,7 @@ ms.lasthandoff: 05/03/2018
 
     ![Выбор макета, содержащего только заголовок](./media/customize-layout-sharepoint/choose-layout.png)
 
-1. В области **Данные** откройте список вариантов заголовка.
+1. В области **Данные** откройте список вариантов для **Title2**.
 
     ![Выбор макета, содержащего только заголовок](./media/customize-layout-sharepoint/show-title-options.png)
 
@@ -66,7 +68,7 @@ ms.lasthandoff: 05/03/2018
 
     ![Окончательная версия коллекции](./media/customize-layout-sharepoint/final-gallery.png)
 
-## <a name="change-the-sort-and-search-columns"></a>Изменение столбцов для поиска и сортировки
+## <a name="change-sort-and-search-columns"></a>Изменение столбцов для поиска и сортировки
 1. Выберите коллекцию, как описано в предыдущем разделе.
 
     ![Выбор коллекции](./media/customize-layout-sharepoint/select-gallery-title.png)
@@ -88,7 +90,7 @@ ms.lasthandoff: 05/03/2018
 
     Дополнительные сведения об этих и других функциях приведены в [справочнике формул](formula-reference.md).
 
-## <a name="test-sorting-and-searching"></a>Тестирование функций поиска и сортировки
+### <a name="test-sorting-and-searching"></a>Тестирование функций поиска и сортировки
 1. Откройте режим предварительного просмотра, нажав клавишу F5 или кнопку воспроизведения в правом верхнем углу.
 
     ![Открытие режима предварительного просмотра](./media/customize-layout-sharepoint/open-preview.png)

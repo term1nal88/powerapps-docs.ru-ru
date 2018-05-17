@@ -1,25 +1,18 @@
 ---
-title: Общие сведения о поиске и запуске приложений | Документы Майкрософт
-description: Общие сведения о поиске и запуске приложений
-services: powerapps
-suite: powerapps
-documentationcenter: na
-author: skjerland
+title: Поиск и запуск приложений | Документация Microsoft
+description: Обзор способов поиска и выполнения приложений PowerApps.
+author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-user
+ms.topic: overview
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: cc1483fbaffaac51f3c0999996cb3f91fac9e64a
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 484f6efb0c10bfa5a1d0e5ccdb0939422ddaf835
+ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="how-do-i-find-and-run-apps"></a>Поиск и запуск приложений
 Разработчики приложений могут создавать приложения на основе *холста* для определенных задач и ролей, будь то мобильный сотрудник, работающий на выезде, или врач в большой больнице. Разработчики приложений на основе холста могут настраивать практически любые их аспекты и подключаться к различным источникам данных для решения узкоспециализированных задач, стоящих перед пользователями.

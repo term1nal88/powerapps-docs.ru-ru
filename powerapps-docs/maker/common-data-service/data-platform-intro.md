@@ -1,25 +1,21 @@
 ---
 title: Что такое Common Data Service for Apps? | Документация Microsoft
 description: Общие сведения о Common Data Service for Apps (CDS), сущностях и логике на стороне сервера.
-documentationcenter: na
 author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: sharik
-ms.openlocfilehash: 0f829548f8d2066d36fc722fa616aa388ccb1a69
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: fb0a7640e0a8b6da6664925528965d3fe6b8c82e
+ms.sourcegitcommit: fe556abcfd6bdfeb5fdeea8f07b185b4b502d02f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="what-is-common-data-service-for-apps"></a>Что такое Common Data Service for Apps?
-Служба Common Data Service for Apps позволяет безопасно хранить данные, которые используются в бизнес-приложениях, и управлять ими. Данные в CDS for Apps хранятся в наборе сущностей. *Сущность* — это набор записей, используемых для хранения данных, похожий на таблицу для хранения данных в базе данных. CDS for Apps содержит базовый набор стандартных сущностей, которые применяются в типичных сценариях, однако можно также создавать настраиваемые сущности специально для вашей организации и заполнять их данными с помощью Power Query. Затем создатели приложений могут использовать PowerApps для создания полнофункциональных приложений на основе этих данных.
+Служба Common Data Service for Apps позволяет безопасно хранить данные, которые используются в бизнес-приложениях, и управлять ими. Данные в CDS for Apps хранятся в наборе сущностей. *Сущность* — это набор записей, используемых для хранения данных, похожий на таблицу для хранения данных в базе данных. CDS for Apps содержит базовый набор стандартных сущностей, которые применяются в типичных сценариях, однако можно также создавать настраиваемые сущности специально для вашей организации и заполнять их данными с помощью Power Query. Затем создатели приложений могут использовать PowerApps для создания полнофункциональных приложений на основе этих данных.
 
 Сведения о приобретении плана для использования службы CDS for Apps см. в разделе [Сведения о ценах](../../administrator/pricing-billing-skus.md).
 

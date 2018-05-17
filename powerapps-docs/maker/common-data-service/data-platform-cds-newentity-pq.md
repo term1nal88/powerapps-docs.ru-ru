@@ -1,25 +1,22 @@
 ---
-title: Краткое руководство по добавлению данных в сущность в Common Data Service с помощью Power Query | Документы Майкрософт
-description: Краткое руководство с пошаговыми инструкциями по использованию Power Query для добавления данных в новую или существующую сущность в Common Data Service для приложений из другого источника данных.
-documentationcenter: na
+title: Добавление данных в сущность в Common Data Service для приложений с помощью Power Query | Документы Майкрософт
+description: Пошаговые инструкции по использованию Power Query для добавления данных в новую или существующую сущность в Common Data Service (CDS) для приложений из другого источника данных.
 author: AFTOwen
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: cds
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: e54553467714bad1f4bc17963f1011c0decc1963
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 60d1843e48a1dc1d310d877bcba67460da557993
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-add-data-to-an-entity-in-the-common-data-service-by-using-power-query"></a>Краткое руководство. Добавление данных в сущность в Common Data Service с помощью Power Query
-В этой процедуре вы создадите сущность в [Common Data Service для приложений](data-platform-intro.md) и заполните ее данными из веб-канала OData с помощью Power Query. Этим же способом можно интегрировать данные, помимо прочего, из следующих источников в Интернете и локальных источников:
+# <a name="add-data-to-an-entity-in-common-data-service-for-apps-by-using-power-query"></a>Добавление данных в сущность в Common Data Service для приложений с помощью Power Query
+В этой процедуре вы создадите сущность в [Common Data Service (CDS) для приложений](data-platform-intro.md) и заполните ее данными из веб-канала OData с помощью Power Query. Этим же способом можно интегрировать данные, помимо прочего, из следующих источников в Интернете и локальных источников:
 
 * SQL Server
 * Salesforce

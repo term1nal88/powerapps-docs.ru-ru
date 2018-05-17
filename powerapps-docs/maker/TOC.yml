@@ -226,16 +226,6 @@
       items:
         - name: Создание сущности
           href: ./common-data-service/data-platform-create-entity.md
-        - name: Создание настраиваемой сущности на основе данных
-          href: ./common-data-service/data-platform-cds-newentity-pq.md
-        - name: Создание набора параметров
-          href: ./common-data-service/custom-picklists.md
-        - name: Создание связи
-          href: ./common-data-service/data-platform-entity-lookup.md
-        - name: Создание бизнес-правила
-          href: ./common-data-service/data-platform-create-business-rule.md
-        - name: Удаление настраиваемой сущности
-          href: ./common-data-service/data-platform-delete-entity.md
     - name: Учебники
       items:
         - name: Создание настраиваемой сущности с компонентами
@@ -250,6 +240,16 @@
       items:
         - name: Управление настраиваемыми полями в сущности
           href: ./common-data-service/data-platform-manage-fields.md
+        - name: Создание настраиваемой сущности на основе данных
+          href: ./common-data-service/data-platform-cds-newentity-pq.md
+        - name: Создание набора параметров
+          href: ./common-data-service/custom-picklists.md
+        - name: Создание связи между сущностями
+          href: ./common-data-service/data-platform-entity-lookup.md
+        - name: Создание бизнес-правила
+          href: ./common-data-service/data-platform-create-business-rule.md
+        - name: Удаление настраиваемой сущности
+          href: ./common-data-service/data-platform-delete-entity.md
     - name: Справочные материалы
       items:
         - name: 'Ограниченные сущности, для которых требуются лицензии Dynamics 365'

@@ -1,23 +1,18 @@
 ---
 title: Краткое руководство по созданию настраиваемой сущности | Документация Майкрософт
 description: В этом кратком руководстве описывается создание настраиваемой сущности в PowerApps.
-services: ''
-suite: powerapps
 author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: quickstart
 ms.component: cds
+ms.topic: quickstart
 ms.date: 05/01/2018
 ms.author: sharik
-ms.openlocfilehash: 397fdea9f5257cf5a1062867d45a53d592a0909c
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 55ebd94fb0c895a64323e948d421c758c6af7cc8
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Краткое руководство. Создание настраиваемой сущности
 В PowerApps *сущность* определяет отслеживаемые данные в форме записей, которые обычно представляют собой такие свойства, как название организации, ее расположение, продукты, адрес электронной почты и номер телефона. Для отображения этих данных можно разработать приложение, которое использует созданную сущность. PowerApps предлагает стандартные готовые сущности, подходящие для использования в типичных сценариях в рамках организации (например, отслеживание встреч), однако могут возникать ситуации, когда необходимо создать настраиваемые сущности для хранения данных, специфичных для вашей организации.

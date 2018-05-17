@@ -1,25 +1,18 @@
 ---
 title: Краткое руководство по созданию политики защиты от потери данных (DLP) | Документы Майкрософт
 description: Это краткое руководство описывает создание политики защиты от потери данных (DLP) PowerApps.
-services: powerapps
-suite: powerapps
-documentationcenter: na
 author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-admin
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/30/2018
 ms.author: sharik
-ms.openlocfilehash: d349c9743349ca9daeedc5a6c3268ff07c8b12de
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: 1a82b09c3a8b4463f6739222abb9e8ff516dcd18
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="quickstart-create-a-data-loss-prevention-dlp-policy"></a>Краткое руководство. Создание политики защиты от потери данных (DLP)
 Чтобы защитить данные в организации, в PowerApps можно создать и применить политики, определяющие, каким пользовательским соединителям предоставляется общий доступ к конкретным бизнес-данным. Эти политики, которые задают правила совместного использования данных, известны как политики защиты от потери данных. Политики DLP обеспечивают унифицированное управление данными в рамках организации, а также предотвращают случайную публикацию важных бизнес-данных через соединители, такие как сайты социальных сетей.

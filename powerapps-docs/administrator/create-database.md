@@ -1,27 +1,22 @@
 ---
-title: Создание базы данных Common Data Service | Документация Майкрософт
-description: Создание базы данных Common Data Service.
+title: Создание базы данных Common Data Service (CDS) для приложений | Документы Майкрософт
+description: Пошаговое руководство по созданию базы данных Common Data Service (CDS) для приложений.
 services: powerapps
-documentationcenter: na
 author: manasmams
-manager: kfend
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: c32be4dd25da1c2267043b061102b2714a109cc5
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 3343e8cd81e23d4938466d12ddca2e0a85dc12c8
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="create-a-common-data-service-database"></a>Создание базы данных Common Data Service
-Служба Common Data Service может служить хранилищем данных для базы данных и приложений. При этом вы можете создавать собственные настраиваемые сущности или использовать стандартные сущности. Прежде чем создавать базу данных, нужно сначала создать среду (либо вас должны назначить **администратором среды** для существующей среды). Кроме того, вам должна быть назначена соответствующая лицензия. Сведения о приобретении плана для использования службы Common Data Service см. в [информации о ценах](pricing-billing-skus.md).
+# <a name="create-a-common-data-service-for-apps-database"></a>Создание базы данных Common Data Service для приложений
+Common Data Service (CDS) для приложений может служить хранилищем данных при создании базы данных и приложений. При этом вы можете создавать собственные настраиваемые сущности или использовать стандартные сущности. Прежде чем создавать базу данных, нужно сначала создать среду (либо вас должны назначить **администратором среды** для существующей среды). Кроме того, вам должна быть назначена соответствующая лицензия. Сведения о приобретении плана для использования службы CDS for Apps см. в разделе [Сведения о ценах](pricing-billing-skus.md).
 
 Базу данных можно создать разными способами.
 
@@ -45,7 +40,7 @@ ms.lasthandoff: 04/26/2018
 
 
 
-## <a name="create-a-database-in-the-entities-pane-of-powerappscom"></a>Создание базы данных в области Entities (Сущности) на сайте powerapps.com
+## <a name="create-a-database-in-the-entities-pane-of-powerapps"></a>Создание базы данных в области "Entities" (Сущности) на сайте PowerApps
 1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
 
 2. Щелкните элемент **Создать базу данных** для создания базы данных.
