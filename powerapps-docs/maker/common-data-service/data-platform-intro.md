@@ -8,11 +8,11 @@ ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: sharik
-ms.openlocfilehash: fb0a7640e0a8b6da6664925528965d3fe6b8c82e
-ms.sourcegitcommit: fe556abcfd6bdfeb5fdeea8f07b185b4b502d02f
+ms.openlocfilehash: a2dea7da0cc87ad016d5eff6e04b9e03e66341db
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="what-is-common-data-service-for-apps"></a>Что такое Common Data Service for Apps?
 Служба Common Data Service for Apps позволяет безопасно хранить данные, которые используются в бизнес-приложениях, и управлять ими. Данные в CDS for Apps хранятся в наборе сущностей. *Сущность* — это набор записей, используемых для хранения данных, похожий на таблицу для хранения данных в базе данных. CDS for Apps содержит базовый набор стандартных сущностей, которые применяются в типичных сценариях, однако можно также создавать настраиваемые сущности специально для вашей организации и заполнять их данными с помощью Power Query. Затем создатели приложений могут использовать PowerApps для создания полнофункциональных приложений на основе этих данных.
