@@ -9,11 +9,11 @@ ms.component: canvas
 ms.topic: landing-page
 ms.date: 10/27/2017
 ms.author: mblythe
-ms.openlocfilehash: afefa1fcf09cb9c4f732fa94e37bb148262eeb04
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: d79039fd70d2e214b269e0d5be97d208192a16fc
+ms.sourcegitcommit: dc689eb0bc0e60b6f8c2f78a18f7aa114bf84165
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,27 +38,27 @@ ms.lasthandoff: 04/26/2018
 Начало работы </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-1">Introducing PowerApps (Знакомство с PowerApps)</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=1">Introducing PowerApps (Знакомство с PowerApps)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-2">Parts of PowerApps (Компоненты PowerApps)</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=2">Parts of PowerApps (Компоненты PowerApps)</a>
                                 <span style="margin-left: 32px; align-self: center;">6 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-3">Related technologies (Связанные технологии)</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=3">Related technologies (Связанные технологии)</a>
                                 <span style="margin-left: 32px; align-self: center;">6 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-4">A quick look at creating apps (Общие сведения о создании приложений)</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=4">A quick look at creating apps (Общие сведения о создании приложений)</a>
                                 <span style="margin-left: 32px; align-self: center;">6 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-5">Create your first app (Создание первого приложения)</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=5">Create your first app (Создание первого приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-6">Review this section (Обзор раздела)</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=6">Review this section (Обзор раздела)</a>
                                 <span style="margin-left: 32px; align-self: center;">2 минуты</span>
                               </li>
                           </ul>
@@ -81,19 +81,19 @@ ms.lasthandoff: 04/26/2018
 Создание приложения с помощью SharePoint </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-1">Generate an app (Создание приложения)</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=1">Generate an app (Создание приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">3 минуты</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-2">Explore a generated app (Обзор созданного приложения)</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=2">Explore a generated app (Обзор созданного приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-3">Customize the app (Настройка приложения)</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=3">Customize the app (Настройка приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-4">Explore app formulas (Знакомство с формулами приложения)</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=4">Explore app formulas (Знакомство с формулами приложения)</a>
                                 <span style="margin-left: 32px; align-self: center;">9 минут</span>
                               </li>
                             </ul>
@@ -116,15 +116,15 @@ ms.lasthandoff: 04/26/2018
 Управление приложениями </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-1">Share your apps (Совместное использование приложений)</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=1">Share your apps (Совместное использование приложений)</a>
                                 <span style="margin-left: 32px; align-self: center;">5 минут</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-2">Version your apps (Управление версиями приложений)</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=2">Version your apps (Управление версиями приложений)</a>
                                 <span style="margin-left: 32px; align-self: center;">1 минута</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-3">Environments (Среды)</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=3">Environments (Среды)</a>
                                 <span style="margin-left: 32px; align-self: center;">8 минут</span>
                               </li>
                           </ul>

@@ -1,6 +1,6 @@
 - name: Начало работы
-  href: 'get-started.yml#step-1'
+  href: get-started.yml?tutorial-step=1
 - name: Создание приложения с помощью SharePoint
-  href: 'create-app-sharepoint.yml#step-1'
+  href: create-app-sharepoint.yml?tutorial-step=1
 - name: Управление приложениями
-  href: 'manage-apps.yml#step-1'
+  href: manage-apps.yml?tutorial-step=1
