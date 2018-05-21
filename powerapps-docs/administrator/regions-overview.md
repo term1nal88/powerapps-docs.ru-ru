@@ -1,25 +1,18 @@
 ---
-title: Обзор регионов | Документация Майкрософт
-description: 'Регионы в PowerApps: где развернуты приложения, доступные регионы, возможности в зависимости от региона'
-services: ''
-suite: powerapps
-documentationcenter: na
-author: skjerland
-manager: anneta
-editor: ''
-tags: ''
+title: Общие сведения о регионах | Документация Майкрософт
+description: Сведения о регионах в службе PowerApps.
+author: manasmams
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: ab5443ae628a80d52d5bbcb1fa46ceed05391794
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 920cee683dfdeaf55905e7d0973c8d822900cac2
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="regions-overview-in-powerapps"></a>Обзор регионов в PowerApps
 ## <a name="how-do-i-find-out-where-my-app-is-deployed"></a>Как узнать, где развернуто приложение?

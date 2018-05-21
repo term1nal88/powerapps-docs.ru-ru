@@ -1,24 +1,20 @@
 ---
-title: Краткое руководство по созданию набора параметров | Документы Майкрософт
-description: В этом кратком руководстве создается набор параметров.
-documentationcenter: na
+title: Создание набора параметров | Документация Майкрософт
+description: Пошаговые инструкции по созданию набора параметров.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/21/2018
+ms.topic: conceptual
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: e31bec33a90a962e302e2bc92c0f2a676ce1a4cc
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 188add46a8e52cfeb75ef1bb670ca3b457963024
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-create-an-option-set"></a>Краткое руководство. Создание набора параметров
+# <a name="create-an-option-set"></a>Создание набора параметров
 
 Наборы параметров позволяют включать в приложения раскрывающиеся списки с фиксированными значениями для пользователей, иногда называемые списками или полями выбора. Они помогают обеспечивать согласованность данных. Так же как в случае с сущностями, имеются стандартные наборы параметров и возможность создавать пользовательские наборы параметров для использования в приложении.
 

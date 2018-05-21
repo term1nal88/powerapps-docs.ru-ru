@@ -1,24 +1,18 @@
 ---
 title: Экспорт и импорт ресурсов | Документация Майкрософт
-description: Экспорт и импорт ресурсов
-services: powerapps
-documentationcenter: na
+description: Узнайте, как экспортировать и импортировать ресурсы в PowerApps.
 author: nimakms
-manager: kfend
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 07/28/2017
-ms.author: kfend
-ms.openlocfilehash: c1788d4119d9b4efbeabe8d6fa4fa45f293c2a9d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: nimak
+ms.openlocfilehash: 752bea42eee356e04c2ab72d28a669ccd2771f70
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="export-and-import-resources"></a>Экспорт и импорт ресурсов
 При создании нескольких сред для поддержки разработки базы данных и приложений необходимо перемещать изменения из одной среды в другую. Для перемещения ресурсов между средами можно использовать функции **Экспорт ресурсов** и **Импорт ресурсов**.

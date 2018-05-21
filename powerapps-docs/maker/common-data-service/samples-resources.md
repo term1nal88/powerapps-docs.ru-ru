@@ -1,29 +1,25 @@
 ---
-title: Примеры и другие ресурсы для Common Data Service | Документация Майкрософт
-description: Примеры и другие ресурсы, которые можно использовать для создания приложений.
-documentationcenter: na
+title: Примеры и другие ресурсы для службы Common Data Service для приложений | Документация Майкрософт
+description: Примеры и другие ресурсы, которые можно использовать для создания приложений в службе PowerApps.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/17/2018
+ms.topic: conceptual
+ms.date: 03/17/2018
 ms.author: clwesene
-ms.openlocfilehash: 90453f3f560d063cadc2ef331e9de62d0406e1ff
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 405cafabd57ea234d5202076060ee0987b6904db
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="samples-and-other-resources--for-the-common-data-service"></a>Примеры и другие ресурсы для Common Data Service
+# <a name="samples-and-other-resources-for-common-data-service-for-apps"></a>Примеры и другие ресурсы для службы Common Data Service для приложений
 ## <a name="samples"></a>Примеры
-Существует несколько примеров, использующих Common Data Service. Чтобы найти их, на сайте [powerapps.com](https://web.powerapps.com) в области навигации выберите **Главная**.
+Существует несколько примеров, в которых используется служба Common Data Service (CDS) для приложений. Их можно найти на сайте [powerapps.com](https://web.powerapps.com). Для этого в области навигации выберите раздел **Главная**.
 
 ## <a name="videos"></a>Видео
-Дополнительные видео, размещенные в службе YouTube, можно найти в каналах [MS PowerApps](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg) и [Microsoft Ignite](https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg).
+Видео можно найти на сайте YouTube в каналах [MS PowerApps](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg) и [Microsoft Ignite](https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg).
 
 ## <a name="blog-posts"></a>Записи блогов
 Записи с инструкциями можно найти в [блоге PowerApps](https://powerapps.microsoft.com/blog/).
@@ -32,5 +28,5 @@ ms.lasthandoff: 04/26/2018
 Многие сеансы конференции Microsoft Ignite были записаны и размещены для просмотра на сайте [Microsoft Ignite On-Demand](https://myignite.microsoft.com/videos). Выполните поиск "PowerApps" и "common data model".
 
 ## <a name="overview"></a>Обзор
-Узнайте больше о службе Common Data Service и модели Common Data Model, прочитав [обзор Common Data Service и Common Data Model](https://docs.microsoft.com/common-data-service/entity-reference/security-model).
+Дополнительные сведения о службе Common Data Service (CDS) для приложений и модели общих данных см. [здесь](https://docs.microsoft.com/common-data-service/entity-reference/security-model).
 

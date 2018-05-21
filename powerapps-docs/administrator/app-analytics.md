@@ -1,27 +1,20 @@
 ---
-title: Аналитика приложений | Документация Майкрософт
-description: Просмотр отчетов для анализа использования и производительности приложения.
-services: ''
-suite: powerapps
-documentationcenter: na
+title: Просмотр аналитических отчетов о приложениях | Документация Майкрософт
+description: Получение сведений об использовании и производительности приложений PowerApps из отчетов.
 author: jamesol-msft
-manager: anneta
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 08/29/2017
 ms.author: jamesol
-ms.openlocfilehash: e66978f6134919b18f4cfba913f1bb34394d8832
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: ba4b518cdc1b965a26a7e3fc3722dd23d601e693
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="view-analytics-reports-for-your-app"></a>Просмотр отчетов по аналитике приложений
+# <a name="view-analytics-reports-for-your-app"></a>Просмотр аналитических отчетов о приложениях
 Вы создали приложение и предоставили к нему общий доступ в организации?  Вам интересно знать, сколько коллег используют его каждый день?
 
 Мы рады представить первый отчет по аналитике в PowerApps, доступный на сайте [web.powerapps.com](https://web.powerapps.com). Это **отчет об использовании приложения**.

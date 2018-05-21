@@ -1,26 +1,18 @@
 ---
 title: Перенос приложений между средами и клиентами | Документация Майкрософт
-description: Перенос приложений между средами и клиентами
-services: powerapps
-suite: powerapps
-documentationcenter: na
+description: Пошаговое руководство по переносу приложений PowerApps между средами и клиентами.
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
-ms-topic: article
+ms-topic: conceptual
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 03/21/2018
+ms.component: pa-admin
+ms.topic: conceptual
 ms.author: jamesol
-ms.openlocfilehash: 3a63f525a44d1b617ba872dce7936fc97b151967
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 3a064bdb3f75bf45047e3ae0ff465fde1d2b66fa
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>Перенос приложения между средами и клиентами с использованием упаковки
 Узнайте, как перенести ресурсы из одной среды в другую, используя упаковку. Эти среды могут находиться в одном клиенте или в разных клиентах.
@@ -96,36 +88,36 @@ ms.lasthandoff: 03/22/2018
 
 1. На сайте http://web.powerapps.com выберите в своей среде режим конструктора **Model-driven (preview)** (На основе модели (предварительная версия)).
 
-  ![Выбор режима конструктора на основе модели](./media/environment-and-tenant-migration/select-model-driven.png)
+    ![Выбор режима конструктора на основе модели](./media/environment-and-tenant-migration/select-model-driven.png)
 
 2. Выберите элемент **Дополнительно** на левой панели навигации, чтобы запустить обозреватель решений для решения по умолчанию для этой среды.
 
-  ![Выбор элемента "Дополнительно"](./media/environment-and-tenant-migration/select-advanced.png)
+    ![Выбор элемента "Дополнительно"](./media/environment-and-tenant-migration/select-advanced.png)
 
 3. Выберите элемент **Экспортировать решение** и выполнить необходимые действия.  Скачивание файла пакета решения начнется через несколько секунд.
 
-  ![Выбор пункта "Экспорт"](./media/environment-and-tenant-migration/select-export-solution.png)
+    ![Выбор пункта "Экспорт"](./media/environment-and-tenant-migration/select-export-solution.png)
 
 ## <a name="importing-cds-customization-and-model-driven-apps"></a>Импорт настроек CDS и приложений на основе модели
 К сожалению, для импорта пакета решения CDS требуется ручное вмешательство в процесс, которое мы активно стремимся устранить:
 
 1. На сайте http://web.powerapps.com выберите в своей среде режим конструктора **Model-driven (preview)** (На основе модели (предварительная версия)).
 
-  ![Выбор режима конструктора на основе модели](./media/environment-and-tenant-migration/select-model-driven.png)
+    ![Выбор режима конструктора на основе модели](./media/environment-and-tenant-migration/select-model-driven.png)
 
 2. Выберите элемент **Дополнительно** на левой панели навигации, чтобы запустить обозреватель решений для решения по умолчанию для этой среды.
 
-  ![Выбор элемента "Дополнительно"](./media/environment-and-tenant-migration/select-advanced.png)
+    ![Выбор элемента "Дополнительно"](./media/environment-and-tenant-migration/select-advanced.png)
 
 3. Скопируйте URL-адрес из браузера, внесите следующие изменения, а затем перейдите по новому URL-адресу в браузере:
 
-  - Структура текущего URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/edit.aspx?id={имя_решения}
+    * Структура текущего URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/edit.aspx?id={имя_решения}
 
-    ![Изменение URL-адреса](./media/environment-and-tenant-migration/edit-url.png)
+        ![Изменение URL-адреса](./media/environment-and-tenant-migration/edit-url.png)
 
-  - Структура нового URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
+    * Структура нового URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
 
-      ![Выбор пакета](./media/environment-and-tenant-migration/select-package.png)
+        ![Выбор пакета](./media/environment-and-tenant-migration/select-package.png)
 
 4. Выберите файл пакета решения CDS, который требуется импортировать, и завершите работу с мастером.
 

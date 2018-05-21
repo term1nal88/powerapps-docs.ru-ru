@@ -1,22 +1,18 @@
 ---
 title: Управление настраиваемыми полями в сущности | Документация Майкрософт
-description: Пошаговое руководство по созданию, просмотру, обновлению и удалению настраиваемых полей в сущности в CDS for Apps.
-documentationcenter: na
+description: Пошаговое руководство по созданию, чтению, обновлению и удалению настраиваемых полей сущности в службе Common Data Service (CDS) для приложений.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
 ms.component: cds
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: ff522ee5d5614888c6cc0fcfb1e7d6658a36c6ae
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: a4ec386ef6a7eee02c2ac608bb6e00ed9ee39c19
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="manage-custom-fields-in-an-entity"></a>Управление настраиваемыми полями в сущности
 Вы можете создать и обновить одно или несколько настраиваемых полей в любой сущности. При создании настраиваемого поля задается набор свойств, таких как имя поля, его отображаемое имя и тип данных, которые оно будет содержать. Дополнительные сведения см. в статье [Метаданные атрибутов](../../developer/common-data-service/entity-attribute-metadata.md).
@@ -99,7 +95,7 @@ ms.lasthandoff: 05/03/2018
 * [Определение связи между сущностями в модели общих данных](data-platform-entity-lookup.md)
 * [Создание бизнес-правила](data-platform-create-business-rule.md)
 * [Создание приложения с использованием сущностей](../canvas-apps/data-platform-create-app.md)
-* [Create an app from scratch using a Common Data Service database](../canvas-apps/data-platform-create-app-scratch.md) (Создание приложения с нуля с помощью базы данных Common Data Service)
+* [Создание приложения с нуля с помощью базы данных Common Data Service](../canvas-apps/data-platform-create-app-scratch.md)
 
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности
 В рамках модели общих данных Microsoft PowerApps мы собираем и храним пользовательские названия сущностей и полей в наших диагностических системах.  На основе этой информации мы улучшаем модель общих данных для наших клиентов. Названия сущностей и полей, устанавливаемые их создателями, помогают нам определить сценарии работы, распространенные среди пользователей Microsoft PowerApps, а также выявить недочеты в стандартной системе сущностей этой службы, например в связанных с организациями схемах. Корпорация Майкрософт не просматривает и не использует содержимое таблиц баз данных, связанное с этими сущностями, и не реплицирует его за пределами региона, в котором были созданы соответствующие базы. При этом, однако, пользовательские названия сущностей и полей могут реплицироваться в других регионах, и их удаление регулируется нашими политиками в отношении хранения данных. Корпорация Майкрософт прилагает все усилия для защиты вашей конфиденциальности. Более подробные сведения об этом можно найти в нашем [Центре управления безопасностью](https://www.microsoft.com/trustcenter/Privacy/default.aspx).

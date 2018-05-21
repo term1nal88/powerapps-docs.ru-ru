@@ -1,25 +1,18 @@
 ---
 title: Приобретение PowerApps для организации | Документация Майкрософт
-description: Ниже описано, как зарегистрироваться в PowerApps в качестве администратора.
-services: powerapps
-suite: powerapps
-documentationcenter: na
+description: Пошаговое руководство по регистрации в PowerApps с правами администратора.
 author: manasmams
-manager: anneta
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 43d39abbd78723202efd756edf6d070724e3157e
-ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
+ms.openlocfilehash: 4b26c16259a7699f1178641ead8c1b5908106468
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="purchase-powerapps-for-your-organization"></a>Приобретение PowerApps для организации
 В этой статье описано, как администратор может приобрести PowerApps для своей организации. Вы можете приобрести PowerApps напрямую через веб-сайт PowerApps, через центр администрирования Office 365 или через представителя корпорации Майкрософт или ее партнера. В этой статье обсуждаются пробные выпуски PowerApps (планы 1 и 2) и описывается, как приобрести эти версии для организации. Дополнительные сведения об администрировании см. в статье [PowerApps в вашей организации. Вопросы и ответы](signup-question-and-answer.md).

@@ -1,24 +1,20 @@
 ---
-title: Краткое руководство по удалению настраиваемой сущности и очистке данных | Документы Майкрософт
-description: Краткое руководство по удалению настраиваемой сущности и очистке данных
-documentationcenter: na
+title: Удаление настраиваемой сущности | Документация Майкрософт
+description: Пошаговые инструкции по удалению настраиваемых сущностей и очистке всех данных в PowerApps.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/21/2018
+ms.topic: conceptual
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 971016233578c4eadf397d662a0ea74187548635
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 6ef9dc3a1c82fdee9927ffd533ed41386345eaf7
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-delete-a-custom-entity"></a>Краткое руководство. Удаление настраиваемой сущности
+# <a name="delete-a-custom-entity"></a>Удаление настраиваемой сущности
 Вы можете удалять только настраиваемые сущности, но не стандартные.
 
 1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
@@ -26,6 +22,7 @@ ms.lasthandoff: 04/26/2018
     ![Сведения о сущности](./media/data-platform-cds-create-entity/entitylist.png "Список сущностей")
 
 2. Выберите в списке сущность, которую нужно удалить, а затем выберите на панели команд команду **Удалить сущность**.
+
 3. В появившемся диалоговом окне нажмите кнопку **Удалить**, чтобы удалить сущность.
 
 >[!NOTE]
