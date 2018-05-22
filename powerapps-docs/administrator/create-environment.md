@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 322886a485a863d5ebf505ba2d1f5763dcfea60e
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 50a3819d4a659d48e1372487c5b50dc8295ee398
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="quickstart-create-an-environment"></a>Краткое руководство по созданию среды
 Среда — это пространство для хранения и совместного использования бизнес-данных, приложений и последовательностей вашей организации, а также управления ими. Она также служит контейнером для разделения приложений, связанных с разными ролями, требованиями к безопасности и целевыми аудиториями. PowerApps автоматически создает отдельную среду по умолчанию для каждого клиента. Доступ к ней получают все пользователи этого клиента.
@@ -27,7 +27,7 @@ ms.lasthandoff: 05/15/2018
  * Разрешения администратора среды PowerApps, глобального администратора Office 365 или администратора клиента Azure Active Directory. Дополнительные сведения см. в статье [Администрирование сред в PowerApps](environments-administration.md).
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>Вход в центр администрирования PowerApps
-Войдите в центр администрирования по адресу [https://admin.powerapps.com]([https://admin.powerapps.com).
+Войдите в центр администрирования по адресу [https://admin.powerapps.com](https://admin.powerapps.com).
 
 ## <a name="create-an-environment-and-database"></a>Создание среды и базы данных
 1. На панели навигации выберите **Среды**, а затем выберите **Создать среду**.

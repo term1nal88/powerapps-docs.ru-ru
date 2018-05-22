@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 0215e013f6879ea8d04de8fe74e077c983370bff
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 158abc3969090e081df41b6b52036d71b6949150
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>Управление политиками защиты от потери данных
 Информация критически важна для успешной работы организации. Эта информация должна быть легко доступна для принятия решений, но она также должна быть защищена, чтобы к ней не могли получить доступ посторонние лица. Чтобы защитить эти данные, в PowerApps можно создать и применить политики защиты от потери данных (DLP), определяющие, каким пользовательским соединителям предоставляется общий доступ к конкретным бизнес-данным. Представим, что организация использует PowerApps и не хочет, чтобы хранящиеся в SharePoint данные автоматически публиковались в веб-канале Twitter.
@@ -22,7 +22,7 @@ ms.lasthandoff: 05/15/2018
 Инструкции по созданию политики защиты от потери данных см. в разделе [Краткое руководство. Создание политики защиты от потери данных (DLP)](create-dlp-policy.md).
 
 ## <a name="find-a-dlp-policy"></a>Поиск политики защиты от потери данных
-1. Войдите в центр администрирования по адресу [https://admin.poweraps.com]([https://admin.powerapps.com).
+1. Войдите в центр администрирования по адресу [https://admin.powerapps.com]([https://admin.powerapps.com).
 2. На панели навигации выберите **Политики данных**. Чтобы найти нужные политики в большом списке, используйте поле **Поиск**.
 
     ![](./media/prevent-data-loss/data-policies.png)
