@@ -1,26 +1,21 @@
 ---
-title: Новые возможности PowerApps | Документация Майкрософт
+title: Новые возможности | Документация Майкрософт
 description: Обновления в PowerApps, упорядоченные по дате выпуска
 documentationcenter: na
-author: skjerland
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
-ms.date: 04/23/2018
-ms.author: sharik
-ms.openlocfilehash: 00b80bd5b9e0953366dd58d6e3b3266ffe7956bd
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.date: 05/21/2018
+ms.author: anneta
+ms.openlocfilehash: dc4e4f9ae1cdb8cf9edf1c7a52343f6a5db1717c
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Новые возможности PowerApps
 Сведения об известных ограничениях см. в статье [Типичные проблемы и решения](common-issues-and-resolutions.md).
-
 
 > [!NOTE]
 > Выпуски развертываются в течение нескольких дней. Возможно, новые и обновленные функции будут доступны не сразу.
@@ -31,13 +26,18 @@ ms.lasthandoff: 04/26/2018
 
 **Ожидается в ближайшее время**. PDF-файл с заметками о выпуске будет постоянно обновляться по мере выхода новых возможностей, информация о которых также будет доступна на веб-страннице.
 
-## <a name="apr-23"></a>23 апреля
+## <a name="may-21"></a>21 мая
+1. Пользователи приложений теперь могут импортировать и экспортировать данные из локальных файлов Excel или CSV с помощью функций **Получить данные из файла Excel** и **Экспорт данных**, доступных в обновленных средах Common Data Service (CDS) for Apps. 
+1. Пользователи приложений теперь могут [открывать сущности в Excel](../common-data-service/data-platform-excel-addin.md), чтобы создавать, обновлять и удалять данные, хранимые в службе CDS for Apps, с помощью надстройки Excel для PowerApps. 
+1. [Создавайте и публикуйте отчеты Power BI](../common-data-service/data-platform-powerbi-connector.md), подключив Power BI Desktop к CDS for Apps. 
+
+## <a name="april-23"></a>23 апреля
 * Скачайте [вложения](controls/control-attachments.md) в Internet Explorer в формах пользовательского списка SharePoint.
 
-## <a name="apr-9"></a>9 апреля
+## <a name="april-9"></a>9 апреля
 * Элементы управления "Вырезать" (CTRL+X), "Копировать" (CTRL+C) и "Вставить" (CTRL+V),&mdash;включая стили, формулы и свойства элементов управления&mdash;для приложений в веб-браузере.
 
-## <a name="mar-21"></a>21 марта
+## <a name="march-21"></a>21 марта
 1. Создавайте [приложения на основе модели](../model-driven-apps/model-driven-app-overview.md). Отправной точкой является модель данных. Сначала вы определяете основные бизнес-данные и процессы в Common Data Service for Apps, а затем переходите к разработке форм, представлений и других компонентов модели. Для приложений на основе модели автоматически формируется отличный пользовательский интерфейс, который обеспечивает быструю работу на различных устройствах.
 2. [Создайте базу данных](../../administrator/create-database.md) в последней версии CDS for Apps в среде.
 3. CDS for Apps теперь включает следующее.
@@ -49,7 +49,7 @@ ms.lasthandoff: 04/26/2018
     - Опытные пользователи могут обращаться к данным, хранящимся в CDS for Apps, с помощью **нового веб-API OData**.
     - [Импортируйте данные](../common-data-service/data-platform-cds-newentity-pq.md) в CDS for Apps с помощью **Power Query**. Используйте Power Query в Интернете, чтобы импортировать данные напрямую в CDS for Apps из различных источников.
 
-## <a name="mar-5"></a>5 марта
+## <a name="march-5"></a>5 марта
 1. Добавление [вложений](controls/control-attachments.md) в списки SharePoint (и их удаление оттуда)
 2. Открытие внешних файлов [PDF](controls/control-pdf-viewer.md) в веб-браузере. (Экспериментальная функция)
 
@@ -73,15 +73,3 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="jan-5"></a>5 января
 * Чтобы выполнять действия с данными прямо из отчета Power BI или панели мониторинга, интегрируйте в них [настраиваемую визуализацию PowerApps (предварительная версия)](https://powerapps.microsoft.com/blog/powerbi-powerapps-visual/), которая получает контекстные данные из отчета Power BI.
-
-## <a name="dec-8"></a>8 декабря
-1. [Шаблоны условия](working-with-rules.md) для правил определяют общие свойства элементов управления (например, **Текст** или **Значение**).
-2. Теперь при определении действий в правиле не отображается [диалог подтверждения **Определение действий**](working-with-rules.md).
-
-## <a name="nov-13"></a>13 ноября
-1. Возможность выбора нескольких значений в одном поле списка SharePoint.
-2. [Просмотр и скачивание вложений](controls/control-attachments.md) в списках SharePoint.
-3. [Настройка форм списков SharePoint](customize-list-form.md) с помощью PowerApps.
-
-## <a name="nov-10"></a>10 ноября
-* [Переименование правил](working-with-rules.md) в приложении и отображение правил, когда выбранный элемент управления включен в условие правила.
