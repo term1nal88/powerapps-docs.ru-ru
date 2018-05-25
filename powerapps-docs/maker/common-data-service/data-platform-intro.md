@@ -8,11 +8,11 @@ ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: sharik
-ms.openlocfilehash: a2dea7da0cc87ad016d5eff6e04b9e03e66341db
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: fb079689ef76e4ad7815b8410ecff4a475877810
+ms.sourcegitcommit: ba587b467044161d1dbcd73625b37aa52b057270
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="what-is-common-data-service-for-apps"></a>Что такое Common Data Service for Apps?
 Служба Common Data Service for Apps позволяет безопасно хранить данные, которые используются в бизнес-приложениях, и управлять ими. Данные в CDS for Apps хранятся в наборе сущностей. *Сущность* — это набор записей, используемых для хранения данных, похожий на таблицу для хранения данных в базе данных. CDS for Apps содержит базовый набор стандартных сущностей, которые применяются в типичных сценариях, однако можно также создавать настраиваемые сущности специально для вашей организации и заполнять их данными с помощью Power Query. Затем создатели приложений могут использовать PowerApps для создания полнофункциональных приложений на основе этих данных.
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/15/2018
 
 ![Снимок экрана со списком сущностей.](./media/data-platform-cds-intro/entitylist.png "Список сущностей")
 
-Полный список сущностей см. в [справочнике по сущностям](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/reference/about-entity-reference).
+Полный список сущностей см. в [справочнике по сущностям](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/about-entity-reference).
 
 Функциональные возможности стандартных сущностей можно расширить, создав одну или несколько пользовательских сущностей для хранения уникальных корпоративных данных. Дополнительные сведения см. в статье о [создании настраиваемой сущности](create-custom-entity.md).
 
