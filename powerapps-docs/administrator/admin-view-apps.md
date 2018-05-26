@@ -1,18 +1,17 @@
 ---
 title: Краткое руководство по скачиванию списка приложений, созданных в ваших средах | Документы Майкрософт
 description: Это краткое руководство описывает, как скачать список приложений, созданных в ваших средах.
-author: SKjerland
-manager: kfile
+author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
-ms.author: sharik
-ms.openlocfilehash: a51e6b0cb8e9af517d55f7bad39fbe83a1a55098
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.author: jimh
+ms.openlocfilehash: d9c379ca95bb299c56639bb01803f45c1744d8f2
+ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/26/2018
 ---
 # <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>Краткое руководство. Скачивание списка приложений, созданных в ваших средах
 Если вы являетесь администратором среды, то можете просмотреть и скачать список приложений в администрируемых вами средах. Если вы являетесь глобальным администратором Office 365 или администратором клиента Azure Active Directory, вы можете просмотреть и скачать список приложений, созданных во всех средах в своей организации.
