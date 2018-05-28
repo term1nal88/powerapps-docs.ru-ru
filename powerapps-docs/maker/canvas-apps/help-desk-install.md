@@ -12,11 +12,11 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: e042230acec8bf70a2a99eee316d234cb5cdea15
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4601cabae10f3373f8d2ef18190d71af536811b5
+ms.sourcegitcommit: 8cc8d165c10644e02009011b66bc174c169c3b05
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Служба поддержки"
 
@@ -24,29 +24,29 @@ ms.lasthandoff: 04/26/2018
 
 Предполагаемое время выполнения этой процедуры: **10–15 минут**
 
-Демонстрацию этой процедуры см. в следующем видео.
+> [!TIP]
+> Демонстрацию этой процедуры см. в следующем [видео](https://youtu.be/z4cdtD6hB_4).
 
-[![Установка приложения "Служба поддержки"](./media/help-desk-install/help-desk-install-video.png)](https://youtu.be/z4cdtD6hB_4 )
 
 ## <a name="help-desk-powerapps-sample-overview"></a>Обзор примера приложения PowerApps "Служба поддержки"
 Приложение "Служба поддержки" оснащено удобным интерфейсом, с помощью которого пользователи могут обращаться к специалистам службы поддержки. Быстро находите ответы на самые важные вопросы, отслеживайте ход выполнения открытых запросов и просматривайте сведения о предыдущих запросах. Это приложение потребуется настроить в соответствии с вашими потребностями.
 
 ![Начальный экран приложения PowerApp "Служба поддержки"](./media/help-desk-install/Login-screen.png)
 
-Просмотрите это видео, чтобы узнать, как использовать пример приложения PowerApps "Служба поддержки".
-
-[![Демонстрация приложения "Служба поддержки"](./media/help-desk-install/help-desk-demo-video.png)](https://youtu.be/sl5fXwwnvzI)
+> [!TIP]
+> Просмотрите это [видео](https://youtu.be/sl5fXwwnvzI), чтобы узнать, как использовать пример приложения PowerApps "Служба поддержки".
 
 ## <a name="prerequisites"></a>Технические условия
 
 - [Регистрация](https://web.powerapps.com/) в PowerApps.
+- Необходимо иметь действительную лицензию на SharePoint Online и разрешение на создание списков.
 
 ## <a name="create-the-helpdesk-sharepoint-list"></a>Создание списка SharePoint HelpDesk (Служба поддержки)
 
 В этом списке содержатся запросы в службу поддержки.
 
 1. Откройте веб-браузер и перейдите к https://portal.office.com.
-2. Войдите с учетной записью, которая имеет разрешение на создание списков.
+2. Войдите с помощью учетной записи, которая имеет разрешение на создание списков SharePoint.
 3. Перейдите к семейству веб-сайтов, в котором будет размещаться список HelpDesk.
 4. Щелкните **значок шестеренки** в верхней правой части веб-страницы.
 5. Щелкните **Добавить приложение**.
@@ -62,12 +62,13 @@ ms.lasthandoff: 04/26/2018
 
 ### <a name="create-description-column"></a>Создание столбца Description (Описание)
 
-1. Щелкните **Создать столбец**.
-2. В текстовом поле **Имя столбца** введите **Description**.
-3. В списке переключателей **Type of information in this column is** (Тип данных этого столбца) выберите **Несколько строк текста**.
-4. В списке переключателей **Require that this column contains information** (Требовать, чтобы этот столбец содержал данные) выберите **Да**.
-5. В списке переключателей **Specify the type of text to allow** (Укажите разрешенный тип текста) выберите **Обычный текст**.
-6. Нажмите кнопку **ОК**.
+1. Нажмите кнопку с многоточием рядом со списком HelpDesk и щелкните **Параметры**.
+2. Щелкните **Создать столбец**.
+3. В текстовом поле **Имя столбца** введите **Description**.
+4. В списке переключателей **Type of information in this column is** (Тип данных этого столбца) выберите **Несколько строк текста**.
+5. В списке переключателей **Require that this column contains information** (Требовать, чтобы этот столбец содержал данные) выберите **Да**.
+6. В списке переключателей **Specify the type of text to allow** (Укажите разрешенный тип текста) выберите **Обычный текст**.
+7. Нажмите кнопку **ОК**.
 
 ### <a name="create-category-column"></a>Создание столбца Category (Категория)
 
@@ -137,14 +138,13 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="download-the-help-desk-powerapp"></a>Загрузка приложения PowerApps "Служба поддержки"
 
-1.  В веб-браузере перейдите к http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip.
-2.  Скачайте пакет PowerApps и сохраните его на компьютер.
+1.  [Скачайте](http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip) пакет PowerApps и сохраните его на компьютер.
 
 ## <a name="create-connections"></a>Создание подключений
 
 1.  В веб-браузере перейдите к https://web.powerapps.com.
 2.  Выполните вход, используя те же учетные данные, что и при регистрации.
-3.  В меню слева выберите **Подключения**.
+3.  В меню слева выберите **Данные**, а затем — **Подключения**.
     
 ### <a name="create-office-365-outlook-connection"></a>Создание подключения к Office 365 Outlook
 
@@ -209,16 +209,14 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="configure-the-powerapp-to-use-the-sharepoint-list"></a>Настройка PowerApps для использования списка SharePoint
 
-1. В веб-браузере щелкните **Приложения**.
-2. Нажмите **кнопку с многоточием** рядом с приложением PowerApps "Служба поддержки".
-3. Щелкните **Изменить в Интернете**.
-4. Нажмите кнопку **Разрешить**.
+1. В разделе "Дальнейшие действия" выберите пункт **Открыть приложение**.
+2. При появлении запроса на разрешение щелкните **Разрешить**.
 
 ### <a name="delete-connections"></a>Удаление подключений
 
 1. Щелкните **Показать**.
 2. Выберите **Источники данных**.
-3. В области **Данные** нажмите **кнопку с многоточием** рядом с пунктом **HelpDesk**.
+3. В области **Данные** нажмите **кнопку с многоточием** рядом с подключением SharePoint **HelpDesk**.
 4. Щелкните **Удалить**.
 
 ### <a name="helpdesk-list"></a>Список HelpDesk
@@ -274,7 +272,7 @@ ms.lasthandoff: 04/26/2018
 
 7.  Разверните узел **Переключить**.
 8.  Разверните обращение **НЕ НАЧАТО**.
-9.  Разверните действие **Отправить сообщение электронной почты**.
+9.  Разверните действие **Case not started** (Обращение не начато).
 10. Замените значение в поле **Кому** адресом электронной почты администратора службы поддержки.
 
     ![Экран изменения потока](./media/help-desk-install/edit-flow-condition-send-email.png) 
@@ -287,11 +285,11 @@ ms.lasthandoff: 04/26/2018
 2. Нажмите **кнопку с многоточием** рядом с приложением PowerApps "Служба поддержки".
 3. Щелкните **Открыть**. 
 
-Просмотрите это видео, чтобы узнать, как использовать пример приложения PowerApps "Служба поддержки".
+> [!TIP]
+> Просмотрите это [видео](https://youtu.be/sl5fXwwnvzI), чтобы узнать, как использовать пример приложения PowerApps "Служба поддержки".
 
-[![Демонстрация приложения "Служба поддержки"](./media/help-desk-install/help-desk-demo-video.png)](https://youtu.be/sl5fXwwnvzI)
 
-##<a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 - [Настройка формы списка SharePoint с помощью PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
 - [Добавление и настройка элемента управления в PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
 - [Управление разрешениями для списка или библиотеки SharePoint](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)

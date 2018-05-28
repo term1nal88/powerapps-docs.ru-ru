@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: cfc120cb135c9fe6007b4dc57382a2e4ade821af
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 3e3cd3b7339303e23411f3ef977cc33db6e5e8e0
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="administer-environments-in-powerapps"></a>Администрирование сред в PowerApps
 В [центре администрирования PowerApps][1] можно управлять созданными средами, а также средами, в которых вам назначена роль администратора среды или системного администратора. В центре администрирования можно выполнять следующие действия:
@@ -137,9 +137,9 @@ ms.lasthandoff: 05/15/2018
 
 4. Если в среде создана база данных:
 
-    а) Щелкните ссылку для управления ролями среды в Dynamics 365.
+    а) Добавьте пользователя в среду и щелкните ссылку, чтобы назначить роль пользователю.
 
-    ![](./media/environment-admin/Security-Link-D365.png)
+    ![](./media/database-security/security-adduser.png)
 
     б) Выберите пользователя в списке пользователей в среде или экземпляре.
 
