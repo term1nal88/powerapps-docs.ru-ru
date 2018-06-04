@@ -10,10 +10,11 @@ ms.component: cds
 ms.date: 03/21/2018
 ms.author: anneta
 ms.openlocfilehash: 60d1843e48a1dc1d310d877bcba67460da557993
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168304"
 ---
 # <a name="add-data-to-an-entity-in-common-data-service-for-apps-by-using-power-query"></a>Добавление данных в сущность в Common Data Service для приложений с помощью Power Query
 В этой процедуре вы создадите сущность в [Common Data Service (CDS) для приложений](data-platform-intro.md) и заполните ее данными из веб-канала OData с помощью Power Query. Этим же способом можно интегрировать данные, помимо прочего, из следующих источников в Интернете и локальных источников:

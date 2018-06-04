@@ -8,10 +8,11 @@ ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: matp
 ms.openlocfilehash: 55fd0bb164fcbb552db68fb89d77c7a7d0807cdc
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553043"
 ---
 # <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>Краткое руководство. Запуск приложения на основе холста на мобильном устройстве
 Если вы создали приложение или вам предоставили доступ к приложению, его можно запускать в ОС Windows, iOS, Android или в веб-браузере. Из этого краткого руководства вы узнаете, как запустить приложение на основе холста на мобильном устройстве. Приложения, работающие на мобильных устройствах, могут использовать такие возможности этих устройств, как определение местоположения и съемка на камеру.
