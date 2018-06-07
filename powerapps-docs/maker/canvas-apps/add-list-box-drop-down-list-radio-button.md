@@ -12,10 +12,11 @@ ms.component: canvas
 ms.date: 10/23/2016
 ms.author: lonu
 ms.openlocfilehash: 1fbaf4f9d740084a1ed0d630b94d1cd41713ba03
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31825563"
 ---
 # <a name="add-a-list-box-a-drop-down-list-or-radio-buttons"></a>Добавление списка, раскрывающегося списка и переключателей
 В PowerApps есть элементы управления с возможностью выбора одного или нескольких вариантов, включая переключатели, обычный и раскрывающийся список. В этой статье мы добавим эти элементы управления и воспользуемся формулой **Table** для создания списков. При выборе элемента в списке обновляются другие элементы управления.

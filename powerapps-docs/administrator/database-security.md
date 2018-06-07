@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
 ms.openlocfilehash: d9bd70acaacbbeda98c14337035a233b7c70c181
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168166"
 ---
 # <a name="configure-environment-security"></a>Настройка безопасности среды
 Служба Common Data Service (CDS) для приложений использует модель безопасности на основе ролей для обеспечения безопасного доступа к базе данных. В этой статье вы узнаете, как создавать артефакты безопасности, которые необходимы для защиты приложения. Роли пользователя позволяют контролировать доступ к данным во время выполнения. Они отделены от ролей среды, регулируемых разработчиками среды и ее администраторами. Общие сведения о средах см. в [этой статье](environments-overview.md).

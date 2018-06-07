@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/06/2017
 ms.author: sharik
 ms.openlocfilehash: d24777ec34759a98421784995f5a73b0dfc1d2d2
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31826276"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>Отображение, редактирование и добавление записи из таблицы в PowerApps
 Чтобы отобразить все поля записи, добавьте и настройте элемент управления **[Форма отображения](controls/control-form-detail.md)**. Чтобы изменить поле в записи (или добавить запись), а затем сохранить изменения в источнике данных, добавьте и настройте элемент управления **[Форма редактирования](controls/control-form-detail.md)**.

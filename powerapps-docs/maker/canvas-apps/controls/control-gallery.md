@@ -1,25 +1,23 @@
 ---
 title: Справка по элементу управления "Коллекция" | Документация Майкрософт
 description: Сведения об элементе управления "Коллекция" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
-author: RickSaling
-manager: anneta
+author: fikaradz
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 05/25/2017
 ms.author: sharik
-ms.openlocfilehash: 501dfbba3e01efe55c76d7af234e2f9064096728
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: dde430d6174af5be75a4fc8ae13dabd6f3759899
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31837264"
 ---
 # <a name="gallery-control-in-powerapps"></a>Элемент управления "Коллекция" в PowerApps
 Элемент управления, содержащий другие элементы управления и отображающий набор данных.
@@ -107,11 +105,13 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Должен присутствовать элемент **[AccessibleLabel](properties-accessibility.md)**.
-> [!NOTE]
+
+    > [!NOTE]
 > Средства чтения с экрана проинформируют об изменениях в коллекции. **AccessibleLabel** также упоминается. Так обеспечивается контекст оповещения. Это еще важнее при наличии нескольких коллекций на экране.
 
 ### <a name="keyboard-support"></a>Поддержка клавиатуры
 * Установите для параметра **ShowScrollbar** значение **true**. На большинстве устройств с сенсорным экраном полоса прокрутки не отображается, пока не начнется прокрутка.
 * Так как при щелчке в любом месте элемента коллекции должен происходить его выбор, поэтому для клавиатуры также должны быть предусмотрены аналогичные действия. Например, при добавлении **[кнопки](control-button.md)**, для свойства **OnSelect** задано значение **Select(Parent)** 
-> [!NOTE]
+
+    > [!NOTE]
 > Элементы управления вне коллекции не учитываются в порядке навигации с клавиатуры внутри коллекции. Значения **[TabIndex](properties-accessibility.md)** элементов управления внутри коллекции находятся в области. Дополнительные сведения см. в разделе [свойства специальных возможностей](properties-accessibility.md).

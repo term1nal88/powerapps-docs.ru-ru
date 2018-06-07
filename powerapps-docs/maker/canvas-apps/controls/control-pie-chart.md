@@ -1,25 +1,23 @@
 ---
 title: Справка по элементу управления "Круговая диаграмма" | Документация Майкрософт
 description: Сведения об элементе управления "Круговая диаграмма" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 5307370df49eeb783a401e2b7c2f0564bb27c3f4
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: bda839765d797bf87590f037221b116bad781657
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31833684"
 ---
 # <a name="pie-chart-control-in-powerapps"></a>Элемент управления "Круговая диаграмма" в PowerApps
 Элемент управления, отображающий относительные значения в сравнении друг с другом.
@@ -98,13 +96,14 @@ ms.lasthandoff: 04/16/2018
 ## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
 ### <a name="color-contrast"></a>Контрастность
 Необходимо настроить достаточный контраст для следующих элементов:
-* каждого элемента в **ItemColorSet**;
-* каждого элемента в **ItemColorSet** и цвета фона;
-* элемента **[Color](properties-color-border.md)** и цвета фона.
+* каждым элементом в **ItemColorSet**;
+* каждым элементом в **ItemColorSet** и цветом фона;
+* **[цветом](properties-color-border.md)** и фоном.
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Элемент **[Label](control-text-box.md)** должен находиться непосредственно перед средством графического оформления диаграммы в качестве заголовка.
-> [!NOTE]
+
+    > [!NOTE]
 > Средство графического оформления диаграммы и элемент **Legend** скрыты от пользователей, работающих со средствами чтения с экрана. В качестве альтернативы данные для них отображаются в табличной форме. Пользователи также могут перемещаться по кнопкам выбора значений на диаграмме.
 
 ### <a name="low-vision-support"></a>Поддержка пользователей со слабым зрением
@@ -114,5 +113,6 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="keyboard-support"></a>Поддержка клавиатуры
 * Значение элемента **[TabIndex](properties-accessibility.md)** должно быть равно нулю или больше нуля, чтобы пользователи могли использовать навигацию с помощью клавиатуры.
-> [!NOTE]
-> Когда пользователи переходят к диаграмме с помощью клавиатуры, они выделяют разные кнопки для выбора данных в диаграмме.
+
+    > [!NOTE]
+> Когда пользователи переходят к диаграмме с помощью клавиатуры, они должны иметь возможность циклически обходить кнопки, чтобы выбрать данные на диаграмме.

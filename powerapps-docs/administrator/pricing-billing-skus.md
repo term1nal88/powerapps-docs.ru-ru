@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: jamesol
 ms.openlocfilehash: 03aa8fc5254529a337f7bbdf40428ab4a1042a92
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168120"
 ---
 # <a name="licensing-overview"></a>Общие сведения о лицензировании
 PowerApps лицензируется отдельно для каждого пользователя. Лицензия необходима для каждого пользователя, осуществляющего доступ к службе для создания и запуска приложений. Пользователи Office 365 и Dynamics 365 могут сразу же использовать возможности PowerApps и Microsoft Flow, которые содержатся в этих предложениях. Пользователи, желающие создавать приложения и последовательности, которые получают доступ к источникам данных за пределами Office 365 и Dynamics 365, или желающие расширить функциональные возможности, могут приобрести автономные подписки PowerApps и Microsoft Flow. Между этими группами лицензий имеются существенные различия в функциональности.

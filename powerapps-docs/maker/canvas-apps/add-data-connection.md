@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/06/2018
 ms.author: lanced
 ms.openlocfilehash: 44ee7b992f5817a5d6b8d791b05e1db671d3e6ba
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31826989"
 ---
 # <a name="add-a-data-connection-in-powerapps"></a>Добавление подключения к данным в PowerApps
 В PowerApps можно добавить подключение к данным в существующем приложении или в приложении, создаваемом с нуля. Приложение может подключаться к SharePoint, Salesforce, OneDrive и [множеству других источников данных](connections-list.md).
@@ -35,7 +36,7 @@ ms.lasthandoff: 04/26/2018
 
     ![Создание приложения с нуля](./media/add-data-connection/blank-app-tile.png)
 
-1. Если отобразится диалоговое окно **Welcome to PowerApps Studio** (Вас приветствует PowerApps Studio), выберите в нем **Пропустить**.
+1. Если отобразится диалоговое окно **Вас приветствует PowerApps Studio**, выберите в нем **Пропустить**.
 
 3. В центральной области щелкните **Подключиться к данным**.
 

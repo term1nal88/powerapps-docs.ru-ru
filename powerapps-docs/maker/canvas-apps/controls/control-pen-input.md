@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 84981a00a516f553d3f1b318f12a6f68064c66b2
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31832178"
 ---
 # <a name="pen-input-control-in-powerapps"></a>Элемент управления "Ввод с помощью пера" в PowerApps
 Элемент управления "Ввод с помощью пера" позволяет рисовать, стирать и выделять области изображения.

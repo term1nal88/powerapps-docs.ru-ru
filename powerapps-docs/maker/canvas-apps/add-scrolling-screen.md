@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/25/2016
 ms.author: lonu
 ms.openlocfilehash: fd7b418de7a78220dfc1019c923749fb8e6ddf5c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31825333"
 ---
 # <a name="add-a-scrolling-screen-in-powerapps"></a>Добавление прокручиваемого экрана в PowerApps
 Вы можете создать экран, который пользователи смогут прокручивать для просмотра дополнительных элементов. Например, можно создать приложение, в котором данные отображаются на гистограмме и графике. Прокручиваемый экран позволяет добавить дополнительные элементы управления, которые будут появляться при прокрутке.

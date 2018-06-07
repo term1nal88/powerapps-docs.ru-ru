@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 09/28/2017
 ms.author: sharik
 ms.openlocfilehash: 60ec1fc7f896aeb3391ed794920e987b232d09f3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31833495"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>Отображение списка элементов в PowerApps
 Чтобы отобразить список элементов из любого источника данных, добавьте в приложение элемент управления **[Gallery](controls/control-gallery.md)** (Коллекция). В этой статье в качестве источника данных используется Excel. Чтобы отфильтровать список, настройте элемент управления **Коллекция** таким образом, чтобы в нем отображались только элементы, соответствующие определенному условию, которое задается в **[поле для ввода текста](controls/control-text-input.md)**.

@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
 ms.openlocfilehash: 3e3cd3b7339303e23411f3ef977cc33db6e5e8e0
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34445690"
 ---
 # <a name="administer-environments-in-powerapps"></a>Администрирование сред в PowerApps
 В [центре администрирования PowerApps][1] можно управлять созданными средами, а также средами, в которых вам назначена роль администратора среды или системного администратора. В центре администрирования можно выполнять следующие действия:
