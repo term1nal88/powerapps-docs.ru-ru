@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
 ms.openlocfilehash: f1952c2349eb54f2c6348f5abc4dee9a4645348a
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168442"
 ---
 # <a name="create-a-relationship-between-entities"></a>Создание связи между сущностями
 Данные в одной сущности часто связаны с данными в другой. Например, у вас могут быть сущности **Учителя** и **Занятие**, а сущность **Занятие** может быть связана отношением подстановки с сущностью **Учителя** для показа информации о том, кто из учителей ведет занятие. Поле подстановки можно использовать для отображения данных из сущности **Учителя**. Такое поле также называется полем для поиска.
@@ -84,5 +85,5 @@ ms.lasthandoff: 05/15/2018
 
 ## <a name="next-steps"></a>Дальнейшие действия
 * [Создание приложения с помощью базы данных Common Data Service](../canvas-apps/data-platform-create-app.md)
-* [Создание приложения с нуля с помощью базы данных Common Data Service](../canvas-apps/data-platform-create-app-scratch.md)
+* [Create an app from scratch using a Common Data Service database](../canvas-apps/data-platform-create-app-scratch.md) (Создание приложения "с нуля" с помощью базы данных Common Data Service)
 

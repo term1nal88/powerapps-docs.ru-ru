@@ -1,25 +1,23 @@
 ---
 title: Форматирование таблицы в Excel | Документы Майкрософт
 description: Для использования данных Excel необходимо форматировать данные в таблицу. Добавление ключевого слова "изображение" в имена столбцов
-services: ''
-suite: powerapps
 documentationcenter: na
 author: yifwang
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/03/2018
 ms.author: yifwang
-ms.openlocfilehash: 69e46e1e55b3f1dd4b1e0df20ef274a56e657809
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: fd458fe6c8962bbc4443c1de7aad0f1c4eea7fac
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31826635"
 ---
 # <a name="format-a-table-in-excel-and-naming-tips"></a>Советы по форматированию таблицы в Excel и присвоению имен
 Для использования данных в PowerApps их необходимо форматировать в Excel как таблицу. Прочитав эту статью, вы узнаете, как форматировать таблицу в Excel, и получите некоторые советы по именованию столбцов Excel.

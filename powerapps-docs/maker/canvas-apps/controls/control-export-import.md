@@ -1,25 +1,23 @@
 ---
 title: Справка по элементам управления "Экспорт" и "Импорт" | Документация Майкрософт
 description: Сведения об элементах управления "Экспорт" и "Импорт", а также свойства и примеры
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e6c883a5d17d87c58fafd4f10d1075364d616480
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 958589deb4fdee42cb8e6df13ff15addbc06c07e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31830700"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>Элементы управления "Экспорт" и "Импорт" в PowerApps
 Элементы управления для экспорта данных в локальный файл, а затем импорта этих данных в другое приложение в PowerApps.
@@ -58,9 +56,9 @@ ms.lasthandoff: 04/16/2018
 
 **[Fill](properties-color-border.md)**  — цвет фона элемента управления.
 
-**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления в тот момент, когда он активен.
+**[FocusedBorderColor](properties-color-border.md)** — цвет границы элемента управления при наведении фокуса.
 
-**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления в тот момент, когда он активен.
+**[FocusedBorderThickness](properties-color-border.md)** — толщина границы элемента управления при наведении фокуса.
 
 **[Font](properties-text.md)**  — имя семейства шрифтов, используемых для отображения текста.
 

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/19/2017
 ms.author: sharik
 ms.openlocfilehash: d6c857a75a21123cdd0e826682fc595a503d67fd
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32328796"
 ---
 # <a name="edit-an-app-in-powerapps"></a>Изменение приложения в PowerApps
 Вы можете изменить любое приложение, которое вы создали, которым вы владеете или для которого у вас есть разрешения **Может изменять**. Вы можете изменить приложение в PowerApps Studio. При попытке изменить приложение, которое уже открыто для редактирования в другом месте, появится сообщение о том, что приложение уже открыто вами или другим пользователем.

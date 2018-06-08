@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 01/30/2018
 ms.author: mblythe
 ms.openlocfilehash: 0a71bc45fbcc3c36337571b9d80ade0d2cf9cbe2
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31827558"
 ---
 # <a name="embed-the-power-bi-project-report-in-sharepoint-online"></a>Внедрение отчета о проекте Power BI в SharePoint Online
 > [!NOTE]

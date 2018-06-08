@@ -1,22 +1,18 @@
 ---
 title: Создание приложений со специальными возможностями | Документация Майкрософт
 description: Как сделать приложения доступными для людей с ограниченными возможностями
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/03/2018
 ms.author: fikaradz
-ms.openlocfilehash: 2cd381eaa02829a8db7b4bf64e0ddf097f86abc6
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 8a7139f6dbc39bc1585156802e30236aa2b68359
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803082"
 ---
 # <a name="create-accessible-apps"></a>Создание приложений со специальными возможностями
 Для успешной работы с приложениями пользователям с нарушениями зрения, слуха и других функций требуются особые возможности.  Приведенные ниже рекомендации помогут обеспечить соответствие требованиям многих государственных организаций и корпораций. Кроме того, выполнив эти указания, вы повысите удобство для всех пользователей, независимо от их возможностей.

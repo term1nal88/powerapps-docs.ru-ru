@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
 ms.openlocfilehash: aa9d5785f1c005da7c22c63bd94cb41e1a643ad3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31829318"
 ---
 # <a name="customize-a-card-in-powerapps"></a>Настройка карточки в PowerApps
 Выполните основную настройку (без разблокировки карточки), например измените элемент управления. Выполните дополнительную настройку, разблокировав карточку и, например, добавив элемент управления, недоступный по умолчанию для этой карточки.

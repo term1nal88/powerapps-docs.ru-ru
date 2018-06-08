@@ -1,22 +1,18 @@
 ---
 title: Общие сведения о подключении "Пользователи Office 365" | Документация Майкрософт
 description: Узнайте, как подключиться к "Пользователи Office 365", просмотрите некоторые примеры и все функции
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 06/07/2016
 ms.author: lanced
-ms.openlocfilehash: 061d70ed1bae2971379acef4ea43ca85d805e756
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: a1e0ddd7dad50ec269a0946163cc7b822ddb0681
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803496"
 ---
 # <a name="connect-to-office-365-users-connection-from-powerapps"></a>Подключение к подключению "Пользователи Office 365" из PowerApps
 ![Пользователи Office 365](./media/connection-office365-users/office365icon.png)

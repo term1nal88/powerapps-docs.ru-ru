@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/09/2017
 ms.author: mblythe
 ms.openlocfilehash: e73324d6cfce5edf7ece0350b2047dc7842373bb
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836776"
 ---
 # <a name="develop-offline-capable-apps-with-powerapps"></a>Разработка приложений, поддерживающих автономный режим работы, с помощью PowerApps
 Один из наиболее распространенных сценариев, с которым сталкивается разработчик мобильного приложения, — это обеспечение продуктивности пользователей в случае ограниченного подключения или его отсутствия. PowerApps включает набор функций и режимов, которые помогут вам в разработке приложений, поддерживающих автономный режим. Вы сможете:

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/01/2017
 ms.author: fikaradz
 ms.openlocfilehash: 466e0d9cb1acfe4cfeb72256db2deddfd3466e19
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31834197"
 ---
 # <a name="show-items-of-different-heights-in-a-powerapps-gallery"></a>Отображение элементов разной высоты в коллекции PowerApps
 Если разные элементы в наборе данных содержат различные объемы данных в одном поле, можно полностью отобразить элементы с большим объемом данных, не добавляя пустое место после элементов с меньшим объемом данных. Добавление и настройка элемента управления коллекцией **Изменяющаяся высота** позволит делать следующее:

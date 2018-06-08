@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 08/15/2017
 ms.author: archanan
 ms.openlocfilehash: 87f1895801ec7d1121b042d6baf097b79801f019
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31830243"
 ---
 # <a name="delegable-data-sources"></a>Делегируемые источники данных
 Как подробно описано в статье с [основными сведениями о делегировании](delegation-overview.md), делегирование — это передача службой PowerApps обязанностей по обработке данных источнику вместо переноса данных в приложение для локальной обработки.

@@ -1,22 +1,18 @@
 ---
 title: Общие сведения о подключении к Microsoft Translator | Документация Майкрософт
 description: Узнайте, как подключиться к Microsoft Translator, ознакомьтесь с доступными функциями и некоторыми примерами
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: lanced
-ms.openlocfilehash: 33b82bac0f4090db926c5cdb2e8e4345e7b6af70
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: c375429b7ac2341766c36ca58e1bbf3c78c9a6d1
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803404"
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>Подключение к Microsoft Translator из PowerApps
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)

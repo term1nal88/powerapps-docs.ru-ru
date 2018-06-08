@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 06/28/2016
 ms.author: archanan
 ms.openlocfilehash: f7943c5204dcab7c59e922bfb096f70d05b94e9b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31829009"
 ---
 # <a name="share-app-resources"></a>Предоставление общего доступа к ресурсам приложения
 Прежде чем [предоставить общий доступ к приложению](share-app.md), рассмотрите типы ресурсов, которые оно использует, например один или несколько из приведенных ниже:

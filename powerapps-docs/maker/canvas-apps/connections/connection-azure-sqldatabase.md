@@ -1,22 +1,18 @@
 ---
 title: Общие сведения о подключении к SQL Server | Документация Майкрософт
 description: Пошаговые инструкции по подключению к Azure SQL или локальной базе данных SQL Server
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: 65fa5cff5d3b9c9595cc3f9338a7e7af43256f86
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: e11521219fcd368801a6e943f45dbc713309ec36
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803427"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>Подключение к SQL Server из PowerApps
 ![Значок SQL Server](./media/connection-azure-sqldatabase/sqlicon.png)

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/23/2017
 ms.author: gregli
 ms.openlocfilehash: eaf538c1189dffd8fb2169f3eda3f525bcf623de
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31832035"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>Функции DateAdd, DateDiff и TimeZoneOffset в PowerApps
 Добавление значения даты и времени или поиск разницы в значениях даты и времени, а также преобразование между местным временем и временем в формате UTC.

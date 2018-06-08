@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 08/28/2017
 ms.author: lanced
 ms.openlocfilehash: dc68b0f404c2a8d636deb4e77c2ada4582ed3a37
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836753"
 ---
 # <a name="overview-of-connectors-for-powerapps"></a>Общие сведения о соединителях для PowerApps
 Большинство приложений основываются на данных, в том числе и те, которые создаются в PowerApps. Эти данные хранятся в *источниках данных*. Вы переносите их в приложение при создании *подключения*. Для подключения используется определенный *соединитель*, который обеспечивает обмен данными с источником данных. В PowerApps есть соединители для многих популярных служб и локальных источников данных, включая SharePoint, SQL Server, Office 365, Salesforce, Twitter и другие. Чтобы начать добавлять данные в приложение, ознакомьтесь со статьей [Добавление подключения к данным в PowerApps](add-data-connection.md).

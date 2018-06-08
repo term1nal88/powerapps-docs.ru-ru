@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/27/2018
 ms.author: gregli
 ms.openlocfilehash: 0800adf43f5a7d74d0334e9f39216a70b9350d6d
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838063"
 ---
 # <a name="understand-delegation"></a>Общие сведения о делегировании
 PowerApps поддерживает целый ряд эффективных и полезных функций для фильтрации, сортировки и форматирования таблиц с данными, такие как **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)**, **[AddColumns](functions/function-table-shaping.md)** и многие другие.  Эти функции помогают обеспечить пользователям доступ именно к той информации, которая им необходима.  Для тех, у кого есть опыт работы с базами данных, использование этих функций можно сравнить с составлением запросов к базе.  

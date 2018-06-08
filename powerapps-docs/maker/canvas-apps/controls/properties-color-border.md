@@ -1,25 +1,23 @@
 ---
 title: Свойства цвета и границы | Документация Майкрософт
 description: Справочные сведения о таких свойствах, как BorderColor, HoverBorderColor, и PressedBorderColor.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: e9ddbc3e413b99fd7afb8d483a161d50f9034673
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 5c30d0c96d3d6ad8eee0781a6c209419ba70c860
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838339"
 ---
 # <a name="color-and-border-properties-in-powerapps"></a>Свойства цвета и границы в PowerApps
 ## <a name="overview"></a>Обзор

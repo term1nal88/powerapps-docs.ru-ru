@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/19/2018
 ms.author: anneta
 ms.openlocfilehash: 29010630412de78945d9d35212210b7ce1a8407f
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31827903"
 ---
 # <a name="create-an-app-from-a-powerapps-template"></a>Создание приложения на основе шаблона PowerApps
 Вы можете создать приложение автоматически на основе шаблона для определенного сценария, например отслеживания бюджета или планирования отпусков, а затем запустить приложение, чтобы посмотреть, как оно работает по умолчанию.

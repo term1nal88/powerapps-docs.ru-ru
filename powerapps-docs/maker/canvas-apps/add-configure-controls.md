@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 07/10/2017
 ms.author: anneta
 ms.openlocfilehash: 702be2a4f1747b6f3303d1add30d9157f5665ee7
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32330492"
 ---
 # <a name="add-and-configure-a-control-in-powerapps"></a>Добавление и настройка элемента управления в PowerApps
 Добавляйте различные элементы пользовательского интерфейса в приложение и настраивайте их внешний вид и поведение напрямую, на панели инструментов, на вкладке **Свойства** или в строке формул. Эти элементы пользовательского интерфейса называются элементами управления, а настраиваемые параметры — свойствами.

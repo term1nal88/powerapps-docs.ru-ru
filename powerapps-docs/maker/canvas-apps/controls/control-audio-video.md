@@ -1,22 +1,18 @@
 ---
 title: Справка по элементам управления "Звук" и "Видео" | Документация Майкрософт
 description: Сведения об элементах управления "Звук" и "Видео" с описанием их свойств и примерами
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: fa235c606082f2fd83339ba11fa81fdb2988c23a
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: aae87f408452cd83856c2e1c2e07065d4b8df49f
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803289"
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>Элементы управления "Звук" и "Видео" в PowerApps
 Элемент управления, воспроизводящий звуковой файл, видеофайл или видеоролик на сайте YouTube.

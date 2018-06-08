@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
 ms.openlocfilehash: 78615949ab5c05b4cf7da56eae23dd1a0194c7ff
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838701"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Элементы управления "Изменить форму" и "Отображать форму" в PowerApps
 Элементы управления "Отображать форму" и "Изменить форму" служат для отображения, изменения и создания записей в источнике данных.

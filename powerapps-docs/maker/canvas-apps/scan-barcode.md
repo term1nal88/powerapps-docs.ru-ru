@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/23/2016
 ms.author: anneta
 ms.openlocfilehash: 6960b41effb109f6f2266ba279b4d51ea51e744f
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32328727"
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>Сканирование штрихкода в PowerApps
 Вы можете сканировать штрихкоды разных типов, создав приложение и запустив его на устройстве с камерой, например на смартфоне. Числовое значение штрихкода отображается в элементе управления **Метка**, и эти данные вы можете отправить в разные [источники данных](connections-list.md).

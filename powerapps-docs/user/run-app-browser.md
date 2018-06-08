@@ -1,18 +1,18 @@
 ---
 title: Краткое руководство по запуску приложений в веб-браузере | Документы Майкрософт
 description: В этом кратком руководстве вы узнаете, как запускать приложения в веб-браузере.
-author: SKjerland
-manager: kfile
+author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
 ms.date: 03/07/2018
-ms.author: sharik
-ms.openlocfilehash: c188294e8b09dbcc25152715daec8e377763af11
-ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
+ms.author: matp
+ms.openlocfilehash: ba3b52bbbe12fad8773f09f4c753e4a55d09a6f0
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552721"
 ---
 # <a name="quickstart-run-an-app-in-a-web-browser"></a>Краткое руководство. Запуск приложения в веб-браузере
 Если вы создали приложение или вам предоставили доступ к приложению, его можно запускать в ОС Windows, iOS, Android или в веб-браузере. В этом кратком руководстве вы узнаете, как запустить приложение на основе холста или модели в веб-браузере с [домашней страницы Dynamics 365](https://home.dynamics.com).

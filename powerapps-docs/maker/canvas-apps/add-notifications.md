@@ -12,13 +12,14 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 0792a47db2174dc440488eb854987bca80c8b363
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 0cf09528f83b2729e50139a3b5f9b5b9c00b6119
+ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34822565"
 ---
-# <a name="send-a-pull-notification-in-powerapps"></a>Отправка push-уведомлений в PowerApps
+# <a name="send-a-push-notification-in-powerapps"></a>Отправка push-уведомлений в PowerApps
 Push-уведомления используются в мобильных приложениях преимущественно при работе с потребителями и в бизнес-сценариях для привлечения пользователей приложений и определения приоритетности ключевых задач. В PowerApps уведомления можно отправлять с помощью соединителя PowerApps Notification. Системные push-уведомления можно отправлять в любое приложение, которое создается в PowerApps. В будущем мы планируем добавить больше типов уведомлений.
 
 ![Пример того, как выглядит push-уведомление](./media/add-notifications/pic1-notification-screenshot.png)

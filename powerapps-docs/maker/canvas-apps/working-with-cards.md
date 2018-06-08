@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
 ms.openlocfilehash: 074e40dd2fc19279bef36ac91196c61b050abda3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838086"
 ---
 # <a name="understand-data-cards"></a>Общие сведения о карточках данных
 Элементы управления **[Карта](controls/control-card.md)** являются стандартными блоками элементов управления **[Форма редактирования](controls/control-form-detail.md)** и **[Форма отображения](controls/control-form-detail.md)**. Форма представляет всю запись, а каждая карта представляет одно поле этой записи.

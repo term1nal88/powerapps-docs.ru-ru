@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/11/2017
 ms.author: aneesa
 ms.openlocfilehash: fd3c3c002ab877b78a2065e37c6a8f2ddcb91fb6
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31839000"
 ---
 # <a name="use-the-entity-form-control"></a>Использование элемента управления "Форма сущности"
 Создавайте приложения быстрее, используя элемент управления **Форма сущности** для добавления полнофункциональных форм для сущности Common Data Service.

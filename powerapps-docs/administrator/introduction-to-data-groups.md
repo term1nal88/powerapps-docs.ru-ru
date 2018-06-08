@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
 ms.openlocfilehash: 8899a77d73f67a1b437a60218b3536d2989d5b8c
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168327"
 ---
 # <a name="data-groups"></a>Группы данных
 Группы данных — это простой способ категоризации служб в рамках [политики защиты от потери данных (DLP)](prevent-data-loss.md). Доступны две группы данных: **Business data only** (Только бизнес-данные) и **No business data allowed** (Бизнес-данные запрещены). Организации могут определять, какие службы будут помещены в группу данных. Для категоризации служб рекомендуется разместить их в группы на основе их значимости для организации. По умолчанию все службы будут размещены в группу данных **No business data allowed** (Бизнес-данные запрещены). Вы можете управлять службами в группе данных, когда вы создаете или изменяете свойства политики DLP в центре администрирования.

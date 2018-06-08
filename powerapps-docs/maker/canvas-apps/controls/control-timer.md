@@ -1,25 +1,23 @@
 ---
 title: Справка по элементу управления "Таймер" | Документация Майкрософт
 description: Сведения об элементе управления "Таймер" с описанием его свойств и примерами
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 092e6c76b581027e711dbe0a8109f507a2bba292
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 6d4f8f0393b7cb2d6471f159193327f07e648357
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836914"
 ---
 # <a name="timer-control-in-powerapps"></a>Элемент управления "Таймер" в PowerApps
 Элемент управления, определяющий поведение приложения по истечении заданного количества времени.
@@ -165,6 +163,8 @@ ms.lasthandoff: 04/16/2018
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Должен присутствовать элемент **[Text](properties-core.md)**.
 * Не используйте **[Text](properties-core.md)** для важной информации и информации, зависимой от времени. Пользователи средств для чтения с экрана не будут получать оповещения об изменениях элемента **[Text](properties-core.md)**.
-> [!NOTE]
-> * Каждые 5 секунд на средства для чтения с экрана будет приходить оповещение об истекшем времени. Тем не менее таймер **[Text](properties-core.md)** не будет включен в объявление.
+
+    > [!NOTE]
+> Каждые 5 секунд на средства для чтения с экрана будет приходить оповещение об истекшем времени. Тем не менее таймер **[Text](properties-core.md)** не будет включен в объявление.
+
 * Добавьте **[метку](control-text-box.md)**, чтобы отобразить истекшее время. Используйте таймер **[Text](properties-core.md)**, чтобы указать пользователю запустить или остановить таймер.

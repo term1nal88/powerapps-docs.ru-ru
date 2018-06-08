@@ -1,22 +1,18 @@
 ---
 title: Общие сведения о подключении к Dynamics AX | Документация Майкрософт
 description: Доступные функции Dynamics AX, ответы и примеры
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 09/13/2016
 ms.author: lanced
-ms.openlocfilehash: 747261548521bf619b1b23b22de217aa39a1a0d7
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: e5e82b36c362b4790b610614486d2001f9c9974e
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803151"
 ---
 # <a name="connect-from-microsoft-powerapps-to-dynamics-ax"></a>Подключение Microsoft PowerApps к Dynamics AX
 ![Dynamics AX Online](./media/connection-dynamicsax/dynamics-ax.png)

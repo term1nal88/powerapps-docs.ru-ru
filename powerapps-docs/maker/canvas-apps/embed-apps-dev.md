@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/20/2017
 ms.author: mblythe
 ms.openlocfilehash: 0f4ea37d93b20a768fa16d1dcdb41f921336f043
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31827058"
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>Интеграция PowerApps в веб-сайты и другие службы
 Приложения, которые вы создаете, как правило, наиболее полезны, когда они доступны прямо там, где люди делают свою работу. PowerApps позволяет внедрять приложения в IFrame, чтобы эти приложения можно было интегрировать в веб-сайты и другие службы, такие как Power BI или SharePoint.
