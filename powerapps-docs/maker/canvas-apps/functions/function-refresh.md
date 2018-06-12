@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/21/2015
 ms.author: gregli
 ms.openlocfilehash: 9ec2711c4a38f26fec2d44681b2606b4a8ecba29
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31825379"
 ---
 # <a name="refresh-function-in-powerapps"></a>Функция Refresh в PowerApps
 Обновляет [записи](../working-with-tables.md#records) [источника данных](../working-with-data-sources.md).
