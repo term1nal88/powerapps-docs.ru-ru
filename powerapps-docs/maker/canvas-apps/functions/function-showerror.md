@@ -1,39 +1,51 @@
 ---
 title: Функция ShowError | Документы Майкрософт
 description: Справочные сведения о функции ShowError в PowerApps, включая описание синтаксиса и примеры
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
-ms.date: 03/21/2018
+ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: 1191016f26192f997b8347cdbfecc7701c19cb8c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 5b75c2cabedba4caf11aa3f922acc0a71ffca377
+ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34822542"
 ---
-# <a name="showerror-function-in-powerapps"></a>Функция ShowError в PowerApps
-Выводит сообщение об ошибке для пользователя.
+# <a name="notify-function-in-powerapps"></a>Функция Notify в PowerApps
+Отображает баннер с сообщением для пользователя.
 
 ## <a name="description"></a>Описание
-Функция **ShowError** выводит сообщение об ошибке для пользователя.  Сообщения отображаются как при разработке, так и при использовании приложения.
+Функция **Notify** отображает баннер с сообщением для пользователя в верхней части экрана поверх текущего содержимого.  
 
-Функция **ShowError** может использоваться только в [формулах поведения](../working-with-formulas-in-depth.md).
+Используемые цвет и значок зависят от типа сообщения.   Тип определяется вторым аргументом функции.
 
-Функция **ShowError** всегда возвращает *true*.
+| Аргумент NotificationType | Описание |
+| --- | --- |
+| **NotificationType.Error** | Выводится сообщение об ошибке. |
+| **NotificationType.Information** (по умолчанию) | Выводится информационное сообщение.  |
+| **NotificationType.Success** | Выводится сообщение об успешном выполнении. |
+| **NotificationType.Warning** | Выводится предупреждение. |
 
-Функцию **ShowError** можно использовать совместно с функцией [**IfError**](function-iferror.md) для определения ошибок и выдачи пользовательских сообщений об ошибках.
+Сообщения отображаются как при разработке, так и при использовании приложения.
+
+Функция **Notify** может использоваться только в [формулах поведения](../working-with-formulas-in-depth.md).
+
+Функцию **Notify** можно использовать совместно с функцией [**IfError**](function-iferror.md) для определения ошибок и выдачи пользовательских сообщений об ошибках.
+
+PowerApps может также отправлять push-уведомления из функции **Notify** с помощью совершенно другого механизма.  Дополнительные сведения см. в статье [Отправка push-уведомлений в PowerApps](../add-notifications.md).
+
+Функция **Notify** всегда возвращает *true*.
+
+Примечание. Ранее эта функция называлась **ShowError** и могла выводить только сообщения об ошибках.
 
 ## <a name="syntax"></a>Синтаксис
-**ShowError**( *Message* )
+**Notify**(*Message*, [*NotificationType*])
 
-* *Message* — обязательный параметр.  Сообщение, отображаемое для пользователя. 
+* *Message* — обязательный аргумент.  Сообщение, отображаемое для пользователя.
+* *NotificationType* — необязательный аргумент.  Тип сообщения для отображения из приведенной выше таблицы.  Тип по умолчанию — **NotificationType.Information**.  
 
 ## <a name="examples"></a>Примеры
 
@@ -43,10 +55,40 @@ ms.lasthandoff: 04/26/2018
 
 2. Укажите следующее значение для свойства **OnSelect** элемента управления **Button**:
 
-    **ShowError( "Hello, World" )**
+    **Notify(Hello, World)**
 
 3. Нажмите кнопку.  
 
-    При каждом нажатии на кнопку для пользователя будет отображаться сообщение **Hello, World**.
+    При каждом нажатии на кнопку для пользователя будет отображаться информационное сообщение **Hello, World**.
 
-    ![Вызов функции ShowError из метода Button.OnSelect и отображение сообщения "Hello, World" в виде красного баннера в среде разработки](media/function-showerror/hello-world.png)
+    ![Вызов функции Notify из метода Button.OnSelect и отображение сообщения "Hello, World" в виде синего баннера в среде разработки](media/function-showerror/hello-world.png)
+
+4. Измените тип сообщения на сообщение об ошибке.  Добавьте в формулу второй аргумент:
+
+    **Notify("Hello, World", NotificationType.Error)**
+
+5. Нажмите кнопку.
+
+    Теперь при каждом нажатии кнопки для пользователя будет отображаться сообщение об ошибке **Hello, World**.
+
+    ![Вызов функции Notify из метода Button.OnSelect и отображение сообщения "Hello, World" в виде красного баннера в среде разработки](media/function-showerror/hello-world-error.png)
+
+4. Измените тип сообщения на предупреждение.  Измените второй аргумент в формуле:
+
+    **Notify("Hello, World", NotificationType.Warning)**
+
+5. Нажмите кнопку.
+
+    Теперь при каждом нажатии кнопки для пользователя будет отображаться предупреждение **Hello, World**.
+
+    ![Вызов функции Notify из метода Button.OnSelect и отображение сообщения "Hello, World" в виде оранжевого баннера в среде разработки](media/function-showerror/hello-world-warning.png)
+
+4. Измените тип сообщения на сообщение об успешном выполнении.  Измените второй аргумент в формуле:
+
+    **Notify("Hello, World", NotificationType.Success)**
+
+5. Нажмите кнопку.
+
+    Теперь при каждом нажатии кнопки для пользователя будет отображаться сообщение об успешном выполнении **Hello, World**.
+
+    ![Вызов функции Notify из метода Button.OnSelect и отображение сообщения "Hello, World" в виде зеленого баннера в среде разработки](media/function-showerror/hello-world-success.png)

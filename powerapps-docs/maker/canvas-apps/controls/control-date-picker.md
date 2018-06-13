@@ -12,11 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9f2aae06422a130e2976d0276536842c6d565db5
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: fe6fc6527348c6d38ba1d7934efb50ea071154d7
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583562"
 ---
 # <a name="date-picker-control-in-powerapps"></a>Элемент управления "Выбор даты" в PowerApps
 Элемент управления, который используется для указания даты.
@@ -69,6 +70,10 @@ ms.lasthandoff: 04/26/2018
 
 **[Height](properties-size-location.md)**  — расстояние между верхним и нижним краем элемента управления.
 
+**IconFill** — цвет переднего плана значка для выбора даты.
+
+**IconBackground** — цвет фона значка для выбора даты.
+
 **[Italic](properties-text.md)** определяет, когда текст в элементе управления отображается курсивом.
 
 **[OnSelect](properties-core.md)**  — поведение приложения, когда пользователь щелкает элемент управления или касается его.
@@ -100,14 +105,14 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="example"></a>Пример
 1. Добавьте элемент управления **Выбор даты** и назовите его **Крайний срок**.
-   
+
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
 2. Добавьте элемент управления **[Метка](control-text-box.md)** и задайте в качестве значения свойства **[Text](properties-core.md)** следующую формулу:
    <br>**DateDiff(Today(), Deadline.SelectedDate) & " days to go!"**
-   
+
     Нужны дополнительные сведения о функции **[DateDiff](../functions/function-dateadd-datediff.md)** или [других функциях](../formula-reference.md)?
 3. Нажмите клавишу F5, выберите дату в элементе управления **Крайний срок** и нажмите кнопку **ОК**.
-   
+
     Элемент управления **[Метка](control-text-box.md)** показывает число дней между текущей и выбранной датами.
 4. Нажмите клавишу ESC, чтобы вернуться в рабочую область по умолчанию.
 
@@ -122,4 +127,3 @@ ms.lasthandoff: 04/26/2018
 ### <a name="keyboard-support"></a>Поддержка клавиатуры
 * Значение элемента **[TabIndex](properties-accessibility.md)** должно быть равно нулю или больше нуля, чтобы пользователи могли использовать навигацию с помощью клавиатуры.
 * Индикаторы фокуса должны быть хорошо видны. Для этого используются элементы **[FocusedBorderColor](properties-color-border.md)** и **[FocusedBorderThickness](properties-color-border.md)**.
- 

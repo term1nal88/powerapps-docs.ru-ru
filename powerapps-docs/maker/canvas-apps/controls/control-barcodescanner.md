@@ -1,25 +1,18 @@
 ---
 title: Справка по элементу управления "Сканер штрихкодов" | Документация Майкрософт
 description: Сведения об элементе управления "Штрихкод" с описанием его свойств и примерами
-services: ''
-suite: powerapps
-documentationcenter: na
 author: fikaradz
-manager: anneta
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 98357cb2f6d829906dfcdd4ecaa4acc3afdef26d
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 22b5cf081755f25b3aff33c36137547882fe3812
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803485"
 ---
 # <a name="barcode-scanner-control-experimental-in-powerapps"></a>Элемент управления "Сканер штрихкодов" (экспериментальная функция) в PowerApps
 Экспериментальный элемент управления, с помощью которого пользователь может делать фотографии, используя сканер штрихкодов устройства.
@@ -92,5 +85,6 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="screen-reader-support"></a>Поддержка средства чтения с экрана
 * Должен присутствовать элемент **[AccessibleLabel](properties-accessibility.md)**.
-> [!NOTE]
+
+    > [!NOTE]
 > Средства чтения с экрана проинформируют об обнаружении нового штрихкода. Само значение не будет указано. Пока штрихкод будет отображаться, средства чтения с экрана будут напоминать каждые 5 секунд об определении одного и того же штрихкода.

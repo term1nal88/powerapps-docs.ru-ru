@@ -8,23 +8,26 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 05/21/2018
 ms.author: anneta
-ms.openlocfilehash: dc4e4f9ae1cdb8cf9edf1c7a52343f6a5db1717c
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.openlocfilehash: ef4360dda5d4003ff91389af78958052bbb1e052
+ms.sourcegitcommit: 68e2c696397f3002dd14e72a4c2054a603a5e2d7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34851714"
 ---
 # <a name="whats-new-in-powerapps"></a>Новые возможности PowerApps
+> [!IMPORTANT]
+> **Объявление о заметках о выпуске**<br>
+> Хотите узнать о недавно выпущенных и готовящихся к выпуску возможностях PowerApps?<br>
+[Просмотрите заметки о выпуске](https://docs.microsoft.com/en-us/business-applications-release-notes/april18/powerapps/overview). В них вы найдете исчерпывающую информацию, которую можно использовать для планирования.
+
 Сведения об известных ограничениях см. в статье [Типичные проблемы и решения](common-issues-and-resolutions.md).
 
 > [!NOTE]
 > Выпуски развертываются в течение нескольких дней. Возможно, новые и обновленные функции будут доступны не сразу.
 
-## <a name="announcing-the-business-applications-spring-18-release-notes"></a>Объявление о выходе заметок о выпуске бизнес-приложений — весна 2018 г.
-
-Узнайте о самых последних обновлениях наших бизнес-приложений, а также о целом ряде новых возможностей для построения ваших собственных приложений и расширений на основе нашей платформы. [Загрузите заметки о выпуске – весна 2018 г. PDF](https://aka.ms/businessappsreleasenotes), которые охватывают Dynamics 365, PowerApps, Microsoft Flow и Power BI.
-
-**Ожидается в ближайшее время**. PDF-файл с заметками о выпуске будет постоянно обновляться по мере выхода новых возможностей, информация о которых также будет доступна на веб-страннице.
+## <a name="may-30"></a>30 мая
+1. [Элемент управления "Редактор форматированного текста"](controls/control-richtexteditor.md) (экспериментальный) — позволяет пользователям форматировать текст в режиме WYSIWYG. 
 
 ## <a name="may-21"></a>21 мая
 1. Пользователи приложений теперь могут импортировать и экспортировать данные из локальных файлов Excel или CSV с помощью функций **Получить данные из файла Excel** и **Экспорт данных**, доступных в обновленных средах Common Data Service (CDS) for Apps. 

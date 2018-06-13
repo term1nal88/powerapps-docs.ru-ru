@@ -6,19 +6,20 @@ manager: kfile
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: reference
-ms.date: 04/23/2018
+ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 953efbabcdce55ac58376f927d5e399e69a40974
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 788f9ec1ce1ac8604606d2d2ad836a0cd12360d4
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552997"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>Поддержка PowerShell в PowerApps (предварительная версия)
 С помощью предварительной версии командлетов PowerShell для создателей и администраторов приложений вы можете автоматизировать многие задачи мониторинга и управления, которые раньше выполнялись только вручную в [PowerApps](https://web.powerapps.com) или [центре администрирования PowerApps](https://admin.powerapps.com).
 
 ## <a name="installation"></a>Установка
-Прежде чем выполнять командлеты PowerShell для создателей приложений, сделайте следующее:
+Прежде чем выполнять командлеты PowerShell для создателей приложений, выполните указанные ниже действия.
 
 1. Скачайте [файл сценариев PowerShell](https://go.microsoft.com/fwlink/?linkid=872358).
 
@@ -39,19 +40,19 @@ ms.lasthandoff: 05/15/2018
     Import-Module .\Microsoft.PowerApps.PowerShell.psm1 -Force
     ```
 
-6. Прежде чем обращаться к любой из команд, укажите свои учетные данные, используя команду ниже. Эти учетные данные обновляются максимум за 8 часов, прежде чем вам потребуется снова войти в систему, чтобы продолжить использование командлетов.
+6.  Существует [известная проблема](https://powerusers.microsoft.com/t5/Administering-PowerApps/Getting-errors-when-I-try-to-import-the-preview-powerapps/td-p/109036), из-за которой может потребоваться ручная разблокировка файлов PowerShell с помощью следующей команды:
+
+    ```
+    dir . | Unblock-File
+    ```
+7. Прежде чем обращаться к любой из команд, укажите свои учетные данные, используя команду ниже. Эти учетные данные обновляются максимум за 8 часов, прежде чем вам потребуется снова войти в систему, чтобы продолжить использование командлетов.
 
     ```
     Add-PowerAppsAccount
     ```
 
-7.  Существует [известная проблема](https://powerusers.microsoft.com/t5/Administering-PowerApps/Getting-errors-when-I-try-to-import-the-preview-powerapps/td-p/109036), из-за которой может потребоваться ручная разблокировка файлов PowerShell с помощью следующей команды:
 
-    ```
-    dir . | Unblock-File
-    ```
-
-## <a name="powerapps-cmdlets-for-app-makers-preview"></a>Командлеты PowerApps для разработчиков приложений (предварительная версия)
+## <a name="powerapps-cmdlets-for-app-creators-preview"></a>Командлеты PowerApps для создателей приложений (предварительная версия)
 
 ### <a name="prerequisite"></a>Необходимое условие
 Пользователи с действующей лицензией PowerApps могут выполнять операции в этих командлетах. При этом они будут иметь доступ только к ресурсам (например, приложениям, потокам и т. д.), которые были созданы или предоставлены им для общего доступа.
@@ -69,6 +70,7 @@ ms.lasthandoff: 05/15/2018
 | Чтение, обновление и удаление разрешений соединений | Get-ConnectionRoleAssignment <br> Set-ConnectionRoleAssignment <br> Remove-ConnectionRoleAssignment
 | Чтение и удаление соединителей | Get-Connector <br> Remove-Connector
 | Чтение, обновление и удаление пользовательских разрешений соединителей | Get-ConnectorRoleAssignment <br> Set-ConnectorRoleAssignment <br> Remove-ConnectorRoleAssignment
+
 
 > [!NOTE]
 > Следующие команды позволяют понять синтаксис и просмотреть примеры каждого из командлетов:
@@ -91,10 +93,17 @@ ms.lasthandoff: 05/15/2018
 | Цель | Командлеты
 | --- | ---
 | Чтение и удаление сред | Get-AdminEnvironment <br> Remove-AdminEnvironment
-| Чтение, обновление и удаление разрешений среды <br><br> *Эти командлеты работают только в средах, в которых нет базы данных Common Data Service (CDS) для приложений.* | Get-AdminEnvironmentRoleAssignment <br> Set-AdminEnvironmentRoleAssignment <br> Remove-AdminEnvironmentRoleAssignment
+| Чтение, обновление и удаление разрешений среды <br><br> *Эти командлеты работают только в средах, в которых нет базы данных Common Data Service (CDS) for Apps.* | Get-AdminEnvironmentRoleAssignment <br> Set-AdminEnvironmentRoleAssignment <br> Remove-AdminEnvironmentRoleAssignment
 | Чтение и удаление приложений на основе холста | Get-AdminApp <br> Remove-AdminApp
 | Чтение, обновление и удаление разрешений приложений на основе холста | Get-AdminAppRoleAssignment <br> Remove-AdminAppRoleAssignment <br> Set-AdminAppRoleAssignment <br> Set-AdminAppOwner
 | Чтение, обновление и удаление потоков | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow  <br> Remove-AdminFlowOwnerRole
+| Чтение и удаление соединений | Get-AdminConnection <br> Remove-AdminConnection
+| Чтение, обновление и удаление разрешений соединений | Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br> Remove-AdminConnectionRoleAssignment
+| Получение и удаление пользовательских соединителей | Get-AdminConnector <br> Remove-AdminConnector
+| Чтение, обновление и удаление пользовательских разрешений соединителей | Get-AdminConnectorRoleAssignment <br> Set-AdminConnectorRoleAssignment <br> Remove-AdminConnectorRoleAssignment
+| Чтение параметров пользователя, параметров приложения пользователя и уведомлений PowerApps | Get-AdminPowerAppsUserDetails
+| Чтение и удаление параметров Microsoft Flow пользователя, которые не видны ему, но поддерживают выполнение потока | Get-AdminFlowUserDetails <br> Remove-AdminFlowUserDetails
+| Создание, чтение, обновление и удаление политик защиты от потери данных для вашей организации | Get-AdminApiPolicy <br> Add-AdminApiPolicy <br> Remove-AdminApiPolicy <br> Set-AdminApiPolicy <br> Add-ConnectorToBusinessDataGroup <br>  Remove-ConnectorFromBusinessDataGroup
 
 > [!NOTE]
 > Следующие команды позволяют понять синтаксис и просмотреть примеры каждого из командлетов:

@@ -12,11 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: ae72dad8143c747714e8573ecc3cc5a9644044b4
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 8d54c632780ac827704535af5d24881685a0e518
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583608"
 ---
 # <a name="controls-and-properties-in-powerapps"></a>Элементы управления и свойства в PowerApps
 Настройка оформления и поведения элемента управления с помощью задания одного из его свойств. У каждого типа элемента управления имеется собственный набор свойств. Некоторые свойства, такие как **Height** и **Width**, являются общими почти для всех типов элементов управления, но другие свойства, такие как **CheckboxSize**, характерны для одного типа.
@@ -85,6 +86,8 @@ ms.lasthandoff: 04/26/2018
 **[Переключатель](controls/control-radio.md)** — отображение параметров, которые являются взаимоисключающими.
 
 **[Оценка](controls/control-rating.md)** — указание значения от 1 до указанного числа.
+
+**[Редактор форматированного текста (экспериментальная функция)](controls/control-richtexteditor.md)**  — позволяет пользователям приложения форматировать текст.
 
 **[Экран](controls/control-screen.md)** — отображение и обновление данных об определенной задаче.
 

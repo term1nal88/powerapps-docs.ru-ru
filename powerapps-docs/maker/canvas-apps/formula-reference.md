@@ -10,13 +10,14 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: reference
 ms.component: canvas
-ms.date: 08/28/2017
+ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: d7dd33954d337bbfc65b486333e89c4598b11305
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: af089f81b8fd96ec022fe32495cb14f2827f28b5
+ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34822588"
 ---
 # <a name="formula-reference-for-powerapps"></a>Справочник формул для PowerApps
 Формулы объединяют множество элементов.  Ниже перечислены следующие элементы:
@@ -219,6 +220,8 @@ ms.lasthandoff: 04/26/2018
 
 **[Not](functions/function-logicals.md)** — логическая функция NOT.  Возвращает значение **true**, если ее аргумент принимает значение **false**, и возвращает **false**, если ее аргумент принимает значение **true**.  Также можно использовать [оператор **!**](functions/operators.md).
 
+**[Notify](functions/function-showerror.md)**  — отображает баннер с сообщением для пользователя.
+
 **[Now](functions/function-now-today-istoday.md)** — возвращает текущее значение даты и времени.
 
 ## <a name="o"></a>O
@@ -280,8 +283,6 @@ ms.lasthandoff: 04/26/2018
 **[Set](functions/function-set.md)** — задает значение глобальной переменной.
 
 **[ShowColumns](functions/function-table-shaping.md)** — возвращает таблицу только с выбранными столбцами.
-
-**[ShowError](functions/function-showerror.md)** — отображает сообщение об ошибке для пользователя.
 
 **[Shuffle](functions/function-shuffle.md)** — случайным образом изменяет порядок записей в таблице.
 

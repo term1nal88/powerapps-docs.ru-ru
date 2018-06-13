@@ -250,6 +250,8 @@
           href: ./common-data-service/data-platform-create-business-rule.md
         - name: Удаление настраиваемой сущности
           href: ./common-data-service/data-platform-delete-entity.md
+        - name: Импорт или экспорт данных из сущности
+          href: ./common-data-service/data-platform-import-export.md
         - name: Открытие данных сущности в Excel
           href: ./common-data-service/data-platform-excel-addin.md
         - name: "Создание отчета Power\_BI"

@@ -12,17 +12,20 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: ae6a8afa71a150ad1b15f8ef0550f3d7412ff3be
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: c79e30a404b1e653f1df6547c9fcc818efc79433
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583516"
 ---
 # <a name="microphone-control-in-powerapps"></a>Элемент управления "Микрофон" в PowerApps
-С помощью элемента управления "Микрофон" пользователь может записывать звук.
+Элемент управления, позволяющий пользователям записывать звук на устройстве.
 
 ## <a name="description"></a>Описание
-Если этот элемент управления добавлен в приложение, пользователь может обновить источник данных звуками из приложения.
+Пользователи приложения могут записывать звук, если устройство, на котором выполняется приложение, оснащено микрофоном.
+
+Звук хранится в формате 3GP на устройствах Android и формате AAC на устройствах iOS.
 
 ## <a name="key-properties"></a>Основные свойства
 **Mic** — на устройстве с несколькими микрофонами это число идентифицирует микрофон, используемый приложением.
@@ -97,9 +100,9 @@ ms.lasthandoff: 04/26/2018
 ### <a name="add-sounds-to-a-custom-gallery-control"></a>Добавление звуков в пользовательскую коллекцию
 1. Добавьте элемент управления**Микрофон**, назовите его **MyMic** и назначьте его свойству **OnStop** следующую формулу:<br>
    **Collect(MySounds, MyMic.Audio)**
-   
+
     Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
-   
+
     Нужны дополнительные сведения о функции **[Collect](../functions/function-clear-collect-clearcollect.md)** или [других функциях](../formula-reference.md)?
 2. Добавьте элемент управления **Пользовательская коллекция**, расположите его ниже микрофона **MyMic** и назначьте его свойству **[Items](properties-core.md)** значение **MySounds**.
 3. В шаблоне для элемента управления **Пользовательская коллекция** добавьте элемент управления **[Звук](control-audio-video.md)** и назначьте его свойству **Media** значение **ThisItem.Url**.
