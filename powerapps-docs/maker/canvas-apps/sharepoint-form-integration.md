@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: 8ae6bd0e576abd3a4115e452b286607b5c695acb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 69e3baaa769282ca8ac7372ba3360829a1624f3d
+ms.sourcegitcommit: 6bfb002180148a3f22a4d1d8d750fc442489ebe4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834843"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35291750"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>Общие сведения об интеграции форм SharePoint
 Теперь вы можете легко [настроить любую форму списка SharePoint](customize-list-form.md) в PowerApps. В этой статье мы подробно рассмотрим, как работают эти формы и как их можно настроить.
@@ -76,7 +76,7 @@ ms.locfileid: "31834843"
 ![](./media/sharepoint-form-integration/sharepointintegration-object.png)
 
 >[!NOTE]
->Свойства элемента управления **SharePointIntegration** доступны, только если форма открыта в SharePoint. Они недоступны при настройке формы в PowerApps Studio.
+>Свойства элемента управления **SharePointIntegration** доступны, только если форма открыта в SharePoint. Они недоступны при настройке формы в PowerApps Studio. Эти свойства могут быть недоступны в **OnStart** или **OnVisible**. 
 
 Элемент управления **SharePointIntegration** имеет следующие свойства:
 
@@ -109,3 +109,5 @@ ms.locfileid: "31834843"
 * Необходимо добавить **RequestHide()** в формулу **OnSuccess** для всех форм. В противном случае SharePoint не будет знать, когда скрыть форму.
 
 * Вы не можете управлять скрытием формы, когда пользователь нажимает кнопку **Отмена** в SharePoint. Поэтому сбросьте форму в формуле **OnCancel** элемента управления **SharePointIntegration**.
+
+* Свойства элемента управления **SharePointIntegration** могут быть недоступны в **OnStart** или **OnVisible**. Эти события выполняются только один раз при загрузке списка. Формулы **OnNew**, **OnView** или **OnEdit** можно использовать для запуска логики перед каждым отображением формы пользователю. 
