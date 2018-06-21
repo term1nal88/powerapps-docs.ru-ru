@@ -7,12 +7,12 @@ ms.component: pa-user
 ms.topic: quickstart
 ms.date: 03/07/2018
 ms.author: matp
-ms.openlocfilehash: ba3b52bbbe12fad8773f09f4c753e4a55d09a6f0
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4aed5f0d34bf88bca706c1c6421ac3b692308ebb
+ms.sourcegitcommit: 63351b1bda5a8dd00786912f95aba9fb3ebfe75c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34552721"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36261725"
 ---
 # <a name="quickstart-run-an-app-in-a-web-browser"></a>Краткое руководство. Запуск приложения в веб-браузере
 Если вы создали приложение или вам предоставили доступ к приложению, его можно запускать в ОС Windows, iOS, Android или в веб-браузере. В этом кратком руководстве вы узнаете, как запустить приложение на основе холста или модели в веб-браузере с [домашней страницы Dynamics 365](https://home.dynamics.com).
@@ -20,7 +20,7 @@ ms.locfileid: "34552721"
 Для выполнения этого краткого руководства требуется [подписка на Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1), включающая Dynamics 365, а также [поддерживаемые браузер и операционная система](../maker/canvas-apps/limits-and-config.md). Кроме того, убедитесь в том, что у вас есть доступ к своему приложению или к приложению, созданному и предоставленному вам другим пользователем.
 
 ## <a name="sign-in-to-dynamics-365"></a>Вход в Dynamics 365
-Войдите в Dynamics 365 на сайте [https://home.dynamics.com]([https://home.dynamics.com).
+Войдите в Dynamics 365 на сайте [https://home.dynamics.com](https://home.dynamics.com).
 
 ## <a name="find-an-app-on-the-home-page"></a>Поиск приложения на домашней странице
 На домашней странице может отображаться несколько типов бизнес-приложений, но вы можете найти определенное приложение, введя в поле поиска часть его имени. Кроме того, список можно отфильтровать по источнику приложения, например PowerApps. Для этого нажмите кнопку **Фильтр** и выберите источник.
