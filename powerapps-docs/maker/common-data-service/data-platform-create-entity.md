@@ -7,12 +7,12 @@ ms.component: cds
 ms.topic: quickstart
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: 66c96f7496266e03491e404de2bb329f82b6a2bf
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ecbdc81b2688ee9aabf5e0df6416212957ca2642
+ms.sourcegitcommit: 222df368f1f35e9357b0b1adf0e69d7206d8126e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34552928"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "36298499"
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Краткое руководство. Создание настраиваемой сущности
 В PowerApps *сущность* определяет отслеживаемые данные в форме записей, которые обычно представляют собой такие свойства, как название организации, ее расположение, продукты, адрес электронной почты и номер телефона. Для отображения этих данных можно разработать приложение, которое использует созданную сущность. PowerApps предлагает стандартные готовые сущности, подходящие для использования в типичных сценариях в рамках организации (например, отслеживание встреч), однако могут возникать ситуации, когда необходимо создать настраиваемые сущности для хранения данных, специфичных для вашей организации.
@@ -25,7 +25,7 @@ ms.locfileid: "34552928"
 * Роль безопасности "Системный администратор" или "Настройщик системы" в Common Data Service for Apps.
 
 ## <a name="sign-in-to-powerapps"></a>Вход в PowerApps
-Войдите в PowerApps по адресу [https://web.powerapps.com]([https://web.powerapps.com).
+Войдите в PowerApps по адресу [https://web.powerapps.com](https://web.powerapps.com).
 
 ## <a name="create-an-entity"></a>Создание сущности
 1. На панели навигации разверните раздел **Данные**, а затем выберите **Сущности**.
