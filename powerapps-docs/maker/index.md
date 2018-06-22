@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31829683"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>Общие сведения о создании приложений в PowerApps
 PowerApps — это высокопроизводительная платформа разработки бизнес-приложений, состоящая из трех основных компонентов.

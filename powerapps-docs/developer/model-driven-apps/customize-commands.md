@@ -20,6 +20,7 @@ ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/22/2018
+ms.locfileid: "30024557"
 ---
 # <a name="customize-commands-with-model-driven-apps"></a>Настройка команд с помощью приложений на основе модели 
 

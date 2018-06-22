@@ -13,6 +13,7 @@ ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/15/2018
+ms.locfileid: "34167111"
 ---
 # <a name="license-requirements-for-entities"></a>Требования к лицензиям для сущностей
 Создатели приложений могут использовать большую часть сущностей, доступных Common Data Service (CDS) for Apps (в том числе настраиваемые сущности и сущности, входящие в модель Common Data Service), чтобы создавать приложения и потоки для пользователей, имеющих только лицензию PowerApps (план 1) или Microsoft Flow (план 1). В некоторых случаях сущности содержат сложную бизнес-логику или привязаны к продуктам Dynamics 365, для которых пользователи приложений должны иметь определенную лицензию. Дополнительные сведения о доступных планах см. на [странице с ценами на PowerApps](https://powerapps.microsoft.com/pricing).

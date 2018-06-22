@@ -38,6 +38,8 @@
       href: admin-manage-apps.md
     - name: Перемещение приложения между клиентами и средами
       href: environment-and-tenant-migration.md
+    - name: Экспорт и импорт ресурсов
+      href: export-import-packages.md
     - name: Реагирование на запросы субъектов данных
       items:
         - name: Системные журналы

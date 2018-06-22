@@ -12,6 +12,7 @@ ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/26/2018
+ms.locfileid: "34552422"
 ---
 # <a name="whats-the-role-of-a-powerapps-administrator"></a>Какова роль администратора PowerApps?
 Администрирование PowerApps, Microsoft Flow и Common Data Service (CDS) for Apps осуществляется в [центре администрирования PowerApps](https://admin.powerapps.com).
