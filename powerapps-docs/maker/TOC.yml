@@ -596,7 +596,7 @@
           href: ./canvas-apps/connections-list.md
         - name: 'Требования к системе, ограничения и конфигурация'
           href: ./canvas-apps/limits-and-config.md
-        - name: Получить ИД сеанса
+        - name: Получение идентификатора сеанса или приложения
           href: ./canvas-apps/get-sessionid.md
 - name: Приложения на основе модели
   href: ./model-driven-apps/model-driven-app-overview.md
