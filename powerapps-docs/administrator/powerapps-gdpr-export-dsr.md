@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 000f15ea7b1fa4e11cbe49b44e57017daf973a89
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 8eb651bcd4ad9320dc8995864249f619bb76ab77
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552974"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896864"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-export-powerapps-customer-data"></a>Реагирование на запросы по правам субъекта данных (DSR) на экспорт данных клиента PowerApps
 "Право переносимости данных" позволяет субъектам данных запрашивать копии персональных данных в электронном формате (то есть в структурированном, часто используемом, пригодном для машинного чтения совместимом формате), которые можно передавать другому контроллеру данных.
@@ -39,7 +39,7 @@ ms.locfileid: "34552974"
 Параметры пользователя, параметры приложения пользователя и уведомления PowerApps | | Разработчик приложений: доступно <br> Администратор: доступно
 
 > ** С выходом службы Common Data Service (CDS) for Apps, если в среде создается база данных, разрешения среды и приложения на основе модели хранятся в виде записей в экземпляре базы данных CDS for Apps. Руководство по реагированию на запросы DSR для пользователей, использующих CDS for Apps, см. в разделе [Реагирование на запросы по правам субъекта данных (DSR) для данных клиента в Common Data Service for Apps](common-data-service-gdpr-dsr-guide.md).
-
+> 
 > *** Администратор имеет доступ к этим ресурсам с [портала PowerApps](https://web.powerapps.com), только если их владелец явно предоставил ему разрешения. В противном случае администратору потребуется использовать [командлеты PowerShell для администраторов PowerApps](https://go.microsoft.com/fwlink/?linkid=871804).
 
 ## <a name="prerequisites"></a>Технические условия

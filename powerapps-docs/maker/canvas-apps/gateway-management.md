@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: d51d134878b04f3cb10ff876ef488f1390e4ef30
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 939758c1550f1006f00bd9a386eb4b9cbcd69af0
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826805"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899923"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>Управление локальным шлюзом данных в PowerApps
 Установите локальный шлюз данных для быстрой и безопасной передачи данных между PowerApps и источником данных, который находится не в облаке (например, локальной базой данных SQL Server или локальным сайтом SharePoint). Просматривайте все шлюзы, для которых у вас есть административные разрешения, и управляйте связанными разрешениями и подключениями.
@@ -67,7 +67,7 @@ ms.locfileid: "31826805"
 3. Чтобы предоставить доступ к подключению, щелкните **Share** (Доступ), а затем добавьте или удалите пользователей.
 
     > [!NOTE]
-> Вы можете предоставлять доступ только к некоторым типам подключений, например SQL Server. Дополнительные сведения см. в статье о [предоставлении доступа к ресурсам приложения](share-app-resources.md).
+   > Вы можете предоставлять доступ только к некоторым типам подключений, например SQL Server. Дополнительные сведения см. в статье о [предоставлении доступа к ресурсам приложения](share-app-resources.md).
 
 Дополнительные сведения об управлении подключением см. в статье [Управление подключениями в PowerApps](add-manage-connections.md).
 

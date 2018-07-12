@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 6ba2186e7f6618cdaa6eef8073e5f3897628ae8f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c221bae846dba06f83705c52c9cbe2f236ab2007
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838224"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896795"
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>Функции Sort и SortByColumns в PowerApps
 Сортировка [таблицы](../working-with-tables.md).
@@ -57,7 +57,7 @@ ms.locfileid: "31838224"
 * *SortOrder* — необязательный аргумент.  Допускаются значения **SortOrder.Ascending** или **SortOrder.Descending**.  По умолчанию используется **SortOrder.Ascending**.  Если передаются несколько значений *ColumnName*, то для всех столбцов, кроме последнего, необходимо указать *SortOrder*.
   
     > [!NOTE]
-> Для источников данных SharePoint и Excel, содержащих имена столбцов с пробелами, вместо каждого пробела укажите **"\_x0020\_"**. Например, **Имя столбца** укажите как **Имя_x0020_столбца**.
+  > Для источников данных SharePoint и Excel, содержащих имена столбцов с пробелами, вместо каждого пробела укажите **"\_x0020\_"**. Например, **Имя столбца** укажите как **Имя_x0020_столбца**.
 
 **SortByColumns**( *Table*, *ColumnName*, *SortOrderTable* )
 
@@ -66,7 +66,7 @@ ms.locfileid: "31838224"
 * *SortOrderTable* — обязательный аргумент.  Таблица c одним столбцом, содержащая значения для сортировки.
   
     > [!NOTE]
-> Для источников данных SharePoint и Excel, содержащих имена столбцов с пробелами, вместо каждого пробела укажите **"\_x0020\_"**. Например, **Имя столбца** укажите как **Имя_x0020_столбца**.
+  > Для источников данных SharePoint и Excel, содержащих имена столбцов с пробелами, вместо каждого пробела укажите **"\_x0020\_"**. Например, **Имя столбца** укажите как **Имя_x0020_столбца**.
 
 ## <a name="examples"></a>Примеры
 В следующих примерах мы будем использовать [источник данных](../working-with-data-sources.md) **IceCream**, который содержит данные в виде такой таблицы:

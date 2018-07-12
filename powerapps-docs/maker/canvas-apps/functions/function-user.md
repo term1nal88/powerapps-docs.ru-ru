@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2016
 ms.author: gregli
-ms.openlocfilehash: 2053f69146bcd952f61916ef9e41150791a243a5
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9ec6730a03781bdbffc9c80d815e960de2ce6064
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31828064"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899072"
 ---
 # <a name="user-function-in-powerapps"></a>Функция User в PowerApps
 Возвращает сведения о текущем пользователе.
@@ -44,10 +44,10 @@ ms.locfileid: "31828064"
 * адрес электронной почты — **"john.doe@contoso.com"**;
 * изображение — ![](media/function-user/john-doe-picture.png). 
 
-| Формула | Описание | Возвращаемый результат |
-| --- | --- | --- |
-| **User()** |Запись со всеми данными для текущего пользователя PowerApps. |{FullName:&nbsp;"John Doe", Email:&nbsp;"john.doe@contoso.com", Image:&nbsp;"blob:1234...5678"} |
-| **User().Email** |Адрес электронной почты текущего пользователя PowerApps. |"john.doe@contoso.com" |
-| **User().FullName** |Полное имя текущего пользователя PowerApps. |"John Doe" |
-| **User().Image** |URL-адрес изображения текущего пользователя PowerApps.  Чтобы отобразить это изображение в приложении, присвойте полученное значение параметру **Image** элемента управления **Image**. |"blob:1234...5678"<br><br>С использованием **ImageControl.Image**:<br>![](media/function-user/john-doe-picture.png) |
+|       Формула       |                                                                    Описание                                                                    |                                                 Возвращаемый результат                                                  |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+|     **User()**      |                                             Запись со всеми данными для текущего пользователя PowerApps.                                             |    {FullName:&nbsp;"John Doe", Email:&nbsp;"john.doe@contoso.com", Image:&nbsp;"blob:1234...5678"}    |
+|  **User().Email**   |                                                 Адрес электронной почты текущего пользователя PowerApps.                                                  |                                         "john.doe@contoso.com"                                          |
+| **User().FullName** |                                                   Полное имя текущего пользователя PowerApps.                                                    |                                               "John Doe"                                                |
+|  **User().Image**   | URL-адрес изображения текущего пользователя PowerApps.  Чтобы отобразить это изображение в приложении, присвойте полученное значение параметру **Image** элемента управления **Image**. | "blob:1234...5678"<br><br>С использованием **ImageControl.Image**:<br>![](media/function-user/john-doe-picture.png) |
 

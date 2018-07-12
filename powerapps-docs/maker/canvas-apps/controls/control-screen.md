@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: d03e587d86262bcecf59012e36af0c3dc27b29a3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 165b6544808da234773c2b7a2cdd0014d6fe5c2d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831430"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898719"
 ---
 # <a name="screen-control-in-powerapps"></a>Элемент управления "Экран" в PowerApps
 Элемент пользовательского интерфейса приложения, содержащий один или несколько других элементов управления.
@@ -83,4 +83,4 @@ ms.locfileid: "31831430"
 * У каждого элемента **Screen** должно быть понятное имя. Имя экрана можно просматривать и редактировать, как и имена других элементов управления, — в представлении дерева на панели элементов управления или в заголовке панели свойств.
 
     > [!NOTE]
-> При загрузке нового элемента **Screen** средства чтения с экрана будут сообщать его имя. 
+  > При загрузке нового элемента **Screen** средства чтения с экрана будут сообщать его имя. 

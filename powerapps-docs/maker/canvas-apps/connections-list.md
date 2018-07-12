@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/28/2017
 ms.author: lanced
-ms.openlocfilehash: dc68b0f404c2a8d636deb4e77c2ada4582ed3a37
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: baa4c71efb54cea6f04cd45b895009a3c3ce17c7
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836753"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899302"
 ---
 # <a name="overview-of-connectors-for-powerapps"></a>Общие сведения о соединителях для PowerApps
 Большинство приложений основываются на данных, в том числе и те, которые создаются в PowerApps. Эти данные хранятся в *источниках данных*. Вы переносите их в приложение при создании *подключения*. Для подключения используется определенный *соединитель*, который обеспечивает обмен данными с источником данных. В PowerApps есть соединители для многих популярных служб и локальных источников данных, включая SharePoint, SQL Server, Office 365, Salesforce, Twitter и другие. Чтобы начать добавлять данные в приложение, ознакомьтесь со статьей [Добавление подключения к данным в PowerApps](add-data-connection.md).
@@ -46,7 +46,7 @@ ms.locfileid: "31836753"
     [Создание приложения с нуля](get-started-create-from-blank.md)
 
     > [!NOTE]
-> Чтобы подключиться к данным в Excel, необходимо разместить книгу в службе облачного хранения, например OneDrive. Дополнительные сведения см. в статье о [подключении к облачным хранилищам из PowerApps](connections/cloud-storage-blob-connections.md).
+  > Чтобы подключиться к данным в Excel, необходимо разместить книгу в службе облачного хранения, например OneDrive. Дополнительные сведения см. в статье о [подключении к облачным хранилищам из PowerApps](connections/cloud-storage-blob-connections.md).
 
 * Другие соединители работают с источниками данных на основе функций, включая Twitter, Facebook и Office 365 Outlook. Если используются такие источники, данные возвращаются в PowerApps при вызове определенных функций в соответствующей службе. Например, при работе с соединителем Twitter вызывается метод `Twitter.MyFollowers()` для получения списка подписчиков. Вы также можете использовать эти данные в форме или коллекции, но это немного сложнее, чем работа с табличными данными. Дополнительные сведения см. в инструкциях по [подключению к Twitter из PowerApps](connections/connection-twitter.md).
 

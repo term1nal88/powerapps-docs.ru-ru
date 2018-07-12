@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 2b3d91a6da0e17ded435aec74a88ea1bbdd4fac1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d1c0a8bdcab3f8a3ba74414ab902092432a34fff
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827742"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899210"
 ---
 # <a name="validate-function-in-powerapps"></a>Функция Validate в Microsoft PowerApps
 Функция **Validate** проверяет, являются ли значения одного [столбца](../working-with-tables.md#columns) или всей [записи](../working-with-tables.md#records) допустимыми для [источника данных](../working-with-data-sources.md).  
@@ -55,12 +55,14 @@ ms.locfileid: "31827742"
 В этих примерах значения в столбце **Percentage** (Процент) источника данных **Scores** (Показатели) должны находиться в диапазоне от 0 до 100 включительно. Если данные проходят проверку, функция возвращает *пустое* значение. В противном случае она возвращает сообщение об ошибке.
 
 ### <a name="validate-with-a-single-column"></a>Проверка одного столбца
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **Validate(Scores, Percentage, 10)** |Проверяет, является ли **10** допустимым значением для столбца **Percentage** в источнике данных **Scores**. |*пусто* |
 | **Validate(Scores, Percentage, 120)** |Проверяет, является ли **120** допустимым значением для столбца **Percentage** в источнике данных **Scores**. |"Значения должны быть в диапазоне от 0 до 100". |
 
 ### <a name="validate-with-a-complete-record"></a>Проверка всей записи
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **Validate(Scores, EditRecord, Gallery.Updates)** |Проверяет, является ли **10** допустимым значением для столбца **Percentage** в источнике данных **Scores**. |*пустое значение* |

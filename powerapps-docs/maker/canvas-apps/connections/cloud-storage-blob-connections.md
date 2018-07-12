@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: b0141315f041d81b929a53761952d9b5e355c82e
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 04bfdd2d59b870184e5e42ac06135d00f52dcc70
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803036"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895691"
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>Подключение к облачному хранилищу из PowerApps
 В PowerApps есть несколько вариантов подключения к облачным хранилищам. С помощью любого из них вы можете сохранить файл Excel и использовать информацию из него в своем приложении. Ниже перечислены доступные подключения.  
@@ -47,7 +47,7 @@ ms.locfileid: "34803036"
     ![Выбор таблицы Excel](./media/cloud-storage-blob-connections/selecttable.png)
    
     > [!NOTE]
-> Данные Excel должны быть в формате таблицы.
+   > Данные Excel должны быть в формате таблицы.
 
 ## <a name="using-the-excel-data-in-your-app"></a>Использование данных Excel в приложении
 1. На вкладке **Insert** (Вставка) выберите **Gallery** (Коллекция), а затем — элемент управления **With text** (С текстом).

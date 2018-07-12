@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 05/23/2017
 ms.author: gregli
-ms.openlocfilehash: eaf538c1189dffd8fb2169f3eda3f525bcf623de
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 26991baa1feb1ef4821beaf791454def21960d4f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832035"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896634"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>Функции DateAdd, DateDiff и TimeZoneOffset в PowerApps
 Добавление значения даты и времени или поиск разницы в значениях даты и времени, а также преобразование между местным временем и временем в формате UTC.
@@ -56,6 +56,7 @@ ms.locfileid: "31832035"
 Во всех примерах предполагается, что текущие дата и время — **13:02 15 июля 2013 года**.
 
 ### <a name="simple-dateadd"></a>Простой пример для функции DateAdd
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **Text( DateAdd( Now(), 3 ),<br>"dd-mm-yyyy hh:mm" )** |Добавляет три дня (единицы измерения по умолчанию) к текущему значению даты и времени. |"18-07-2013 13:02" |
@@ -64,6 +65,7 @@ ms.locfileid: "31832035"
 | **Text( DateAdd( Now(), &#8209;30, Minutes ),<br>"dd-mm-yyyy hh:mm" )** |Вычитает 30 минут из текущего значения даты и времени. |"15-07-2013 12:32" |
 
 ### <a name="simple-datediff"></a>Простой пример для функции DateDiff
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **DateDiff( Now(), DateValue("1/1/2014") )** |Возвращает разницу между двумя значениями в **днях**, являющихся единицами измерения по умолчанию. |170 |

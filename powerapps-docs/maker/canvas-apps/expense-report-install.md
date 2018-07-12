@@ -12,12 +12,12 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: bce21a5fe07cb5bf608c36371a7cbe45e845b2ad
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9ce265df67dd980653766b7bf9d57376c671e18a
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330590"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899969"
 ---
 # <a name="install-and-configure-the-expense-report-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Отчет о расходах"
 
@@ -241,23 +241,23 @@ ms.locfileid: "32330590"
 
 ## <a name="import-the-expense-report-powerapp"></a>Импорт приложения PowerApps "Отчет о расходах"
 
-1.  В веб-браузере перейдите к https://web.powerapps.com.
-2.  Выполните вход, используя те же учетные данные, что и при регистрации.
-3.  В меню слева выберите **Приложения**. 
-4.  Щелкните **Импорт пакета (предварительная версия)**.
+1. В веб-браузере перейдите к https://web.powerapps.com.
+2. Выполните вход, используя те же учетные данные, что и при регистрации.
+3. В меню слева выберите **Приложения**. 
+4. Щелкните **Импорт пакета (предварительная версия)**.
     
-    ![Экран "Импорт пакета"](./media/expense-report-install/import-package.png)
+   ![Экран "Импорт пакета"](./media/expense-report-install/import-package.png)
 
-5.  Нажмите кнопку **Отправить** и выберите пакет PowerApps, загруженный в предыдущих шагах.
-6.  Для типов ресурсов **Приложение** и **Поток** в поле **НАСТРОЙКА ИМПОРТА** выберите **Создать как новое**.
-7.  Для подключений **SharePoint** и **Outlook** в поле **НАСТРОЙКА ИМПОРТА** выберите **Выбор во время импорта**.
+5. Нажмите кнопку **Отправить** и выберите пакет PowerApps, загруженный в предыдущих шагах.
+6. Для типов ресурсов **Приложение** и **Поток** в поле **НАСТРОЙКА ИМПОРТА** выберите **Создать как новое**.
+7. Для подключений **SharePoint** и **Outlook** в поле **НАСТРОЙКА ИМПОРТА** выберите **Выбор во время импорта**.
     
-    ![Экран параметров импорта](./media/expense-report-install/import-settings.png)
+   ![Экран параметров импорта](./media/expense-report-install/import-settings.png)
 
-8.  Щелкните **красный значок** для **подключения к SharePoint**.
-9.  В списке подключений щелкните элемент с вашим именем пользователя.
+8. Щелкните **красный значок** для **подключения к SharePoint**.
+9. В списке подключений щелкните элемент с вашим именем пользователя.
 
-    ![Экран параметров импорта](./media/expense-report-install/import-settings-sharepoint.png)
+   ![Экран параметров импорта](./media/expense-report-install/import-settings-sharepoint.png)
 
 10. Щелкните **Сохранить**.
 11. Щелкните **красный значок** для **Approval Connection** (Подключение утверждения).
@@ -265,9 +265,9 @@ ms.locfileid: "32330590"
 
     ![Экран параметров импорта](./media/expense-report-install/import-settings-approvals.png)
 
-13.  Щелкните **Сохранить**.
-14.  Щелкните **красный значок** для **подключения к Outlook Office 365**.
-15.  В списке подключений щелкните элемент с вашим именем пользователя.
+13. Щелкните **Сохранить**.
+14. Щелкните **красный значок** для **подключения к Outlook Office 365**.
+15. В списке подключений щелкните элемент с вашим именем пользователя.
 
     ![Экран параметров импорта](./media/expense-report-install/import-settings-office365outlook.png)
 
@@ -383,7 +383,7 @@ ms.locfileid: "32330590"
 
 [![Установка приложения "Отчет о расходах"](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
 
-##<a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 - [Настройка формы списка SharePoint с помощью PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
 - [Добавление и настройка элемента управления в PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
 - [Управление разрешениями для списка или библиотеки SharePoint](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)

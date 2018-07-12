@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/15/2017
 ms.author: archanan
-ms.openlocfilehash: 87f1895801ec7d1121b042d6baf097b79801f019
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f1d9b6463cc597d13fa1b9c1389fbfcc6d5b5ded
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830243"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896289"
 ---
 # <a name="delegable-data-sources"></a>Делегируемые источники данных
 Как подробно описано в статье с [основными сведениями о делегировании](delegation-overview.md), делегирование — это передача службой PowerApps обязанностей по обработке данных источнику вместо переноса данных в приложение для локальной обработки.
@@ -46,6 +46,7 @@ ms.locfileid: "31830243"
 Этот список источников данных, делегируемых функций и предикатов периодически обновляется с учетом изменений в поддержке делегирования в PowerApps.
 
 ### <a name="top-level-delegable-functions"></a>Делегируемые функции верхнего уровня
+
 | &nbsp; | Common Data Service | SharePoint | SQL Server | Dynamics 365. | Salesforce |
 | --- | --- | --- | --- | --- | --- |
 | Average |Нет |Нет |Да |Нет |Нет |
@@ -61,6 +62,7 @@ ms.locfileid: "31830243"
 <sup>1</sup> Только для строковых полей
 
 ### <a name="filter-and-lookup-delegable-predicates"></a>Делегируемые предикаты Filter и LookUp
+
 | &nbsp; | Common Data Service | SharePoint | SQL Server | Dynamics 365. | Salesforce |
 | --- | --- | --- | --- | --- | --- |
 | Not |Да |Нет |Да |Да |Да |

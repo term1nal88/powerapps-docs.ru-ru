@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 6d4f8f0393b7cb2d6471f159193327f07e648357
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c175b1b35d063f4e20321c494d5472afa2776990
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836914"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899578"
 ---
 # <a name="timer-control-in-powerapps"></a>Элемент управления "Таймер" в PowerApps
 Элемент управления, определяющий поведение приложения по истечении заданного количества времени.
@@ -165,6 +165,6 @@ ms.locfileid: "31836914"
 * Не используйте **[Text](properties-core.md)** для важной информации и информации, зависимой от времени. Пользователи средств для чтения с экрана не будут получать оповещения об изменениях элемента **[Text](properties-core.md)**.
 
     > [!NOTE]
-> Каждые 5 секунд на средства для чтения с экрана будет приходить оповещение об истекшем времени. Тем не менее таймер **[Text](properties-core.md)** не будет включен в объявление.
+  > Каждые 5 секунд на средства для чтения с экрана будет приходить оповещение об истекшем времени. Тем не менее таймер **[Text](properties-core.md)** не будет включен в объявление.
 
 * Добавьте **[метку](control-text-box.md)**, чтобы отобразить истекшее время. Используйте таймер **[Text](properties-core.md)**, чтобы указать пользователю запустить или остановить таймер.

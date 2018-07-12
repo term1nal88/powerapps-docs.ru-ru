@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7f6350a70bff19df0c83d2082fe8fb463d81d772
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c47fb9a120f41166bbe23d55de6b502209a0f20d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330843"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898497"
 ---
 # <a name="pdf-viewer-control-experimental-in-powerapps"></a>Элемент управления "Средство просмотра PDF" (экспериментальная функция) в PowerApps
 Экспериментальный элемент управления, отображающий содержимое PDF-файла.
@@ -96,15 +96,17 @@ ms.locfileid: "32330843"
 **Zoom** — процент, на который увеличивается изображение с камеры или представление файла в средстве просмотра PDF.
 
 ## <a name="example"></a>Пример
-* Добавьте элемент управления **Средство просмотра PDF** и укажите для свойства **Document** URL-адрес PDF-файла в двойных кавычках, как в этом примере:<br>
+
+Добавьте элемент управления **Средство просмотра PDF** и укажите для свойства **Document** URL-адрес PDF-файла в двойных кавычках, как в этом примере:
+
   **"https://blog.mozilla.org/security/files/2015/05/HTTPS-FAQ.pdf"**
 
-    В элементе управления отображается PDF-файл.
+    The control shows the PDF file.
 
-    Не знаете, как [добавить и настроить элемент управления](../add-configure-controls.md)?
-
+    Don't know how to [add and configure a control](../add-configure-controls.md)?
 
 ## <a name="accessibility-guidelines"></a>Руководство по настройке специальных возможностей
+
 Поддерживаются не все специальные возможности документов PDF, так как **средство просмотра PDF-файлов** предоставляется в экспериментальном режиме. Таким образом, для **ShowControls** следует присвоить значение **true** чтобы пользователи могли открывать документ во внешнем приложении.
 
 См. дополнительные сведения о создании документов PDF с поддержкой специальных возможностей с использованием стандартов [WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html) и [PDF/UA](https://www.pdfa.org/pdfua-the-iso-standard-for-universal-accessibility/).

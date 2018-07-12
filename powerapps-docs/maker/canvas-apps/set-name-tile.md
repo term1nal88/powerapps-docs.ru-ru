@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: 386ecbd360dc13c21d48e0c134a87e8b7d007547
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a4bafb954b5723e813fade2ee633a51f4d8385e0
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830186"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895875"
 ---
 # <a name="change-app-name-and-icon-in-powerapps"></a>Изменение имени и значка приложения в PowerApps
 Настройка приложения посредством изменения его имени и плитки.
@@ -46,7 +46,7 @@ ms.locfileid: "31830186"
 * Щелкните или коснитесь **Browse file** (Выбор файла), выберите нужный образ и щелкните или коснитесь **Открыть**.
 
     > [!NOTE]
-> Для получения наилучших результатов используйте прямоугольный значок.
+  > Для получения наилучших результатов используйте прямоугольный значок.
 
 ## <a name="next-step"></a>Дальнейшие действия
 В меню **Файл** щелкните или коснитесь **Сохранить**, чтобы повторно опубликовать приложение с новыми параметрами.

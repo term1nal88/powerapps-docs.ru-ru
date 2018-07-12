@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 8dc68646808e40792d3e55aa9ac547aa43a78efb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c916784df877b1228fd8d9322a80ccccdc61967f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827351"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897899"
 ---
 # <a name="savedata-and-loaddata-functions-in-powerapps"></a>Функции SaveData и LoadData в PowerApps
 Сохраняют и загружают [коллекцию](../working-with-data-sources.md#collections).
@@ -39,6 +39,7 @@ ms.locfileid: "31827351"
 * *IgnoreNonexistentFile* — необязательный параметр. Логическое значение (**true**/**false**), указывающее, что делать функции **LoadData**, если ей не удается найти соответствующий файл: отображать или пропускать ошибки. Если указать значение **false**, ошибки будут отображаться. Если указать значение **true**, ошибки будут игнорироваться, что полезно для сценариев в автономном режиме работы. Функция **SaveData** может создать файл, если устройство находится в автономном режиме (то есть, если состояние **Connection.Connected** имеет значение **false**).
 
 ## <a name="examples"></a>Примеры
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **If(Connection.Connected, ClearCollect(LocalTweets, Twitter.SearchTweet("PowerApps", {maxResults: 100})),LoadData(LocalTweets, "Tweets", true))** |Если устройство подключено, загрузите коллекцию LocalTweets из службы Twitter. В противном случае — загрузите коллекцию из кэша локальных файлов. |Содержимое отображается независимо от того, в каком режиме находится устройство: оперативном или автономном. |

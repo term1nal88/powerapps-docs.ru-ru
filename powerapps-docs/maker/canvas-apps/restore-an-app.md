@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: e13f5c7fa73c0d95c5be5c755f2d482b1efc8a71
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ee9b19f647258e57b434c42b5f50bd71fc2d4bb2
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832132"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895668"
 ---
 # <a name="restore-an-app-to-a-previous-version"></a>Восстановление предыдущей версии приложения
 Из этой статьи вы узнаете, как восстановить предыдущую версию приложения, которая была сохранена в облаке из вашей учетной записи PowerApps.
@@ -32,7 +32,7 @@ ms.locfileid: "31832132"
     ![Фильтрация приложений, которыми вы владеете](./media/restore-an-app/filter-list.png)
 
     > [!NOTE]
-> Если приложение, которое нужно восстановить, не отображается, убедитесь, что находитесь в правильном окружении.
+   > Если приложение, которое нужно восстановить, не отображается, убедитесь, что находитесь в правильном окружении.
 
 3. У правого края экрана щелкните или коснитесь значка информации для приложения, которое вы хотите восстановить.
 

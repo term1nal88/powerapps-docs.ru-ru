@@ -8,12 +8,12 @@ ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.author: jamesol
-ms.openlocfilehash: 3a064bdb3f75bf45047e3ae0ff465fde1d2b66fa
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9a846f3c47111b1b83881ed01026951469b236cc
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34167844"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898336"
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>Перенос приложения между средами и клиентами с использованием упаковки
 Узнайте, как перенести ресурсы из одной среды в другую, используя упаковку. Эти среды могут находиться в одном клиенте или в разных клиентах.
@@ -112,13 +112,13 @@ ms.locfileid: "34167844"
 
 3. Скопируйте URL-адрес из браузера, внесите следующие изменения, а затем перейдите по новому URL-адресу в браузере:
 
-    * Структура текущего URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/edit.aspx?id={имя_решения}
+   * Структура текущего URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/edit.aspx?id={имя_решения}
 
-        ![Изменение URL-адреса](./media/environment-and-tenant-migration/edit-url.png)
+       ![Изменение URL-адреса](./media/environment-and-tenant-migration/edit-url.png)
 
-    * Структура нового URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
+   * Структура нового URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
 
-        ![Выбор пакета](./media/environment-and-tenant-migration/select-package.png)
+       ![Выбор пакета](./media/environment-and-tenant-migration/select-package.png)
 
 4. Выберите файл пакета решения CDS, который требуется импортировать, и завершите работу с мастером.
 

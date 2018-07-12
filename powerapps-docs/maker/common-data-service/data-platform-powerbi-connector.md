@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
-ms.openlocfilehash: d8323eb103751a1be78aeea0093b9d6651ddc3e2
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: bb0bec7cf459eb9084aea4db7264350b7913e578
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445897"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898770"
 ---
 # <a name="create-a-power-bi-report"></a>Создание отчета Power BI
 Служба Common Data Service для приложений позволяет напрямую подключаться к данным с помощью Power BI Desktop для создания отчетов и их публикации в Power BI. Из Power BI отчеты можно использовать на панелях мониторинга, открытых для других пользователей и доступных в мобильных приложениях Power BI на разных платформах.
@@ -57,11 +57,11 @@ ms.locfileid: "34445897"
 
 4. В навигаторе будут отображены все доступные для среды сущности, сгруппированные в три папки. Разверните папку **Common Data Service**.
 
-    * Common Data Service — это стандартные широко используемые сущности, которые доступны во всех средах в составе Common Data Service.
-    * Настраиваемые сущности — это сущности, которые были созданы или импортированы в вашей среде.
-    * Система — содержит все сущности в среде, включая сущности Common Data Service и настраиваемые сущности.
+   * Common Data Service — это стандартные широко используемые сущности, которые доступны во всех средах в составе Common Data Service.
+   * Настраиваемые сущности — это сущности, которые были созданы или импортированы в вашей среде.
+   * Система — содержит все сущности в среде, включая сущности Common Data Service и настраиваемые сущности.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport4.png "Power BI Desktop")
+     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport4.png "Power BI Desktop")
 
 5. Выберите сущность **Account**, чтобы просмотреть данные на правой панели, а затем нажмите кнопку **Load** (Загрузить).
 

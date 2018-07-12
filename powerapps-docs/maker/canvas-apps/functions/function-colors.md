@@ -1,23 +1,19 @@
 ---
 title: Функция для обозначения цвета Color, а также функции ColorFade, ColorValue и RGBA | Документация Майкрософт
 description: Справочные сведения о функции Color, а также функциях ColorFade, ColorValue и RGBA в PowerApps, в том числе описание синтаксиса и примеры и примеры.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2015
 ms.author: gregli
-ms.openlocfilehash: f4eeabf5708fffa6881b84402280d5639d96cc0a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 6615dfee8f7c867bb25c237633fe031d614d517d
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838678"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948648"
 ---
 # <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>Функция для обозначения цвета Color, а также функции ColorFade, ColorValue и RGBA в PowerApps
 Использование встроенных значений цвета, определение пользовательских цветов и альфа-смешивание.
@@ -51,6 +47,7 @@ ms.locfileid: "31838678"
 * *FadeAmount* — обязательный аргумент.  Значение варьируется от -1 до 1.  При значении -1 цвет становится полностью черным. При значении 0 — изменения цвета не наблюдается, а при значении 1 цвет становится белым.  
 
 ## <a name="built-in-colors"></a>Встроенные цвета
+
 | Обозначение цвета | ColorValue и шестнадцатеричный код | RGBA | Палитры цветов |
 | --- | --- | --- | --- |
 | **Color.AliceBlue** |**ColorValue( "#f0f8ff" )** |**RGBA( 240, 248, 255, 1 )** |![Бледно-голубой](./media/function-colors/color-aliceblue.png) |

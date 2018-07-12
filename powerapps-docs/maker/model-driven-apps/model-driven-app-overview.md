@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 76571a53c95661d853b7fb326e3c1087a6f432c4
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: eceaf1886bf77b85d6d6b3faae3f32428223cb7e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330935"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899509"
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>Общие сведения о создании приложения на основе модели
 
@@ -30,7 +30,7 @@ ms.locfileid: "32330935"
 - создание сложных приложений с малым временем отклика и единообразным интерфейсом на различных устройствах: от ПК до мобильных устройств;
 - возможности проектирования, аналогичные предлагаемым на платформе Dynamics 365 Customer Engagement; 
 - приложение можно распространять как решение.
- 
+
 ## <a name="the-approach-to-model-driven-app-making"></a>Подход к созданию приложений на основе модели
 На базовом уровне разработка приложений на основе модели включает в себя три основных направления:
 
@@ -54,6 +54,7 @@ ms.locfileid: "32330935"
 
 ### <a name="data"></a>Данные
 Эти компоненты определяют то, на каких данных будет основываться приложение.
+
 
 
 |Компонент  |Описание  |Конструктор  |

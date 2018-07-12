@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: lanced
-ms.openlocfilehash: c375429b7ac2341766c36ca58e1bbf3c78c9a6d1
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 7c5d4f71c44c4bf247874fbbe901731b269feabd
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803404"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898543"
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>Подключение к Microsoft Translator из PowerApps
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
@@ -28,46 +28,46 @@ ms.locfileid: "34803404"
 
 ## <a name="connect-to-microsoft-translator"></a>Подключение к Microsoft Translator
 1. Откройте PowerApps и выберите команду **Создать**, а затем — пункт **Пустое приложение**. Выберите макет для телефона или планшета. Макет для планшета обеспечивает больше рабочего пространства:  
-   
+
    ![Пустое приложение](./media/connection-microsoft-translator/blank-app.png)
 2. На панели справа откройте вкладку **Данные**, а затем нажмите кнопку **Добавить источник данных**.
 3. Выберите команду **Создать подключение**, а затем — **Microsoft Translator**:  
-   
+
     ![Подключение к Microsoft Translator](./media/connection-microsoft-translator/addconnection.png)
-   
+
     ![Подключение к Microsoft Translator](./media/connection-microsoft-translator/add-translator.png)
 4. Выберите команду **Создать**. Ваше подключение появится в разделе **Источники данных**.  
-   
+
     ![Подключение к Microsoft Translator](./media/connection-microsoft-translator/translatordatasource.png)
 
 ## <a name="use-the-microsoft-translator-connection-in-your-app"></a>Использование подключения к Microsoft Translator в приложении
 ### <a name="translate-text"></a>Перевод текста
 1. В меню **Вставка** выберите **Текст**, а затем — **Ввод текста**. Назначьте элементу управления для ввода текста имя **Source**.  
-   
+
     ![Переименовать](./media/connection-microsoft-translator/renametosource.png)
 2. Добавьте элемент управления **Раскрывающийся список** (**Вставка** > **Элементы управления**), назначьте ему имя **TargetLang**, и расположите его ниже элемента **Source**.
 3. Назначьте свойству **[Items](../controls/properties-core.md)** элемента **TargetLang** следующую формулу:  
-   
+
     `MicrosoftTranslator.Languages()`
 4. Добавьте метку, расположите ее ниже элемента управления **TargetLang** и назначьте ее свойству **[Text](../controls/properties-core.md)** следующую формулу:  
-   
+
     `MicrosoftTranslator.Translate(Source.Text, TargetLang.Selected.Value)`
 5. Введите какой-либо текст в поле **Source** и выберите язык в списке **TargetLang**. В метке будет выведен текст, переведенный на выбранный вами язык.  
-   
+
     ![Перевод текста с английского на испанский язык](./media/connection-microsoft-translator/translate-text.png)
 
 ### <a name="speak-translated-text"></a>Озвучивание переведенного текста
 Если вы еще этого не сделали, переведите какой-либо текст, следуя инструкциям из предыдущего раздела. Далее используются те же элементы управления.
 
 1. Назначьте свойству **[Items](../controls/properties-core.md)** раскрывающегося списка **TargetLang** следующую формулу:  
-   
+
     `MicrosoftTranslator.SpeechLanguages()`
 2. Переименуйте вторую метку (не **Source**), назначив ей имя **Target**.
 3. Добавьте элемент управления **Звук** (**Вставка** > **Мультимедиа**) и назначьте его свойству **Media** следующую формулу:  
-   
+
     `MicrosoftTranslator.TextToSpeech(Target.Text, TargetLang.Selected.Value)`
 4. Нажмите клавишу F5 или кнопку предварительного просмотра (![](./media/connection-microsoft-translator/preview.png)). Введите какой-либо текст в поле **Source**, выберите язык в списке **TargetLang**, а затем нажмите кнопку воспроизведения в элементе управления "Звук".
-   
+
     Приложение озвучит введенный текст на выбранном вами языке.
 5. Нажмите клавишу Esc, чтобы вернуться в рабочую область по умолчанию.
 
@@ -75,10 +75,10 @@ ms.locfileid: "34803404"
 В этом разделе используются те же текстовые элементы управления **Source** и **Target**. При желании вы можете создать новые элементы управления, но следите за тем, чтобы в формулах использовались правильные имена.
 
 1. Выберите элемент управления **Target** и назначьте его свойству **[Text](../controls/properties-core.md)** следующую формулу:  
-   
+
     `MicrosoftTranslator.Detect(Source.Text).Name`
 2. Введите какой-либо текст в элемент **Source**.
-   
+
     В метке будет отображен язык введенного вами текста. Например, при вводе **bonjour** в метке появится значение **Французский**, а при вводе **ciao** — **Итальянский**.
 
 ## <a name="view-the-available-functions"></a>Просмотр доступных функций
@@ -99,6 +99,7 @@ ms.locfileid: "34803404"
 Нет.
 
 #### <a name="output-properties"></a>Выходные свойства
+
 | Имя свойства | Тип данных | Требуется | Описание |
 | --- | --- | --- | --- |
 | Код |строка |Нет | |
@@ -108,6 +109,7 @@ ms.locfileid: "34803404"
 Эта функция переводит текст на указанный язык с помощью службы Microsoft Translator.
 
 #### <a name="input-properties"></a>Входные свойства
+
 | Имя | Тип данных | Требуется | Описание |
 | --- | --- | --- | --- |
 | query |строка |да |Текст, который нужно перевести. |
@@ -122,11 +124,13 @@ ms.locfileid: "34803404"
 Эта функция распознает исходный язык указанного текста.
 
 #### <a name="input-properties"></a>Входные свойства
+
 | Имя | Тип данных | Требуется | Описание |
 | --- | --- | --- | --- |
 | query |строка |да |Текст, язык которого нужно распознать. |
 
 #### <a name="output-properties"></a>Выходные свойства
+
 | Имя свойства | Тип данных | Требуется | Описание |
 | --- | --- | --- | --- |
 | Код |строка |Нет | |
@@ -139,6 +143,7 @@ ms.locfileid: "34803404"
 Нет.
 
 #### <a name="output-properties"></a>Выходные свойства
+
 | Имя свойства | Тип данных | Требуется | Описание |
 | --- | --- | --- | --- |
 | Код |строка |Нет | |
@@ -148,6 +153,7 @@ ms.locfileid: "34803404"
 Эта функция преобразует заданный текст в речь в виде звукового потока в формате звукозаписи.
 
 #### <a name="input-properties"></a>Входные свойства
+
 | Имя | Тип данных | Требуется | Описание |
 | --- | --- | --- | --- |
 | query |строка |да |Текст, который нужно преобразовать. |

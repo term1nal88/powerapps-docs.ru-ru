@@ -3,7 +3,7 @@ title: Функции Back и Navigate | Документация Майкрос
 description: Справочные сведения о функциях Navigate и Back в PowerApps, в том числе описание синтаксиса и примеры
 documentationcenter: na
 author: gregli-msft
-manager: kfile
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerapps
@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: ecb8b8176dd8489866a5ca88a6b69e1520c3ad69
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e00ee9b3a58bf3255b9f581f405381af05aa07f9
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834465"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948579"
 ---
 # <a name="back-and-navigate-functions-in-powerapps"></a>Функции Back и Navigate в PowerApps
 Эти функции изменяют отображаемый экран.
@@ -63,6 +63,7 @@ ms.locfileid: "31834465"
 * *UpdateContextRecord* — необязательный аргумент.  Запись, содержащая имя как минимум одного столбца и значение каждого из них. Эта запись обновляет переменные контекста нового экрана таким же образом, как при передаче их функции **[UpdateContext](function-updatecontext.md)**.
 
 ## <a name="examples"></a>Примеры
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **Navigate( Details, ScreenTransition.None )** |Отображается экран **Details** без эффекта перехода или изменения значения переменной контекста. |Экран **Details** отображается мгновенно. |

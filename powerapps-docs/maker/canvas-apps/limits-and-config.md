@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/07/2018
 ms.author: sharik
-ms.openlocfilehash: ffe1a027e378da3f9c505f4980681a4b5a11dbda
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: e76710bc800782624ca1190086cc19dd47d60939
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34851760"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896105"
 ---
 # <a name="system-requirements-limits-and-configuration-values"></a>Требования к системе, ограничения и значения конфигурации
 В этой статье приводятся требования к платформе устройств и веб-браузеру, а также ограничения и значения конфигурации для PowerApps.
 
 ## <a name="supported-platforms-for-running-apps-using-the-powerapps-app"></a>Поддерживаемые платформы для запуска приложений с помощью PowerApps
+
 | **Минимальные требования** | **Рекомендуется** |
 | --- | --- |
 | iOS 9.3 или более поздней версии |iOS 10 или более поздней версии с не менее чем 2 ГБ ОЗУ |
@@ -25,6 +26,7 @@ ms.locfileid: "34851760"
 | Windows 8.1 или более поздней версии (только ПК) |Windows 10 Fall Creators Update с не менее чем 8 ГБ ОЗУ|
 
 ## <a name="supported-browsers-for-running-apps"></a>Поддерживаемые браузеры для запуска приложений
+
 | **Браузер** | **Операционная система** |
 | --- | --- |
 | Google Chrome (последняя версия)<br>(рекомендуется) |Windows 7 с пакетом обновления 1, 8.1 и 10 <br>Android 5 или более поздней версии <br>iOS 8 или более поздней версии<br>macOS |
@@ -34,6 +36,7 @@ ms.locfileid: "34851760"
 | Apple Safari (последняя версия) |iOS 8 или более поздней версии <br>macOS |
 
 ## <a name="supported-browsers-for-powerapps-studio"></a>Поддерживаемые браузеры для PowerApps Studio
+
 | **Браузер** | **Операционная система** |
 | --- | --- |
 | Google Chrome (последняя версия)<br>(рекомендуется) |Windows 7 с пакетом обновления 1, 8.1 и 10 <br>macOS |
@@ -58,7 +61,7 @@ ms.locfileid: "34851760"
 
 Например, следует использовать эти адреса, если вам необходимо добавить в список разрешений IP-адреса для базы данных SQL Azure.
 
->   [!IMPORTANT] 
+> [!IMPORTANT]
 >   Если у вас есть существующие конфигурации, обновите их как можно скорее до 1 сентября 2018 г., чтобы они соответствовали IP-адресам из этого списка для регионов, в которых находятся ваши приложения PowerApps.
 
 | Регион | Исходящие IP-адреса |

@@ -2,18 +2,21 @@
 title: Краткое руководство по добавлению приложения в Microsoft Teams | Документация Майкрософт
 description: Из этого краткого руководства вы узнаете, как добавить приложение в канал Microsoft Teams, чтобы любой пользователь, которому был предоставлен общий доступ к приложению, мог открывать его в этом канале.
 author: mgblythe
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
 ms.date: 01/18/2018
-ms.author: mblythe
-ms.openlocfilehash: 9c670a61f89b8bf038bae117614895f18101fe0c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.author: matp
+ms.custom: ''
+ms.reviewer: ''
+ms.assetid: ''
+ms.openlocfilehash: 07543d1724ff2272dfa4e1902d2581fa5034360a
+ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34074137"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37925692"
 ---
 # <a name="quickstart-add-an-app-to-microsoft-teams"></a>Краткое руководство. Добавление приложения в Microsoft Teams
 
@@ -29,7 +32,7 @@ Microsoft Teams — это платформа для совместной ра�
 
 ## <a name="sign-in-to-powerapps"></a>Вход в PowerApps
 
-Войдите в PowerApps по адресу [https://web.powerapps.com]([https://web.powerapps.com).
+Войдите в PowerApps по адресу [https://web.powerapps.com](https://web.powerapps.com).
 
 ## <a name="add-an-app"></a>Добавление приложения
 

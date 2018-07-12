@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 06/29/2017
 ms.author: gregli
-ms.openlocfilehash: 3615328bf1c272425779998545b0d16ac5626297
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1fdf6c92fb739f1293c90322b508b46f4ec5733e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832611"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898037"
 ---
 # <a name="set-function-in-powerapps"></a>Функция Set в PowerApps
 Задает значение глобальной переменной.
@@ -55,6 +55,7 @@ ms.locfileid: "31832611"
 * *Value* — обязательный аргумент.  Значение, присваиваемое переменной контекста.
 
 ## <a name="examples"></a>Примеры
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **Set(&nbsp;Counter,&nbsp;1&nbsp;)** |Создает или изменяет глобальную переменную **Counter**, задав для нее значение **1**. |Переменная контекста **Counter** имеет значение **1**. Вы можете добавить ссылку на эту переменную, используя имя **Counter** в формуле на любом экране. |

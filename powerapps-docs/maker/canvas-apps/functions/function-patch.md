@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: d0b2ff351f7026967359f1b4d386a71d7ed5441f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 02664d3715b2e5b43a56a041e9de8b294559a862
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838724"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899164"
 ---
 # <a name="patch-function-in-powerapps"></a>Функция Patch в PowerApps
 Эта функция изменяет или создает одну или несколько [записей](../working-with-tables.md#records) в [источнике данных](../working-with-data-sources.md) или объединяет записи вне этого источника.
@@ -102,6 +102,7 @@ ms.locfileid: "31838724"
 ![](media/function-patch/icecream-after.png)
 
 #### <a name="merge-records-outside-of-a-data-source"></a>Объединение записей (вне источника данных)
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **Patch(&nbsp;{&nbsp;Name:&nbsp;"James",&nbsp;Score:&nbsp;90&nbsp;}, {&nbsp;Name:&nbsp;"Jim",&nbsp;Passed:&nbsp;true&nbsp;} )** |Функция объединяет две записи вне источника данных.<br><ul><li>Значения в столбце **Name** для каждой записи не совпадают. Результат содержит значение (**Jim**) в записи в конце списка аргументов вместо значения (**James**) в начале этого списка.</li><li>Первая запись содержит столбец (**Score**), который отсутствует во второй записи. Результат содержит этот столбец со значением (**90**).</li><li>Вторая запись содержит столбец (**Passed**), который отсутствует в первой записи. Результат содержит этот столбец со значением (**true**). |{&nbsp;Name:&nbsp;"Jim", Score:&nbsp;90, Passed:&nbsp;true&nbsp;} |

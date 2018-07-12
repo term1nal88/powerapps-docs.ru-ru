@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 09/13/2016
 ms.author: gregli
-ms.openlocfilehash: 4d255ec8015caaec1ce066e646c6506c182dc722
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 32739ea0e6ce2caa74794c1b861ba95a2f349a83
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837741"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896473"
 ---
 # <a name="acos-acot-asin-atan-atan2-cos-cot-degrees-pi-radians-sin-and-tan-functions-in-powerapps"></a>Функции Acos, Acot, Asin, Atan, Atan2, Cos, Cot, Degrees, Pi, Radians, Sin и Tan в PowerApps
 Вычисление тригонометрических значений.
@@ -92,6 +92,7 @@ ms.locfileid: "31837741"
 
 ## <a name="examples"></a>Примеры
 ### <a name="single-number"></a>Для одного числа
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **Cos(&nbsp;1,047197&nbsp;)** |Возвращает косинус 1,047197 радиана или 60 градусов. |0,5 |

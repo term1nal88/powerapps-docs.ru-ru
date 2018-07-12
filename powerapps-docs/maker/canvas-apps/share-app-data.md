@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: 8a763565ff8b48f95f68bdfd91fc21382ad9338f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 8c96a83ae67a8a06aa96b4f4ba091e361430683d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827834"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896128"
 ---
 # <a name="share-excel-data-used-by-your-app"></a>Совместное использование данных Excel, используемых приложением
 Пользователи приложения могут совместно использовать данные Excel в [облачной учетной записи](connections/cloud-storage-blob-connections.md), например OneDrive.
@@ -48,7 +48,7 @@ ms.locfileid: "31827834"
     ![Пункт "Совместный доступ"](./media/share-app-data/onedrive-share.png)
    
     > [!NOTE]
-> В OneDrive для бизнеса следует предоставлять общий доступ к самому файлу, а не папке, в которой он содержится.
+   > В OneDrive для бизнеса следует предоставлять общий доступ к самому файлу, а не папке, в которой он содержится.
 3. В диалоговом окне выберите **Электронная почта**.
    
     ![Отправить по электронной почте](./media/share-app-data/onedrive-email.png)

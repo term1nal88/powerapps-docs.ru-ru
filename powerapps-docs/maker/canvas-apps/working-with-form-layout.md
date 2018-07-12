@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: 2b64ebdf91effe812d3fd81d0d1e0bb854147a19
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 45baa2450dbb081b800263a9119729e1c2846008
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31839161"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899463"
 ---
 # <a name="understand-data-form-layout-in-microsoft-powerapps"></a>Общие сведения о макетах форм данных в Microsoft PowerApps
 В PowerApps вы можете легко создавать привлекательные и эффективные в использовании формы. Например, рассмотрим следующую простую форму записи для заказа на продажу.
@@ -57,17 +57,17 @@ ms.locfileid: "31839161"
     В метке указан номер заказа на продажу для записи, которую вы выбрали в коллекции.
 3. Необязательно. Отформатируйте метки следующим образом:
    
-    1. Для свойства **Align** (Выравнивание) выберите вариант **Center** (По центру).
+   1. Для свойства **Align** (Выравнивание) выберите вариант **Center** (По центру).
    
-    2. Для свойства **Size** задайте значение **20**.
+   2. Для свойства **Size** задайте значение **20**.
    
-    3. Для свойства **Fill** задайте значение **Navy**.
+   3. Для свойства **Fill** задайте значение **Navy**.
    
-    4. Для свойства **Color** задайте значение **White**.
+   4. Для свойства **Color** задайте значение **White**.
    
-    5. Для свойства **Width** задайте значение **Parent.Width**.
+   5. Для свойства **Width** задайте значение **Parent.Width**.
    
-    6. Для свойств **X** и **Y** задайте значение **0**.
+   6. Для свойств **X** и **Y** задайте значение **0**.
       
       ![Строка заголовка](./media/working-with-form-layout/title-bar.png)
 

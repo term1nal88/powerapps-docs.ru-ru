@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: 4863ee2c19c17eb8afcc8913dcfb5f3831af828c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 7ab372f8e8a03da35752614905017e24672480b3
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31839115"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897715"
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>Создание отчета Power BI для анализа проектов
 > [!NOTE]
@@ -94,8 +94,8 @@ ms.locfileid: "31839115"
    
     ![Удаление столбцов](./media/sharepoint-scenario-build-report/05-01-07-remove-column.png)
 3. Удалите два столбца после столбца **Id**: **ServerRedirectedEmbedURL** и **ContentTypeId**. 
-> [!TIP]
-> Выберите оба столбца с нажатой клавишей SHIFT, а затем нажмите **Удалить столбцы**.
+   > [!TIP]
+   > Выберите оба столбца с нажатой клавишей SHIFT, а затем нажмите **Удалить столбцы**.
 4. Удалите все столбцы справа от столбца **PMAssigned** (всего 22 столбца). Таблица должна выглядеть приблизительно так:
    
     ![Таблица Project Details в редакторе запросов](./media/sharepoint-scenario-build-report/05-01-08-table-details.png)

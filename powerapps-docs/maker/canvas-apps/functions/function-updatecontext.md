@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: a784251899e7c51ef8213b6d6f31c2830b08e2dc
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e7da24eec1a85a1d57ab83476734639ef0f5dd25
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838862"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898083"
 ---
 # <a name="updatecontext-function-in-powerapps"></a>Функция UpdateContext в PowerApps
 Функция UpdateContext создает или обновляет [переменные контекста](../working-with-variables.md#create-a-context-variable) текущего экрана.
@@ -68,6 +68,7 @@ ms.locfileid: "31838862"
 * *ContextVariable2*: *Value2* и т. д. — необязательные параметры. Дополнительные переменные контекста, которые нужно создать, и их значения.
 
 ## <a name="examples"></a>Примеры
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **UpdateContext( {&nbsp;Counter:&nbsp;1&nbsp;} )** |Создает или изменяет переменную контекста **Counter**, задавая для нее значение **1**. |Переменная контекста **Counter** имеет значение **1**. Вы можете добавить ссылку на эту переменную по имени **Counter** в формуле. |
@@ -85,10 +86,10 @@ ms.locfileid: "31838862"
 6. На экране **Target** перейдите на вкладку **Вставка**, выберите **Фигуры** и нажмите кнопку со стрелкой "Назад".
 7. Задайте для свойства **[OnSelect](../controls/properties-core.md)** стрелки "Назад" эту формулу:<br>**Navigate(Source, ScreenTransition.Fade)**
 8. На экране **Source** нажмите клавишу F5, а затем нажмите кнопку для любого языка.
-   
+
     После этого на экране **Target** появится метка на языке, соответствующем нажатой кнопке.
 9. Нажмите кнопку со стрелкой "Назад", чтобы вернуться на экран **Source**, и нажмите кнопку для другого языка.
-   
+
     После этого на экране **Target** появится метка на языке, соответствующем нажатой кнопке.
 10. Нажмите клавишу ESC, чтобы вернуться в рабочую область по умолчанию.
 

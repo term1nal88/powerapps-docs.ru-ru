@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: e11521219fcd368801a6e943f45dbc713309ec36
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d8d5e29fc7f1c551ac637d86886bc658e7414110
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803427"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898014"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>Подключение к SQL Server из PowerApps
 ![Значок SQL Server](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -33,7 +33,7 @@ ms.locfileid: "34803427"
 * Если вы подключаетесь к локальной базе данных, определите [шлюз данных](../gateway-management.md), к которому у вас есть доступ (или создайте новый).
   
     > [!NOTE]
-> Пользователь может создавать и использовать шлюзы и локальные подключения только в своей [среде по умолчанию](../working-with-environments.md).
+  > Пользователь может создавать и использовать шлюзы и локальные подключения только в своей [среде по умолчанию](../working-with-environments.md).
 
 ## <a name="generate-an-app-automatically"></a>Автоматическое создание приложения
 1. В PowerApps Studio выберите **Создать** в меню **Файл** (у левого края экрана).
@@ -54,7 +54,7 @@ ms.locfileid: "34803427"
        ![Подключение к локальной базе данных](./media/connection-azure-sqldatabase/connect-onprem.png)
      
        > [!NOTE]
-> Если у вас нет шлюза, [установите его](../gateway-reference.md), а затем выберите **Обновить список шлюзов**.
+     > Если у вас нет шлюза, [установите его](../gateway-reference.md), а затем выберите **Обновить список шлюзов**.
 6. Нажмите кнопку **Подключиться**.
 7. Выберите вариант в полях **Выбрать набор данных** и **Выбрать таблицу**, затем нажмите кнопку **Подключиться**.
    
@@ -77,7 +77,7 @@ ms.locfileid: "34803427"
        ![Подключение к базе данных в Azure](./media/connection-azure-sqldatabase/connect-onprem-portal.png)
      
        > [!NOTE]
-> Если у вас нет шлюза, [установите его](../gateway-reference.md), а затем щелкните значок обновления списка.
+     > Если у вас нет шлюза, [установите его](../gateway-reference.md), а затем щелкните значок обновления списка.
 5. Нажмите кнопку **Создать**, чтобы создать подключение.
 6. Создайте приложение, используя методики, описанные в статье о [создании приложения с нуля](../get-started-create-from-blank.md).
 
@@ -98,7 +98,7 @@ ms.locfileid: "34803427"
        ![Подключение к базе данных в Azure](./media/connection-azure-sqldatabase/connect-onprem-fromblank.png)
      
        > [!NOTE]
-> Если у вас нет шлюза, [установите его](../gateway-reference.md), а затем щелкните значок обновления списка.
+     > Если у вас нет шлюза, [установите его](../gateway-reference.md), а затем щелкните значок обновления списка.
 6. Нажмите кнопку **Подключиться**.
 7. В поле **Выберите набор данных** выберите параметр.
 8. В разделе **Выберите таблицу** установите один или несколько флажков, а затем нажмите кнопку **Подключиться**.

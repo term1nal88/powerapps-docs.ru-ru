@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: e73324d6cfce5edf7ece0350b2047dc7842373bb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d374ec8459f4182b11ecf91e28af24a31bb6c055
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836776"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896841"
 ---
 # <a name="develop-offline-capable-apps-with-powerapps"></a>Разработка приложений, поддерживающих автономный режим работы, с помощью PowerApps
 Один из наиболее распространенных сценариев, с которым сталкивается разработчик мобильного приложения, — это обеспечение продуктивности пользователей в случае ограниченного подключения или его отсутствия. PowerApps включает набор функций и режимов, которые помогут вам в разработке приложений, поддерживающих автономный режим. Вы сможете:
@@ -41,19 +41,19 @@ ms.locfileid: "31836776"
 Приложение выполняет следующие основные действия:
 
 1. При запуске приложения (на основе свойства **OnVisible** первого экрана):
-   
+
    * Если устройство подключено к сети, мы напрямую получим доступ к соединителю Twitter, чтобы извлечь данные и заполнить ими коллекцию.
    * Если устройство находится в автономном режиме, мы загрузим данные из локального файла кэша с помощью функции [LoadData](../canvas-apps/functions/function-savedata-loaddata.md).
    * Мы позволим пользователям отправлять твиты: если они будут в сети — то напрямую в Twitter и с обновлением локального кэша.
 2. Через каждые 5 минут (при сетевом подключении):
-   
+
    * Мы опубликуем все твиты, которые находятся в локальном кэше.
    * Мы обновим локальный кэш и сохраним его с помощью функции [SaveData](../canvas-apps/functions/function-savedata-loaddata.md).
 
 ### <a name="step-1-create-a-new-phone-app"></a>Шаг 1. Создание нового мобильного приложения
 1. Откройте PowerApps Studio.
 2. Щелкните **Создать** > **Пустое приложение** > **Макет для телефона**.
-   
+
     ![Пустое приложение, макет для телефона](./media/offline-apps/blank-app.png)
 
 ### <a name="step-2-add-a-twitter-connection"></a>Шаг 2. Добавление подключения к Twitter
@@ -63,7 +63,7 @@ ms.locfileid: "31836776"
 2. Щелкните **Новое подключение**, выберите **Twitter** и щелкните **Создать**.
 
 3. Введите свои учетные данные и создайте подключение.
-   
+
     ![Добавление подключения к Twitter](./media/offline-apps/twitter-connection.png)
 
 ### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>Шаг 3. Загрузка твитов в коллекцию LocalTweets при запуске приложения
@@ -127,20 +127,20 @@ If (Connection.Connected, "Connected", "Offline")
 ### <a name="step-7-add-a-button-to-post-the-tweet"></a>Шаг 7. Добавление кнопки для отправки твита
 1. Добавьте элемент управления **Кнопка** и задайте для свойства **Text** значение Tweet.
 2. Задайте для свойства **OnSelect** следующую формулу:
-   
+
     ```
     If (Connection.Connected,
-   
+
         Twitter.Tweet("", {tweetText: NewTweetTextInput.Text}),
-   
+
         Collect(LocalTweetsToPost, {tweetText: NewTweetTextInput.Text});
-   
+
         SaveData(LocalTweetsToPost, "LocalTweetsToPost")
-   
+
     );
-   
+
     UpdateContext({resetNewTweet: true});
-   
+
     UpdateContext({resetNewTweet: false})
     ```  
 
@@ -159,18 +159,18 @@ If (Connection.Connected, "Connected", "Offline")
 * Установите для свойства **AutoStart** значение true.
 
 * Задайте для свойства **OnTimerEnd** следующую формулу:
-  
+
     ```
     If(Connection.Connected,
-  
+
         ForAll(LocalTweetsToPost, Twitter.Tweet("", {tweetText: tweetText}));
-  
+
         Clear(LocalTweetsToPost);
-  
+
         Collect(LocalTweetsToPost, {tweetText: NewTweetTextInput.Text});
-  
+
         SaveData(LocalTweetsToPost, "LocalTweetsToPost");
-  
+
         UpdateContext({statusText: "Online data"})
     )
     ```

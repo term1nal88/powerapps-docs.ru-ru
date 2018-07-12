@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/11/2015
 ms.author: gregli
-ms.openlocfilehash: 5f156e5f7d0acb48090ac921aa92f31f3a6d20ea
-ms.sourcegitcommit: 222df368f1f35e9357b0b1adf0e69d7206d8126e
+ms.openlocfilehash: 67354776e7af05fb619033462c52665ce3aa046c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36298476"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898635"
 ---
 # <a name="datasourceinfo-function-in-powerapps"></a>Функция DataSourceInfo в PowerApps
 Содержит сведения об [источнике данных](../working-with-data-sources.md).
@@ -59,7 +59,7 @@ ms.locfileid: "36298476"
 * *Имя_столбца* — необязательный аргумент. Для сведений на уровне столбца это имя столбца в виде строки. Столбец **Phone** будет передаваться как **"Phone"** (включая двойные кавычки). Для сведений на уровне источника данных аргумент *ColumnName* не может использоваться.
   
     > [!NOTE]
-> Для источников данных SharePoint и Excel, содержащих имена столбцов с пробелами, вместо каждого пробела укажите **"\_x0020\_"**. Например, **Имя столбца** укажите как **Имя_x0020_столбца**.
+  > Для источников данных SharePoint и Excel, содержащих имена столбцов с пробелами, вместо каждого пробела укажите **"\_x0020\_"**. Например, **Имя столбца** укажите как **Имя_x0020_столбца**.
 
 ## <a name="examples"></a>Примеры
 Примеры в этом разделе используют следующий источник данных с именем **IceCream**:

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: 16c585f553373faee609683774e7938e8bd165f1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ca359f550d81a73f448ce18d94d0d36efceb839b
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31824597"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897416"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>Создание подключения к SharePoint из PowerApps
 Создайте подключение к SharePoint Online или локальному сайту SharePoint, чтобы использовать его для автоматического создания приложения или сборки приложения с нуля.
@@ -61,7 +61,7 @@ ms.locfileid: "31824597"
     ![Выбор локального сайта SharePoint](./media/connect-to-sharepoint/choose-onprem.png)
 
     > [!NOTE]
-> Пользователь может создавать и использовать шлюзы и локальные подключения только в своей [среде по умолчанию](working-with-environments.md).
+   > Пользователь может создавать и использовать шлюзы и локальные подключения только в своей [среде по умолчанию](working-with-environments.md).
 
 2. Укажите имя пользователя и пароль.
 

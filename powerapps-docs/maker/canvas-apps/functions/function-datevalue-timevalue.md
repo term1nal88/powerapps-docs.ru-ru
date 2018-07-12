@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 396a2d5325b7b72f3637dba1edddeead49594167
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a0f55de520a180a646e1e73aac423abc74bfed1d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832588"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896243"
 ---
 # <a name="datevalue-timevalue-and-datetimevalue-functions-in-powerapps"></a>Функции DateValue, TimeValue и DateTimeValue в PowerApps
 Преобразует дату, время или оба этих параметра в строке в значение даты и времени.
@@ -61,7 +61,7 @@ ms.locfileid: "31832588"
     Метка отобразит **Saturday, October 11, 2014**, если на компьютере выбран языковой стандарт **en**.
   
     > [!NOTE]
-> С параметром **DateTimeFormat** можно использовать несколько вариантов, отличных от **LongDateTime**. Чтобы отобразить список этих вариантов, в поле функции введите параметр, а сразу за ним поставьте восклицательный знак.
+  > С параметром **DateTimeFormat** можно использовать несколько вариантов, отличных от **LongDateTime**. Чтобы отобразить список этих вариантов, в поле функции введите параметр, а сразу за ним поставьте восклицательный знак.
 * **Text(DateValue(Startdate.Text, "fr"), DateTimeFormat.LongDate)**
   
     Метка отобразит **Monday, November 10, 2014**.
@@ -80,7 +80,7 @@ ms.locfileid: "31832588"
     Метка отобразит **Saturday, October 11, 2014 1:50:24 PM**, если на компьютере выбран языковой стандарт "en".
   
     > [!NOTE]
-> С параметром **DateTimeFormat** можно использовать несколько вариантов, отличных от **LongDateTime**. Чтобы отобразить список этих вариантов, в поле функции введите параметр, а сразу за ним поставьте восклицательный знак.
+  > С параметром **DateTimeFormat** можно использовать несколько вариантов, отличных от **LongDateTime**. Чтобы отобразить список этих вариантов, в поле функции введите параметр, а сразу за ним поставьте восклицательный знак.
 * **Text(DateTimeValue(Start.Text, "fr"), DateTimeFormat.LongDateTime)**
   
     Метка отобразит **Monday, November 10, 2014 1:50:24 PM**.

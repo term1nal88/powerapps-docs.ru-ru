@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: fca166ef388921e08bf71149a8b1274a31a7dc52
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: fcf1bcec976e34f07745c315d75569bbc86e583f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330636"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899532"
 ---
 # <a name="create-an-app-to-manage-projects"></a>Создание приложения для управления проектами
 > [!NOTE]
@@ -155,7 +155,7 @@ ms.locfileid: "32330636"
      ![Изменение текста кнопки](./media/sharepoint-scenario-build-app/04-03-08-buttons-final.png)
      
      > [!NOTE]
-> Кнопка называется **Обновить сведения**, но сначала мы перейдем на экран **Просмотр проектов**, чтобы выбрать проект для обновления.
+     > Кнопка называется **Обновить сведения**, но сначала мы перейдем на экран **Просмотр проектов**, чтобы выбрать проект для обновления.
 
 ### <a name="run-the-app"></a>Запуск приложения
 Наше приложение пока малофункционально, но вы уже можете запустить его.

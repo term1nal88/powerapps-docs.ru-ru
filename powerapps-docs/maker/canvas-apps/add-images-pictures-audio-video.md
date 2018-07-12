@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 4d622eb6cdfaed91547a59be8f5a5dc6651957e5
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d193c2691f689e935a5dbb92767a16d393098770
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330912"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896749"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>Использование файлов мультимедиа в PowerApps
 В этой статье описано, как внедрить файлы мультимедиа в приложение, отправить нарисованные с помощью пера рисунки в источник данных и просмотреть изображения из источника данных в приложении. В качестве источника данных мы используем файл Excel в OneDrive для бизнеса.
@@ -48,14 +48,14 @@ ms.locfileid: "32330912"
     ![Настройка свойства Image](./media/add-images-pictures-audio-video/imageproperty.png)
 
     > [!NOTE]
-> Укажите только имя файла, заключенное в одинарные кавычки, без расширения.
+   > Укажите только имя файла, заключенное в одинарные кавычки, без расширения.
 
 7. Если вы добавили элемент управления "Видео" или "Аудио", в качестве значения свойства **Media** укажите имя добавленного файла:  
 
     ![Настройка свойства Media](./media/add-images-pictures-audio-video/mediaproperty.png)
 
     > [!NOTE]
-> Чтобы воспроизвести видео с сайта YouTube, в качестве значения свойства **Media** элемента управления "Видео" укажите соответствующий URL-адрес, заключенный в двойные кавычки.
+   > Чтобы воспроизвести видео с сайта YouTube, в качестве значения свойства **Media** элемента управления "Видео" укажите соответствующий URL-адрес, заключенный в двойные кавычки.
 
 ## <a name="add-media-from-azure-media-services"></a>Добавление мультимедиа из служб мультимедиа Azure
 1. Из учетной записи служб мультимедиа Azure передавайте и публикуйте видеоресурсы в меню **AMS > Настройки > Ресурсы**.
