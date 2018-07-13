@@ -2,17 +2,19 @@
 title: Общие сведения о подключении к облачному хранилищу | Документация Майкрософт
 description: Сведения о том, как подключиться к учетной записи облачного хранилища и отобразить в приложении данные Excel
 author: lancedMicrosoft
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: 04bfdd2d59b870184e5e42ac06135d00f52dcc70
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.reviewer: anneta
+ms.openlocfilehash: 3d7813280f0d17eca327e86a827da72e33f191e3
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895691"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021028"
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>Подключение к облачному хранилищу из PowerApps
 В PowerApps есть несколько вариантов подключения к облачным хранилищам. С помощью любого из них вы можете сохранить файл Excel и использовать информацию из него в своем приложении. Ниже перечислены доступные подключения.  

@@ -2,17 +2,19 @@
 title: Справка по элементу управления "Добавить изображение" | Документация Майкрософт
 description: Сведения об элементе управления "Добавить изображение" с описанием его свойств и примерами
 author: fikaradz
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e20d76c9e8913197d4b59380a5f91dea3851c959
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.reviewer: anneta
+ms.openlocfilehash: 694222de50280325e6648362fbe9e745131b716b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803542"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014887"
 ---
 # <a name="add-picture-control-in-powerapps"></a>Элемент управления "Добавить изображение" в PowerApps
 Делает снимок или загружает изображения с локального устройства.
