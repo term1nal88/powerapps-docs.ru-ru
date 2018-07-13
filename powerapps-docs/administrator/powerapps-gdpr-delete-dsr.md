@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 495d9976b1daa6e7adb20d97c0840b3a1ba90c4b
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d518cbf398d0f29b25da9dafcfa6e9026fcee88e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552698"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897186"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>Реагирование на запросы по правам субъекта данных (DSR) на удаление данных клиента PowerApps
 
@@ -72,15 +72,15 @@ PowerApps позволяет пользователям создавать би�
 1. Откройте в браузере следующий URL-адрес, заменив адрес электронной почты на собственный: https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1
 
 2. Если вы являетесь участником **неуправляемого клиента**, в ответе будет элемент `"IsViral": true`.
-```
-{
-  ...
-  "Login": "foobar@unmanagedcontoso.com",
-  "DomainName": "unmanagedcontoso.com",
-  "IsViral": true,
-  ...
-}
-```
+   ```
+   {
+   ...
+   "Login": "foobar@unmanagedcontoso.com",
+   "DomainName": "unmanagedcontoso.com",
+   "IsViral": true,
+   ...
+   }
+   ```
 
 3. В противном случае вы относитесь к **управляемому клиенту**.
 

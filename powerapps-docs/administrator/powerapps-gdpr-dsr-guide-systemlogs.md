@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 2c06be34d46688e3a25ce531d0e791dc0b1aca62
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 18bba11ce747b1e04be6013bf41419c34232865a
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553020"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897255"
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>Реагирование на запросы субъектов данных (DSR) на получение системных журналов в PowerApps, Microsoft Flow и Common Data Service for Apps
 Корпорация Майкрософт предоставляет вам возможность использования, экспорта и удаления системных журналов, которые могут рассматриваться как персональные в соответствии с расширенным определением *персональных данных* в Общем регламенте по защите данных (GDPR) ЕС. Примеры системных журналов, которые могут рассматриваться как персональные в соответствии с общим регламентом по защите данных включают следующее:
@@ -106,7 +106,7 @@ ms.locfileid: "34553020"
 1. Откройте в браузере следующий URL-адрес, заменив адрес электронной почты на собственный:[ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1).
 
 2. Если вы являетесь участником **неуправляемого клиента**, в ответе будет элемент `"IsViral": true`.
-  ```
+   ```
       {
       ...
       "Login": "foobar@unmanagedcontoso.com",
@@ -114,6 +114,6 @@ ms.locfileid: "34553020"
       "IsViral": **true**,
       ...
       }
-  ```
+   ```
 
 3. В противном случае вы относитесь к управляемому клиенту.
