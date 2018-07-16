@@ -2,20 +2,24 @@
 title: Создание приложений со специальными возможностями | Документация Майкрософт
 description: Как сделать приложения доступными для людей с ограниченными возможностями
 author: fikaradz
+manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/03/2018
 ms.author: fikaradz
-ms.openlocfilehash: 8a7139f6dbc39bc1585156802e30236aa2b68359
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 909f71a61ca3df73b41eb9e1fe0f3dc3f52d1527
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803082"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018728"
 ---
 # <a name="create-accessible-apps"></a>Создание приложений со специальными возможностями
 Для успешной работы с приложениями пользователям с нарушениями зрения, слуха и других функций требуются особые возможности.  Приведенные ниже рекомендации помогут обеспечить соответствие требованиям многих государственных организаций и корпораций. Кроме того, выполнив эти указания, вы повысите удобство для всех пользователей, независимо от их возможностей.
+
+Используйте **[проверку читаемости](accessibility-checker.md)** для проверки потенциальных проблем со специальными возможностями в вашем приложении. 
 
 ## <a name="layout-and-color"></a>Макет и цвета
 Простой и логичный интерфейс сделает приложение удобным для всех пользователей.  Если предполагается много настроек, учитывайте следующие моменты:  Темы PowerApps должны быть доступными по умолчанию.
@@ -59,4 +63,7 @@ ms.locfileid: "34803082"
 
 
 
-Связанные материалы: **[Свойства специальных возможностей](controls/properties-accessibility.md)**
+Сопутствующая информация:
+- [Свойства специальных возможностей](controls/properties-accessibility.md)
+- [Использование проверки читаемости](accessibility-checker.md)
+- [Цвета высокой контрастности в PowerApps](accessible-apps-color.md)
