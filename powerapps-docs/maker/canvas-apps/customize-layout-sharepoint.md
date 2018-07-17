@@ -2,17 +2,19 @@
 title: Руководство по настройке коллекции в созданном приложении | Документация Майкрософт
 description: С помощью этого руководства вы настроите отображаемые в коллекции данные и другие элементы приложения, автоматически созданного в PowerApps.
 author: AFTOwen
+manager: kvivek
 ms.service: powerapps
 ms.topic: tutorial
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: 80baf43cbde0811d4ab5a7f5212aff767a9f6103
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: bb02f12bf452d1928408ea7c266469b524607b5f
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899946"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016796"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Учебник. Настройка коллекции в PowerApps
 
