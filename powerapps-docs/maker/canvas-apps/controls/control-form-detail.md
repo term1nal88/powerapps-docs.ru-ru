@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 78615949ab5c05b4cf7da56eae23dd1a0194c7ff
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ac74f459c35e7b2ec123540a5cf55c1ad6a21c0a
+ms.sourcegitcommit: 8d9e5f44bcd5cecd24de2c99d5ba04df9ea67275
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838701"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37406030"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Элементы управления "Изменить форму" и "Отображать форму" в PowerApps
 Элементы управления "Отображать форму" и "Изменить форму" служат для отображения, изменения и создания записей в источнике данных.
@@ -151,9 +151,9 @@ ms.locfileid: "31838701"
 
 * Это свойство есть только у элемента управления **Изменить форму**.
 * Свойство **Valid** формы объединяет свойства **Valid** всех элементов управления **[Карточка](control-card.md)** в форме. Свойство **Valid** формы имеет значение **true** только в том случае, если данные действительны во всех карточках формы. В противном случае оно имеет значение **false**.
-* Чтобы кнопка сохраняла изменения, только если форма содержит допустимые данные, назначьте свойству **Enabled** кнопки следующую формулу:
+* Чтобы кнопка сохраняла изменения, только если форма содержит допустимые данные, но они еще не были отправлены, назначьте свойству **DisplayMode** кнопки следующую формулу:
   
-    **SubmitButton.Enabled = IsBlank( Form.Error ) || Form.Valid**
+    **SubmitButton.DisplayMode = If(IsBlank( Form.Error ) || Form.Valid, DisplayMode.Edit, DisplayMode.Disabled)**
 
 ## <a name="additional-properties"></a>Дополнительные свойства
 **[BorderColor](properties-color-border.md)**  — цвет границы элемента управления.

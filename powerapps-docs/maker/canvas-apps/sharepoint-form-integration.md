@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: 69e3baaa769282ca8ac7372ba3360829a1624f3d
-ms.sourcegitcommit: 6bfb002180148a3f22a4d1d8d750fc442489ebe4
+ms.openlocfilehash: f8f21235170483c908149898f92b57cc6c2cb9aa
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35291750"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896427"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>Общие сведения об интеграции форм SharePoint
 Теперь вы можете легко [настроить любую форму списка SharePoint](customize-list-form.md) в PowerApps. В этой статье мы подробно рассмотрим, как работают эти формы и как их можно настроить.
@@ -66,7 +66,7 @@ ms.locfileid: "35291750"
 
     * **OnCancel** — сбрасывает изменения в **SharePointForm1**. SharePoint всегда скрывает форму, когда пользователь нажимает кнопку **Отмена** в SharePoint.
 
-        **SubmitForm(SharePointForm1)**
+        **ResetForm(SharePointForm1)**
 
 Эти значения по умолчанию отвечают за работу формы при выполнении в SharePoint. Они изменяют режим формы PowerApps, когда пользователь взаимодействует с формой в SharePoint, а также обеспечивают отправку изменений в SharePoint.
 
@@ -103,8 +103,8 @@ ms.locfileid: "35291750"
 
 * Используйте формулу **OnSave** элемента управления **SharePointIntegration** для настройки поведения приложения, когда пользователь нажимает кнопку **Сохранить** в SharePoint. Если у вас есть несколько форм, отправляйте изменения только для формы, используемой сейчас.
 
-    >[!TIP]
-     Задайте разные значения для переменной в формулах **OnNew**, **OnView** и **OnEdit**. Вы сможете использовать эту переменную в формуле **OnSave**, чтобы определить, какая форма используется.
+  > [!TIP]
+  >    Задайте разные значения для переменной в формулах **OnNew**, **OnView** и **OnEdit**. Вы сможете использовать эту переменную в формуле **OnSave**, чтобы определить, какая форма используется.
 
 * Необходимо добавить **RequestHide()** в формулу **OnSuccess** для всех форм. В противном случае SharePoint не будет знать, когда скрыть форму.
 

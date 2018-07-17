@@ -5,19 +5,29 @@ author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
-ms.date: 03/07/2018
+ms.date: 07/09/2018
 ms.author: matp
-ms.openlocfilehash: 4aed5f0d34bf88bca706c1c6421ac3b692308ebb
-ms.sourcegitcommit: 63351b1bda5a8dd00786912f95aba9fb3ebfe75c
+manager: kvivek
+ms.custom: ''
+ms.reviewer: ''
+ms.assetid: ''
+ms.openlocfilehash: b0b0cb39cf0a7d49ca24d31c2803ae463df2f97e
+ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36261725"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37925646"
 ---
 # <a name="quickstart-run-an-app-in-a-web-browser"></a>Краткое руководство. Запуск приложения в веб-браузере
 Если вы создали приложение или вам предоставили доступ к приложению, его можно запускать в ОС Windows, iOS, Android или в веб-браузере. В этом кратком руководстве вы узнаете, как запустить приложение на основе холста или модели в веб-браузере с [домашней страницы Dynamics 365](https://home.dynamics.com).
 
-Для выполнения этого краткого руководства требуется [подписка на Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1), включающая Dynamics 365, а также [поддерживаемые браузер и операционная система](../maker/canvas-apps/limits-and-config.md). Кроме того, убедитесь в том, что у вас есть доступ к своему приложению или к приложению, созданному и предоставленному вам другим пользователем.
+Для этого краткого руководства вам потребуется:
+- Лицензия на PowerApps. Она доступна с планом PowerApps, например [пробной версией PowerApps, план 2](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps), или любым планом [Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) или [Dynamics 365](https://dynamics.microsoft.com/pricing/), который включает PowerApps. 
+- Доступ к своему приложению или приложению, созданному и предоставленному вам другим пользователем.
+- Доступ к поддерживаемому веб-браузеру и операционной системе.
+   - Для приложений на основе холста см. [Требования к системе, ограничения и значения конфигурации](../maker/canvas-apps/limits-and-config.md)
+   - Для приложений на основе модели см. раздел [Поддерживаемые веб-браузеры и мобильные устройства](https://docs.microsoft.com/dynamics365/customer-engagement/admin/supported-web-browsers-and-mobile-devices)
+
 
 ## <a name="sign-in-to-dynamics-365"></a>Вход в Dynamics 365
 Войдите в Dynamics 365 на сайте [https://home.dynamics.com](https://home.dynamics.com).

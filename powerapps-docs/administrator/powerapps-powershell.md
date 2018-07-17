@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: reference
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 788f9ec1ce1ac8604606d2d2ad836a0cd12360d4
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 2cb1e1b83cffee2ccea0a4d4b563de44aaa3e68c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552997"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896197"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>Поддержка PowerShell в PowerApps (предварительная версия)
 С помощью предварительной версии командлетов PowerShell для создателей и администраторов приложений вы можете автоматизировать многие задачи мониторинга и управления, которые раньше выполнялись только вручную в [PowerApps](https://web.powerapps.com) или [центре администрирования PowerApps](https://admin.powerapps.com).
@@ -58,6 +58,7 @@ ms.locfileid: "34552997"
 Пользователи с действующей лицензией PowerApps могут выполнять операции в этих командлетах. При этом они будут иметь доступ только к ресурсам (например, приложениям, потокам и т. д.), которые были созданы или предоставлены им для общего доступа.
 
 ### <a name="cmdlet-list"></a>Список командлетов
+
 | Цель | Командлет |
 | --- | --- |
 | Чтение сред | Get-PowerAppsEnvironment <br> Get-FlowEnvironment
@@ -90,13 +91,15 @@ ms.locfileid: "34552997"
 * Права [глобального администратора Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) или [глобального администратора Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal), если вам нужно выполнить поиск по ресурсам другого пользователя. (Помните, что администраторы среды имеют доступ только к тем средам и ресурсам среды, на которые у них есть разрешения.)
 
 ### <a name="cmdlet-list"></a>Список командлетов
+
 | Цель | Командлеты
 | --- | ---
 | Чтение и удаление сред | Get-AdminEnvironment <br> Remove-AdminEnvironment
 | Чтение, обновление и удаление разрешений среды <br><br> *Эти командлеты работают только в средах, в которых нет базы данных Common Data Service (CDS) for Apps.* | Get-AdminEnvironmentRoleAssignment <br> Set-AdminEnvironmentRoleAssignment <br> Remove-AdminEnvironmentRoleAssignment
 | Чтение и удаление приложений на основе холста | Get-AdminApp <br> Remove-AdminApp
 | Чтение, обновление и удаление разрешений приложений на основе холста | Get-AdminAppRoleAssignment <br> Remove-AdminAppRoleAssignment <br> Set-AdminAppRoleAssignment <br> Set-AdminAppOwner
-| Чтение, обновление и удаление потоков | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow  <br> Remove-AdminFlowOwnerRole
+| Чтение, обновление и удаление потоков | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow
+| Чтение, обновление и удаление разрешений потоков | Get-AdminFlowOwnerRole <br> Set-AdminFlowOwnerRole <br> Remove-AdminFlowOwnerRole
 | Чтение и удаление соединений | Get-AdminConnection <br> Remove-AdminConnection
 | Чтение, обновление и удаление разрешений соединений | Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br> Remove-AdminConnectionRoleAssignment
 | Получение и удаление пользовательских соединителей | Get-AdminConnector <br> Remove-AdminConnector

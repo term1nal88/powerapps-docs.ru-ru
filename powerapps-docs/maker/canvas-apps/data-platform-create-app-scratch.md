@@ -1,34 +1,33 @@
 ---
-title: Создание приложения с нуля с помощью базы данных Common Data Service | Документация Майкрософт
+title: Создание приложения с нуля с помощью службы Common Data Service для приложений | Документация Майкрософт
 description: Узнайте, как создать приложение для добавления, обновления и удаления записей.
-documentationcenter: na
 author: AFTOwen
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: a0aab890e52b49bb0cac382338a8fa02eec736a0
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 47a40ed5eea6176e9ef217ecfdcc66f7586b6b6e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838494"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899785"
 ---
-# <a name="create-an-app-from-scratch-using-a-common-data-service-database"></a>Создание приложения с нуля с помощью базы данных Common Data Service
-Вы можете создать приложение для управления данными в службе Common Data Service с использованием стандартных (встроенных) или настраиваемых сущностей, а также сочетания тех и других.
+# <a name="create-an-app-from-scratch-using-common-data-service-for-apps"></a>Создание приложения с нуля с помощью службы Common Data Service для приложений
+
+Вы можете создать приложение для управления данными в службе Common Data Service для приложений с использованием стандартных (встроенных) или настраиваемых сущностей, а также сочетания тех и других.
 
 При создании приложения на основе службы Common Data Service не требуется создавать подключение из PowerApps, как в случае с источниками данных, например SharePoint, Dynamics 365 и Salesforce. Требуется только указать сущности, которые нужно показать или которыми вы собираетесь управлять в приложении.
 
 ## <a name="prerequisites"></a>Технические условия
+
 - Прежде чем создавать приложение с нуля, ознакомьтесь с основами PowerApps, [создав приложение](data-platform-create-app.md), а затем настроив его [коллекцию](customize-layout-sharepoint.md), [формы](customize-forms-sharepoint.md) и [карточки](customize-card.md).
 - [Перейдите в среду](working-with-environments.md), в которой был создан образец базы данных. Если у вас есть соответствующая лицензия, вы можете [создать среду](../../administrator/create-environment.md) с этой целью.
 
 ## <a name="open-a-blank-app"></a>Пустое приложение
+
 1. Войдите в [PowerApps](http://web.powerapps.com).
 
     ![Домашняя страница PowerApps](./media/data-platform-create-app-scratch/sign-in.png)
@@ -40,6 +39,7 @@ ms.locfileid: "31838494"
     Вы можете разработать приложение с нуля для телефонов или других устройств (например, планшетов). В этой статье будет рассмотрено создание приложения для телефонов.
 
 ## <a name="specify-an-entity"></a>Указание сущности
+
 1. В центре экрана нажмите **подключиться к данным**, а затем в области **Данные** выберите подключение **Common Data Service**.
 
 1. В поле поиска введите или вставьте первые несколько букв фразы **учетные записи**, чтобы отфильтровать список сущностей, установите флажок рядом с пунктом **Учетные записи**, а затем нажмите кнопку **Подключиться**.
@@ -49,6 +49,7 @@ ms.locfileid: "31838494"
 1. Закройте область **Данные**, нажав значок закрытия в правом верхнем углу.
 
 ## <a name="add-a-list-screen"></a>Добавление окна списка
+
 1. На вкладке **Главная** нажмите стрелку вниз рядом с элементом **Новый экран** и выберите пункт **Окно списка**.
 
     ![Добавление окна списка](./media/data-platform-create-app-scratch/list-screen.png)
@@ -59,13 +60,13 @@ ms.locfileid: "31838494"
 
     Согласно этой формуле:
 
-    - в коллекции должны отображаться данные из сущности **Учетные записи**;
-    - данные должны сортироваться в порядке возрастания, пока пользователь не изменит порядок сортировки, нажав кнопку сортировки;
-    - если пользователь введет или вставит в поле поиска один или несколько символов, в списке будут отображаться только те учетные записи, поле имени которых содержит эти символы.
+   - в коллекции должны отображаться данные из сущности **Учетные записи**;
+   - данные должны сортироваться в порядке возрастания, пока пользователь не изменит порядок сортировки, нажав кнопку сортировки;
+   - если пользователь введет или вставит в поле поиска один или несколько символов, в списке будут отображаться только те учетные записи, поле имени которых содержит эти символы.
 
-    Вы можете использовать [эти и многие другие функции](formula-reference.md) для настройки внешнего вида и поведения приложения.
+     Вы можете использовать [эти и многие другие функции](formula-reference.md) для настройки внешнего вида и поведения приложения.
 
-    ![Задание свойства Items коллекции](./media/data-platform-create-app-scratch/gallery-items.png)
+     ![Задание свойства Items коллекции](./media/data-platform-create-app-scratch/gallery-items.png)
 
 1. Настройте макет коллекции так, чтобы отображалось только имя каждой учетной записи, а заголовок настройте так, чтобы отображалось слово **Обзор**, как описано в статье [Настройка коллекции](customize-layout-sharepoint.md).
 
@@ -80,6 +81,7 @@ ms.locfileid: "31838494"
     ![Переименование окна обзора, коллекция](./media/data-platform-create-app-scratch/rename-browse.png)
 
 ## <a name="add-a-form-screen"></a>Добавление окна формы
+
 1. Повторите первое действие из предыдущей процедуры, но добавьте **окно формы** вместо **окна списка**.
 
 1. На вкладке **Дополнительно** в области справа присвойте свойству **DataSource** формы значение **Учетные записи**, а ее свойству **Item** — значение **BrowseGallery.Selected**.
@@ -104,39 +106,47 @@ ms.locfileid: "31838494"
 1. Измените имя экрана на **FormScreen**.
 
 ## <a name="configure-icons"></a>Настройка значков
-1. В верхней части окна **BrowseScreen** нажмите круглый значок и задайте в качестве значения его свойства **OnSelect** следующую формулу:<br>
-`Refresh(Accounts)`
+
+1. В верхней части окна **BrowseScreen** нажмите круглый значок и задайте в качестве значения его свойства **OnSelect** следующую формулу:
+
+    `Refresh(Accounts)`
 
     ![Значок обновления](./media/data-platform-create-app-scratch/refresh-icon.png)
 
-1. Нажмите значок "плюс" и задайте следующую формулу в качестве значения свойства **OnSelect**:<br>
-`NewForm(EditForm1); Navigate(FormScreen, ScreenTransition.None)`
+1. Нажмите значок "плюс" и задайте следующую формулу в качестве значения свойства **OnSelect**:
+
+    `NewForm(EditForm1); Navigate(FormScreen, ScreenTransition.None)`
 
     ![Значок добавления](./media/data-platform-create-app-scratch/plus-icon.png)
 
-1. Нажмите первую стрелку, направленную вправо, и задайте следующую формулу в качестве значения свойства **OnSelect**:<br>
-`EditForm(EditForm1); Navigate(FormScreen, ScreenTransition.None)`
+1. Нажмите первую стрелку, направленную вправо, и задайте следующую формулу в качестве значения свойства **OnSelect**:
+
+    `EditForm(EditForm1); Navigate(FormScreen, ScreenTransition.None)`
 
     ![Значок "Далее"](./media/data-platform-create-app-scratch/next-icon.png)
 
-1. В окне **FormScreen** нажмите значок отмены и задайте в качестве значения его свойства **OnSelect** следующую формулу:<br>
-`ResetForm(EditForm1);Navigate(BrowseScreen, ScreenTransition.None)`
+1. В окне **FormScreen** нажмите значок отмены и задайте в качестве значения его свойства **OnSelect** следующую формулу:
+
+    `ResetForm(EditForm1);Navigate(BrowseScreen, ScreenTransition.None)`
 
     ![Значок отмены](./media/data-platform-create-app-scratch/cancel-icon.png)
 
-1. Нажмите значок с галочкой и задайте следующую формулу в качестве значения свойства **OnSelect**:<br>
-`SubmitForm(EditForm1); Navigate(BrowseScreen, ScreenTransition.None)`
+1. Нажмите значок с галочкой и задайте следующую формулу в качестве значения свойства **OnSelect**:
+
+    `SubmitForm(EditForm1); Navigate(BrowseScreen, ScreenTransition.None)`
 
     ![Значок с галочкой](./media/data-platform-create-app-scratch/checkmark-icon.png)
 
 1. На вкладке **Вставка** нажмите элемент **Значки**, а затем выберите значок **Корзина**.
 
-1. Задайте для свойства **Color** значка **Корзина** значение **White**, а в качестве значения свойства **OnSelect** укажите следующую формулу:<br>
-`Remove(Accounts, BrowseGallery.Selected); Navigate(BrowseScreen, ScreenTransition.None)`
+1. Задайте для свойства **Color** значка **Корзина** значение **White**, а в качестве значения свойства **OnSelect** укажите следующую формулу:
+
+    `Remove(Accounts, BrowseGallery.Selected); Navigate(BrowseScreen, ScreenTransition.None)`
 
     ![Значок корзины](./media/data-platform-create-app-scratch/trash-icon.png)
 
 ## <a name="test-the-app"></a>Тестирование приложения
+
 1. На панели навигации слева выберите окно **BrowseScreen**, а затем откройте режим предварительного просмотра, нажав клавишу F5 (либо нажав значок воспроизведения в правом верхнем углу).
 
     ![Открытие режима предварительного просмотра](./media/data-platform-create-app-scratch/open-preview.png)
@@ -146,5 +156,5 @@ ms.locfileid: "31838494"
 1. Добавьте учетную запись, измените ее, начните обновлять ее, но отмените изменения, а затем удалите учетную запись.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Откройте один или несколько примеров приложений](open-and-run-a-sample-app.md) и ознакомьтесь с различными типами приложений, которые можно создавать.
 
+[Откройте один или несколько примеров приложений](open-and-run-a-sample-app.md) и ознакомьтесь с различными типами приложений, которые можно создавать.

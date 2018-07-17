@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: c01a69f311378e8e818036c866b96a78f223baf9
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f2c1807f221d3134bbf39c74ae2939babbdd256e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837132"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899371"
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>Функции EndsWith и StartsWith в PowerApps
 Эти функции проверяют, есть ли в начале или в конце одной текстовой строки другая текстовая строка.
@@ -29,7 +29,7 @@ ms.locfileid: "31837132"
 
 При проверке для обеих функций регистр не учитывается.  Обе функции возвращают логическое значение **true** или **false**.  
 
-С помощью функций **EndsWith** и **StartsWith** в сочетании с функцией **[Filter](function-filter-lookup.md)** можно искать данные в приложении. Кроме того, для поиска значений в любом месте текстовых строк (а не только в начале или конце) можно использовать оператор **[in](operators.md#in-and-exactin-operators)** или функцию **[Search](function-filter-lookup.md)**.  Выбор функции зависит от потребностей приложения и от того, какую функцию можно [делегировать](../delegation-overview.md) для конкретного источника данных.  Если какую-либо из этих функций нельзя делегировать, на этапе создания рядом с ней появится синяя точка.
+С помощью функций **EndsWith** и **StartsWith** в сочетании с функцией **[Filter](function-filter-lookup.md)** можно искать данные в приложении. Кроме того, для поиска значений в любом месте текстовых строк (а не только в начале или конце) можно использовать оператор **[in](operators.md#in-and-exactin-operators)** или функцию **[Search](function-filter-lookup.md)**.  Выбор функции зависит от потребностей приложения и от того, какую функцию можно [делегировать](../delegation-overview.md) для конкретного источника данных.  Если какую-либо из этих функций нельзя делегировать, на этапе создания появится предупреждение о делегировании.
 
 ## <a name="syntax"></a>Синтаксис
 **EndsWith**( *Text*, *EndText* )
@@ -43,6 +43,7 @@ ms.locfileid: "31837132"
 * *начальный_текст* — обязательный аргумент.  Текст, который нужно найти в начале аргумента *текст*.  Если *начальный_текст* — пустая строка, функция **StartsWith** возвращает значение *true*.
 
 ## <a name="examples"></a>Примеры
+
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
 | **EndsWith( "Hello World", "world" )** |Проверяет, заканчивается ли строка **Hello World** словом **world**.  При проверке регистр не учитывается. |**true** |

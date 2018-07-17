@@ -1,23 +1,19 @@
 ---
 title: Функции, сигналы и перечисления | Документация Майкрософт
 description: Справочные сведения о функциях, сигналах и перечислениях в PowerApps.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: af089f81b8fd96ec022fe32495cb14f2827f28b5
-ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
+ms.openlocfilehash: b131f9da9dbf0624185fc837c5582c9ef0477089
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34822588"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948603"
 ---
 # <a name="formula-reference-for-powerapps"></a>Справочник формул для PowerApps
 Формулы объединяют множество элементов.  Ниже перечислены следующие элементы:
@@ -65,6 +61,8 @@ ms.locfileid: "34822588"
 
 **[Char](functions/function-char.md)** — преобразует код знака в строку.
 
+**[Choices](functions/function-choices.md)**  — возвращает таблицу из возможных значений для столбца подстановки.
+
 **[Clear](functions/function-clear-collect-clearcollect.md)** — удаляет все данные из [коллекции](working-with-data-sources.md#collections).
 
 **[ClearCollect](functions/function-clear-collect-clearcollect.md)** — удаляет все данные из коллекции, а затем добавляет набор [записей](working-with-tables.md#records).
@@ -86,6 +84,8 @@ ms.locfileid: "34822588"
 **[Concat](functions/function-concatenate.md)** — объединяет строки в источнике данных.  
 
 **[Concatenate](functions/function-concatenate.md)** — объединяет строки.
+
+**[Concurrent](functions/function-concurrent.md)**  — оценивает несколько формул одновременно. 
 
 **[Connection](functions/signals.md)** — возвращает сведения о сетевом подключении.
 
@@ -279,6 +279,8 @@ ms.locfileid: "34822588"
 **[Search](functions/function-filter-lookup.md)** — находит записи в таблице, содержащие строку в одном из столбцов.  
 
 **[Second](functions/function-datetime-parts.md)** — возвращает данные времени в секундах из значения даты и времени.
+
+**[Select](functions/function-select.md)**  — имитирует действие выбора элемента управления, активируя вычисление формулы **OnSelect**.
 
 **[Set](functions/function-set.md)** — задает значение глобальной переменной.
 
