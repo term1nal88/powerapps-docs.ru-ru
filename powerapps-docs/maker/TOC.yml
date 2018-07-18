@@ -73,6 +73,8 @@
           href: ./canvas-apps/working-with-variables.md
         - name: формулы
           href: ./canvas-apps/working-with-formulas-in-depth.md
+        - name: Экспериментальные и предварительные версии компонентов
+          href: ./canvas-apps/working-with-experimental.md
         - name: Даты и время
           href: ./canvas-apps/show-text-dates-times.md
         - name: Источники данных
