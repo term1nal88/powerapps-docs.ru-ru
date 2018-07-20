@@ -1,23 +1,21 @@
 ---
 title: Функции Blank, Coalesce, IsBlank и IsEmpty | Документация Майкрософт
 description: Справочные сведения о функциях Blank, Coalesce, IsBlank и IsEmpty в PowerApps, в том числе описание синтаксиса и примеры
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
+ms.custom: canvas
+ms.reviewer: anneta
 ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: 29d0399de5404e6bd8995e3aecaedcfd7f1db6e8
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 7922f286f9d1c1c3af8876b2cd8547b441b29585
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898612"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023926"
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>Функции Blank, Coalesce, IsBlank и IsEmpty в PowerApps
 Эти функции позволяют проверить, является ли значение пустым и отсутствуют ли в [таблице](../working-with-tables.md) [записи](../working-with-tables.md#records), а также позволяют создавать *пустые* значения.

@@ -1,23 +1,20 @@
 ---
 title: Настройка предупреждений о данных для информационной панели Power BI | Документация Майкрософт
 description: В этой задаче мы добавим в Power BI оповещение о проектах, для утверждения которых превышено время ожидания, и последовательность операций, выполняемых после этого оповещения.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 663c5dfcad45e65044958c9d3b8b1aa111840a61
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 88750417fa256e1d0fe8a0184b6d0bc3eb846080
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827811"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023650"
 ---
 # <a name="set-up-data-alerts-for-the-power-bi-dashboard"></a>Настройка оповещений о данных для панели мониторинга Power BI
 > [!NOTE]

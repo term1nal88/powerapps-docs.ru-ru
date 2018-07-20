@@ -1,23 +1,20 @@
 ---
 title: Справка по элементам управления "Фигуры" и "Значки" | Документация Майкрософт
 description: Сведения о фигурах и значках с описанием их свойств и примерами
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 8b6ec4ac944e8527bda508f4f005361d681be8e0
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 12865bf432ed31f0964add63fa024182680fb7aa
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899624"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022408"
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>Фигуры и значки в PowerApps
 Фигуры и значки — это элементы управления, для которых можно настроить внешний вид и поведение.

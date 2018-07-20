@@ -1,23 +1,20 @@
 ---
 title: Создание приложения для обработки запросов проекта | Документация Майкрософт
 description: В рамках этого руководства мы создадим базовое *приложение с тремя экранами* непосредственно из списка SharePoint.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 4ae16517332864066f5b744e85ce3fe48c97a1df
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 7072d78b79adff65aac33c888bf0f980f953ef84
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329785"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023949"
 ---
 # <a name="generate-an-app-to-handle-project-requests"></a>Создание приложения для обработки запросов проекта
 > [!NOTE]

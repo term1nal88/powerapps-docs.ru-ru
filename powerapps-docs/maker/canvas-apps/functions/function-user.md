@@ -1,23 +1,20 @@
 ---
 title: Функция User | Документация Майкрософт
 description: Справочные сведения, включая описание синтаксиса, о функции User в PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2016
 ms.author: gregli
-ms.openlocfilehash: 9ec6730a03781bdbffc9c80d815e960de2ce6064
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 05fcf0e10522bf8f70972ddc5b86d504afb28e4e
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899072"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022293"
 ---
 # <a name="user-function-in-powerapps"></a>Функция User в PowerApps
 Возвращает сведения о текущем пользователе.

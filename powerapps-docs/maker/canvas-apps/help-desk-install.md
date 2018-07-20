@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 96b824bc5ac9dc3a1200e14f1240105d52c076f6
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 6145f321f3a9322433cdc32b779479871ab4dbf1
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023765"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094778"
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Служба поддержки"
 
@@ -288,7 +288,7 @@ ms.locfileid: "39023765"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-- [Настройка формы списка SharePoint с помощью PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
-- [Добавление и настройка элемента управления в PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
+- [Настройка формы списка SharePoint с помощью PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)
+- [Добавление и настройка элемента управления в PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-configure-controls)
 - [Управление разрешениями для списка или библиотеки SharePoint](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
  

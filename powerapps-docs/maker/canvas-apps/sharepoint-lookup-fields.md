@@ -1,23 +1,20 @@
 ---
 title: Создание связи между списками SharePoint с помощью поля подстановки | Документация Майкрософт
 description: Сведения о создании связи между списками SharePoint с помощью поля подстановки.
-documentationcenter: na
 author: skjerland
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 01/20/2017
 ms.author: sharik
-ms.openlocfilehash: 0a257df76980bcf1801c9ed98de87ae06c4ae624
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 58097eec0bc483d8c38bf354513b70573e43049d
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330084"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023535"
 ---
 # <a name="how-to-link-sharepoint-lists-using-lookup-fields"></a>Как связать списки SharePoint с помощью полей подстановки
 В этом руководстве показано, как связать два списка SharePoint с помощью полей подстановки.

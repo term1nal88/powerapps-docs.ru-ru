@@ -2,17 +2,19 @@
 title: Получение идентификатора сеанса или приложения | Документация Майкрософт
 description: Как получить идентификатор сеанса или приложения для устранения неполадок в PowerApps
 author: AFTOwen
+manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 06/18/2018
-ms.author: anneta, brimcg
-ms.openlocfilehash: add591d1bf565f3ad89e0138257fdf365d6add8e
-ms.sourcegitcommit: 1126caa4c7516cd4dffcff7e0c3eca440a333a58
+ms.author: anneta
+ms.openlocfilehash: 2e9b1a38de104ce1bf5a17969ca2c79792ac6fd4
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36304691"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022270"
 ---
 # <a name="get-a-session-id-or-an-app-id"></a>Получение идентификатора сеанса или приложения
 Если с приложением, созданным в PowerApps, возникает проблема, вы можете помочь корпорации Майкрософт устранить ее значительно эффективнее, если укажете идентификатор сеанса и (или) приложения.

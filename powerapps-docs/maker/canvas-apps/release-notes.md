@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/21/2018
 ms.author: anneta
-ms.openlocfilehash: e68614f2624a0d60e09563f92bf027fdf03d77b5
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 55b60abd9dc07d5b6c1979190f20ef893265475f
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023903"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094709"
 ---
 # <a name="whats-new-in-powerapps"></a>Новые возможности PowerApps
 > [!IMPORTANT]
 > **Объявление о заметках о выпуске**<br>
 > Хотите узнать о недавно выпущенных и готовящихся к выпуску возможностях PowerApps?<br>
-[Просмотрите заметки о выпуске](https://docs.microsoft.com/en-us/business-applications-release-notes/april18/powerapps/overview). В них вы найдете исчерпывающую информацию, которую можно использовать для планирования.
+[Просмотрите заметки о выпуске](https://docs.microsoft.com/business-applications-release-notes/april18/powerapps/overview). В них вы найдете исчерпывающую информацию, которую можно использовать для планирования.
 
 Сведения об известных ограничениях см. в статье [Типичные проблемы и решения](common-issues-and-resolutions.md).
 

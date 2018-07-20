@@ -1,23 +1,20 @@
 ---
 title: Свойства текста | Документация Майкрософт
 description: Справочные сведения о таких свойствах, как Text, Tooltip и HintText.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 1331cbbab185656929ebede7c804a8c3dfee52ab
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 27307d9e8c6a1e4e1eefb7dfbd61d65704f7f03d
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31835285"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022983"
 ---
 # <a name="text-properties-in-powerapps"></a>Текстовые свойства в PowerApps
 Настройка текста, отображаемого в элементе управления, подсказке и указании, отображаемом при вводе данных пользователем, а также задание других характеристик текста.

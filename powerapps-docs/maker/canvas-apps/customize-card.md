@@ -1,23 +1,20 @@
 ---
 title: Настройка карточки | Документация Майкрософт
 description: Изменение элемента управления по умолчанию, отображаемого в карточке в форме сведений или редактирования в PowerApps
-documentationcenter: ''
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: aa9d5785f1c005da7c22c63bd94cb41e1a643ad3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 56a46493ef15eff7d65d19f12affb2a58dbba0b6
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31829318"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023443"
 ---
 # <a name="customize-a-card-in-powerapps"></a>Настройка карточки в PowerApps
 Выполните основную настройку (без разблокировки карточки), например измените элемент управления. Выполните дополнительную настройку, разблокировав карточку и, например, добавив элемент управления, недоступный по умолчанию для этой карточки.

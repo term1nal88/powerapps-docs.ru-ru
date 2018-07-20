@@ -1,23 +1,20 @@
 ---
 title: Справка по элементу управления "Экран" | Документация Майкрософт
 description: Сведения об элементе управления "Экран" с описанием его свойств и примерами
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 165b6544808da234773c2b7a2cdd0014d6fe5c2d
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 00c44b3f1948447b7045707d5c5f92d0d04ff4d0
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898719"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022362"
 ---
 # <a name="screen-control-in-powerapps"></a>Элемент управления "Экран" в PowerApps
 Элемент пользовательского интерфейса приложения, содержащий один или несколько других элементов управления.
