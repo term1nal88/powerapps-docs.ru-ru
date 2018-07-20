@@ -1,23 +1,20 @@
 ---
 title: Функция IfError | Документы Майкрософт
 description: Справочные сведения о функции IfError в PowerApps, включая описание синтаксиса и примеры
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 03/21/2018
 ms.author: gregli
-ms.openlocfilehash: ebd4454184f684dbf85ec2b8a9056395b92dc47f
-ms.sourcegitcommit: 234de505a0e8c42459d87053fa00ea3e0ea0b909
+ms.openlocfilehash: 9b9130671d49d58ee2aabce316b9c369753cedef
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092790"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016612"
 ---
 # <a name="iferror-function-in-powerapps"></a>Функция IfError в PowerApps
 Обнаруживает ошибки и предоставляет альтернативное значение или выполняет действие.

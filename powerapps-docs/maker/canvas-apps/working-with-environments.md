@@ -1,23 +1,20 @@
 ---
 title: Работа со средами | Документация Майкрософт
 description: Переключение сред и понимание механизма изменения содержимого на ваших страницах.
-documentationcenter: na
 author: linhtranms
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: 4bf196041853e9f88c97aabcd3ff1c234b2608be
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 04ed5dfb76cb26f629f36514a05eda9690669926
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329486"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020637"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>Работа со средами и Microsoft PowerApps
 С помощью PowerApps можно работать в различных средах и легко переключаться между ними. Общие сведения о средах см. в [обзоре сред](../../administrator/environments-overview.md), в котором подробно объясняется, для чего предназначены среды, а также рассматриваются способы создания и управления ими. В этой статье будут рассмотрены следующие темы, касающиеся сред:

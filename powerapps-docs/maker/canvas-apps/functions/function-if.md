@@ -1,23 +1,20 @@
 ---
 title: Функции If и Switch | Документация Майкрософт
 description: Справочные сведения о функциях If и Switch в PowerApps, в том числе синтаксис и примеры.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/24/2017
 ms.author: gregli
-ms.openlocfilehash: f4e5510224d5abc7a6d2ccaa286d08c8f170fa10
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5293cd448d96633e2d8d2cda9dfbd6d3c162c953
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838402"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017394"
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>Функции If и Switch в PowerApps
 Функция **If** определяет, выполняется ли какое-либо условие в наборе (т. е. имеет значение true). Функция **Switch** определяет, совпадает или результат формулы с каким-либо значением в наборе. После чего эти функции возвращают результат или выполняют действие.

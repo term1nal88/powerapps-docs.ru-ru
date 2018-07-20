@@ -1,23 +1,20 @@
 ---
 title: План сообщества PowerApps. Бесплатная среда разработки для индивидуального использования | Документы Майкрософт
 description: Зарегистрируйтесь для приобретения и закрепления навыков работы c PowerApps, Microsoft Flow и Common Data Service.
-documentationcenter: na
-author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
 ms.date: 05/01/2016
-ms.author: mblythe
-ms.openlocfilehash: 324fa80060a7c07bd5f0708df9fdabdbe7893236
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.author: anneta
+ms.reviewer: ''
+ms.openlocfilehash: 533234c7a0ca3cc69e30eb077ff0bd39d1d50a11
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899486"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017095"
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>План сообщества PowerApps. Бесплатная среда разработки для индивидуального использования
 Если вы хотите приобрести навыки и узнать больше о PowerApps, Microsoft Flow и Common Data Service, план сообщества PowerApps вам подходит. План сообщества PowerApps предоставляет бесплатную среду разработки для индивидуального использования, в которой можно:

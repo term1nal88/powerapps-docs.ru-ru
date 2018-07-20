@@ -1,23 +1,20 @@
 ---
 title: Общие сведения о картах данных | Документация Майкрософт
 description: Карты форм можно использовать для сбора и отображения сведений из источника данных.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 074e40dd2fc19279bef36ac91196c61b050abda3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 81e0213caee1d4eed466edebe3d13cbfa1c3e7e2
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838086"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020775"
 ---
 # <a name="understand-data-cards"></a>Общие сведения о карточках данных
 Элементы управления **[Карта](controls/control-card.md)** являются стандартными блоками элементов управления **[Форма редактирования](controls/control-form-detail.md)** и **[Форма отображения](controls/control-form-detail.md)**. Форма представляет всю запись, а каждая карта представляет одно поле этой записи.

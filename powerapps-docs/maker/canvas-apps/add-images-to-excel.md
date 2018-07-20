@@ -1,22 +1,20 @@
 ---
 title: Добавление изображений в Excel | Документация Майкрософт
 description: Пошаговые инструкции по добавлению файлов с изображениями и рисунками от руки в Excel в облачной службе
-documentationcenter: ''
-author: aftowen
-manager: kfile
-editor: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 10/25/2016
 ms.author: anneta
-ms.openlocfilehash: 29da2a8814b0de7d34915f9992aeb963743785d2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: cc3609991ffb68f6846cb73b7ccfa37227d0c8e7
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32328842"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019494"
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>Добавление изображений в Excel из PowerApps
 Вы можете автоматически создать приложение, в котором пользователи смогут показывать, добавлять и удалять изображения из файлов и рисунки, созданные с помощью элемента управления **Перо**. Это приложение основано на файле Excel, который вы создаете и отправляете в учетную запись облачного хранилища.

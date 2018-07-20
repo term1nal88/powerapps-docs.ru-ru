@@ -1,22 +1,20 @@
 ---
 title: Отображение текста и форматирование даты или времени | Документация Майкрософт
 description: Добавление и форматирование дат и времени с помощью PowerApps.
-documentationcenter: ''
 author: AFTOwen
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: faa8db15596dc0da0d5b5638f5dd9c334517fc7c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 625d76af5acc554ff9ab6c20d69f542cf959cd95
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330958"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018084"
 ---
 # <a name="show-text-and-format-dates-and-times-in-powerapps"></a>Отображение текста, формата, даты и времени в PowerApps
 Добавьте значения даты и времени и отформатируйте, чтобы отобразить их с нужной степенью детализации или с учетом языкового стандарта. Вычислите промежуток времени между двумя датами или вычислите дату, которая следует через определенное время до или после указанной даты. Преобразуйте даты в отдельные значения дней, месяцев и лет (и наоборот) и преобразуйте время в отдельные значения часов, минут и секунд (и наоборот).

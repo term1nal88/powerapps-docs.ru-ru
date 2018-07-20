@@ -1,22 +1,20 @@
 ---
 title: Запуск последовательности в приложении | Документация Майкрософт
 description: Создайте последовательность, выполняющую одну или несколько задач после определенного события в приложении, например после нажатия кнопки.
-documentationcenter: ''
 author: stepsic-microsoft-com
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: 7079dc6194361cc700ccaad6c02ca0bcf8a9f9d6
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: c395a548d0a920a21e8d4128f75a3b01deb9de3a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895921"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019372"
 ---
 # <a name="start-a-flow-in-an-app"></a>Запуск последовательности в приложении
 Microsoft Flow позволяет создать логику, выполняющую одну или несколько задач после возникновения события в приложении. Например, настройте кнопку таким образом, чтобы при ее нажатии в списке SharePoint создавался элемент, отправлялось электронное сообщение или запрос на собрание, файл добавлялся в облако или чтобы выполнялись все из перечисленных действий. Вы можете настроить любой элемент управления в приложение для запуска последовательности, которая будет выполняться, даже если закрыть PowerApps.

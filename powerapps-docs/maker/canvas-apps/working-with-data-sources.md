@@ -1,23 +1,20 @@
 ---
 title: Общие сведения об источниках данных | Документация Майкрософт
 description: Справочные сведения по работе с подключениями и источниками данных в Microsoft PowerApps.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: 4cdc1116de5882b69814bd91b4006debb8c5f5cf
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: d8fd771d9407d0ca2601471a06c727b16a751f2a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899348"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020897"
 ---
 # <a name="understand-data-sources-in-powerapps"></a>Общие сведения об источниках данных в PowerApps
 Большинство приложений PowerApps используют внешние сведения, хранящиеся в облачных службах, которые называются **источниками данных**. Типичный пример — это таблица в файле Excel, который хранится в OneDrive для бизнеса. Приложения получают доступ к источникам данных с помощью **подключений**.

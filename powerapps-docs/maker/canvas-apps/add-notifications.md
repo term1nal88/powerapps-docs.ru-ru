@@ -1,23 +1,20 @@
 ---
 title: Отправка push-уведомлений | Документация Майкрософт
 description: Узнайте, как отправлять системные push-уведомления в приложения в PowerApps.
-documentationcenter: na
 author: jamesol-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 1ab3b17d03b2fd21fceb0675ca55d33302f67d31
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 45311aefca51d8d1a4fc6c8cc6dabc33872842df
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897769"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020844"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>Отправка push-уведомлений в PowerApps
 Push-уведомления используются в мобильных приложениях преимущественно при работе с потребителями и в бизнес-сценариях для привлечения пользователей приложений и определения приоритетности ключевых задач. В PowerApps уведомления можно отправлять с помощью соединителя PowerApps Notification. Системные push-уведомления можно отправлять в любое приложение, которое создается в PowerApps. В будущем мы планируем добавить больше типов уведомлений.

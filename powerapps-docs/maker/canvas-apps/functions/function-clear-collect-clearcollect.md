@@ -1,23 +1,20 @@
 ---
 title: Функции Collect, Clear и ClearCollect | Документация Майкрософт
 description: Справочные сведения о функциях Collect, Clear и ClearCollect в PowerApps, включая описание синтаксиса и примеры
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 9d67db7829361565072362b6ac37125dc0dc673a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5153ac79100e3c0875abbf081e480bfc66dfdbd0
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834111"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019853"
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>Функции Collect, Clear и ClearCollect в PowerApps
 Создание и удаление [коллекций](../working-with-data-sources.md#collections) и добавление [записей](../working-with-tables.md#records) в любом [источнике данных](../working-with-data-sources.md).

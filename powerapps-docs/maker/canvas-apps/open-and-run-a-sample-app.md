@@ -1,23 +1,20 @@
 ---
 title: Использование примера приложения (краткое руководство) | Документы Майкрософт
 description: Пошаговые инструкции по созданию приложения на основе холста с помощью образца в PowerApps
-documentationcenter: na
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/11/2018
 ms.author: anneta
-ms.openlocfilehash: 4f1d30f9645bb49ac2d838791cb52fc071073601
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 2051fdf0d9cb1d5fb2f796b22f55e8b59c52a692
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826828"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018314"
 ---
 # <a name="quickstart-create-a-canvas-app-from-a-sample-in-powerapps"></a>Краткое руководство. Создание приложения на основе холста с помощью образца в PowerApps
 В этом кратком руководстве вы создадите приложение на основе холста из образца, чтобы изучить возможности проектирования и принципы, которые можно применять при разработке собственных приложений на основе холста.

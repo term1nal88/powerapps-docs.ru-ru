@@ -1,23 +1,20 @@
 ---
 title: Справка по элементам управления "Экспорт" и "Импорт" | Документация Майкрософт
 description: Сведения об элементах управления "Экспорт" и "Импорт", а также свойства и примеры
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 958589deb4fdee42cb8e6df13ff15addbc06c07e
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9eb0cf33c4bac3553592971409f7c52f199b368b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830700"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017302"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>Элементы управления "Экспорт" и "Импорт" в PowerApps
 Элементы управления для экспорта данных в локальный файл, а затем импорта этих данных в другое приложение в PowerApps.

@@ -1,23 +1,20 @@
 ---
 title: Управление локальным шлюзом данных | Документация Майкрософт
 description: Управление локальным шлюзом данных и его подключениями
-documentationcenter: na
 author: archnair
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: 939758c1550f1006f00bd9a386eb4b9cbcd69af0
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: e7dc9a2386d75a6f03744286b7ed265a8d385370
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899923"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018544"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>Управление локальным шлюзом данных в PowerApps
 Установите локальный шлюз данных для быстрой и безопасной передачи данных между PowerApps и источником данных, который находится не в облаке (например, локальной базой данных SQL Server или локальным сайтом SharePoint). Просматривайте все шлюзы, для которых у вас есть административные разрешения, и управляйте связанными разрешениями и подключениями.

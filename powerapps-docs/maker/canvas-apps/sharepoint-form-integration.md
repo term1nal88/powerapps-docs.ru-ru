@@ -1,23 +1,20 @@
 ---
 title: Общие сведения об интеграции форм SharePoint | Документация Майкрософт
 description: Возможности настраиваемых форм в SharePoint
-documentationcenter: na
 author: sarafankit
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: f8f21235170483c908149898f92b57cc6c2cb9aa
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: f717213a2f545c5cd7358c21b3cf9490aaf1708d
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896427"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020959"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>Общие сведения об интеграции форм SharePoint
 Теперь вы можете легко [настроить любую форму списка SharePoint](customize-list-form.md) в PowerApps. В этой статье мы подробно рассмотрим, как работают эти формы и как их можно настроить.

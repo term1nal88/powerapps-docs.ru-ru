@@ -1,23 +1,20 @@
 ---
 title: Отображение, редактирование и добавление записей из таблицы | Документация Майкрософт
 description: Узнайте, как использовать форму для отображения, редактирования и добавления записей из таблицы в источнике данных.
-documentationcenter: na
 author: karthik-1
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/06/2017
 ms.author: sharik
-ms.openlocfilehash: a68986c39ffe251f55c10a26386c8430398d2718
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: b98c5d165ba6de983a874f0a34fb92c5db8a69cd
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895829"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018958"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>Отображение, редактирование и добавление записи из таблицы в PowerApps
 Чтобы отобразить все поля записи, добавьте и настройте элемент управления **[Форма отображения](controls/control-form-detail.md)**. Чтобы изменить поле в записи (или добавить запись), а затем сохранить изменения в источнике данных, добавьте и настройте элемент управления **[Форма редактирования](controls/control-form-detail.md)**.

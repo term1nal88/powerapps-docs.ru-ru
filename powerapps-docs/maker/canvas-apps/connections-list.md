@@ -1,23 +1,20 @@
 ---
 title: Общие сведения о соединителях | Документация Майкрософт
 description: Обзор всех доступных подключений, которые можно использовать для создания приложений
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 08/28/2017
 ms.author: lanced
-ms.openlocfilehash: baa4c71efb54cea6f04cd45b895009a3c3ce17c7
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 6ca9b6d873d4d5266486bc1c7b8b876e4f08574a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899302"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020936"
 ---
 # <a name="overview-of-connectors-for-powerapps"></a>Общие сведения о соединителях для PowerApps
 Большинство приложений основываются на данных, в том числе и те, которые создаются в PowerApps. Эти данные хранятся в *источниках данных*. Вы переносите их в приложение при создании *подключения*. Для подключения используется определенный *соединитель*, который обеспечивает обмен данными с источником данных. В PowerApps есть соединители для многих популярных служб и локальных источников данных, включая SharePoint, SQL Server, Office 365, Salesforce, Twitter и другие. Чтобы начать добавлять данные в приложение, ознакомьтесь со статьей [Добавление подключения к данным в PowerApps](add-data-connection.md).

@@ -1,23 +1,20 @@
 ---
 title: Операторы | Документация Майкрософт
 description: Справочные сведения об операторах в PowerApps, в том числе описание синтаксиса и примеры
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: 1c9cf86db3257316d8acade9917038db62d3191c
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 53ee881a81045f6c63c68d363b3a19d712bea9f7
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899670"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017900"
 ---
 # <a name="operators-and-data-types-in-powerapps"></a>Операторы и типы данных в PowerApps
 Некоторые из этих операторов зависят от языка, используемого на компьютере автора.  Дополнительные сведения см. в статье [Глобальная поддержка](../global-apps.md).

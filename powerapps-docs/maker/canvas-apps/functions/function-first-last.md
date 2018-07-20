@@ -1,23 +1,20 @@
 ---
 title: Функции First, FirstN, Last и LastN | Документация Майкрософт
 description: Справочные сведения о функциях First, FirstN, Last и LastN в PowerApps, включая описание синтаксиса и примеры.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 947a6c369c41b1ff67c611fa734f927227dde991
-ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
+ms.openlocfilehash: 3d94a3a250041ec7524460640f0bca4351ddcacf
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38095880"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021120"
 ---
 # <a name="first-firstn-last-and-lastn-functions-in-powerapps"></a>Функции First, FirstN, Last и LastN в PowerApps
 Возвращает первый или последний набор [записей](../working-with-tables.md#records) таблицы.

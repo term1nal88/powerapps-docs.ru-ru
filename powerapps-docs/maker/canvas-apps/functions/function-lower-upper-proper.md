@@ -1,23 +1,20 @@
 ---
 title: Функции Lower, Upper и Proper | Документация Майкрософт
 description: Справочные сведения, включая описание синтаксиса и примеры, для функций Lower, Upper и Proper в PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: e57ea9208f0ea3b7dd9ada7ebd9055a99ddc141c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: dbfc53352b0e22db1e809cd9c1ced2001f732051
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831784"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019970"
 ---
 # <a name="lower-upper-and-proper-functions-in-powerapps"></a>Функции Lower, Upper и Proper в PowerApps
 Преобразуют буквы текстовой строки во все строчные, все прописные или в правильный регистр.

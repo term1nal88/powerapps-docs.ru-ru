@@ -1,23 +1,20 @@
 ---
 title: Справка по элементу управления "Карточка" | Документация Майкрософт
 description: Сведения об элементе управления "Карточка" с описанием его свойств и примерами
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 7d44ba120a68d08f5779b8383df5b2263f228438
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.reviewer: anneta
+ms.openlocfilehash: 6b1b2f246f8cb598b1f20f5a1418651491f73bd5
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838586"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021925"
 ---
 # <a name="card-control-in-powerapps"></a>Элемент управления "Карточка" в PowerApps
 Позволяет отображать и редактировать одно поле в элементе управления **[Форма просмотра](control-form-detail.md)** или **[Форма редактирования](control-form-detail.md)**.

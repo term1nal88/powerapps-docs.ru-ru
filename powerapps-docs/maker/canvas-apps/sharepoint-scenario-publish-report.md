@@ -1,23 +1,20 @@
 ---
 title: Публикация отчета о проекте Power BI и создание панели мониторинга | Документация Майкрософт
 description: В этом руководстве мы опубликуем набор данных и отчет в службе Power BI, а также создадим панель мониторинга на основе отчета.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 01/30/2018
 ms.author: mblythe
-ms.openlocfilehash: cc738334cc20f2911e17404faf679c0ed6bc2832
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 988c072f6abb33e8606826fd105bc2e7f2c2c452
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830877"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018751"
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Публикация отчета о проекте и создание панели мониторинга в Power BI
 > [!NOTE]

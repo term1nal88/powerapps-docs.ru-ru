@@ -1,23 +1,20 @@
 ---
 title: Функции Abs, Exp, Ln, Power и Sqrt | Документация Майкрософт
 description: Справочные сведения, включая описание синтаксиса, о функциях Abs, Exp, Ln, Power и Sqrt в PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 09/13/2016
 ms.author: gregli
-ms.openlocfilehash: 8b9e6d7b55eac51d9bf22d28945cfd4349fc957c
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: e1e50b589f301aaeda944074fe7766b79db6a3c2
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897784"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015945"
 ---
 # <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>Функции Abs, Exp, Ln, Power и Sqrt в PowerApps
 Вычисление абсолютного значения, натурального логарифма и квадратного корня, возведение *e* или любого числа в указанную степень.

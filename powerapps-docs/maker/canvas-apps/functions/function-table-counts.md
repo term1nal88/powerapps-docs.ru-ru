@@ -1,23 +1,20 @@
 ---
 title: Функции Count, CountA, CountIf и CountRows | Документация Майкрософт
 description: Справочные сведения, включая синтаксис и пример, для функций Count, CountA, CounfIf и CountRows в PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 762fa0ae7afe6b3693f74f308ba0a776aa27ed15
-ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
+ms.openlocfilehash: df972b02408373b48a028b3ec6d98fdfd6f940fe
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38079551"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016382"
 ---
 # <a name="count-counta-countif-and-countrows-functions-in-powerapps"></a>Функции Count, CountA, CountIf и CountRows в PowerApps
 Подсчитывает все [записи](../working-with-tables.md#records) в [таблице](../working-with-tables.md) или подсчитывает количество записей, удовлетворяющих условию.

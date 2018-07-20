@@ -1,23 +1,20 @@
 ---
 title: Введение в powerapps.com | Документация Майкрософт
 description: Новый дом для всех разработчиков приложений.
-documentationcenter: na
 author: linhtranms
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: f29f75522eb01c61c3528e61018fb759980e79f9
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 400df9944b21788e08b0a55e3e0a148f2eccb972
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330222"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017348"
 ---
 # <a name="introduction-to-powerappscom"></a>Основные сведения о сайте powerapps.com
 Команда PowerApps повторно представляет [powerapps.com](http://web.powerapps.com) в качестве нового дома для разработчиков приложений. Мы превратили страницу в основной сайт, чтобы разработчики могли легко создавать приложения, использовать Microsoft Common Data Service и централизованно управлять приложениями. В этой статье рассматриваются следующие вопросы:

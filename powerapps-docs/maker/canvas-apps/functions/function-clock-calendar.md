@@ -1,23 +1,20 @@
 ---
 title: Функции Calendar и Clock | Документация Майкрософт
 description: Справочные сведения о функциях Calendar и Clock в PowerApps, включая описание синтаксиса и примеры.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 0d725f00dc3617449eca9e16aedcf07c1414411f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9943fba1be1851a5037401a65d994a259e9cdc9d
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831607"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018705"
 ---
 # <a name="calendar-and-clock-functions-in-powerapps"></a>Функции Calendar и Clock в PowerApps
 Извлекает сведения о дате и времени для текущего значения языкового стандарта.

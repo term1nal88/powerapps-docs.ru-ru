@@ -1,23 +1,20 @@
 ---
 title: Функции AddColumns, DropColumns, RenameColumns и ShowColumns | Документация Майкрософт
 description: Справочные сведения о функциях AddColumns, DropColumns, RenameColumns и ShowColumns в PowerApps с описанием синтаксиса и примерами
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 4ed3bae7b4b8fc10053a1a2fec49e7116ec4d4e4
-ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
+ms.openlocfilehash: 47e17c440e1bb0ae880769dabd9130fb10d3cbbe
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38082926"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016221"
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>Функции AddColumns, DropColumns, RenameColumns и ShowColumns в Microsoft PowerApps
 Изменение формата [таблицы](../working-with-tables.md) путем добавления, удаления, переименования и выбора ее [столбцов](../working-with-tables.md#columns).

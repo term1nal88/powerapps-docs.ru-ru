@@ -1,23 +1,20 @@
 ---
 title: Создание правила | Документация Майкрософт
 description: Пошаговые инструкции по созданию логики приложения путем создания правил
-documentationcenter: na
 author: karthik-1
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/10/2017
 ms.author: sharik
-ms.openlocfilehash: f8578625ea3661a9070bddcc5b2ff63c6ecde4fd
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 05868c7bae9e08d4853ba6dc77a157fc90cbbde5
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31828018"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021496"
 ---
 # <a name="create-a-rule-in-powerapps"></a>Создание правила в PowerApps
 Создавайте правила, чтобы приложение автоматически изменялось на основе заданных критериев. Например, отображать элементы списка красным, желтым или зеленым цветом в зависимости от их состояния или показывать кнопку утверждения только для определенных пользователей (например, менеджеров).

@@ -1,23 +1,20 @@
 ---
 title: Создание подключения к SharePoint из PowerApps | Документация Майкрософт
 description: На сайте powerapps.com создайте подключение к SharePoint, чтобы использовать его для автоматического создания приложения или сборки приложения с нуля.
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: ca359f550d81a73f448ce18d94d0d36efceb839b
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 1b9ff639e053218c74515be574f92146fc8ced36
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897416"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020522"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>Создание подключения к SharePoint из PowerApps
 Создайте подключение к SharePoint Online или локальному сайту SharePoint, чтобы использовать его для автоматического создания приложения или сборки приложения с нуля.

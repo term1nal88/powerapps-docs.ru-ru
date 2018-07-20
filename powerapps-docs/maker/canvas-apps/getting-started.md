@@ -2,17 +2,19 @@
 title: Основные сведения о приложениях на основе холста | Документация Microsoft
 description: Проектируйте и создавайте в PowerApps приложения на основе холста, чтобы пользователи могли управлять бизнес-данными в браузере или на своих мобильных устройствах.
 author: AFTOwen
+manager: kvivek
 ms.service: powerapps
 ms.topic: overview
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 04/26/2018
 ms.author: anneta
-ms.openlocfilehash: 606f5aa15d057387542471f82fd071f4044cfd1e
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 965396dbeb087e2dfb52a151825884fc5a98c6e1
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36311599"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016405"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>Основные сведения о приложениях на основе холста в PowerApps
 Проектируйте и создавайте бизнес-приложения на основе холста в Microsoft PowerApps без написания кода на традиционном языке программирования, например C#. Разрабатывайте приложение путем перетаскивания элементов на холст так, как если бы вы создавали слайд в PowerPoint. Создавайте схожие с Excel выражения для указания логики и работы с данными. Создавайте приложения, которые интегрируют бизнес-данные из [разнообразных источников Майкрософт и сторонних поставщиков](connections-list.md). Открывайте к приложению общий доступ, чтобы пользователи могли запускать его в браузере или на мобильном устройстве. Внедряйте приложение, предоставляя пользователям возможность использовать его в SharePoint, Power BI или Teams.
