@@ -1,23 +1,20 @@
 ---
 title: Предоставление общего доступа к файлам Excel, используемым приложением | Документация Майкрософт
 description: Совместное использование файлов Excel в Dropbox, OneDrive и Google Диске. Пользователи могут изменять и просматривать файлы и папки.
-documentationcenter: na
 author: jamesol-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: 8c96a83ae67a8a06aa96b4f4ba091e361430683d
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 78423a1f1594e69a40cc4b81123217f960b61879
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896128"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015002"
 ---
 # <a name="share-excel-data-used-by-your-app"></a>Совместное использование данных Excel, используемых приложением
 Пользователи приложения могут совместно использовать данные Excel в [облачной учетной записи](connections/cloud-storage-blob-connections.md), например OneDrive.
