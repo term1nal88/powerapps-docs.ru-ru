@@ -2,19 +2,22 @@
 title: Цвета высокой контрастности | Документация Майкрософт
 description: Рекомендации по повышению контрастности цветов в PowerApps
 author: tahoon
+manager: kvivek
 ms.service: powerapps
 ms.topic: article
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/23/2018
 ms.author: tahoon
-ms.openlocfilehash: 56a11edcd1c43313e9b380ca8ac1c8a68d85772d
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 289026f18d341381d64423e76effb1abf586557c
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
-ms.locfileid: "32329923"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014818"
 ---
 # <a name="accessible-colors-in-powerapps"></a>Цвета высокой контрастности в PowerApps
-Используемые в приложении цвета должны восприниматься пользователями с цветовой слепотой и (или) слабым зрением. Все темы PowerApps по умолчанию имеют высокий уровень контрастности. Если вы решите изменить цвета в приложении, соблюдайте эти рекомендации, чтобы обеспечить восприятие цветов.
+Используемые в приложении цвета должны восприниматься пользователями с цветовой слепотой и (или) слабым зрением. Все темы PowerApps по умолчанию имеют высокий уровень контрастности. Если вы решите изменить цвета в приложении, соблюдайте эти рекомендации, чтобы обеспечить восприятие цветов. В Интернете можно найти ряд инструментов для выявления проблем с контрастностью цветов.
 
 ## <a name="minimum-contrast-for-text"></a>Минимальная контрастность текста
 * Контрастность между текстом и фоном должна составлять не менее 4.5:1.
@@ -58,4 +61,4 @@ ms.locfileid: "32329923"
 Чтобы передать такие сообщения, можно использовать дополнительные подсказки, например **[значки](controls/control-shapes-icons.md)**, или стили текста, такие как **[курсив](controls/properties-text.md)** и **[подчеркивание](controls/properties-text.md)**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Изучите [свойства, поддерживающие специальные возможности](controls/properties-accessibility.md) в PowerApps
+Узнайте больше о [свойствах специальных возможностей](controls/properties-accessibility.md) в элементах управления PowerApps и воспользуйтесь [проверкой читаемости](accessibility-checker.md).

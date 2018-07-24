@@ -49,6 +49,11 @@
               href: ./canvas-apps/get-started-create-from-blank.md
         - name: Общий доступ к приложению
           href: ./canvas-apps/share-app.md
+          items:
+            - name: Предоставление общего доступа к данным в Excel
+              href: ./canvas-apps/share-app-data.md
+            - name: Предоставление общего доступа к ресурсам приложения
+              href: ./canvas-apps/share-app-resources.md
         - name: "Внедрение приложения в Power\_BI"
           href: ./canvas-apps/embed-powerapps-powerbi.md
     - name: Примеры
