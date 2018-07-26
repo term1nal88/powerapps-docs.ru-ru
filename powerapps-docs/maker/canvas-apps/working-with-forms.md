@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: ec6526ff4cd690d6bcf5cbf3dcc98c6ee7b8ae28
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b2eb001ee426dc3449b440a357c67bc47b702d42
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018153"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195756"
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Общие сведения о формах данных в Microsoft PowerApps
 Добавьте три типа элементов управления, чтобы пользователь мог просматривать записи, отображать подробные сведения об этой записи и изменять или создавать запись:
@@ -33,7 +33,7 @@ ms.locfileid: "39018153"
 
 ## <a name="prerequisites"></a>Технические условия
 
-* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com), указав учетные данные, использованные при регистрации.
+* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), указав учетные данные, использованные при регистрации.
 * Узнайте, как [настроить элемент управления](add-configure-controls.md) в PowerApps.
 
 ## <a name="explore-a-generated-app"></a>Обзор созданного приложения

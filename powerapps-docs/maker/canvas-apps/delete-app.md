@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: df7c43a0044ac7b56666f06eb3ebf773dcb16b67
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: c8d5d5f5fbb9453ad9afeffda8383be0dae4eebc
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023627"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194970"
 ---
 # <a name="delete-an-app-from-powerapps"></a>Удаление приложения из PowerApps
 Из этой статьи вы узнаете, как удалить приложение из своей учетной записи PowerApps, а также из учетных записей всех пользователей, которым к нему был предоставлен доступ.
 
 ## <a name="delete-an-app-from-your-account"></a>Удаление приложения из учетной записи
-1. На сайте [powerapps.com](https://web.powerapps.com) на панели навигации слева щелкните или нажмите **Apps** (Приложения).
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) на панели навигации слева щелкните или нажмите **Apps** (Приложения).
    
     ![](./media/delete-app/file-apps.png)
 2. (Необязательно.) В левом верхнем углу отфильтруйте список приложений, чтобы отобразить только те из них, которые вам принадлежат или в создании которых вы участвуете.

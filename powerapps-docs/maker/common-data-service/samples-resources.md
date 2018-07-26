@@ -8,16 +8,16 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/17/2018
 ms.author: clwesene
-ms.openlocfilehash: 405cafabd57ea234d5202076060ee0987b6904db
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e1f361cb2bd0f97e75422ce552ac50ae5c581626
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168465"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218563"
 ---
 # <a name="samples-and-other-resources-for-common-data-service-for-apps"></a>Примеры и другие ресурсы для службы Common Data Service для приложений
 ## <a name="samples"></a>Примеры
-Существует несколько примеров, в которых используется служба Common Data Service (CDS) для приложений. Их можно найти на сайте [powerapps.com](https://web.powerapps.com). Для этого в области навигации выберите раздел **Главная**.
+Существует несколько примеров, в которых используется служба Common Data Service (CDS) для приложений. Их можно найти на сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Для этого в области навигации выберите раздел **Главная**.
 
 ## <a name="videos"></a>Видео
 Видео можно найти на сайте YouTube в каналах [MS PowerApps](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg) и [Microsoft Ignite](https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg).

@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: a4ec386ef6a7eee02c2ac608bb6e00ed9ee39c19
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a9fff4cc61f6416ef8dbc3c03d96be7082fe3a51
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168143"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218747"
 ---
 # <a name="manage-custom-fields-in-an-entity"></a>Управление настраиваемыми полями в сущности
 Вы можете создать и обновить одно или несколько настраиваемых полей в любой сущности. При создании настраиваемого поля задается набор свойств, таких как имя поля, его отображаемое имя и тип данных, которые оно будет содержать. Дополнительные сведения см. в статье [Метаданные атрибутов](../../developer/common-data-service/entity-attribute-metadata.md).
@@ -22,7 +22,7 @@ ms.locfileid: "34168143"
 > В каждой сущности есть системные поля, например поля, которые указывают, когда и кем была обновлена запись в последний раз. Кроме того, в стандартных сущностях есть стандартные поля (поля по умолчанию). Системные и стандартные поля нельзя изменить или удалить. Созданное настраиваемое поле должно предоставлять функциональные возможности в дополнение к возможностям этих встроенных полей.
 
 ## <a name="create-a-field"></a>Создание поля
-1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
 
     ![Сведения о сущности](./media/data-platform-cds-create-entity/entitylist.png "Список сущностей")
 
@@ -71,7 +71,7 @@ ms.locfileid: "34168143"
 Дополнительные сведения о поддерживаемых типах выражений и примеры см. в статье [Определение вычисляемых полей](/dynamics365/customer-engagement/customize/define-calculated-fields).
 
 ## <a name="update-or-delete-a-field"></a>Обновление или удаление поля
-1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные**, выберите элемент **Сущности** в области навигации слева, а затем выберите сущность.
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) разверните раздел **Данные**, выберите элемент **Сущности** в области навигации слева, а затем выберите сущность.
 2. В списке полей для выбранной сущности щелкните поле или коснитесь его, а затем выполните одно из следующих действий:
    
    * Измените одно или несколько свойств поля.

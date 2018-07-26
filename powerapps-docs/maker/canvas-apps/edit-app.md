@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/19/2017
 ms.author: sharik
-ms.openlocfilehash: b1e9f514973313a1028aa3b1958bf8e01ff2c167
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b5678437ea1e604ce2932307d897f280f4633fc0
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023788"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194963"
 ---
 # <a name="edit-an-app-in-powerapps"></a>Изменение приложения в PowerApps
 Вы можете изменить любое приложение, которое вы создали, которым вы владеете или для которого у вас есть разрешения **Может изменять**. Вы можете изменить приложение в PowerApps Studio. При попытке изменить приложение, которое уже открыто для редактирования в другом месте, появится сообщение о том, что приложение уже открыто вами или другим пользователем.
 
 ## <a name="verify-your-permissions"></a>Проверка разрешений
-1. Войдите в [PowerApps](https://web.powerapps.com), затем щелкните (коснитесь) **Приложения** в меню **Файл** (с левой стороны).
+1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), затем щелкните (коснитесь) **Приложения** в меню **Файл** (с левой стороны).
    
     ![Пункт "Приложения" в меню "Файл"](./media/edit-app/file-apps.png)
 

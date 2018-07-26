@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: bb02f12bf452d1928408ea7c266469b524607b5f
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: fa5aa70beba25130144c5da9dac4fbaa383dfc67
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016796"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195618"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Учебник. Настройка коллекции в PowerApps
 
@@ -39,7 +39,7 @@ ms.locfileid: "39016796"
 
 При работе с этим руководством мы будем использовать приложение, созданное на основе определенного источника данных. Но те же принципы применимы для любого приложения, создаваемого в PowerApps из списка SharePoint, таблицы Excel или других источников данных.
 
-Если вы не зарегистрированы в PowerApps, перед началом работы [пройдите бесплатную регистрацию](https://web.powerapps.com).
+Если вы не зарегистрированы в PowerApps, перед началом работы [пройдите бесплатную регистрацию](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ## <a name="prerequisites"></a>Технические условия
 
@@ -47,7 +47,7 @@ ms.locfileid: "39016796"
 
 ## <a name="open-the-generated-app"></a>Открытие созданного приложения
 
-1. Войдите в [PowerApps](https://web.powerapps.com), а затем выберите **Приложения** у левого края экрана.
+1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), а затем выберите **Приложения** у левого края экрана.
 
     [![Домашняя страница PowerApps](./media/customize-layout-sharepoint/sign-in.png)](./media/customize-layout-sharepoint/sign-in.png#lightbox)
 

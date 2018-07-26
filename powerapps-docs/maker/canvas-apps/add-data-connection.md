@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/06/2018
 ms.author: lanced
-ms.openlocfilehash: 734e36b00658455198b64317b6f068c0018755a4
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 471f4b69b913236d99e6309c8b8bb4e12f85a7b9
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018498"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195043"
 ---
 # <a name="add-a-data-connection-in-powerapps"></a>Добавление подключения к данным в PowerApps
 В PowerApps можно добавить подключение к данным в существующем приложении или в приложении, создаваемом с нуля. Приложение может подключаться к SharePoint, Salesforce, OneDrive и [множеству других источников данных](connections-list.md).
@@ -26,7 +26,7 @@ ms.locfileid: "39018498"
 * подключение к серверу SQL Server и обновление таблицы из приложения.
 
 ## <a name="prerequisites"></a>Технические условия
-[Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](http://web.powerapps.com), указав учетные данные, использованные при регистрации.
+[Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), указав учетные данные, использованные при регистрации.
 
 ## <a name="add-a-data-source"></a>Добавление источника данных
 1. На вкладке **Домашняя страница** наведите указатель мыши на элемент **Start from blank** (Создать на основе шаблона), а затем выберите **Make this app** (Создать это приложение).

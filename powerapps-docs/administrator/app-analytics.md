@@ -8,17 +8,17 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 08/29/2017
 ms.author: jamesol
-ms.openlocfilehash: ba4b518cdc1b965a26a7e3fc3722dd23d601e693
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9abac88875c85551fe4d4f91413a1752e35b8320
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168212"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218862"
 ---
 # <a name="view-analytics-reports-for-your-app"></a>Просмотр отчетов по аналитике приложений
 Вы создали приложение и предоставили к нему общий доступ в организации?  Вам интересно знать, сколько коллег используют его каждый день?
 
-Мы рады представить первый отчет по аналитике в PowerApps, доступный на сайте [web.powerapps.com](https://web.powerapps.com). Это **отчет об использовании приложения**.
+Мы рады представить первый отчет по аналитике в PowerApps, доступный на сайте [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Это **отчет об использовании приложения**.
 
 С помощью отчета об использовании приложения вы можете отслеживать количество пользователей вашего приложения за последние 30 дней по дням, платформе устройства и расположению.
 
@@ -30,7 +30,7 @@ ms.locfileid: "34168212"
 ## <a name="where-do-i-find-my-apps-reports"></a>Где находятся отчеты о приложении?
 Чтобы просмотреть отчеты о приложении, выполните следующие действия.
 
-1. Перейдите на сайт [web.powerapps.com](https://web.powerapps.com).
+1. Перейдите на сайт [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 2. Выберите **Приложения** на панели навигации слева.
    
     ![Панель навигации слева](./media/app-analytics/left-nav.png)

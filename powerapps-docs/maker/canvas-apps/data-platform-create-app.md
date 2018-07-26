@@ -9,24 +9,24 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: 50913e593cf279d0d1870cbe88fa1a3703059811
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 3481bd697e29855a075598975e26d14121a49a0a
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016037"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195365"
 ---
 # <a name="quickstart-generate-an-app-from-common-data-service-for-apps-in-powerapps"></a>Краткое руководство по созданию приложения в PowerApps с помощью Common Data Service для приложений
 
 Из этого краткого руководства вы узнаете, как с помощью Microsoft PowerApps автоматически создать свое первое приложение на основе списка с примерами учетных записей в [Common Data Service для приложений](../common-data-service/data-platform-intro.md). В этом приложении можно просматривать все учетные записи, отображать подробные сведения о отдельной записи, а также создавать, изменять и удалять учетные записи.
 
-Если вы не зарегистрированы в PowerApps, перед началом работы [пройдите бесплатную регистрацию](https://web.powerapps.com).
+Если вы не зарегистрированы в PowerApps, перед началом работы [пройдите бесплатную регистрацию](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ## <a name="prerequisites"></a>Технические условия
 Чтобы выполнить процедуры этого руководства нужно [перейти в среду](working-with-environments.md), в которой создана база данных Common Data Service для приложений, и в которой для нее хранятся данные и применяются обновления. Если такая среда отсутствует и у вас есть права администратора, вы можете [создать среду](../../administrator/environments-administration.md#create-an-environment), отвечающую этим требованиям.
 
 ## <a name="generate-an-app"></a>Создание приложения
-1. Войдите в [PowerApps](https://web.powerapps.com) и переключитесь на среду, соответствующую указанным выше требованиям.
+1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и переключитесь на среду, соответствующую указанным выше требованиям.
 
     ![Домашняя страница PowerApps](./media/data-platform-create-app/sign-in.png)
 

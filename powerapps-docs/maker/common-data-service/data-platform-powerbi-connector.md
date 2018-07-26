@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
-ms.openlocfilehash: bb0bec7cf459eb9084aea4db7264350b7913e578
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 5fffcbcd8f58ae05f3fe5b3b4f871cf39d003321
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898770"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218195"
 ---
 # <a name="create-a-power-bi-report"></a>Создание отчета Power BI
 Служба Common Data Service для приложений позволяет напрямую подключаться к данным с помощью Power BI Desktop для создания отчетов и их публикации в Power BI. Из Power BI отчеты можно использовать на панелях мониторинга, открытых для других пользователей и доступных в мобильных приложениях Power BI на разных платформах.
@@ -29,7 +29,7 @@ ms.locfileid: "37898770"
 
 ## <a name="finding-your-common-data-service-for-apps-environment-url"></a>Поиск URL-адреса среды Common Data Service для приложений
 
-1. Откройте [PowerApps](https://web.powerapps.com) и выберите среду, к которой необходимо подключиться. Затем нажмите значок **шестеренки** в правом верхнем углу и щелкните **Advanced customizations** (Дополнительная настройка).
+1. Откройте [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и выберите среду, к которой необходимо подключиться. Затем нажмите значок **шестеренки** в правом верхнем углу и щелкните **Advanced customizations** (Дополнительная настройка).
 
     ![Среда CDS для приложений](./media/data-platform-cds-powerbi-connector/CDSEnv1.png "Среда CDS для приложений")
 

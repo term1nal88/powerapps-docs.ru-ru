@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 07/12/2017
 ms.author: matp
 ms.reviewer: ''
-ms.openlocfilehash: e29688f52da411d57daa920437d1f0708c9f663e
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9bd73487d744f5597f934603bbf1d742ff08baea
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017026"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195411"
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>Подключение к Dynamics 365 из PowerApps
 PowerApps позволяет быстро создавать, настраивать, совместно использовать и запускать мобильные приложения с минимальным количеством кода или вообще без него. При помощи соединителя Dynamics 365 можно быстро создавать полезные мобильные приложения для совместного использования с другими сотрудниками вашей организации.
@@ -25,7 +25,7 @@ PowerApps позволяет быстро создавать, настраива
 Для выполнения инструкций из этого руководства потребуется учетная запись Microsoft Office 365, которая включает подписку Dynamics 365.
 
 ## <a name="create-a-connection"></a>Создание подключения
-1. [Войдите в PowerApps](https://web.powerapps.com/).
+1. [Войдите в PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 2. На панели навигации слева щелкните **Подключения**.
    
     ![Параметр "Подключения" в меню "Файл"](./media/connection-dynamics-crmonline/file-connections.png)
@@ -43,7 +43,7 @@ PowerApps позволяет быстро создавать, настраива
     Будет создано подключение.
 
 ## <a name="generate-an-app-automatically"></a>Автоматическое создание приложения
-1. [Войдите в PowerApps](https://web.powerapps.com/), а затем нажмите кнопку **Создать приложение** в левом нижнем углу.
+1. [Войдите в PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), а затем нажмите кнопку **Создать приложение** в левом нижнем углу.
    
     ![Создать приложение](./media/connection-dynamics-crmonline/new-app.png)
 2. В разделе **Начать с данных** нажмите кнопку **Макет для телефона** на плитке **Dynamics 365**.

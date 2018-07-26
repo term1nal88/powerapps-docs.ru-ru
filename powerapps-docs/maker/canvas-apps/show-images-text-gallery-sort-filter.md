@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/02/2015
 ms.author: lonu
-ms.openlocfilehash: d3a56d146982965eaa07247ef57d3e2d67db2b9a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 51a93009f187b31cd0d3159f97c78ff5bd60ae33
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021856"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195549"
 ---
 # <a name="show-sort-and-filter-data-in-a-powerapps-gallery"></a>Отображение, сортировка и фильтрация данных в коллекции PowerApps
 В этой статье приведены сведения о создании коллекции с изображениями товара и данными о нем, а также о параметрах сортировки и фильтрации.
@@ -27,7 +27,7 @@ ms.locfileid: "39021856"
 > 
 
 ### <a name="prerequisites"></a>Технические условия
-* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com) с помощью учетных данных, использовавшихся при регистрации.
+* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) с помощью учетных данных, использовавшихся при регистрации.
 * Создайте приложение для планшета с помощью [шаблона](get-started-test-drive.md) или [данных](get-started-create-from-data.md) либо создайте его с [нуля](get-started-create-from-blank.md).
 * Узнайте, как [настроить элемент управления](add-configure-controls.md).
 * В рамках этого руководства используются демонстрационные входные данные [CreateFirstApp](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip), куда входят изображения в формате JPG. Этот ZIP-файл содержит XML-файл, который можно преобразовать в Excel. В противном случае PowerApps автоматически считывает и импортирует файлы в ZIP-файлах. Вы можете скачать и использовать этот образец данных или импортировать собственный.

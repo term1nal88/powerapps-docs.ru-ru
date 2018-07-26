@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: tutorial
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: a4430637d197530cff793a2fcde1c2485bf59a9f
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: f611ef7be4d91b76f0be24116aabc7795d332520
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897301"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218471"
 ---
 # <a name="tutorial-create-a-custom-entity-that-has-components-in-powerapps"></a>Учебник. Создание настраиваемой сущности с компонентами в PowerApps
 
@@ -31,7 +31,7 @@ ms.locfileid: "37897301"
 
 ## <a name="prerequisites"></a>Технические условия
 
-Войдите в [PowerApps](https://powerapps.microsoft.com/). Если у вас еще нет учетной записи [!INCLUDE [powerapps](../../includes/powerapps.md)], перейдите по ссылке **Зарегистрируйтесь бесплатно** на сайте [powerapps.com](https://web.powerapps.com).
+Войдите в [PowerApps](https://powerapps.microsoft.com/). Если у вас еще нет учетной записи [!INCLUDE [powerapps](../../includes/powerapps.md)], перейдите по ссылке **Зарегистрируйтесь бесплатно** на сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ## <a name="create-a-custom-entity"></a>Создание настраиваемой сущности
 

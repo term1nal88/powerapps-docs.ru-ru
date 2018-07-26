@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/11/2018
 ms.author: anneta
-ms.openlocfilehash: 197eb5223c0945a7cb80d8b187aaf44c871e798c
-ms.sourcegitcommit: 79a58f1b6880cbc512b64cde71a4d532cebe5bed
+ms.openlocfilehash: 9c4bdc6e56f84b6724fcbe44cfe1f3e4c065edb3
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39137029"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195319"
 ---
 # <a name="share-an-app-in-powerapps"></a>Предоставление общего доступа к приложению в PowerApps
 
@@ -33,7 +33,7 @@ ms.locfileid: "39137029"
 
 ## <a name="share-an-app"></a>Общий доступ к приложению
 
-1. Войдите в [PowerApps](https://web.powerapps.com), а затем выберите **Приложения** у левого края экрана.
+1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), а затем выберите **Приложения** у левого края экрана.
 
     ![Открытие списка приложений](./media/share-app/file-apps.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "39137029"
 
     Если вы предоставляете пользователям разрешения на изменение приложения, в сообщении также будет приведена отдельная ссылка для открытия приложения в режиме редактирования в PowerApps Studio.
 
-    Даже если вы не отправите приглашение, пользователи смогут запустить приложение из AppSource в [Dynamics 365](http://home.dynamics.com). Пользователи с разрешением **Можно изменять** также могут редактировать приложение в [PowerApps](http://web.powerapps.com).
+    Даже если вы не отправите приглашение, пользователи смогут запустить приложение из AppSource в [Dynamics 365](http://home.dynamics.com). Пользователи с разрешением **Можно изменять** также могут редактировать приложение в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 1. Укажите разрешения для каждого пользователя или группы безопасности, а затем нажмите кнопку **Сохранить**.
 
@@ -85,7 +85,7 @@ ms.locfileid: "39137029"
 
 #### <a name="create-a-security-role"></a>Создание роли безопасности
 
-1. [Войдите в PowerApps](https://web.powerapps.com) и убедитесь, что находитесь в той же среде, что и приложение, общий доступ к которому нужно предоставить.
+1. [Войдите в PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и убедитесь, что находитесь в той же среде, что и приложение, общий доступ к которому нужно предоставить.
 
 1. В правом верхнем углу щелкните значок шестеренки и выберите пункт **Дополнительные настройки**.
 

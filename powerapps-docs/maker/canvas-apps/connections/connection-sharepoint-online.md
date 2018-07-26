@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: d74fdd20db63f6d617db48e09319a84775553f9f
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 8019068155c88465f0f4202807fe763f2e4787b6
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017141"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195526"
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>Подключение к SharePoint из PowerApps
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -49,7 +49,7 @@ ms.locfileid: "39017141"
 ## <a name="prerequisites"></a>Технические условия
 1. [Регистрация](../../signup-for-powerapps.md) в PowerApps.
 
-1. Войдите в [PowerApps](http://web.powerapps.com), указав те же учетные данные, что и при регистрации.
+1. Войдите в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), указав те же учетные данные, что и при регистрации.
 
 1. В левой части выберите **Приложения**, а затем на баннере щелкните **Создать приложение**.
 

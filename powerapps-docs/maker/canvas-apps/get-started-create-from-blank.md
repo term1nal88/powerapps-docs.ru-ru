@@ -8,12 +8,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: 267480158d7e44afd06962779b98c0468436841a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 330751210322190fddefb6c399025578bb9878b5
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022615"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195296"
 ---
 # <a name="create-an-excel-app-from-scratch"></a>Создание приложения Excel с нуля
 Создайте с нуля собственное приложение, основанное на данных Excel в табличном формате и добавьте в него данные из других источников. Следуя указаниям в этом руководстве, вы создадите приложение с двумя экранами. На одном экране пользователи смогут просматривать набор записей. На другом экране пользователи могут создать запись, обновить одно или несколько полей в записи или удалить всю запись. Этот подход требует больше времени, чем [автоматическое создание приложения](get-started-create-from-data.md), но позволяет опытному пользователю создать приложение в соответствии с потребностями.
@@ -42,7 +42,7 @@ ms.locfileid: "39022615"
 > Вы можете использовать собственный файл Excel и ознакомиться только с общими понятиями в этом учебнике. Тем не менее данные в файле Excel должны быть отформатированы в виде таблицы. Дополнительные сведения см. в разделе [Форматирование таблицы в Excel](how-to-excel-tips.md).
 
 ## <a name="open-a-blank-app"></a>Пустое приложение
-1. Войдите в [PowerApps](http://web.powerapps.com).
+1. Войдите в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![Домашняя страница PowerApps](./media/get-started-create-from-blank/sign-in.png)
 

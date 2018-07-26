@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: f1952c2349eb54f2c6348f5abc4dee9a4645348a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 8562219c373a8880f7cc89f791b6c6373b6df0b3
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168442"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39217942"
 ---
 # <a name="create-a-relationship-between-entities"></a>Создание связи между сущностями
 Данные в одной сущности часто связаны с данными в другой. Например, у вас могут быть сущности **Учителя** и **Занятие**, а сущность **Занятие** может быть связана отношением подстановки с сущностью **Учителя** для показа информации о том, кто из учителей ведет занятие. Поле подстановки можно использовать для отображения данных из сущности **Учителя**. Такое поле также называется полем для поиска.
@@ -29,7 +29,7 @@ ms.locfileid: "34168442"
 
 Чтобы добавить в сущность отношение подстановки, необходимо создать связь на вкладке **Relationships** (Связи) и указать другую сущность, с которой вы хотите связать текущую.
 
-1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
 
     ![Сведения о сущности](./media/data-platform-cds-create-entity/entitylist.png "Список сущностей")
 
@@ -53,7 +53,7 @@ ms.locfileid: "34168442"
 
 Чтобы добавить отношение "один ко многим", создайте отношение на вкладке **Отношения** и укажите другую сущность, с которой необходимо установить отношение.
 
-1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
 
     ![Сведения о сущности](./media/data-platform-cds-create-entity/entitylist.png "Список сущностей")
 

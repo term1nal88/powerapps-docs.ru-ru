@@ -8,12 +8,12 @@ ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: 586750edf476a9145e2822522cc0b4b5ad729539
-ms.sourcegitcommit: 7296649d03ebc33dc5ddb9e7c551869dc781f154
+ms.openlocfilehash: 6a8bc8f24ce0f772f5c98852838095f233c4317f
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250830"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218080"
 ---
 # <a name="what-is-common-data-service-for-apps"></a>Что такое Common Data Service for Apps?
 Служба Common Data Service for Apps позволяет безопасно хранить данные, которые используются в бизнес-приложениях, и управлять ими. Данные в CDS for Apps хранятся в наборе сущностей. *Сущность* — это набор записей, используемых для хранения данных, похожий на таблицу для хранения данных в базе данных. CDS for Apps содержит базовый набор стандартных сущностей, которые применяются в типичных сценариях, однако можно также создавать настраиваемые сущности специально для вашей организации и заполнять их данными с помощью Power Query. Затем создатели приложений могут использовать PowerApps для создания полнофункциональных приложений на основе этих данных.
@@ -70,7 +70,7 @@ ms.locfileid: "35250830"
 * **Бизнес-логика с кодом** поддерживает сложные сценарии разработки и позволяет расширять возможности приложений посредством кода. Дополнительные сведения см. в статье [Применение бизнес-логики с помощью кода](../../developer/common-data-service/apply-business-logic-with-code.md).
 
 ## <a name="developer-capabilities"></a>Возможности для разработчиков
-Помимо возможностей, доступных на портале [PowerApps](https://web.powerapps.com), служба CDS for Apps предоставляет разработчикам возможности программного доступа к метаданным и данным для создания сущностей и бизнес-логики, а также взаимодействия с данными. Дополнительные сведения см. в статье [Common Data Service for Apps: общие сведения для разработчиков](../../developer/common-data-service/overview.md).
+Помимо возможностей, доступных на портале [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), служба CDS for Apps предоставляет разработчикам возможности программного доступа к метаданным и данным для создания сущностей и бизнес-логики, а также взаимодействия с данными. Дополнительные сведения см. в статье [Common Data Service for Apps: общие сведения для разработчиков](../../developer/common-data-service/overview.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Чтобы приступить к работе с CDS for Apps, необходимо выполнить следующие задачи.

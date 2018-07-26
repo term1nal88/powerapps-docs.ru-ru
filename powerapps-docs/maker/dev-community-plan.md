@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 05/01/2016
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: 533234c7a0ca3cc69e30eb077ff0bd39d1d50a11
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a187e50bd4d1819d1579c6db219588e3582f5c25
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017095"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195687"
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>План сообщества PowerApps. Бесплатная среда разработки для индивидуального использования
 Если вы хотите приобрести навыки и узнать больше о PowerApps, Microsoft Flow и Common Data Service, план сообщества PowerApps вам подходит. План сообщества PowerApps предоставляет бесплатную среду разработки для индивидуального использования, в которой можно:
@@ -33,7 +33,7 @@ ms.locfileid: "39017095"
 ## <a name="where-can-i-sign-up-for-the-powerapps-community-plan"></a>Где можно зарегистрироваться в плане сообщества PowerApps?
 Зарегистрируйтесь на [веб-сайте плана сообщества PowerApps](https://powerapps.microsoft.com/communityplan). Если вы уже используете PowerApps с помощью учетной записи Office 365 или Dynamics 365, вы также можете [создать среду для индивидуального использования](https://web.powerapps.com/community/signup).
 
-После регистрации в плане сообщества вы будете перенаправлены на страницу индивидуальной среды на [сайте PowerApps](https://web.powerapps.com). Среде присваивается ваше имя, например "среда Ивана Петрова". Если среда с таким именем уже существует, название будет выглядеть следующим образом: "среда Ивана Петрова (1)".  На следующем рисунке показано, как отображается среда.
+После регистрации в плане сообщества вы будете перенаправлены на страницу индивидуальной среды на [сайте PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Среде присваивается ваше имя, например "среда Ивана Петрова". Если среда с таким именем уже существует, название будет выглядеть следующим образом: "среда Ивана Петрова (1)".  На следующем рисунке показано, как отображается среда.
 
 ![Отдельная среда для плана сообщества](./media/dev-community-plan/individual-environment.png)
 

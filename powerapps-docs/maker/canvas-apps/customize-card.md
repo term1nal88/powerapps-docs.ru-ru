@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 56a46493ef15eff7d65d19f12affb2a58dbba0b6
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 68b02c1dd2b6c22f5b1ec049f753a175ad8c09db
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023443"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195068"
 ---
 # <a name="customize-a-card-in-powerapps"></a>Настройка карточки в PowerApps
 Выполните основную настройку (без разблокировки карточки), например измените элемент управления. Выполните дополнительную настройку, разблокировав карточку и, например, добавив элемент управления, недоступный по умолчанию для этой карточки.
@@ -33,7 +33,7 @@ ms.locfileid: "39023443"
 ## <a name="customize-a-locked-card"></a>Настройка заблокированной карточки
 В этой процедуре элемент управления **[Текстовое поле ввода](controls/control-text-input.md)** заменяется элементом управления **[Ползунок](controls/control-slider.md)** без разблокирования карточки.
 
-1. Войдите в [PowerApps](http://web.powerapps.com).
+1. Войдите в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![Домашняя страница PowerApps](./media/customize-card/sign-in.png)
 

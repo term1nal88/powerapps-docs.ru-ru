@@ -9,15 +9,15 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: 400df9944b21788e08b0a55e3e0a148f2eccb972
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9c1b6bde62f0260dca7eba1d723049aadc3e72c9
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017348"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195342"
 ---
 # <a name="introduction-to-powerappscom"></a>Основные сведения о сайте powerapps.com
-Команда PowerApps повторно представляет [powerapps.com](http://web.powerapps.com) в качестве нового дома для разработчиков приложений. Мы превратили страницу в основной сайт, чтобы разработчики могли легко создавать приложения, использовать Microsoft Common Data Service и централизованно управлять приложениями. В этой статье рассматриваются следующие вопросы:
+Команда PowerApps повторно представляет [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) в качестве нового дома для разработчиков приложений. Мы превратили страницу в основной сайт, чтобы разработчики могли легко создавать приложения, использовать Microsoft Common Data Service и централизованно управлять приложениями. В этой статье рассматриваются следующие вопросы:
 
 * заголовок;
 * домашняя страница;
@@ -45,7 +45,7 @@ ms.locfileid: "39017348"
 ![Значок "Справка" в строке заголовка](./media/intro-maker-portal/help_items2.png)
 
 ## <a name="homepage"></a>Домашняя страница
-После входа в [powerapps.com](http://web.powerapps.com) вы будете перенаправлены на домашнюю страницу по умолчанию. Мы изменили макет домашней страницы, чтобы можно было быстро приступить к работе независимо от того, что вам нужно: создать приложения или ознакомиться с Common Data Service.
+После входа в [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) вы будете перенаправлены на домашнюю страницу по умолчанию. Мы изменили макет домашней страницы, чтобы можно было быстро приступить к работе независимо от того, что вам нужно: создать приложения или ознакомиться с Common Data Service.
 
 Если вы ранее уже входили в PowerApps и запускали или создавали приложения, первым, что вы увидите на главной странице, будет список **последних приложений**. Они сортируются по дате последнего запуска.
 
@@ -96,7 +96,7 @@ ms.locfileid: "39017348"
     ![Подключаемые примеры приложений](./media/intro-maker-portal/connectedsampleapps2.png)
 
 ## <a name="new-apps-page"></a>Новая страница "Приложения"
-Вы можете получить доступ к странице **Приложения** с помощью левой навигационной панели [powerapps.com](http://web.powerapps.com).
+Вы можете получить доступ к странице **Приложения** с помощью левой навигационной панели [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ![Левая навигационная панель](./media/intro-maker-portal/leftnav2.png)
 

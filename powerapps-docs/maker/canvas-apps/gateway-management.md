@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: e7dc9a2386d75a6f03744286b7ed265a8d385370
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: fb561ca5458a22880d93c712aa2e2b2ada884605
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018544"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194896"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>Управление локальным шлюзом данных в PowerApps
 Установите локальный шлюз данных для быстрой и безопасной передачи данных между PowerApps и источником данных, который находится не в облаке (например, локальной базой данных SQL Server или локальным сайтом SharePoint). Просматривайте все шлюзы, для которых у вас есть административные разрешения, и управляйте связанными разрешениями и подключениями.
@@ -35,7 +35,7 @@ ms.locfileid: "39018544"
 * Пользователь может создавать и использовать шлюзы и локальные подключения только в своей [среде по умолчанию](working-with-environments.md).
 
 ## <a name="install-a-gateway"></a>Установка шлюза
-1. На сайте [powerapps.com](https://web.powerapps.com) на панели навигации щелкните **Gateways** (Шлюзы).
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) на панели навигации щелкните **Gateways** (Шлюзы).
 
     ![Элемент "Шлюзы" на панели навигации слева](./media/gateway-management/manage-gateway.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "39018544"
     Дополнительные инструкции по установке шлюза см. в разделе [Общие сведения о локальных шлюзах данных в Microsoft Flow](gateway-reference.md).
 
 ## <a name="view-and-manage-gateway-permissions"></a>Просмотр разрешений шлюза и управление ими
-1. На сайте [powerapps.com](https://web.powerapps.com) на панели навигации слева щелкните **Gateways** (Шлюзы), а затем выберите нужный шлюз.
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) на панели навигации слева щелкните **Gateways** (Шлюзы), а затем выберите нужный шлюз.
 
 2. Добавьте пользователя в шлюз. Для этого щелкните **Users** (Пользователи), укажите пользователя или группу и уровень разрешений.
 
@@ -57,7 +57,7 @@ ms.locfileid: "39018544"
 Для уровней разрешений **Может использовать** и **Может использовать и делиться** выберите источники данных, к которым пользователь может подключиться через шлюз.
 
 ## <a name="view-and-manage-gateway-connections"></a>Просмотр подключений к шлюзу и управление ими
-1. На сайте [powerapps.com](https://web.powerapps.com) на панели навигации слева щелкните **Gateways** (Шлюзы), а затем выберите нужный шлюз.
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) на панели навигации слева щелкните **Gateways** (Шлюзы), а затем выберите нужный шлюз.
 
 2. Щелкните **Подключения**, затем щелкните (коснитесь) подключение, чтобы просмотреть сведения о нем, изменить его параметры или удалить его.
 

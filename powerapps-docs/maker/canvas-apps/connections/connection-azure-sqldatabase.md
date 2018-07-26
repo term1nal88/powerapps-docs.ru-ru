@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 07/12/2016
 ms.author: lanced
 ms.reviewer: anneta
-ms.openlocfilehash: e1a07bc9c166ac37ad0efa7ae50dca87332cb3e2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a3862dbd0210d2975b276d86741709b24d6d08f6
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020913"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195480"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>Подключение к SQL Server из PowerApps
 ![Значок SQL Server](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -23,7 +23,7 @@ ms.locfileid: "39020913"
 
 ## <a name="prerequisites"></a>Технические условия
 
-* [Зарегистрируйтесь](../../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](http://web.powerapps.com), указав учетные данные, использованные при регистрации.
+* [Зарегистрируйтесь](../../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), указав учетные данные, использованные при регистрации.
 * Соберите следующие сведения о базе данных, которая содержит по крайней мере одну таблицу с первичным ключом:
   
   * имя базы данных;
@@ -64,7 +64,7 @@ ms.locfileid: "39020913"
 8. Настройте приложение, используя методики, описанные в статье о [создании приложения из Excel](../get-started-create-from-data.md). Начните настройку с изменения макета приложения.
 
 ## <a name="build-an-app-from-scratch"></a>Создание приложения с нуля
-1. Войдите на сайт [powerapps.com](https://web.powerapps.com) с помощью той же учетной записи, которая использовалась для регистрации PowerApps.
+1. Войдите на сайт [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) с помощью той же учетной записи, которая использовалась для регистрации PowerApps.
 2. На панели навигации слева выберите меню **Подключения**.  
    
     ![Управление подключениями](./media/connection-azure-sqldatabase/manage-connections.png)

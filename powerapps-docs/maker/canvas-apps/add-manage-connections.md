@@ -9,15 +9,15 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 03/09/2017
 ms.author: lanced
-ms.openlocfilehash: 40b215e0f7e8d681b5d857d08ce2677f2d271ef1
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: c114b803539c2d64695a0bd8c9d976d2604569eb
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019842"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195227"
 ---
 # <a name="manage-your-connections-in-powerapps"></a>Управление подключениями в PowerApps
-На сайте [powerapps.com](https://web.powerapps.com) можно создать или удалить подключение из PowerApps к одному или нескольким источникам данных, а также обновить для него учетные данные.
+На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) можно создать или удалить подключение из PowerApps к одному или нескольким источникам данных, а также обновить для него учетные данные.
 
 Приложение может подключаться к SharePoint, SQL Server, Office 365, OneDrive для бизнеса, Salesforce, Excel и многим другим [источникам данных](connections-list.md).
 
@@ -32,7 +32,7 @@ ms.locfileid: "39019842"
 
 ## <a name="prerequisites"></a>Технические условия
 1. [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps.
-2. Войдите в [powerapps.com](https://web.powerapps.com), используя те же учетные данные, которые вы ввели при регистрации.
+2. Войдите в [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), используя те же учетные данные, которые вы ввели при регистрации.
 
 ## <a name="background-on-data-connections"></a>Основные сведения о подключениях к данным
 Большинство приложений PowerApps используют внешние сведения (**источники данных**), хранящиеся в облачных службах. Типичный пример — это таблица в файле Excel, который хранится в службе OneDrive для бизнеса. Приложения получают доступ к источникам данных с помощью **подключений**.
@@ -43,17 +43,17 @@ ms.locfileid: "39019842"
 
 С помощью элементов управления **[Gallery](controls/control-gallery.md)** (Коллекция), **[Display form](controls/control-form-detail.md)** (Форма отображения) и **[Edit form](controls/control-form-detail.md)** (Форма изменения) можно легко создать приложение, которое считывает и записывает данные из источника данных. Чтобы начать работу, ознакомьтесь со статьей о [формах данных](working-with-forms.md).
 
-Помимо создания подключений и управления ими на сайте [powerapps.com](https://web.powerapps.com), создать подключение также можно перечисленными ниже способами.
+Помимо создания подключений и управления ими на сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), создать подключение также можно перечисленными ниже способами.
 
 * Создайте [приложение на основе данных](app-from-sharepoint.md) автоматически, например пользовательский список SharePoint.
 * Обновите существующее приложение или создайте новое, как описано в статье о [добавлении подключения](add-data-connection.md).
 * Откройте приложение, которое создал и к которому [предоставил вам доступ](share-app.md) другой пользователь.
 
 > [!NOTE]
-> В PowerApps Studio можно открыть меню **Файл** и выбрать пункт **Подключения**. Откроется сайт [powerapps.com](https://web.powerapps.com), на котором можно создавать подключения и управлять ими.
+> В PowerApps Studio можно открыть меню **Файл** и выбрать пункт **Подключения**. Откроется сайт [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), на котором можно создавать подключения и управлять ими.
 
 ## <a name="create-a-new-connection"></a>Создание подключения
-1. Если вы еще не сделали этого, войдите на сайт [powerapps.com](https://web.powerapps.com).
+1. Если вы еще не сделали этого, войдите на сайт [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 2. На панели навигации слева щелкните или нажмите **Connections** (Подключения).
    
     ![Управление подключениями](./media/add-manage-connections/open-connections.png)

@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: 842e19360c5f1536489f978cf880d941a6dee7d6
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: aefe350c2294f9d8cbae32eee1db1f600c8a65da
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019993"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195112"
 ---
 # <a name="customize-forms-in-powerapps"></a>Настройка форм в PowerApps
 Настройте элементы управления **Форма просмотра** и **Форма редактирования** таким образом, чтобы наиболее важные данные отображались в них в интуитивно понятном порядке, упрощающих восприятие и изменение данных.
@@ -27,7 +27,7 @@ ms.locfileid: "39019993"
 [Создайте приложение](data-platform-create-app.md) из Common Data Service, а затем [настройте коллекцию](customize-layout-sharepoint.md) в этом приложении.
 
 ## <a name="show-and-hide-cards"></a>Отображение и скрытие карточек
-1. Войдите в [PowerApps](http://web.powerapps.com).
+1. Войдите в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![Домашняя страница сайта PowerApps](./media/customize-forms-sharepoint/sign-in.png)
 

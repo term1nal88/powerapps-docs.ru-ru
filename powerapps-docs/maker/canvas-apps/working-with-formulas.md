@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: b40abdc4c8d5d8a33a9aec32a1826476500405c8
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 7f9a724b61404ac0947a9c75f91396b35328086b
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017877"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195273"
 ---
 # <a name="get-started-with-formulas"></a>Начало работы с формулами
 Настраивайте приложения с помощью формул, которые не только вычисляют значения и выполняют другие задачи (как в Excel), но и реагируют на ввод данных пользователем (согласно требованиям приложения).
@@ -30,7 +30,7 @@ ms.locfileid: "39017877"
 
 ## <a name="prerequisites"></a>Технические условия
 
-* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com), указав учетные данные, использованные при регистрации.
+* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), указав учетные данные, использованные при регистрации.
 * Узнайте, как [настроить элемент управления](add-configure-controls.md) в PowerApps.
 
 ## <a name="show-a-simple-value"></a>Отображение простого значения

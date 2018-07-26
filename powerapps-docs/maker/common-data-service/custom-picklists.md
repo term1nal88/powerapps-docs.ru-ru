@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 188add46a8e52cfeb75ef1bb670ca3b457963024
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b2b472ae33bd16761d25fc965f24afc6bb9b957e
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168603"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218425"
 ---
 # <a name="create-an-option-set"></a>Создание набора параметров
 
@@ -23,7 +23,7 @@ ms.locfileid: "34168603"
 
 ## <a name="creating-an-option-set-while-adding-a-field"></a>Создание набора параметров во время добавления поля
 
-1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
 
     ![Сведения о сущности](./media/data-platform-cds-create-entity/entitylist.png "Список сущностей")
 
@@ -61,7 +61,7 @@ ms.locfileid: "34168603"
 
 ## <a name="creating-an-option-set-from-the-option-set-list"></a>Создание набора параметров на основе списка набора параметров
 
-1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные** и выберите элемент **Набор параметров** в области навигации слева.
+1. На сайте [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) разверните раздел **Данные** и выберите элемент **Набор параметров** в области навигации слева.
 
     ![Наборы параметров](./media/data-platform-cds-newoptionset/optionsetlist.png "Список наборов параметров")
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.component: cds
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: 60d1843e48a1dc1d310d877bcba67460da557993
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c5da71198f33661766d8fc214816c2e714736360
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168304"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218770"
 ---
 # <a name="add-data-to-an-entity-in-common-data-service-for-apps-by-using-power-query"></a>Добавление данных в сущность в Common Data Service для приложений с помощью Power Query
 В этой процедуре вы создадите сущность в [Common Data Service (CDS) для приложений](data-platform-intro.md) и заполните ее данными из веб-канала OData с помощью Power Query. Этим же способом можно интегрировать данные, помимо прочего, из следующих источников в Интернете и локальных источников:
@@ -37,7 +37,7 @@ ms.locfileid: "34168304"
 
 ## <a name="specify-the-source-data"></a>Указание источника данных
 
-1. Войдите в [PowerApps](https://web.powerapps.com) и нажмите стрелку вниз рядом с полем **Данные** возле левого края окна.
+1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и нажмите стрелку вниз рядом с полем **Данные** возле левого края окна.
 
     ![Домашняя страница PowerApps](./media/data-platform-cds-newentity-pq/sign-in.png)
 

@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/20/2017
 ms.author: sharik
-ms.openlocfilehash: 58097eec0bc483d8c38bf354513b70573e43049d
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 342fcc36fb8dba9cfaa42c94089329ad19501af8
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023535"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194957"
 ---
 # <a name="how-to-link-sharepoint-lists-using-lookup-fields"></a>Как связать списки SharePoint с помощью полей подстановки
 В этом руководстве показано, как связать два списка SharePoint с помощью полей подстановки.
@@ -89,7 +89,7 @@ SharePoint предоставляет два типа полей подстан�
 ## <a name="create-an-app-from-the-assets-list"></a>Создание приложения из списка "Ресурсы"
 Это приложение позволяет добавлять данные в список **Ресурсы**.
 
-1. [Войдите в PowerApps Studio](http://web.powerapps.com). Если вы еще не работали в PowerApps, [зарегистрируйтесь для получения бесплатной версии](https://powerapps.microsoft.com), используя адрес электронной почты организации.
+1. [Войдите в PowerApps Studio](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Если вы еще не работали в PowerApps, [зарегистрируйтесь для получения бесплатной версии](https://powerapps.microsoft.com), используя адрес электронной почты организации.
 
 2. В меню **Файл** (с левой стороны) щелкните **Создать**, а затем выберите **SharePoint**.
 

@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/30/2015
 ms.author: lonu
-ms.openlocfilehash: 27b5a3453c2c0a89239d3e319ee6f39afd034492
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 98407181bc654874d749bb57da22c9fde1259fb6
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023282"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195503"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>Создание и обновление коллекции в приложении
 Вы можете использовать коллекцию для хранения данных, которые могут использоваться в приложении. Коллекция — это группа схожих элементов. Например, вы можете создать коллекцию "Мои товары", содержащую изображения всех товаров, которые продает ваша компания. Эту коллекцию можно добавить в PowerApps и создать приложение, отображающее все изображения товаров. Или же можно создать коллекцию "Прайс-лист", содержащую список товаров и цену каждого из них.
@@ -22,7 +22,7 @@ ms.locfileid: "39023282"
 Вы можете создавать и использовать коллекции в PowerApps. Давайте приступим.
 
 ### <a name="prerequisites"></a>Технические условия
-* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com), указав учетные данные, использованные при регистрации.
+* [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), указав учетные данные, использованные при регистрации.
 * Создайте приложение в PowerApps или откройте уже существующее.
 * Узнайте, как [настроить элемент управления](add-configure-controls.md) в PowerApps.
 * Здесь в качестве образца входных данных используется файл [PriceList.zip](http://pwrappssamples.blob.core.windows.net/samples/PriceList.zip). Этот ZIP-файл содержит XML-файл, который можно преобразовать в Excel. В противном случае PowerApps автоматически считывает и импортирует файлы в ZIP-файлах. Вы можете скачать и использовать этот образец данных или импортировать собственный.

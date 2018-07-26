@@ -49,11 +49,6 @@
               href: ./canvas-apps/get-started-create-from-blank.md
         - name: Общий доступ к приложению
           href: ./canvas-apps/share-app.md
-          items:
-            - name: Предоставление общего доступа к данным в Excel
-              href: ./canvas-apps/share-app-data.md
-            - name: Предоставление общего доступа к ресурсам приложения
-              href: ./canvas-apps/share-app-resources.md
         - name: "Внедрение приложения в Power\_BI"
           href: ./canvas-apps/embed-powerapps-powerbi.md
     - name: Примеры
@@ -78,8 +73,6 @@
           href: ./canvas-apps/working-with-variables.md
         - name: формулы
           href: ./canvas-apps/working-with-formulas-in-depth.md
-        - name: Экспериментальные и предварительные версии компонентов
-          href: ./canvas-apps/working-with-experimental.md
         - name: Даты и время
           href: ./canvas-apps/show-text-dates-times.md
         - name: Источники данных
@@ -141,9 +134,7 @@
             - name: Создание приложения со специальными возможностями
               href: ./canvas-apps/accessible-apps.md
               items:
-                - name: Поиск проблем с обеспечением специальных возможностей
-                  href: ./canvas-apps/accessibility-checker.md
-                - name: Использование цвета для обеспечения специальных возможностей
+                - name: Цвет
                   href: ./canvas-apps/accessible-apps-color.md
         - name: Управление приложением
           items:
@@ -623,6 +614,13 @@
 - name: "Служба Common\_Data\_Service для приложений"
   href: ./common-data-service/data-platform-intro.md
   items:
+    - name: Лицензирование
+      href: ./common-data-service/data-platform-entity-licenses.md
+      items:
+        - name: Сущности со сложной бизнес-логикой
+          href: ./common-data-service/data-platform-complex-entities.md
+        - name: 'Ограниченные сущности, для которых требуются лицензии Dynamics 365'
+          href: ./common-data-service/data-platform-restricted-entities.md
     - name: Быстрое начало работы
       items:
         - name: Создание сущности
@@ -633,10 +631,6 @@
           href: ./common-data-service/create-custom-entity.md
     - name: Примеры и ресурсы
       href: ./common-data-service/samples-resources.md
-    - name: Концепции
-      items:
-        - name: Требования к лицензиям для сущностей
-          href: ./common-data-service/data-platform-entity-licenses.md
     - name: Практические руководства
       items:
         - name: Управление настраиваемыми полями в сущности
@@ -657,10 +651,6 @@
           href: ./common-data-service/data-platform-excel-addin.md
         - name: "Создание отчета Power\_BI"
           href: ./common-data-service/data-platform-powerbi-connector.md
-    - name: Справочные материалы
-      items:
-        - name: 'Ограниченные сущности, для которых требуются лицензии Dynamics 365'
-          href: ./common-data-service/data-platform-restricted-entities.md
     - name: Для разработчиков
       href: ../developer/common-data-service/TOC.yml
 - name: Модель общих данных

@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/12/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: ddbd2f610ecba6d801efde2a00a9cb492e2382e3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 62afc8fc0ce754ed797683a61c061db16370f904
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021557"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195204"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>Регистрация для получения бесплатной пробной лицензии PowerApps
 Для создания приложений в PowerApps требуется один из типов лицензий, которые предоставляют функциональность разного уровня. У вас уже есть лицензия PowerApps, если ваша организация приобрела для вас одну из нескольких версий Office 365 или Dynamics 365 либо лицензию на план 1 или план 2 PowerApps.
@@ -74,7 +74,7 @@ ms.locfileid: "39021557"
 
 В сообщении электронной почты перейдите по ссылке для подтверждения адреса и (при необходимости) предоставьте дополнительные сведения.
 
-Когда появится это диалоговое окно, нажмите **Начать** и приступайте к работе с [PowerApps](http://web.powerapps.com).
+Когда появится это диалоговое окно, нажмите **Начать** и приступайте к работе с [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ![Нажатие кнопки начала работы](./media/signup-for-powerapps/almost-there.png)
 
@@ -118,7 +118,7 @@ ms.locfileid: "39021557"
 * При доступе к PowerApps только с помощью пробной лицензии (для использования которой вы зарегистрировались на [сайте PowerApps](http://powerapps.microsoft.com/) или [странице с ценами](http://powerapps.microsoft.com/pricing)) вы можете запросить продление пробного периода на 30 дней, чтобы сохранить доступ к PowerApps.
 
 ### <a name="when-will-my-trial-license-expire"></a>Когда истекает срок действия пробной лицензии?
-Чтобы узнать, когда истекает срок действия пробной лицензии, щелкните значок шестеренки в правом верхнем углу [сайта PowerApps](http://web.powerapps.com) и выберите пункт **Планы**.
+Чтобы узнать, когда истекает срок действия пробной лицензии, щелкните значок шестеренки в правом верхнем углу [сайта PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и выберите пункт **Планы**.
 
 ![](./media/signup-for-powerapps/show-duration.png)
 

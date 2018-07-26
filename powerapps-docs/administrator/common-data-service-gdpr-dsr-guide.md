@@ -9,12 +9,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 2a393bb2ebedde2a08f1ed1534d815e64325077b
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: b550d5fe7e36c36177fff017adcf9d9034c93dd4
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094755"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218057"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>Реагирование на запросы по правам субъекта данных (DSR) для данных клиента в Common Data Service for Apps
 
@@ -52,7 +52,7 @@ ms.locfileid: "39094755"
 
 CDS for Apps и предыдущая версия Common Data Service (CDS) имеют раздельные процессы для взаимодействия с персональными данными.
 
-Тип среды CDS можно определить, войдя в [PowerApps](https://web.powerapps.com) и выполнив следующие действия:
+Тип среды CDS можно определить, войдя в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и выполнив следующие действия:
 
 1. Выберите среду в раскрывающемся списке **Среды**.
 2. На панели навигации выберите элемент **Данные**, а затем **Сущности**.
@@ -308,7 +308,7 @@ CDS for Apps и предыдущая версия Common Data Service (CDS) им
 
 |Ресурс | Цель | Доступ к веб-сайтам |  Программный доступ
 | --- | --- | --- | ---
-|Записи сущности | Запись бизнес-транзакций в соответствующей бизнес-сущности. | [PowerApps](https://web.powerapps.com) |      Нет
+|Записи сущности | Запись бизнес-транзакций в соответствующей бизнес-сущности. | [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |    Нет
 
 #### <a name="entity-records"></a>Записи сущности
 Персональные данные лица могут храниться в любой бизнес-сущности.
