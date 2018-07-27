@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/12/2016
 ms.author: lanced
-ms.openlocfilehash: 3f90a3b7fc7914caf61cc33abcf6baec87328ece
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 619085bbc11214fbba308abc7a630a3631cb2ec1
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015623"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195181"
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>Подключение к Power BI из PowerApps
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -24,7 +24,7 @@ Power BI — это набор средств бизнес-аналитики �
 В этой статье показано, как использовать подключение Power BI в приложении, а также перечислены доступные функции.
 
 ## <a name="prerequisites"></a>Технические условия
-* [Зарегистрируйтесь](https://web.powerapps.com).
+* [Зарегистрируйтесь](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 * Добавьте [подключение](https://powerapps.microsoft.com/tutorials/add-manage-connections/) Power BI.
 * Создайте приложение с помощью [шаблона](https://powerapps.microsoft.com/tutorials/get-started-test-drive/) или [данных](https://powerapps.microsoft.com/tutorials/get-started-create-from-data/) или создайте его с [нуля](https://powerapps.microsoft.com/tutorials/get-started-create-from-blank/).
 
