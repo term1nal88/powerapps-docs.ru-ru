@@ -664,3 +664,6 @@
       href: ../developer/common-data-service/TOC.yml
 - name: Модель общих данных
   href: ../common-data-model/overview.md
+  items:
+    - name: Использование модели общих данных
+      href: ../common-data-model/use-common-data-model.md
