@@ -1,46 +1,30 @@
 - name: Администрирование PowerApps
-  href: index.md
-- name: Быстрое начало работы
+  href: admin-guide.md
   items:
-    - name: Создание среды
-      href: create-environment.md
-    - name: Создание политики защиты от потери данных
-      href: create-dlp-policy.md
-    - name: Просмотр активных пользователей в клиенте
-      href: admin-view-user-licenses.md
-    - name: Просмотр приложений в средах
-      href: admin-view-apps.md
-- name: Концепции
-  items:
-    - name: Общие сведения о лицензировании
-      href: pricing-billing-skus.md
-    - name: Обзор сред
-      href: environments-overview.md
-    - name: Основные сведения о группах данных
-      href: introduction-to-data-groups.md
-    - name: Обзор регионов
-      href: regions-overview.md
-- name: Практические руководства
-  items:
-    - name: Приобретение PowerApps
-      href: signup-for-powerapps-admin.md
-    - name: Управление лицензиями в организации
-      href: signup-question-and-answer.md
-    - name: Управление политиками защиты от потери данных
-      href: prevent-data-loss.md
-    - name: Создание базы данных
-      href: create-database.md
-    - name: Администрирование сред
-      href: environments-administration.md
-    - name: Настройка безопасности среды
-      href: database-security.md
-    - name: Управление приложениями в организации
-      href: admin-manage-apps.md
-    - name: Перемещение приложения между клиентами и средами
-      href: environment-and-tenant-migration.md
-    - name: Экспорт и импорт ресурсов
-      href: export-import-packages.md
+    - name: Начало работы
+      items:
+        - name: Какова роль администратора PowerApps?
+          href: overview-role-powerapps-admin.md
+    - name: Лицензирование
+      items:
+        - name: Общие сведения о лицензировании
+          href: pricing-billing-skus.md
+        - name: Управление лицензиями в организации
+          href: signup-question-and-answer.md
+        - name: Приобретение PowerApps
+          href: signup-for-powerapps-admin.md
+    - name: Управление PowerApps
+      items:
+        - name: Просмотр приложений в средах
+          href: admin-view-apps.md
+        - name: Управление приложениями в организации
+          href: admin-manage-apps.md
+        - name: Перемещение приложения между клиентами и средами
+          href: environment-and-tenant-migration.md
+        - name: Поддержка PowerShell в PowerApps (предварительная версия)
+          href: powerapps-powershell.md
     - name: Реагирование на запросы субъектов данных
+      href: powerapps-gdpr-dsr-guide-systemlogs.md
       items:
         - name: Системные журналы
           href: powerapps-gdpr-dsr-guide-systemlogs.md
@@ -53,9 +37,27 @@
               href: powerapps-gdpr-delete-dsr.md
         - name: Данные клиента CDS for Apps
           href: common-data-service-gdpr-dsr-guide.md
-        - name: Интеграция данных для компонента "Common Data Service для приложений"
-          href: data-integration-gdpr-dsr-guide.md
-- name: Справочные материалы
-  items:
-    - name: Поддержка PowerShell в PowerApps (предварительная версия)
-      href: powerapps-powershell.md
+    - name: Администрирование сред
+      href: environments-administration.md
+      items:
+        - name: Обзор сред
+          href: environments-overview.md
+        - name: Обзор регионов
+          href: regions-overview.md
+        - name: Создание среды
+          href: create-environment.md
+        - name: Создание базы данных
+          href: create-database.md
+    - name: Настройка безопасности среды
+      href: database-security.md
+      items:
+        - name: Основные сведения о группах данных
+          href: introduction-to-data-groups.md
+        - name: Создание политики защиты от потери данных
+          href: create-dlp-policy.md
+        - name: Управление политиками защиты от потери данных
+          href: prevent-data-loss.md
+    - name: Управление подписками и учетными записями пользователей
+      items:
+        - name: Просмотр активных пользователей в клиенте
+          href: admin-view-user-licenses.md
