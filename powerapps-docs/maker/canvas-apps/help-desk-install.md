@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 6145f321f3a9322433cdc32b779479871ab4dbf1
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: 4ee281e211891dab812c4ae447dff3d967ffeff3
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094778"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195779"
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Служба поддержки"
 
@@ -36,7 +36,7 @@ ms.locfileid: "39094778"
 
 ## <a name="prerequisites"></a>Технические условия
 
-- [Регистрация](https://web.powerapps.com/) в PowerApps.
+- [Регистрация](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) в PowerApps.
 - Необходимо иметь действительную лицензию на SharePoint Online и разрешение на создание списков.
 
 ## <a name="create-the-helpdesk-sharepoint-list"></a>Создание списка SharePoint HelpDesk (Служба поддержки)
@@ -60,7 +60,7 @@ ms.locfileid: "39094778"
 
 ### <a name="create-description-column"></a>Создание столбца Description (Описание)
 
-1. Нажмите кнопку с многоточием рядом со списком HelpDesk и щелкните **Параметры**.
+1. Нажмите кнопку с многоточием рядом со списком HelpDesk и выберите **Параметры**.
 2. Щелкните **Создать столбец**.
 3. В текстовом поле **Имя столбца** введите **Description**.
 4. В списке переключателей **Type of information in this column is** (Тип данных этого столбца) выберите **Несколько строк текста**.
@@ -140,7 +140,7 @@ ms.locfileid: "39094778"
 
 ## <a name="create-connections"></a>Создание подключений
 
-1.  В веб-браузере перейдите к https://web.powerapps.com.
+1.  В веб-браузере зайдите на страницу [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 2.  Выполните вход, используя те же учетные данные, что и при регистрации.
 3.  В меню слева выберите **Данные**, а затем — **Подключения**.
     

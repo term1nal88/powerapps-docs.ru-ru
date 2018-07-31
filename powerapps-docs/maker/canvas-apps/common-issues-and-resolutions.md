@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/10/2018
 ms.author: anneta
-ms.openlocfilehash: 92153c1d7fc72f6905faf55817f7f785ffdaa1ce
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: d5603ffacc0246dcffd1c54ab63b4e404250a7d5
+ms.sourcegitcommit: fc235972d0d4661f55df7a71e2dcedafd42706b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016497"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39202305"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Распространенные проблемы в PowerApps и их решение
 В этой статье перечислены некоторые распространенные проблемы, которые могут возникать у вас при работе с PowerApps. Где это возможно, приведены решения.
@@ -31,7 +31,7 @@ ms.locfileid: "39016497"
 
 1. **Использование пользовательского изображения в качестве значка приложения**
 
-    В PowerApps Studio для Windows версии 3.18043 невозможно отправить пользовательское изображение для использования в качестве значка приложения. Чтобы решить эту проблему, используйте [PowerApps Studio для Web](https://web.powerapps.com) для отправки пользовательского образа. Кроме того, можно использовать один из значков, предлагаемых в PowerApps Studio для Windows, и настроить цвет фона.
+    В PowerApps Studio для Windows версии 3.18043 невозможно отправить пользовательское изображение для использования в качестве значка приложения. Чтобы решить эту проблему, используйте [PowerApps Studio для Web](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) для отправки пользовательского образа. Кроме того, можно использовать один из значков, предлагаемых в PowerApps Studio для Windows, и настроить цвет фона.
 
 1. **Копирование и вставка экранов в приложениях**
 
@@ -71,11 +71,15 @@ ms.locfileid: "39016497"
 
 6. **Запуск приложений в Windows 8.1**
 
-    После [этого обновления для Windows 8.1](https://technet.microsoft.com/library/security/ms16-118) вы не сможете запускать приложения, которые открывались в PowerApps Studio в предыдущей версии операционной системы. Однако приложения, которые открываются в [powerapps.com](https://web.powerapps.com) или с помощью PowerApps Mobile, по-прежнему можно запускать.
+    После [этого обновления для Windows 8.1](https://technet.microsoft.com/library/security/ms16-118) вы не сможете запускать приложения, которые открывались в PowerApps Studio в предыдущей версии операционной системы. Однако приложения, которые открываются в [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) или с помощью PowerApps Mobile, по-прежнему можно запускать.
 
 7. **Имена столбцов с пробелами**
 
     Если вы используете список SharePoint или таблицу Excel, в которой имя столбца содержит пробел, PowerApps заменит его кодом **"\_x0020\_"**. Например, столбец **Имя столбца** из SharePoint или Excel будет отображаться как **Имя_x0020_столбца** в PowerApps при отображении в структуре данных или использовании в формуле.
+
+8. <a name="out-of-memory"></a>**Нехватка памяти в браузере**
+
+    Если при использовании PowerApps вашему браузеру не хватает памяти, попробуйте скачать 64-разрядную версию Chrome, Edge или Internet Explorer.
 
 ## <a name="older"></a>Старые проблемы
 1. **Изменение последовательности в совместно используемом приложении**

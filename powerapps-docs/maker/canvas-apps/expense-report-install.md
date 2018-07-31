@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 9ffb88629dbac2df514b1072cf21cd8aa82899d7
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: aca695c8c2ae90e0d5d843dcb0dfb562cbef5a05
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094663"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195733"
 ---
 # <a name="install-and-configure-the-expense-report-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Отчет о расходах"
 
@@ -209,7 +209,7 @@ ms.locfileid: "39094663"
 
 ## <a name="create-connections"></a>Создание подключений
 
-1.  В веб-браузере перейдите к https://web.powerapps.com.
+1.  В веб-браузере зайдите на страницу [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 2.  Выполните вход, используя те же учетные данные, что и при регистрации.
 3.  В меню слева выберите **Подключения**.
 

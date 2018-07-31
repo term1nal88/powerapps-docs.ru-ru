@@ -8,22 +8,22 @@ ms.component: pa-admin
 ms.topic: reference
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 2cb1e1b83cffee2ccea0a4d4b563de44aaa3e68c
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: b6ee687fdfe6da8550d76193a7c9219aae5ae291
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896197"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218839"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>Поддержка PowerShell в PowerApps (предварительная версия)
-С помощью предварительной версии командлетов PowerShell для создателей и администраторов приложений вы можете автоматизировать многие задачи мониторинга и управления, которые раньше выполнялись только вручную в [PowerApps](https://web.powerapps.com) или [центре администрирования PowerApps](https://admin.powerapps.com).
+С помощью предварительной версии командлетов PowerShell для создателей и администраторов приложений вы можете автоматизировать многие задачи мониторинга и управления, которые раньше выполнялись только вручную в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) или [центре администрирования PowerApps](https://admin.powerapps.com).
 
 ## <a name="installation"></a>Установка
 Прежде чем выполнять командлеты PowerShell для создателей приложений, выполните указанные ниже действия.
 
-1. Скачайте [файл сценариев PowerShell](https://go.microsoft.com/fwlink/?linkid=872358).
+1. Скачайте [файл сценариев PowerShell](https://go.microsoft.com/fwlink/?linkid=2006349).
 
-2. Распакуйте файлы в папку.
+2. Распакуйте файлы в папку. 
 
 3. Откройте командное окно PowerShell (с правами администратора) в этой же папке.
 
@@ -48,7 +48,14 @@ ms.locfileid: "37896197"
 7. Прежде чем обращаться к любой из команд, укажите свои учетные данные, используя команду ниже. Эти учетные данные обновляются максимум за 8 часов, прежде чем вам потребуется снова войти в систему, чтобы продолжить использование командлетов.
 
     ```
+    # This call will open a prompt to collect the credentials (AAD account & password) that will be used by the commands
     Add-PowerAppsAccount
+    ```
+
+    ```
+    # Here is how you can pass in credentials (avoiding opening a prompt)
+    $pass = ConvertTo-SecureString "password" -AsPlainText -Force
+    Add-PowerAppsAccount -Username foo@bar.com -Password $pass
     ```
 
 
@@ -58,27 +65,29 @@ ms.locfileid: "37896197"
 Пользователи с действующей лицензией PowerApps могут выполнять операции в этих командлетах. При этом они будут иметь доступ только к ресурсам (например, приложениям, потокам и т. д.), которые были созданы или предоставлены им для общего доступа.
 
 ### <a name="cmdlet-list"></a>Список командлетов
+> [!NOTE]
+> В последнем выпуске мы обновили некоторые из имен функций командлетов, добавив подходящие префиксы для предотвращения конфликтов. Обзор изменений см. в таблице ниже.
 
 | Цель | Командлет |
 | --- | --- |
-| Чтение сред | Get-PowerAppsEnvironment <br> Get-FlowEnvironment
+| Чтение сред | Get-PowerAppEnvironment *(ранее Get-PowerAppsEnvironment)* <br> Get-FlowEnvironment
 | Чтение, обновление и удаление приложения на основе холста | Get-App <br> Remove-App <br> Publish-App <br> Set-AppDisplayName <br> Get-AppVersion <br> Restore-AppVersion
-| Чтение, обновление и удаление разрешений приложений на основе холста | Get-AppRoleAssignment <br> Set-AppRoleAssignment <br> Remove-AppRoleAssignment
+| Чтение, обновление и удаление разрешений приложений на основе холста | Get-PowerAppRoleAssignment *(ранее Get-AppRoleAssignment)* <br> Set-PowerAppRoleAssignment *(ранее Set-AppRoleAssignment)* <br> Remove-PowerAppRoleAssignment *(ранее Remove-AppRoleAssignment)*
 | Read, update, and delete a flow | Get-Flow <br> Get-FlowRun <br> Enable-Flow <br> Disable-Flow <br> Remove-Flow
 | Чтение, обновление и удаление разрешений потоков | Get-FlowOwnerRole <br> Set-FlowOwnerRole <br> Remove-FlowOwnerRole
 | Чтение и ответ на утверждения потоков | Get-FlowApprovalRequest <br> Get-FlowApproval <br> RespondTo-FlowApprovalRequest
-| Чтение и удаление соединений | Get-Connection <br> Remove-Connection
-| Чтение, обновление и удаление разрешений соединений | Get-ConnectionRoleAssignment <br> Set-ConnectionRoleAssignment <br> Remove-ConnectionRoleAssignment
-| Чтение и удаление соединителей | Get-Connector <br> Remove-Connector
-| Чтение, обновление и удаление пользовательских разрешений соединителей | Get-ConnectorRoleAssignment <br> Set-ConnectorRoleAssignment <br> Remove-ConnectorRoleAssignment
+| Чтение и удаление соединений | Get-PowerAppConnection *(ранее Get-Connection)* <br> Remove-PowerAppConnection *(ранее Remove-Connection)*
+| Чтение, обновление и удаление разрешений соединений | Get-PowerAppConnectionRoleAssignment *(ранее Get-ConnectionRoleAssignment)* <br> Set-PowerAppConnectionRoleAssignment *(ранее Set-ConnectionRoleAssignment)* <br> Remove-PowerAppConnectionRoleAssignment *(ранее Remove-ConnectionRoleAssignment)*
+| Чтение и удаление соединителей | Get-PowerAppConnector *(ранее Get-Connector)* <br> Remove-PowerAppConnector *(ранее Remove-Connector)*
+| Чтение, обновление и удаление пользовательских разрешений соединителей | Get-PowerAppConnectorRoleAssignment *(ранее Get-ConnectorRoleAssignment)* <br> Set-PowerAppConnectorRoleAssignment *(ранее Set-ConnectorRoleAssignment)* <br> Remove-PowerAppConnectorRoleAssignment *(ранее Remove-ConnectorRoleAssignment)*
 
 
 > [!NOTE]
 > Следующие команды позволяют понять синтаксис и просмотреть примеры каждого из командлетов:
 >```
->Get-Help Get-PowerAppsEnvironment
->Get-Help Get-PowerAppsEnvironment -Examples
->Get-Help Get-PowerAppsEnvironment -Detailed
+>Get-Help Get-PowerAppEnvironment
+>Get-Help Get-PowerAppEnvironment -Examples
+>Get-Help Get-PowerAppEnvironment -Detailed
 >```
 
 ## <a name="powerapps-cmdlets-for-administrators-preview"></a>Командлеты PowerApps для администраторов (предварительная версия)
@@ -91,22 +100,24 @@ ms.locfileid: "37896197"
 * Права [глобального администратора Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) или [глобального администратора Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal), если вам нужно выполнить поиск по ресурсам другого пользователя. (Помните, что администраторы среды имеют доступ только к тем средам и ресурсам среды, на которые у них есть разрешения.)
 
 ### <a name="cmdlet-list"></a>Список командлетов
+> [!NOTE]
+> В последнем выпуске мы обновили некоторые из имен функций командлетов, добавив подходящие префиксы для предотвращения конфликтов. Обзор изменений см. в таблице ниже.
 
 | Цель | Командлеты
 | --- | ---
-| Чтение и удаление сред | Get-AdminEnvironment <br> Remove-AdminEnvironment
-| Чтение, обновление и удаление разрешений среды <br><br> *Эти командлеты работают только в средах, в которых нет базы данных Common Data Service (CDS) for Apps.* | Get-AdminEnvironmentRoleAssignment <br> Set-AdminEnvironmentRoleAssignment <br> Remove-AdminEnvironmentRoleAssignment
-| Чтение и удаление приложений на основе холста | Get-AdminApp <br> Remove-AdminApp
-| Чтение, обновление и удаление разрешений приложений на основе холста | Get-AdminAppRoleAssignment <br> Remove-AdminAppRoleAssignment <br> Set-AdminAppRoleAssignment <br> Set-AdminAppOwner
-| Чтение, обновление и удаление потоков | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow
+| Чтение, обновление и удаление сред и баз данных службы Common Data Service for Apps | New-AdminPowerAppEnvironment **\*Новый\*** <br> Set-AdminPowerAppEnvironmentDisplayName **\*Новый\*** <br> Get-AdminPowerAppEnvironment *(ранее Get-AdminEnvironment)* <br> Remove-AdminPowerAppEnvironment *(ранее Remove-AdminEnvironment)* <br> New-AdminPowerAppCdsDatabase **\*Новый\*** <br> Get-AdminPowerAppCdsDatabaseLanguages **\*Новый\*** <br> Get-AdminPowerAppCdsDatabaseCurrencies **\*Новый\*** <br> Get-AdminPowerAppEnvironmentLocations **\*Новый\***
+| Чтение, обновление и удаление разрешений среды <br><br> *Эти командлеты сейчас работают только в средах без базы данных Common Data Service (CDS) for Apps.* | Get-AdminPowerAppEnvironmentRoleAssignment *(ранее Get-AdminEnvironmentRoleAssignment)* <br> Set-AdminPowerAppEnvironmentRoleAssignment *(ранее Set-AdminEnvironmentRoleAssignment)* <br> Remove-AdminPowerAppEnvironmentRoleAssignment *(ранее Remove-AdminEnvironmentRoleAssignment)*
+| Чтение, обновление и удаление приложений на основе холста | Get-AdminPowerApp *(ранее Get-AdminApp)* <br> Remove-AdminPowerApp *(ранее Remove-AdminApp)* <br> Get-AdminPowerAppConnectionReferences **\*Новый\*** <br> Set-AdminPowerAppAsFeatured **\*Новый\*** <br> Clear-AdminPowerAppAsFeatured **\*Новый\*** <br> Set-AdminPowerAppAsHero **\*Новый\*** <br> Clear-AdminPowerAppAsHero **\*Новый\*** <br> Set-AdminPowerAppApisToBypassConsent **\*Новый\*** <br> Clear-AdminPowerAppApisToBypassConsent **\*Новый\***
+| Чтение, обновление и удаление разрешений приложений на основе холста | Get-AdminPowerAppRoleAssignment *(ранее Get-AdminAppRoleAssignment)* <br> Remove-AdminPowerAppRoleAssignment *(ранее Remove-AdminAppRoleAssignment)* <br> Set-AdminPowerAppRoleAssignment *(ранее Set-AdminAppRoleAssignment)* <br> Set-AdminPowerAppOwner *(ранее Set-AdminAppOwner)*
+| Чтение, обновление и удаление потоков | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow <br> Remove-AdminFlowApprovals **\*Новый\***
 | Чтение, обновление и удаление разрешений потоков | Get-AdminFlowOwnerRole <br> Set-AdminFlowOwnerRole <br> Remove-AdminFlowOwnerRole
-| Чтение и удаление соединений | Get-AdminConnection <br> Remove-AdminConnection
-| Чтение, обновление и удаление разрешений соединений | Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br> Remove-AdminConnectionRoleAssignment
-| Получение и удаление пользовательских соединителей | Get-AdminConnector <br> Remove-AdminConnector
-| Чтение, обновление и удаление пользовательских разрешений соединителей | Get-AdminConnectorRoleAssignment <br> Set-AdminConnectorRoleAssignment <br> Remove-AdminConnectorRoleAssignment
+| Чтение и удаление соединений | Get-AdminPowerAppConnection *(ранее Get-AdminConnection)* <br> Remove-AdminPowerAppConnection *(ранее Remove-AdminConnection)*
+| Чтение, обновление и удаление разрешений соединений | Get-AdminPowerAppConnectionRoleAssignment *(ранее Get-AdminConnectionRoleAssignment)* <br> Set-AdminPowerAppEnvironmentConnectionRoleAssignment *(ранее Set-AdminConnectionRoleAssignment)* <br> Remove-AdminPowerAppConnectionRoleAssignment *(ранее Remove-AdminConnectionRoleAssignment)*
+| Получение и удаление пользовательских соединителей | Get-AdminPowerAppConnector *(ранее Get-AdminConnector)* <br> Remove-AdminPowerAppConnector *(ранее Remove-AdminConnector)*
+| Чтение, обновление и удаление пользовательских разрешений соединителей | Get-AdminPowerAppConnectorRoleAssignment *(ранее Get-AdminConnectorRoleAssignment)*<br> Set-AdminPowerAppConnectorRoleAssignment *(ранее Set-AdminConnectorRoleAssignment)* <br> Remove-AdminPowerAppConnectorRoleAssignment *(ранее Remove-AdminConnectorRoleAssignment)*
 | Чтение параметров пользователя, параметров приложения пользователя и уведомлений PowerApps | Get-AdminPowerAppsUserDetails
 | Чтение и удаление параметров Microsoft Flow пользователя, которые не видны ему, но поддерживают выполнение потока | Get-AdminFlowUserDetails <br> Remove-AdminFlowUserDetails
-| Создание, чтение, обновление и удаление политик защиты от потери данных для вашей организации | Get-AdminApiPolicy <br> Add-AdminApiPolicy <br> Remove-AdminApiPolicy <br> Set-AdminApiPolicy <br> Add-ConnectorToBusinessDataGroup <br>  Remove-ConnectorFromBusinessDataGroup
+| Создание, чтение, обновление и удаление политик защиты от потери данных для вашей организации | Get-AdminDlpPolicy *(ранее Get-AdminApiPolicy)* <br> Add-AdminDlpPolicy *(ранее Add-AdminApiPolicy)* <br> Remove-AdminDlpPolicy *(ранее Remove-AdminApiPolicy)* <br> Set-AdminDlpPolicy *(ранее Set-AdminApiPolicy)* <br> Add-ConnectorToBusinessDataGroup <br>  Remove-ConnectorFromBusinessDataGroup
 
 > [!NOTE]
 > Следующие команды позволяют понять синтаксис и просмотреть примеры каждого из командлетов:

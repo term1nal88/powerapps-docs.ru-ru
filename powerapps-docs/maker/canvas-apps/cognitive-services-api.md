@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/08/2017
 ms.author: anneta
-ms.openlocfilehash: c47ddbbc2d50d05f1d4a913aaf7e9c743d5519e0
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 6175633b2fbec4e9949882c587916adb349290d4
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020660"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195457"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>Использование служб Cognitive Services с PowerApps
 Из этой статьи вы узнаете, как создать базовое приложение, использующее [API анализа текста Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview), чтобы анализировать текст. Мы объясним, как установить API анализа текста и подключиться к нему с помощью [соединителя для анализа текста](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/). Затем мы покажем, как создать приложение, которое вызывает API.
@@ -71,7 +71,7 @@ Microsoft Cognitive Services — это набор API-интерфейсов, �
 ### <a name="create-the-app-and-add-a-connection"></a>Создание приложения и добавление подключения
 Сначала создайте пустое приложение для телефона и добавьте подключение с помощью соединителя **Текстовая аналитика**. Дополнительные сведения об этих задачах см. в статьях [Создание приложения с нуля](get-started-create-from-blank.md) и [Управление подключениями в PowerApps](add-manage-connections.md).
 
-1. На странице [web.powerapps.com](https://web.powerapps.com) выберите **Создать на основе шаблона** > ![значок приложения для телефона](./media/cognitive-services-api/icon-phone-app.png) (значок телефона) > **Создать это приложение**.
+1. На странице [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) выберите **Создать на основе шаблона** > ![Значок приложения для телефона](./media/cognitive-services-api/icon-phone-app.png) (телефон) > **Создать это приложение**.
 
     ![Создать на основе шаблона](./media/cognitive-services-api/start-from-blank.png)
 
