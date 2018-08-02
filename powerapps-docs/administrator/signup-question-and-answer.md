@@ -2,18 +2,18 @@
 title: Управление лицензиями в организации | Документация Майкрософт
 description: Общие вопросы и ответы о лицензиях, администрировании и регистрации пользователей в PowerApps в клиенте Office 365
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: jamesol
-ms.openlocfilehash: 8a734ef57a3820e38d52ad2bd87a2ab8979c0348
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1f46541fcfe485bf497a59d25432ac1dec8d7b3e
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168051"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349784"
 ---
 # <a name="manage-powerapps-licenses-in-your-organization"></a>Управление лицензиями PowerApps в организации
 Из этой статьи вы узнаете, как пользователи в вашей организации могут получить доступ к службе PowerApps и как вы можете управлять доступом к ней.

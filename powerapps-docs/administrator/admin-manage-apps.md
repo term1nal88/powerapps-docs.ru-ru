@@ -6,15 +6,15 @@ ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
-ms.author: jimh
-ms.openlocfilehash: 8ef92fec0245bbe27529be0acb214cad7d2b928e
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.author: jimholtz
+ms.openlocfilehash: 9d900d2ebceb2ad3cca0c567b80d5d1fac4963ff
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552560"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349968"
 ---
-# <a name="manage-apps-created-in-your-organization"></a>Управление приложениями, созданными в организации
+# <a name="manage-apps-created-in-your-organization"></a>Управление приложениями, созданными в организации 
 Администратор среды, глобальный администратор Office 365 или администратор клиента Azure Active Directory может управлять приложениями, созданными в организации.
 
 В центре администрирования PowerApps администраторы могут выполнять следующие задачи:

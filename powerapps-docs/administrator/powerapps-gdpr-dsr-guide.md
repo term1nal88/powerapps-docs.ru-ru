@@ -2,18 +2,18 @@
 title: Реагирование на запросы по правам субъекта данных (DSR) к данным клиента PowerApps | Документы Майкрософт
 description: Пошаговое руководство о том, как реагировать на запросы по правам субъекта данных (DSR) к данным клиента PowerApps
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 5bc3951f767677c2b8b35166d16c089259eec1ce
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: ae73d5df51b2656fc4f33e7258078140a180926d
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218678"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349209"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-powerapps-customer-data"></a>Реагирование на запросы по правам субъекта данных (DSR) к данным клиента PowerApps
 
@@ -68,7 +68,7 @@ ms.locfileid: "39218678"
 
 PowerApps предлагает следующие действия по поиску персональных данных конкретного пользователя:
 
-- **Доступ к веб-сайтам**: [сайт PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [центр администрирования PowerApps](https://admin.powerapps.com/) и [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/).
+- **Доступ к веб-сайтам**: [сайт PowerApps](https://web.powerapps.com), [центр администрирования PowerApps](https://admin.powerapps.com/) и [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/).
 - **Доступ к PowerShell**: командлеты PowerApps (для [разработчиков приложений](https://go.microsoft.com/fwlink/?linkid=871448) и [администраторов](https://go.microsoft.com/fwlink/?linkid=871804)) и [командлеты локального шлюза](https://go.microsoft.com/fwlink/?linkid=872238).
 
 Дополнительные сведения об использовании этих типов ресурсов для поиска персональных данных конкретного пользователя см. в разделе [Реагирование на запросы по правам субъекта данных (DSR) на экспорт данных клиента PowerApps](powerapps-gdpr-export-dsr.md).

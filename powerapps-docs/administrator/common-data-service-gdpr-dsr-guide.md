@@ -3,18 +3,18 @@ title: Реагирование на запросы по правам субъе
 description: Пошаговое руководство по реагированию на запросы по правам субъекта данных (DSR) на получение данных клиента службы Common Data Service (CDS) для приложений.
 author: jamesol-msft
 ms.reviewer: paulliew
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: b550d5fe7e36c36177fff017adcf9d9034c93dd4
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: de7af5aa10f2f39057806c6ad170dc32e85c9f02
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218057"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349025"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>Реагирование на запросы по правам субъекта данных (DSR) для данных клиента в Common Data Service for Apps
 
@@ -52,7 +52,7 @@ ms.locfileid: "39218057"
 
 CDS for Apps и предыдущая версия Common Data Service (CDS) имеют раздельные процессы для взаимодействия с персональными данными.
 
-Тип среды CDS можно определить, войдя в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и выполнив следующие действия:
+Тип среды CDS можно определить, войдя в [PowerApps](https://web.powerapps.com) и выполнив следующие действия:
 
 1. Выберите среду в раскрывающемся списке **Среды**.
 2. На панели навигации выберите элемент **Данные**, а затем **Сущности**.
@@ -102,8 +102,8 @@ CDS for Apps и предыдущая версия Common Data Service (CDS) им
 
 |Ресурс | Цель | Доступ к веб-сайтам | Программный доступ
 | --- | --- | --- | ---
-| Запись сущности | Это системная сущность пользователя, которая хранит персональные данные пользователя. | [Центр администрирования PowerApps](https://admin.powerapps.com) | Через [веб-API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
-| Журнал аудита | Позволяет клиентам определять ресурсы, созданные, измененные, удаленные пользователями, или такие, к которым они обращались, на уровне сущности. | [Центр администрирования PowerApps](https://admin.powerapps.com) | Через [веб-API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
+| Запись сущности | Это системная сущность пользователя, которая хранит персональные данные пользователя. | [Центр администрирования PowerApps](https://admin.powerapps.com) | Через [веб-API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
+| Журнал аудита | Позволяет клиентам определять ресурсы, созданные, измененные, удаленные пользователями, или такие, к которым они обращались, на уровне сущности. | [Центр администрирования PowerApps](https://admin.powerapps.com) | Через [веб-API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
 
 #### <a name="user"></a>Пользователь
 Персональные данные пользователя хранятся в Azure Active Directory и автоматически синхронизируются со всеми средами CDS for Apps. Системные администраторы не могут обновить эти персональные данные непосредственно в CDS for Apps, пока активен пользователь, &mdash; их следует обновлять непосредственно в Центре администрирования Office 365. Системные администраторы могут добавлять персональные данные (например, настраиваемые атрибуты) непосредственно в CDS for Apps, но им нужно управлять этими данными вручную.
@@ -199,7 +199,7 @@ CDS for Apps и предыдущая версия Common Data Service (CDS) им
 
 3. Выберите **Параметры** > **Безопасность** > **Пользователи** и **Disabled Users View** (Представление отключенных пользователей).
 
-4. Создайте и скачайте файл шаблона Excel из персональных данных пользователя. Пошаговые инструкции см. в статье [Создание шаблона Excel](https://docs.microsoft.com/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template).
+4. Создайте и скачайте файл шаблона Excel из персональных данных пользователя. Пошаговые инструкции см. в статье [Создание шаблона Excel](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template).
 
 8. Откройте скачанный файл шаблона Excel, удалите персональные данные пользователя и сохраните файл.
 
@@ -308,7 +308,7 @@ CDS for Apps и предыдущая версия Common Data Service (CDS) им
 
 |Ресурс | Цель | Доступ к веб-сайтам |  Программный доступ
 | --- | --- | --- | ---
-|Записи сущности | Запись бизнес-транзакций в соответствующей бизнес-сущности. | [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |    Нет
+|Записи сущности | Запись бизнес-транзакций в соответствующей бизнес-сущности. | [PowerApps](https://web.powerapps.com) |      Нет
 
 #### <a name="entity-records"></a>Записи сущности
 Персональные данные лица могут храниться в любой бизнес-сущности.

@@ -2,18 +2,18 @@
 title: Группы данных | Документация Майкрософт
 description: Пошаговое руководство по работе с группами данных в PowerApps.
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 8899a77d73f67a1b437a60218b3536d2989d5b8c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 6a6217c0a344d0501c8a856b0632397044ceb465
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168327"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349646"
 ---
 # <a name="data-groups"></a>Группы данных
 Группы данных — это простой способ категоризации служб в рамках [политики защиты от потери данных (DLP)](prevent-data-loss.md). Доступны две группы данных: **Business data only** (Только бизнес-данные) и **No business data allowed** (Бизнес-данные запрещены). Организации могут определять, какие службы будут помещены в группу данных. Для категоризации служб рекомендуется разместить их в группы на основе их значимости для организации. По умолчанию все службы будут размещены в группу данных **No business data allowed** (Бизнес-данные запрещены). Вы можете управлять службами в группе данных, когда вы создаете или изменяете свойства политики DLP в центре администрирования.

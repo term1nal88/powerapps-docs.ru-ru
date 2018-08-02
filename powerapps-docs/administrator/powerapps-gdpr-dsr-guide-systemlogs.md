@@ -2,18 +2,18 @@
 title: Реагирование на запросы по правам субъекта данных (DSR) на получение системных журналов в службах PowerApps, Microsoft Flow и Common Data Service (CDS) для приложений | Документация Майкрософт
 description: Пошаговое руководство для реагирования на запросы по правам субъекта данных (DSR) на получение системных журналов в службах PowerApps, Microsoft Flow и Common Data Service (CDS) для приложений.
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 18bba11ce747b1e04be6013bf41419c34232865a
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 0511022621d891a6e45b27f1440e614df8b105a0
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897255"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349140"
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>Реагирование на запросы субъектов данных (DSR) на получение системных журналов в PowerApps, Microsoft Flow и Common Data Service for Apps
 Корпорация Майкрософт предоставляет вам возможность использования, экспорта и удаления системных журналов, которые могут рассматриваться как персональные в соответствии с расширенным определением *персональных данных* в Общем регламенте по защите данных (GDPR) ЕС. Примеры системных журналов, которые могут рассматриваться как персональные в соответствии с общим регламентом по защите данных включают следующее:
@@ -106,7 +106,7 @@ ms.locfileid: "37897255"
 1. Откройте в браузере следующий URL-адрес, заменив адрес электронной почты на собственный:[ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1).
 
 2. Если вы являетесь участником **неуправляемого клиента**, в ответе будет элемент `"IsViral": true`.
-   ```
+  ```
       {
       ...
       "Login": "foobar@unmanagedcontoso.com",
@@ -114,6 +114,6 @@ ms.locfileid: "37897255"
       "IsViral": **true**,
       ...
       }
-   ```
+  ```
 
 3. В противном случае вы относитесь к управляемому клиенту.

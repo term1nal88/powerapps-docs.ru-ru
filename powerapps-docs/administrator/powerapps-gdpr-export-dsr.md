@@ -2,23 +2,23 @@
 title: Реагирование на запросы по правам субъекта данных (DSR) на экспорт данных клиента PowerApps | Документы Майкрософт
 description: Пошаговое руководство о том, как реагировать на запросы по правам субъекта данных (DSR) на экспорт данных клиента PowerApps.
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 417b44cd992a6ff00cb9a8d17443338825e31d9f
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: cea8cf64a27e8468e9256df4e2e1239c32950df3
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218816"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349485"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-export-powerapps-customer-data"></a>Реагирование на запросы по правам субъекта данных (DSR) на экспорт данных клиента PowerApps
 "Право переносимости данных" позволяет субъектам данных запрашивать копии персональных данных в электронном формате (то есть в структурированном, часто используемом, пригодном для машинного чтения совместимом формате), которые можно передавать другому контроллеру данных.
 
-* Доступ к веб-сайтам: [портал PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [центр администрирования PowerApps](https://admin.powerapps.com/) и [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
+* Доступ к веб-сайтам: [портал PowerApps](https://web.powerapps.com), [центр администрирования PowerApps](https://admin.powerapps.com/) и [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
 
 * Доступ к PowerShell: командлеты PowerApps ([командлеты для создателей приложений](https://go.microsoft.com/fwlink/?linkid=871448), [командлеты для администраторов](https://go.microsoft.com/fwlink/?linkid=871804)) и [командлеты локального шлюза](https://go.microsoft.com/fwlink/?linkid=872238)
 
@@ -39,13 +39,13 @@ ms.locfileid: "39218816"
 Параметры пользователя, параметры приложения пользователя и уведомления PowerApps | | Разработчик приложений: доступно <br> Администратор: доступно
 
 > ** С выходом службы Common Data Service (CDS) for Apps, если в среде создается база данных, разрешения среды и приложения на основе модели хранятся в виде записей в экземпляре базы данных CDS for Apps. Руководство по реагированию на запросы DSR для пользователей, использующих CDS for Apps, см. в разделе [Реагирование на запросы по правам субъекта данных (DSR) для данных клиента в Common Data Service for Apps](common-data-service-gdpr-dsr-guide.md).
-> 
-> *** Администратор имеет доступ к этим ресурсам с [портала PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), только если их владелец явно предоставил ему разрешения. В противном случае администратору потребуется использовать [командлеты PowerShell для администраторов PowerApps](https://go.microsoft.com/fwlink/?linkid=871804).
+
+> *** Администратор имеет доступ к этим ресурсам с [портала PowerApps](https://web.powerapps.com), только если их владелец явно предоставил ему разрешения. В противном случае администратору потребуется использовать [командлеты PowerShell для администраторов PowerApps](https://go.microsoft.com/fwlink/?linkid=871804).
 
 ## <a name="prerequisites"></a>Технические условия
 
 ### <a name="for-users"></a>Для пользователей
-Любой пользователь с действующей лицензией PowerApps может выполнять операции пользователя, описанные в этом документе, с помощью [портала PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) или [командлетов для создателей приложений](https://go.microsoft.com/fwlink/?linkid=871448).
+Любой пользователь с действующей лицензией PowerApps может выполнять операции пользователя, описанные в этом документе, с помощью [портала PowerApps](https://web.powerapps.com) или [командлетов для создателей приложений](https://go.microsoft.com/fwlink/?linkid=871448).
 
 ### <a name="for-admins"></a>Для администраторов
 Для выполнения операций администрирования, описанных в этом документе, в центре администрирования PowerApps, центре администрирования Microsoft Flow или с помощью [командлетов PowerShell для администраторов PowerApps](https://go.microsoft.com/fwlink/?linkid=871804) вам понадобится следующее:
@@ -126,7 +126,7 @@ Get-AdminEnvironmentRoleAssignment -UserId $userId | ConvertTo-Json | Out-File -
 ## <a name="step-3-export-personal-data-contained-within-canvas-apps-created-by-the-user"></a>Шаг 3. Экспорт персональных данных, содержащихся в приложениях на основе холста, созданных пользователем
 
 ### <a name="powerapps-portal"></a>Портал PowerApps
-Пользователь может экспортировать приложение с [портала PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Пошаговые инструкции по экспорту приложения см. в [этом](environment-and-tenant-migration.md#exporting-an-app) разделе.
+Пользователь может экспортировать приложение с [портала PowerApps](https://web.powerapps.com). Пошаговые инструкции по экспорту приложения см. в [этом](environment-and-tenant-migration.md#exporting-an-app) разделе.
 
 ### <a name="powerapps-admin-center"></a>Центр администрирования PowerApps
 Администраторы могут экспортировать созданные пользователем приложения из [центра администрирования PowerApps](https://admin.powerapps.com/), выполнив следующие действия:
@@ -147,7 +147,7 @@ Get-AdminEnvironmentRoleAssignment -UserId $userId | ConvertTo-Json | Out-File -
 
     ![Предоставление доступа пользователю](./media/powerapps-gdpr-export-dsr/grant-access.png)
 
-5. Получив доступ ко всем приложениям пользователя, можно экспортировать приложения с [портала PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Пошаговые инструкции по экспорту приложения см. в [этом](environment-and-tenant-migration.md#exporting-an-app) разделе.
+5. Получив доступ ко всем приложениям пользователя, можно экспортировать приложения с [портала PowerApps](https://web.powerapps.com). Пошаговые инструкции по экспорту приложения см. в [этом](environment-and-tenant-migration.md#exporting-an-app) разделе.
 
 ### <a name="powershell-cmdlets-for-admins"></a>Командлеты PowerShell для администраторов
 Администраторы могут экспортировать приложения, которые были созданы пользователем, с помощью **Get-AdminApp**, одного из [командлетов PowerShell для администраторов PowerApps](https://go.microsoft.com/fwlink/?linkid=871804).
@@ -274,7 +274,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | O
 ~~~~
  
 ## <a name="step-9-export-powerapps-notifications-user-settings-and-user-app-settings"></a>Шаг 9. Экспорт уведомлений, параметров пользователя и параметров приложений пользователя PowerApps
-PowerApps отправляет пользователям несколько типов уведомлений, в том числе в случае предоставления им общего доступа к приложению и при завершении операции экспорта в CDS for Apps. Журнал уведомлений доступен для пользователей на [портале PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+PowerApps отправляет пользователям несколько типов уведомлений, в том числе в случае предоставления им общего доступа к приложению и при завершении операции экспорта в CDS for Apps. Журнал уведомлений доступен для пользователей на [портале PowerApps](https://web.powerapps.com).
 
 В PowerApps также хранятся несколько разных пользовательских настроек и параметров, связанных со средой выполнения PowerApps и работой на портале, в том числе сведения о том, когда пользователь последний раз открывал или закреплял приложение и т. д.
 
@@ -298,9 +298,9 @@ Get-AdminPowerAppsUserDetails -WriteToFile -OutputFilePath "UserDetails.json" -U
 ## <a name="step-10-export-personal-data-contained-for-a-user-stored-gateway-or-in-the-users-gateway-permissions"></a>Шаг 10. Экспорт персональных данных, содержащихся в пользовательском шлюзе или в разрешениях пользовательского шлюза
 
 ### <a name="powerapps-portal"></a>Портал PowerApps
-Пользователи могут экспортировать персональные данные, хранящиеся в службе шлюза, с [портала PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), выполнив указанные ниже действия.
+Пользователи могут экспортировать персональные данные, хранящиеся в службе шлюза, с [портала PowerApps](https://web.powerapps.com), выполнив указанные ниже действия.
 
-1. На [портале PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) в среде клиента по умолчанию выберите **Шлюзы**, а затем щелкните **Подробности** для всех шлюзов, к которым имеется доступ.
+1. На [портале PowerApps](https://web.powerapps.com) в среде клиента по умолчанию выберите **Шлюзы**, а затем щелкните **Подробности** для всех шлюзов, к которым имеется доступ.
 
     ![Целевая страница шлюза](./media/powerapps-gdpr-export-dsr/gateway-select-details.png)
 

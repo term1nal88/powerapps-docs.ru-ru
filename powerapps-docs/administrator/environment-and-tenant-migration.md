@@ -2,18 +2,18 @@
 title: Перенос приложений между средами и клиентами | Документация Майкрософт
 description: Пошаговое руководство по переносу приложений PowerApps между средами и клиентами.
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms-topic: conceptual
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.author: jamesol
-ms.openlocfilehash: 9a846f3c47111b1b83881ed01026951469b236cc
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 3a4aeda30f8d4f01e2a85e186a769fa19ac29883
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898336"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349600"
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>Перенос приложения между средами и клиентами с использованием упаковки
 Узнайте, как перенести ресурсы из одной среды в другую, используя упаковку. Эти среды могут находиться в одном клиенте или в разных клиентах.
@@ -112,13 +112,13 @@ ms.locfileid: "37898336"
 
 3. Скопируйте URL-адрес из браузера, внесите следующие изменения, а затем перейдите по новому URL-адресу в браузере:
 
-   * Структура текущего URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/edit.aspx?id={имя_решения}
+    * Структура текущего URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/edit.aspx?id={имя_решения}
 
-       ![Изменение URL-адреса](./media/environment-and-tenant-migration/edit-url.png)
+        ![Изменение URL-адреса](./media/environment-and-tenant-migration/edit-url.png)
 
-   * Структура нового URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
+    * Структура нового URL-адреса: https://{уникальное_имя_организации}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
 
-       ![Выбор пакета](./media/environment-and-tenant-migration/select-package.png)
+        ![Выбор пакета](./media/environment-and-tenant-migration/select-package.png)
 
 4. Выберите файл пакета решения CDS, который требуется импортировать, и завершите работу с мастером.
 
