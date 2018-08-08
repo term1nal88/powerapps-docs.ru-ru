@@ -2,28 +2,28 @@
 title: Поддержка PowerShell (предварительная версия) | Документация Майкрософт
 description: Описание различных командлетов PowerShell и пошаговое руководство по их установке и запуску.
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: reference
-ms.date: 05/23/2018
+ms.date: 07/31/2018
 ms.author: jamesol
-ms.openlocfilehash: b6ee687fdfe6da8550d76193a7c9219aae5ae291
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: e45b23d4efc474bcd48069b9823d1ef80cf5ea4a
+ms.sourcegitcommit: a0a8782d3c8d24cecf0796d405a61f745f0ffd91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218839"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39367622"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>Поддержка PowerShell в PowerApps (предварительная версия)
-С помощью предварительной версии командлетов PowerShell для создателей и администраторов приложений вы можете автоматизировать многие задачи мониторинга и управления, которые раньше выполнялись только вручную в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) или [центре администрирования PowerApps](https://admin.powerapps.com).
+С помощью предварительной версии командлетов PowerShell для создателей и администраторов приложений вы можете автоматизировать многие задачи мониторинга и управления, которые раньше выполнялись только вручную в [PowerApps](https://web.powerapps.com) или [центре администрирования PowerApps](https://admin.powerapps.com).
 
 ## <a name="installation"></a>Установка
 Прежде чем выполнять командлеты PowerShell для создателей приложений, выполните указанные ниже действия.
 
 1. Скачайте [файл сценариев PowerShell](https://go.microsoft.com/fwlink/?linkid=2006349).
 
-2. Распакуйте файлы в папку. 
+2. Распакуйте файлы в папку.
 
 3. Откройте командное окно PowerShell (с правами администратора) в этой же папке.
 
@@ -71,7 +71,7 @@ ms.locfileid: "39218839"
 | Цель | Командлет |
 | --- | --- |
 | Чтение сред | Get-PowerAppEnvironment *(ранее Get-PowerAppsEnvironment)* <br> Get-FlowEnvironment
-| Чтение, обновление и удаление приложения на основе холста | Get-App <br> Remove-App <br> Publish-App <br> Set-AppDisplayName <br> Get-AppVersion <br> Restore-AppVersion
+| Чтение, обновление и удаление приложения на основе холста | Get-PowerApp *(ранее Get-App)* <br> Remove-PowerApp *(ранее Remove-App)* <br> Publish-PowerApp *(ранее Publish-App)* <br> Set-AppDisplayName *(ранее Set-PowerAppDisplayName)*<br> Get-PowerAppVersion *(ранее Get-AppVersion)* <br> Restore-PowerAppVersion *(ранее Restore-AppVersion)*
 | Чтение, обновление и удаление разрешений приложений на основе холста | Get-PowerAppRoleAssignment *(ранее Get-AppRoleAssignment)* <br> Set-PowerAppRoleAssignment *(ранее Set-AppRoleAssignment)* <br> Remove-PowerAppRoleAssignment *(ранее Remove-AppRoleAssignment)*
 | Read, update, and delete a flow | Get-Flow <br> Get-FlowRun <br> Enable-Flow <br> Disable-Flow <br> Remove-Flow
 | Чтение, обновление и удаление разрешений потоков | Get-FlowOwnerRole <br> Set-FlowOwnerRole <br> Remove-FlowOwnerRole
@@ -122,9 +122,9 @@ ms.locfileid: "39218839"
 > [!NOTE]
 > Следующие команды позволяют понять синтаксис и просмотреть примеры каждого из командлетов:
 >```
->Get-Help Get-AdminEnvironment
->Get-Help Get-AdminEnvironment -Examples
->Get-Help Get-AdminEnvironment -Detailed
+>Get-Help Get-AdminPowerAppEnvironment
+>Get-Help Get-AdminPowerAppEnvironment -Examples
+>Get-Help Get-AdminPowerAppEnvironment -Detailed
 >```
 
 ## <a name="questions"></a>Вопросы?

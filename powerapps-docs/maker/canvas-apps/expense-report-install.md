@@ -1,6 +1,6 @@
 ---
-title: Установка и настройка примера приложения PowerApps "Отчет о расходах" | Документы Майкрософт
-description: Пошаговые инструкции по установке и настройке примера приложения PowerApps "Отчет о расходах".
+title: Установка и настройка примера "Отчет о расходах" для приложений на основе холста | Документы Майкрософт
+description: Пошаговые инструкции по установке и настройке примера "Отчет о расходах" для приложений на основе холста в PowerApps.
 author: caburk
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,25 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: aca695c8c2ae90e0d5d843dcb0dfb562cbef5a05
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: f0fc0d9407511730145002bf109957b0878398bc
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195733"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470047"
 ---
-# <a name="install-and-configure-the-expense-report-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Отчет о расходах"
+# <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>Установка и настройка примера "Отчет о расходах" для приложений на основе холста в PowerApps
 
-Пошаговые инструкции по установке и настройке примера приложения PowerApps "Отчет о расходах".
+Пошаговые инструкции по установке и настройке примера "Отчет о расходах".
 
 Предполагаемое время выполнения этой процедуры: **10–15 минут**
 
-Демонстрацию этой процедуры см. в следующем видео.
+См. следующее видео, где демонстрируется эта процедура.
 
-[![Установка приложения "Отчет о расходах"](./media/expense-report-install/expense-report-install-video.png)](https://youtu.be/DOR28V5kCkw)
+[![Видео по установке примера "Отчет о расходах"](./media/expense-report-install/expense-report-install-video.png)](https://youtu.be/DOR28V5kCkw)
 
-## <a name="expense-report-powerapps-sample-overview"></a>Обзор примера приложения PowerApps "Отчет о расходах"
+## <a name="overview-of-the-sample"></a>Общие сведения о примере
+
 Отслеживайте отчеты о затратах от их подачи до утверждения. Суммируйте отдельные позиции по мере увеличения отдельных затрат и подавайте их на утверждение по мере готовности. Это приложение потребуется настроить в соответствии с вашими потребностями.
 
 ![Начальный экран приложения PowerApps "Отчет о расходах"](./media/expense-report-install/expense-report-powerapp.png)

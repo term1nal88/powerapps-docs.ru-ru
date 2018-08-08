@@ -1,6 +1,6 @@
 ---
 title: Интеграция PowerApps в веб-сайты и другие службы | Документация Майкрософт
-description: Внедряйте приложения в веб-сайты и другие службы.
+description: Внедрение приложений на основе холста в веб-сайты и другие службы.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,15 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: ed0863d8d7987e7e7f129a9804b35e00e76aad36
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: e48da773f34eb2abedd65c3ea88aab1bb184da02
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023811"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470783"
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>Интеграция PowerApps в веб-сайты и другие службы
-Приложения, которые вы создаете, как правило, наиболее полезны, когда они доступны прямо там, где люди делают свою работу. PowerApps позволяет внедрять приложения в IFrame, чтобы эти приложения можно было интегрировать в веб-сайты и другие службы, такие как Power BI или SharePoint.
+Приложения, которые вы создаете, как правило, наиболее полезны, когда они доступны прямо там, где люди делают свою работу. PowerApps позволяет внедрять приложения на основе холста в элементы IFrame для интеграции их в веб-сайты и другие службы, такие как Power BI или SharePoint.
 
 Здесь мы покажем, как задать параметры для внедрения приложения. Затем мы внедрим приложение для заказа товаров в веб-сайт.
 

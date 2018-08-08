@@ -1,6 +1,6 @@
 ---
-title: Создание диаграмм | Документация Майкрософт
-description: Отображение категорий данных в виде графиков, круговых диаграмм или гистограмм
+title: Создание диаграммы в приложении на основе холста | Документы Майкрософт
+description: Отображение категорий данных в виде графиков, круговых диаграмм или гистограмм в приложении на основе холста в PowerApps
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 5fecc52a5100f2ed0d045fd0ebdc3834f83d5b39
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 63244a05d81f807609c965892f6a84e30577b490
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195917"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471151"
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>Отображение данных в виде графика, круговой или линейчатой диаграммы в PowerApps
-Используйте графики, круговые диаграммы и гистограммы для отображения данных. При работе с диаграммами импортируемые данные должны быть структурированы следующим образом:
+
+Используйте графики, круговые диаграммы и гистограммы для отображения данных в приложении на основе холста. При работе с диаграммами импортируемые данные должны быть структурированы с учетом следующих условий:
 
 * Каждый ряд должен находиться в первой строке.
 * Метки должны быть в первом столбце слева.
@@ -29,6 +30,7 @@ ms.locfileid: "39195917"
 Вы можете создавать и использовать эти диаграммы в PowerApps. Приступим.
 
 ## <a name="prerequisites"></a>Технические условия
+
 * [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) с помощью учетных данных, использовавшихся при регистрации.
 * Создайте приложение с помощью [шаблона](get-started-test-drive.md) или [данных](get-started-create-from-data.md) или создайте его с [нуля](get-started-create-from-blank.md).
 * Узнайте, как [настроить элемент управления](add-configure-controls.md) в PowerApps.

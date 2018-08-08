@@ -1,6 +1,6 @@
 ---
-title: Создание приложения на основе шаблона | Документация Майкрософт
-description: Пошаговые инструкции по созданию приложения автоматически на основе шаблона PowerApps.
+title: Создание приложения на основе холста из шаблона | Документы Майкрософт
+description: Пошаговые инструкции по созданию приложения на основе холста автоматически на базе шаблона PowerApps.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,21 +9,23 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/19/2018
 ms.author: anneta
-ms.openlocfilehash: 3827255726be017fe594a2c54389df7c622f7307
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 8b750760ab10c33d17f0e73f8b90a59e6a7b84f7
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195250"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471243"
 ---
-# <a name="create-an-app-from-a-powerapps-template"></a>Создание приложения на основе шаблона PowerApps
-Вы можете создать приложение автоматически на основе шаблона для определенного сценария, например отслеживания бюджета или планирования отпусков, а затем запустить приложение, чтобы посмотреть, как оно работает по умолчанию.
+# <a name="create-a-canvas-app-from-a-template-in-powerapps"></a>Создание приложения на основе холста из шаблона в PowerApps
+
+Вы можете автоматически создать из шаблона приложение на основе холста для определенного сценария, например для отслеживания бюджета или планирования отпусков, а затем запустить приложение, чтобы посмотреть, как оно работает по умолчанию.
 
 Для создания приложения на основе шаблона требуется облачная учетная запись хранения (например, DropBox, OneDrive или Google Диск), в которой будет храниться образец данных шаблона.
 
 Если у вас нет лицензии на PowerApps, вы можете [зарегистрироваться для получения бесплатной версии](../signup-for-powerapps.md).
 
 ## <a name="create-an-app"></a>Создание приложения
+
 1. Войдите в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![Домашняя страница PowerApps](./media/get-started-test-drive/sign-in.png)

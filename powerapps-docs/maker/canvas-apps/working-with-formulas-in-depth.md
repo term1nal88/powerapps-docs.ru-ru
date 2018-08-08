@@ -1,6 +1,6 @@
 ---
-title: Основные сведения о формулах поведения | Документация Майкрософт
-description: Справочные сведения о работе с формулами поведения
+title: Основные сведения о формулах поведения в приложении на основе холста | Документы Майкрософт
+description: Справочные сведения о работе с формулами поведения, которые изменяют состояние приложения на основе холста в PowerApps
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/10/2015
 ms.author: gregli
-ms.openlocfilehash: 8ac9cfc2a949cf059d84b5338220e0366094e24b
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: e0e7aabc06014c69aae640b799463431b6800dad
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015600"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471473"
 ---
-# <a name="understand-behavior-formulas-in-powerapps"></a>Основные сведения о формулах поведения в PowerApps
+# <a name="understand-behavior-formulas-for-canvas-apps-in-powerapps"></a>Основные сведения о формулах поведения в приложениях на основе холста в PowerApps
 
 Большинство формул предназначены для вычисления значений.  Как и в электронной таблице Excel, повторное вычисление выполняется автоматически при изменении значений.  Например, можно сделать так, чтобы значение в элементе управления **[Метка](controls/control-text-box.md)** становилось красным, если оно меньше нуля, и черным в противном случае. Таким образом, вы можете задать в качестве значения свойства **[Color](controls/properties-color-border.md)** этого элемента управления такую формулу:
-<br>**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
+
+**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
 
 При этом, если пользователь выберет элемент управления **[Кнопка](controls/control-button.md)**,  значения не изменятся, поэтому новые вычисления не выполняются. В Excel нет эквивалента элементу управления **[Кнопка](controls/control-button.md)**.  
 

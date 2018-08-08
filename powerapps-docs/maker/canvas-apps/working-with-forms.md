@@ -1,6 +1,6 @@
 ---
-title: Общие сведения о формах | Документация Майкрософт
-description: Формы можно использовать для сбора и отображения сведений из источника данных.
+title: Общие сведения о формах в приложении на основе холста | Документы Майкрософт
+description: Добавление формы в приложение на основе холста в PowerApps для сбора и отображений сведений из источника данных.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: b2eb001ee426dc3449b440a357c67bc47b702d42
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: c7bd68f37cc469b054a75012d4166c05375db6ff
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195756"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470254"
 ---
-# <a name="understand-data-forms-in-microsoft-powerapps"></a>Общие сведения о формах данных в Microsoft PowerApps
-Добавьте три типа элементов управления, чтобы пользователь мог просматривать записи, отображать подробные сведения об этой записи и изменять или создавать запись:
+# <a name="understand-canvas-app-forms-in-microsoft-powerapps"></a>Общие сведения о формах в приложении на основе холста в Microsoft PowerApps
+
+Вы можете добавлять в приложение на основе холста три типа элементов управления, позволяющие пользователям просматривать записи и сведения о них, а также создавать и изменять записи:
 
 | Действие | Элемент управления | Описание |
 | --- | --- | --- |

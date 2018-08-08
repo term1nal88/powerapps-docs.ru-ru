@@ -2,25 +2,25 @@
 title: Управление политиками защиты от потери данных | Документы Майкрософт
 description: Пошаговое руководство по управлению политиками защиты от потери данных для PowerApps.
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 158abc3969090e081df41b6b52036d71b6949150
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 81117e352f3ad5131572cff2a61117042f47df38
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445713"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349416"
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>Управление политиками защиты от потери данных
 Информация критически важна для успешной работы организации. Эта информация должна быть легко доступна для принятия решений, но она также должна быть защищена, чтобы к ней не могли получить доступ посторонние лица. Чтобы защитить эти данные, в PowerApps можно создать и применить политики защиты от потери данных (DLP), определяющие, каким пользовательским соединителям предоставляется общий доступ к конкретным бизнес-данным. Представим, что организация использует PowerApps и не хочет, чтобы хранящиеся в SharePoint данные автоматически публиковались в веб-канале Twitter.
 
 Чтобы создавать, изменять или удалять политики DLP, нужны разрешения администратора среды или администратора клиента Azure Active Directory. Дополнительные сведения см. в статье [Администрирование сред в PowerApps](environments-administration.md).
 
-Инструкции по созданию политики защиты от потери данных см. в разделе [Краткое руководство. Создание политики защиты от потери данных (DLP)](create-dlp-policy.md).
+Инструкции по созданию политики DLP см. в статье [Создание политики защиты от потери данных (DLP)](create-dlp-policy.md).
 
 ## <a name="find-a-dlp-policy"></a>Поиск политики защиты от потери данных
 1. Войдите в центр администрирования по адресу [https://admin.powerapps.com]([https://admin.powerapps.com).

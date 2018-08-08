@@ -1,6 +1,6 @@
 ---
 title: PowerApps для партнеров, независимых поставщиков ПО и разработчиков корпоративных решений | Документация Майкрософт
-description: Общие сведения о разработке решений в PowerApps.
+description: Общие сведения о разработке решений в PowerApps.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,20 +9,20 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/01/2017
 ms.author: mblythe
-ms.openlocfilehash: 79f0e852b62c41267224a2b3289b24fec65583a2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 81949441e8fbb7881d21820e8bd4d5d790648fc2
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023857"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470829"
 ---
 # <a name="powerapps-for-enterprise-developers-partners-and-isvs"></a>PowerApps для разработчиков корпоративных приложений, партнеров и независимых поставщиков ПО
 
-Как разработчик вы можете расширить возможности PowerApps, предоставляя еще более мощные решения для организаций и пользователей.
+Как разработчик вы можете расширять возможности приложений на основе холста в PowerApps, создавая еще более мощные решения для пользователей и организаций.
 
 ## <a name="powerapps-for-enterprise-developers"></a>PowerApps для корпоративных разработчиков
 
-Корпоративные разработчики могут повысить эффективность работы организаций, создавая надежные специализированные решения в PowerApps:
+Корпоративные разработчики могут дать своим организациям возможность создавать в PowerApps надежные специализированные решения:
 
 - **Создавайте пользовательские соединители**, чтобы подключаться к данным и веб-службам организации через Microsoft Flow. [Дополнительные сведения](https://docs.microsoft.com/connectors/custom-connectors/)
 

@@ -1,6 +1,6 @@
 ---
-title: Настройка форм | Документация Майкрософт
-description: Укажите, какие данные должны отображаться в форме, в каком порядке и в каких элементах управления.
+title: Настройка формы в приложении на основе холста | Документы Майкрософт
+description: PowerApps позволяет вам указать, какие данные отображать в форме в приложении на основе холста, в каком порядке и в каких элементах управления.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,27 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: aefe350c2294f9d8cbae32eee1db1f600c8a65da
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 14ea731907624f882ae117a09c7f799a25389fe6
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195112"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471450"
 ---
-# <a name="customize-forms-in-powerapps"></a>Настройка форм в PowerApps
-Настройте элементы управления **Форма просмотра** и **Форма редактирования** таким образом, чтобы наиболее важные данные отображались в них в интуитивно понятном порядке, упрощающих восприятие и изменение данных.
+# <a name="customize-a-canvas-app-form-in-powerapps"></a>Настройка формы в приложении на основе холста в PowerApps
+
+В приложении на основе холста вы можете настроить элементы управления **Форма отображения** и **Форма редактирования** для показа наиболее важных данных в интуитивно понятном порядке. Это сделает их более понятными пользователям и упростит их редактирование.
 
 Каждая форма содержит одну или несколько карточек, в которых отображаются данные из определенного столбца в источнике данных. Следуя инструкциям в этой статье, вы научитесь указывать, какие карточки должны отображаться в форме, перемещать карточки вверх и вниз в пределах формы.
 
 Если вы еще не работали с PowerApps, см. статью [Знакомство с PowerApps](getting-started.md).
 
 ## <a name="prerequisites"></a>Технические условия
+
 [Создайте приложение](data-platform-create-app.md) из Common Data Service, а затем [настройте коллекцию](customize-layout-sharepoint.md) в этом приложении.
 
 ## <a name="show-and-hide-cards"></a>Отображение и скрытие карточек
+
 1. Войдите в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![Домашняя страница сайта PowerApps](./media/customize-forms-sharepoint/sign-in.png)

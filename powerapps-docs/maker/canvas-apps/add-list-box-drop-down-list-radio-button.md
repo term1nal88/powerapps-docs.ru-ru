@@ -1,6 +1,6 @@
 ---
-title: Добавление списка, раскрывающегося списка и переключателей | Документация Майкрософт
-description: Создание и настройка элементов множественного выбора в PowerApps
+title: Добавление списка, раскрывающегося списка и переключателей в приложение на основе холста | Документы Майкрософт
+description: Создание и настройка элементов множественного выбора в приложении на основе холста в PowerApps
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,19 +9,21 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: ecdd1cc5aa9ccbad7c2973f8ad899b213dcd96f3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b4988157a8f194f7b1148cff79de1b5ce44add14
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023834"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471036"
 ---
-# <a name="add-a-list-box-a-drop-down-list-or-radio-buttons"></a>Добавление списка, раскрывающегося списка и переключателей
-В PowerApps есть элементы управления с возможностью выбора одного или нескольких вариантов, включая переключатели, обычный и раскрывающийся список. В этой статье мы добавим эти элементы управления и воспользуемся формулой **Table** для создания списков. При выборе элемента в списке обновляются другие элементы управления.
+# <a name="add-a-list-box-a-drop-down-list-or-radio-buttons-to-a-canvas-app-in-powerapps"></a>Добавление списка, раскрывающегося списка и переключателей в приложение на основе холста в PowerApps
+
+PowerApps включает элементы единичного и множественного выбора для приложений на основе холста, в том числе переключатели, обычный и раскрывающийся список. В этой статье мы добавим эти элементы управления и воспользуемся формулой **Table** для создания списков. При выборе элемента в списке обновляются другие элементы управления.
 
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
 ## <a name="add-a-list-box"></a>Добавление списка
+
 1. На вкладке **Insert** (Вставка) выберите **Controls** (Элементы управления), а затем — элемент **List box** (Список):  
 
     ![][2]  

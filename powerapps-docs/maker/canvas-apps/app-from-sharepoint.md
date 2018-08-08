@@ -1,6 +1,6 @@
 ---
-title: Краткое руководство по созданию приложения в PowerApps на основе SharePoint | Документы Майкрософт
-description: Автоматическое создание приложения в PowerApps для управления данными в списке SharePoint
+title: Создание приложения на основе холста в PowerApps на базе SharePoint | Документы Майкрософт
+description: Автоматическое создание приложения на основе холста в PowerApps для управления данными в списке SharePoint
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/12/2018
 ms.author: anneta
-ms.openlocfilehash: fd3e1e293b3c10b25351ba3958af46b887447e26
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: cb68c454053a36f49b72afa1718ca0d67ad364af
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195388"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469886"
 ---
-# <a name="quickstart-for-generating-an-app-in-powerapps-from-sharepoint"></a>Краткое руководство по созданию приложения в PowerApps на основе SharePoint
+# <a name="generate-a-canvas-app-in-powerapps-from-sharepoint-data"></a>Создание приложения на основе холста в PowerApps на базе SharePoint-данных
 
-В этом кратком руководстве вы с помощью PowerApps автоматически создадите свое первое приложение на основе списка в SharePoint. В нем можно будет просматривать все элементы списка и подробные данные отдельного элемента, а также создавать, изменять и удалять элементы.
+В этом разделе с помощью PowerApps вы автоматически создадите свое первое приложение на основе холста, используя список, созданный в SharePoint. В нем можно будет просматривать все элементы списка и подробные данные отдельного элемента, а также создавать, изменять и удалять элементы.
 
 Для ознакомления с основными принципами и приемами работы, описываемыми в этом руководстве, можно использовать любой список в SharePoint. Для выполнения всех инструкций в точности создайте на сайте SharePoint Online список с именем **ПростоеПриложение**, содержащий столбец с именем **Заголовок**. В этом списке создайте записи **Ваниль**, **Шоколад** и **Клубника**.
 

@@ -1,6 +1,6 @@
 ---
-title: Добавление подключения к данным в приложении | Документация Майкрософт
-description: Добавление подключения к данным в существующем или пустое приложении
+title: Добавление подключения к данным в приложение на основе холста | Документы Майкрософт
+description: Добавление подключения к данным в существующее или пустое приложение на основе холста
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/06/2018
 ms.author: lanced
-ms.openlocfilehash: 471f4b69b913236d99e6309c8b8bb4e12f85a7b9
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: bf53c71a5dfbbfecbf6a094f26c9866e7f94f84d
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195043"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471059"
 ---
-# <a name="add-a-data-connection-in-powerapps"></a>Добавление подключения к данным в PowerApps
-В PowerApps можно добавить подключение к данным в существующем приложении или в приложении, создаваемом с нуля. Приложение может подключаться к SharePoint, Salesforce, OneDrive и [множеству других источников данных](connections-list.md).
+# <a name="add-a-data-connection-to-a-canvas-app-in-powerapps"></a>Добавление подключения к данным в приложение на основе холста в PowerApps
+
+В PowerApps вы можете добавить подключение к данным в существующее приложение на основе холста или в приложение, создаваемое с нуля. Приложение может подключаться к SharePoint, Salesforce, OneDrive и [множеству других источников данных](connections-list.md).
 
 Выполнив действия, описанные в этой статье, приступайте к [следующему шагу](#next-steps) — отображению и администрированию данных из источника в приложении, как в следующих примерах:
 
@@ -26,6 +27,7 @@ ms.locfileid: "39195043"
 * подключение к серверу SQL Server и обновление таблицы из приложения.
 
 ## <a name="prerequisites"></a>Технические условия
+
 [Зарегистрируйтесь](../signup-for-powerapps.md) в PowerApps, а затем [войдите в систему](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), указав учетные данные, использованные при регистрации.
 
 ## <a name="add-a-data-source"></a>Добавление источника данных

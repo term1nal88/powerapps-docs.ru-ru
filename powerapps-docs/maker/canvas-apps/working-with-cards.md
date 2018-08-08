@@ -1,6 +1,6 @@
 ---
 title: Общие сведения о картах данных | Документация Майкрософт
-description: Карты форм можно использовать для сбора и отображения сведений из источника данных.
+description: Использование карт форм в PowerApps для сбора и отображения сведений из источника данных.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,23 +9,25 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 81e0213caee1d4eed466edebe3d13cbfa1c3e7e2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a229f77ea569c56e18fd955a66ce48a5e02f84a9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020775"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470944"
 ---
-# <a name="understand-data-cards"></a>Общие сведения о карточках данных
-Элементы управления **[Карта](controls/control-card.md)** являются стандартными блоками элементов управления **[Форма редактирования](controls/control-form-detail.md)** и **[Форма отображения](controls/control-form-detail.md)**. Форма представляет всю запись, а каждая карта представляет одно поле этой записи.
+# <a name="understand-data-cards-in-powerapps"></a>Общие сведения о картах данных в PowerApps
+
+Элементы управления **[Карта](controls/control-card.md)** являются стандартными блоками элементов управления **[Форма редактирования](controls/control-form-detail.md)** и **[Форма отображения](controls/control-form-detail.md)** в приложениях на основе холста. Форма представляет всю запись, а каждая карта представляет одно поле этой записи.
 
 Выбрав элемент управления формы в рабочей области конструирования, вы сможете работать с карточками на панели справа. На этой панели можно выбрать отображаемые поля, способ отображения каждого поля и их порядок. В этом примере показан элемент управления **Форма изменения** в приложении, созданном из списка SharePoint с именем **Assets**.
 
-![](./media/working-with-cards/first-screen.png)
+![Первый экран](./media/working-with-cards/first-screen.png)
 
 Чтобы начать работу с картами, см. статьи о [добавлении формы](add-form.md) и [формах данных](working-with-forms.md). В оставшейся части этой статьи приведены более подробные сведения о принципе действия карт, а также об их настройке и создании.
 
 ## <a name="predefined-cards"></a>Предопределенные карты
+
 В PowerApps предусмотрен предопределенный набор карт для строк, чисел и других типов данных. В области справа можно просмотреть доступные варианты и изменить карту, используемую для поля.
 
 ![](./media/working-with-cards/selected-card.png)

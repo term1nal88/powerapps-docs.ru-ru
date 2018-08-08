@@ -1,6 +1,6 @@
 ---
-title: Отображение сведений о текущем пользователе | Документация Майкрософт
-description: Вставка функции User для отображения имени и электронной почты пользователя, выполнившего вход в PowerApps.
+title: Показ сведений о текущем пользователе в приложении на основе холста | Документы Майкрософт
+description: Отображение в PowerApps имени и адреса электронной почты пользователя, выполнившего вход в приложение на основе холста
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: 90a7ca39626e8eec8151bc3d5ced25a5701a126e
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 53d235a54aca1523cf243a315f5309bced1f15a9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016267"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471197"
 ---
-# <a name="show-information-about-a-powerapps-user"></a>Отображение сведений о пользователе PowerApps
-Функция User может показать полное имя, электронный адрес и рисунок, который связаны с пользователем, выполнившим вход. Эти сведения можно использовать для автоматического заполнения формы.
+# <a name="show-information-about-a-powerapps-user-in-a-canvas-app"></a>Отображение сведений о пользователе PowerApps в приложении на основе холста
+
+В PowerApps вы можете отобразить полное имя, электронный адрес и фото, связанные с пользователем, выполнившим вход в приложение на основе холста. Эти сведения можно использовать, например, для автоматического заполнения какой-то формы.
 
 Например, можно использовать эту функцию для следующего.
 
@@ -30,6 +31,7 @@ ms.locfileid: "39016267"
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
 ## <a name="show-user-details"></a>Отображение сведений о пользователе
+
 1. На вкладке **Вставка** щелкните или коснитесь **Мультимедиа**, а затем — **Изображение**.
    
    ![][2]

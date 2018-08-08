@@ -1,7 +1,7 @@
 ---
-title: Добавление экрана и переход между экранами | Документация Майкрософт
-description: Добавление экрана в приложение PowerApps и переход между экранами с помощью стрелок вперед и назад
-author: aftowen
+title: Добавление и переключение экранов в приложении на основе холста | Документы Майкрософт
+description: Добавление экрана в приложение на основе холста и переход между экранами с помощью стрелок вперед и назад в PowerApps
+author: AFTOwen
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
@@ -9,21 +9,24 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: c7a100b6df278812ea93da8c4f5c503a841d4109
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 17ec7dd0723e219e1eaf9ad3b112faf049cf7d12
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022017"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469955"
 ---
-# <a name="add-a-screen-and-navigate-between-screens"></a>Добавление экрана и переход между экранами
-Узнайте, как создать приложение с несколькими экранами и предоставить пользователям возможность перемещаться между ними.
+# <a name="add-a-screen-to-a-canvas-app-and-navigate-between-screens"></a>Добавление и переключение экранов в приложении на основе холста
+
+Создайте приложение на основе холста с несколькими экранами и предоставьте пользователям возможность перемещаться между ними.
 
 ## <a name="prerequisites"></a>Технические условия
+
 * Узнайте, как [настроить элемент управления](add-configure-controls.md).
 * Создайте или откройте приложение.
 
 ## <a name="add-and-rename-a-screen"></a>Добавление и переименование экрана
+
 1. На вкладке **Home** (Главная) щелкните или нажмите **New screen** (Создать экран).
 
     ![Команда добавления экрана на вкладке Home (Главная)](./media/add-screen-context-variables/add-screen.png)

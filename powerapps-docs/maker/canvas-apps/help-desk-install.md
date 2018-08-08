@@ -1,6 +1,6 @@
 ---
-title: Установка и настройка примера приложения PowerApps "Служба поддержки" | Документы Майкрософт
-description: Пошаговые инструкции по установке и настройке примера приложения PowerApps "Служба поддержки".
+title: Установка и настройка примера "Служба поддержки" для приложений на основе холста | Документы Майкрософт
+description: Пошаговые инструкции по установке и настройке примера "Служба поддержки" для приложений на основе холста в PowerApps.
 author: caburk
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,24 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 4ee281e211891dab812c4ae447dff3d967ffeff3
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 3d6b418ac6738071f16ec4cf75c81c2850d67f74
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195779"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470415"
 ---
-# <a name="install-and-configure-the-help-desk-powerapps-sample"></a>Установка и настройка примера приложения PowerApps "Служба поддержки"
+# <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>Установка и настройка примера "Служба поддержки" в PowerApps
 
-Пошаговые инструкции по установке и настройке примера приложения PowerApps "Служба поддержки".
+Пошаговые инструкции по установке и настройке примера "Служба поддержки" для приложений на основе холста в PowerApps.
 
 Предполагаемое время выполнения этой процедуры: **10–15 минут**
 
 > [!TIP]
-> Демонстрацию этой процедуры см. в следующем [видео](https://youtu.be/z4cdtD6hB_4).
+> См. [видео](https://youtu.be/z4cdtD6hB_4), где демонстрируется эта процедура.
 
+## <a name="overview-of-the-sample"></a>Общие сведения о примере
 
-## <a name="help-desk-powerapps-sample-overview"></a>Обзор примера приложения PowerApps "Служба поддержки"
 Приложение "Служба поддержки" оснащено удобным интерфейсом, с помощью которого пользователи могут обращаться к специалистам службы поддержки. Быстро находите ответы на самые важные вопросы, отслеживайте ход выполнения открытых запросов и просматривайте сведения о предыдущих запросах. Это приложение потребуется настроить в соответствии с вашими потребностями.
 
 ![Начальный экран приложения PowerApp "Служба поддержки"](./media/help-desk-install/Login-screen.png)
