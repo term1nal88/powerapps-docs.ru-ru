@@ -78,7 +78,7 @@ ms.locfileid: "39016221"
 
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
-| **AddColumns( IceCreamSales, "Revenue", UnitPrice * QuantitySold )** |Добавляет к результату столбец **Revenue**.  Для каждой записи вычисляется выражение **UnitPrice × QuantitySold**. Результат вычисления помещается в новый столбец. |<style> img { max-width: none; } </style> ![](media/function-table-shaping/icecream-add-revenue.png) |
+| **AddColumns( IceCreamSales, "Revenue", UnitPrice * QuantitySold )** |Добавляет к результату столбец **Revenue**.  Для каждой записи вычисляется выражение **UnitPrice * QuantitySold**. Результат вычисления помещается в новый столбец. |<style> img { max-width: none; } </style> ![](media/function-table-shaping/icecream-add-revenue.png) |
 | **DropColumns( IceCreamSales, "UnitPrice" )** |Исключает из результата столбец **UnitPrice**. Эта функция позволяет исключить столбцы, а **ShowColumns** включает их. |![](media/function-table-shaping/icecream-drop-price.png) |
 | **ShowColumns( IceCreamSales, "Flavor" )** |Включает в результат только столбец **Flavor**. Эта функция позволяет включить столбцы, а **DropColumns** исключает их. |![](media/function-table-shaping/icecream-select-flavor.png) |
 | **RenameColumns( IceCreamSales, "UnitPrice", "Price")** |Переименовывает столбец **UnitPrice** в итоговой таблице. |![](media/function-table-shaping/icecream-rename-price.png) |
