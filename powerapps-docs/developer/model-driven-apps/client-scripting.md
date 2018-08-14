@@ -15,19 +15,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/13/2018
 ms.author: jdaly
-ms.openlocfilehash: 2d389ae6557944048d8b2d8618379d17aea27557
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 319cee3f9b804951d2c9f4bdce1f9e56f18107ee
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
-ms.locfileid: "30025547"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "40087258"
 ---
 # <a name="client-scripting-with-model-driven-apps"></a>Клиентские сценарии с использованием приложений на основе модели
 
 Скрипты на стороне клиента с использованием JavaScript — один из способов применения пользовательской логики бизнес-процессов для отображения данных в форме в приложении на основе модели, однако ему не следует отдавать предпочтение в первую очередь. *Бизнес-правила* дают возможность применять логику бизнес-процессов в форме пользователям, не знающим JavaScript и не являющимся разработчиками. Дополнительные сведения см. в статье [Dynamics 365: создание бизнес-правил и рекомендаций для применения логики в форме](/dynamics365/customer-engagement/customize/create-business-rules-recommendations-apply-logic-form).
 
 > [!TIP]
-> Конструктор бизнес-правил находится в области **Common Data Service** на сайте [powerapps.com](http://web.powerapps.com). Открыв сущность для просмотра, перейдите на вкладку **Бизнес-правила**.
+> Конструктор бизнес-правил находится в области **Common Data Service** на сайте [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Открыв сущность для просмотра, перейдите на вкладку **Бизнес-правила**.
 
 Если бизнес-требование невозможно выполнить с помощью бизнес-правила, клиентские скрипты на основе объектной модели клиентского API могут предоставить эффективные возможности для расширения поведения приложения и обеспечения автоматизации в клиенте.
 
