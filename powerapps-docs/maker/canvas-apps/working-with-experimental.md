@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/16/2018
 ms.author: gregli
-ms.openlocfilehash: d976a81603d48d72ecb2dc7c279b59d0e70800eb
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: 076b8a13599425cef9c2c62399108d3d530f4c27
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094828"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39662548"
 ---
 # <a name="understand-experimental-and-preview-features-in-powerapps"></a>Общие сведения об экспериментальных функциях и предварительных версиях функций в PowerApps
 

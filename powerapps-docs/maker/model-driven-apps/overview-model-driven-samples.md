@@ -3,19 +3,19 @@ title: Примеры приложений на основе модели
 description: Узнайте, как получить, настроить и удалить примеры приложений на основе модели.
 documentationcenter: na
 author: caburk
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: model
 ms.date: 03/08/2018
 ms.author: caburk
-ms.openlocfilehash: 36e5efec10a3f849b6366368eed7b3b9e7af3f8c
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 0b34a32281fb4f64bc918de81b3920edf5a7000b
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898382"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39664434"
 ---
 # <a name="model-driven-sample-apps"></a>Примеры приложений на основе модели
 
@@ -70,7 +70,7 @@ ms.locfileid: "37898382"
 
     ![Удаление решения](media/overview-model-driven-samples/delete-solution.png)
 
-<em>Вы также можете перейти к списку решений, нажав **Дополнительно</em>* на портале разработчика, и удалить всю последнюю часть URL-адреса после .dynamics.com/*
+*Вы также можете перейти к списку решений, нажав **Дополнительно** на портале разработчика, и удалить всю последнюю часть URL-адреса после .dynamics.com/*
 
 > [!IMPORTANT]
 > Не удаляйте другие системные решения, если не знаете, какие могут быть последствия.
