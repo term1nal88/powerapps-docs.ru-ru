@@ -9,17 +9,54 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: 76abd84afc5b4814cfbf2ef14923c1c13e87befb
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 92283245640f1c3b8b225767c5f50dc0a2548102
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021833"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39665193"
 ---
 # <a name="powerapps-webinar-listing"></a>Список вебинаров PowerApps #
-Эти вебинары помогут вам использовать возможности и функции Microsoft PowerApps. Вебинары будут доступны по запросу после трансляции. Обратите внимание, что в некоторых случаях необходимо будет повторно ввести сведения о регистрации, после чего вы получите ссылку на запись по электронной почте. 
+Эти вебинары помогут вам использовать возможности и функции Microsoft PowerApps. Вы можете предлагать дополнительные темы в комментариях под этой статьей.
 
-## <a name="beginner-webinar-series"></a>Серии вебинаров для новичков ##
+## <a name="upcoming-webinars"></a>Предстоящие вебинары ##
+
+**Серия вебинаров о соединителях | Приложения Microsoft StaffHub (планирование смен) с PowerApps**
+<br>Автор: Марк-Андре Лепин (Marc-André Lépine)
+<br>*5 июня: 10:00 по тихоокеанскому времени, 13:00 по восточному поясному времени*
+<br>
+К нам присоединится Марк-Андре Лепин (Марк-André Lépine) из группы разработки Помощников по Azure для PowerApps и Flow, чтобы рассказать о созданном им потрясающем приложении, дополняющем и расширяющем возможности соединителя StaffHub. В конце этой недели он покажет, каким образом расширил возможности соединителя с помощью настраиваемого API.  
+
+[Щелкните здесь, чтобы просмотреть вебинар 5 июня](https://www.youtube.com/watch?v=LAximnEnKy8)
+
+**Администрирование PowerApps | Часто задаваемые вопросы**
+<br>Автор: Манас Махешвари (Manas Maheshwari)
+<br>*12 июня: 9:30 по тихоокеанскому времени, 12:30 по восточному поясному времени*
+
+Манас Махешвари (Manas Maheshwari), старший руководитель программы в группе разработчиков PowerApps, даст несколько рекомендаций по администрированию и ответит на вопросы, касающиеся сред, баз данных и администрирования PowerApps. В результате вы получите полное представление об управлении средами PowerApps. С нетерпением ждем встречи, чтобы ответить на ваши самые актуальные вопросы по администрированию.
+
+[Щелкните здесь, чтобы просмотреть вебинар 12 июня](https://www.youtube.com/watch?v=9Sy_vT5kIts)
+
+**Возможности приложения Universal Audit. Узнайте о возможностях PowerApps и Flow с Полом Кульмзее (Paul Culmsee)**
+<br>Пол Кульмзее (Paul Culmsee)
+<br>*Июнь 14, 18:00 по тихоокеанскому времени, 9:00 по восточному поясному времени*
+
+Это популярное приложение в презентации PowerApps, которое запрашивают 3–5 раз в неделю. В результате оно было развернуто по всему миру. На этом семинаре я покажу, как оно было придумано, как использовались PowerApps и Flow и какие настройки были сделаны для клиентов. Подойдет тем, кто хочет ознакомиться с готовым решением, используемом по всему миру. 
+
+[Щелкните здесь, чтобы просмотреть вебинар 14 июня](https://www.youtube.com/watch?v=6Wn47bDOMEE)
+
+**Начало работы | Схемы обучения PowerApps. Как быстро создавать качественные приложения**
+<br>Одри Гордон (Audrie Gordon)
+<br>*26 июня, 18:00 по тихоокеанскому времени, 21:00 по восточному поясному времени*
+
+Одри Гордон (Audrie Gordon) из команды PowerApps поделится рекомендациями и стратегиями по быстрому внедрению и освоению PowerApps в организации. Не пропустите трансляцию этой специальной беседы на YouTube. 
+
+[Щелкните здесь, чтобы просмотреть трансляцию 26 июня](https://www.youtube.com/watch?v=ykNRxKvAirg)
+
+## <a name="past-webinars"></a>Предыдущие вебинары ##
+Вебинары будут доступны по запросу после трансляции. Обратите внимание, что в некоторых случаях необходимо будет повторно ввести сведения о регистрации, а затем вы получите ссылку на запись по электронной почте. 
+
+### <a name="beginner-webinar-series"></a>Серии вебинаров для новичков ###
 **5 основных советов по разработке приложений для бизнеса**
 <br>Одри Гордон [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Top-5-tips-for-designing-and-building-PowerApps-that-mean/m-p/116843)
 
@@ -47,7 +84,7 @@ ms.locfileid: "39021833"
 **Новые шаблоны Office Graph (часть 2)**
 <br>Эмма Купер (Emma Cooper) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Getting-Started-New-Office-Graph-Templates-Part-2-by-Emma-Cooper/m-p/116840)
 
-## <a name="intermediate-webinar-series"></a>Серии вебинаров для пользователей со средним уровнем знаний ##
+### <a name="intermediate-webinar-series"></a>Серии вебинаров для пользователей со средним уровнем знаний ###
 **Жизненный цикл приложения с новыми возможностями сохранения и публикации в PowerApps**
 <br>Картик Бхарати (Karthik Bharathy) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Application-LIfecycle-with-the-new-Save-and-publish-options-in/m-p/116860)
 
@@ -60,16 +97,7 @@ ms.locfileid: "39021833"
 **Лора Роджерс (Laura Rogers) из IWMentor расскажет о рекомендациях для приложений рабочей среды**
 <br>Лора Роджерс (Laura Rogers) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Laura-Rogers-from-IWMentor-Shares-Best-Practices-for-Production/m-p/116871)
 
-**Серия вебинаров о соединителях | Приложения Microsoft StaffHub (планирование смен) с PowerApps**
-<br>Автор: Марк-Андре Лепин (Marc-André Lépine) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connector-Series-Shift-Scheduling-Apps-with-PowerApps-StaffHub/m-p/122036)
-
-**Администрирование PowerApps | Часто задаваемые вопросы**
-<br>Автор: Манас Махешвари (Manas Maheshwari) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/PowerApps-Administration-FAQ/m-p/127369#M44)
-
-**Возможности приложения Universal Audit. Узнайте о возможностях PowerApps и Flow с Полом Кульмзее (Paul Culmsee)**
-<br>Пол Кульмзее (Paul Culmsee) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Inside-the-Universal-Audit-App-See-what-PowerApps-and-Flow-are/m-p/127370#M45)
-
-## <a name="advanced-webinar-series"></a>Серии вебинаров для продвинутых пользователей ##
+### <a name="advanced-webinar-series"></a>Серии вебинаров для продвинутых пользователей ###
 **Формулы PowerApps**
 <br>Грег Линдхорст (Greg Lindhorst) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Deep-dive-on-formulas-by-Greg-Lindhorst/m-p/116899)
 
@@ -107,7 +135,7 @@ ms.locfileid: "39021833"
 **Работа с соединителями: Project Online (PWA)**
 <br>Одри Гордон [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connecting-to-Project-Online-PWA/m-p/116889)
 
-## <a name="sharepoint-series"></a>Серия о SharePoint ##
+### <a name="sharepoint-series"></a>Серия о SharePoint ###
 **Быстрое создание приложений с помощью PowerApps Studio**
 <br>Картик Бхарати (Karthik Bharathy) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Rapidly-build-applications-with-PowerApps-Studio/m-p/116849)
 
@@ -123,7 +151,7 @@ ms.locfileid: "39021833"
 **Общие сведения о формах списков в SharePoint Online**
 <br>Анкит Сараф (Ankit Saraf) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Introducing-List-Forms-in-SharePoint-Online/m-p/116916)
 
-## <a name="model-driven-series"></a>Серия о приложениях на основе моделей ##
+### <a name="model-driven-series"></a>Серия о приложениях на основе моделей ###
 **Компоненты приложений на основе моделей | Общие сведения о приложениях на основе моделей**
 <br>Авторы: Чарльз Стерлинг (Charles Sterling) и Адриан Орт (Adrian Orth) [Смотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Series-Introduction-to-Model-Driven-Apps/m-p/116820)
 
@@ -139,7 +167,7 @@ ms.locfileid: "39021833"
 **Серия статей о приложениях на основе моделей. Часть 3 | Обзор диаграмм и панелей мониторинга**
 <br>Авторы: Одри Гордон (Audrie Gordon) и Кейси Бёрк (Casey Burke) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-3-Exploring-Charts-and/m-p/119732)
 
-## <a name="app-designer-series"></a>Серия для конструкторов приложений ##
+### <a name="app-designer-series"></a>Серия для конструкторов приложений ###
 **Создание приложений для принятия пользователями и эффективного использования**
 <br>Автор: Вероника Уорд (Veronica Ward) [Просмотреть](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Building-Apps-for-Adoption-and-Usability-with-Veronica-Ward/m-p/117625#M38)
 

@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/26/2018
 ms.author: gregli
-ms.openlocfilehash: 19eb6a11749ad6119fcc3812be9307da30080dc7
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 47bc64f048a08e31be27177c9811ff18c7db10f6
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021097"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39664710"
 ---
 # <a name="concurrent-function-in-powerapps"></a>Функция Concurrent в PowerApps
 Оценивает несколько формул одновременно.
