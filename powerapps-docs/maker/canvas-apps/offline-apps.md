@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: 9035809f989ad4b0215d4a8eba5d693d145b7f66
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: 9f02b752444153681e30b39c3fa9d8a8b9e0cd6d
+ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39471220"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "40021394"
 ---
 # <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>Разработка приложений на основе холста, поддерживающих автономный режим работы, с помощью PowerApps
 
@@ -103,7 +103,7 @@ SaveData(LocalTweets, "Tweets")
 
 3. Добавьте четыре элемента управления **Метка**, чтобы отобразить данные каждого твита, а затем задайте для их свойства **Text** такие значения:
    * **ThisItem.TweetText**
-   * **ThisItem.UserDetails.FullName & " @" & ThisItem.UserDetails.UserName**
+   * **ThisItem.UserDetails.FullName & " \@" & ThisItem.UserDetails.UserName**
    * **"RT: " & ThisItem.RetweetCount**
    * **Text(DateTimeValue(ThisItem.CreatedAtIso), DateTimeFormat.ShortDateTime)**
 4. Добавьте элемент управления **Изображение**, а затем задайте для свойства **Image** значение **ThisItem.UserDetails.ProfileImageUrl**.
