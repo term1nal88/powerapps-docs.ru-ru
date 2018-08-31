@@ -9,32 +9,32 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: f0fc0d9407511730145002bf109957b0878398bc
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5c2d9e2b815d1ff2c3dc80bc6c37f1c2e78364ac
+ms.sourcegitcommit: b35470285b96750d660335284d830b4d0028befb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39470047"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "42859511"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>Установка и настройка примера "Отчет о расходах" для приложений на основе холста в PowerApps
 
-Пошаговые инструкции по установке и настройке примера "Отчет о расходах".
+Пошаговые инструкции по установке и настройке примера "Отчет о расходах". Вы также можете ознакомиться с примером приложения [на этой странице](https://aka.ms/previewmyexpenses).
 
 Предполагаемое время выполнения этой процедуры: **10–15 минут**
 
-См. следующее видео, где демонстрируется эта процедура.
-
-[![Видео по установке примера "Отчет о расходах"](./media/expense-report-install/expense-report-install-video.png)](https://youtu.be/DOR28V5kCkw)
-
-## <a name="overview-of-the-sample"></a>Общие сведения о примере
+> [!TIP]
+> Просмотрите [это видео](https://youtu.be/kJXZPILfbwU), в котором показано, как использовать пример приложения "Отчет о расходах". 
 
 Отслеживайте отчеты о затратах от их подачи до утверждения. Суммируйте отдельные позиции по мере увеличения отдельных затрат и подавайте их на утверждение по мере готовности. Это приложение потребуется настроить в соответствии с вашими потребностями.
 
 ![Начальный экран приложения PowerApps "Отчет о расходах"](./media/expense-report-install/expense-report-powerapp.png)
 
-Просмотрите это видео, чтобы узнать, как использовать пример приложения PowerApps "Отчет о расходах".
-
-[![Установка приложения "Отчет о расходах"](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
+> [!TIP]
+> Просмотрите [это](https://youtu.be/h6E9cdrOvMU) видео, чтобы узнать, как использовать пример приложения PowerApps "Отчет о расходах".
 
 ## <a name="prerequisites"></a>Технические условия
 
@@ -377,9 +377,6 @@ ms.locfileid: "39470047"
 2. Нажмите **кнопку с многоточием** рядом с приложением PowerApps "Отчет о расходах".
 3. Щелкните **Открыть**.
 
-Просмотрите это видео, чтобы узнать, как использовать пример приложения PowerApps "Отчет о расходах".
-
-[![Установка приложения "Отчет о расходах"](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 - [Настройка формы списка SharePoint с помощью PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)
