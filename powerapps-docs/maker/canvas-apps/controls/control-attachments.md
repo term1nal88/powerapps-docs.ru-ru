@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.date: 04/23/2018
 ms.author: fikaradz
 ms.reviewer: anneta
-ms.openlocfilehash: d8e195ad3e4f59b9f07e23e17a685d9d1f55bef4
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: ad52396eda0c8db46dd38cb7176524df5feb7416
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022040"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834665"
 ---
 # <a name="attachments-control-in-powerapps"></a>Элемент управления "Вложения" в PowerApps
 Элемент управления, который позволяет пользователям скачивать файлы на устройства, а также добавлять их в список SharePoint и удалять их оттуда.

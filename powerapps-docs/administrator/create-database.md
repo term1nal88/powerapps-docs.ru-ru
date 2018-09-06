@@ -9,12 +9,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 940789049a345c9f03bc008dc87b60e84b61af70
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 9b62d72cf04b56c945d0c85038e2264e9685828b
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39348818"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42837592"
 ---
 # <a name="create-a-common-data-service-for-apps-database"></a>Создание базы данных Common Data Service для приложений
 Common Data Service (CDS) для приложений может служить хранилищем данных при создании базы данных и приложений. При этом вы можете создавать собственные настраиваемые сущности или использовать стандартные сущности. Прежде чем создавать базу данных, нужно сначала создать среду (либо вас должны назначить **администратором среды** для существующей среды). Кроме того, вам должна быть назначена соответствующая лицензия. Сведения о приобретении плана для использования службы CDS for Apps см. в разделе [Сведения о ценах](pricing-billing-skus.md).
@@ -42,7 +48,7 @@ Common Data Service (CDS) для приложений может служить 
 
 
 ## <a name="create-a-database-in-the-entities-pane-of-powerapps"></a>Создание базы данных в области "Entities" (Сущности) на сайте PowerApps
-1. На сайте [powerapps.com](https://web.powerapps.com) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
+1. На сайте [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) разверните раздел **Данные** и выберите элемент **Сущности** в области навигации слева.
 
 2. Щелкните элемент **Создать базу данных** для создания базы данных.
 

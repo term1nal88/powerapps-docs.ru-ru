@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: d1cda8d13faa0c20786f8f7f466951b2fe5eb95e
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 6c69d32f21bb5d1222122c4ec129d765b390d98f
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018107"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42863132"
 ---
 # <a name="controls-and-properties-in-powerapps"></a>Элементы управления и свойства в PowerApps
 Настройка оформления и поведения элемента управления с помощью задания одного из его свойств. У каждого типа элемента управления имеется собственный набор свойств. Некоторые свойства, такие как **Height** и **Width**, являются общими почти для всех типов элементов управления, но другие свойства, такие как **CheckboxSize**, характерны для одного типа.

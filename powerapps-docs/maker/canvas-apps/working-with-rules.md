@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/10/2017
 ms.author: sharik
-ms.openlocfilehash: 05868c7bae9e08d4853ba6dc77a157fc90cbbde5
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 32643de711321e7c604ef9e3ffc82c2502234a1f
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021496"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42860400"
 ---
 # <a name="create-a-rule-in-powerapps"></a>Создание правила в PowerApps
 Создавайте правила, чтобы приложение автоматически изменялось на основе заданных критериев. Например, отображать элементы списка красным, желтым или зеленым цветом в зависимости от их состояния или показывать кнопку утверждения только для определенных пользователей (например, менеджеров).

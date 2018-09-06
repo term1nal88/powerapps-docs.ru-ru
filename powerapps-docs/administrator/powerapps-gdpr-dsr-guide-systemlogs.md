@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 0511022621d891a6e45b27f1440e614df8b105a0
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: d2edace99a540fae449efb6d5d9badf5251cb33c
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349140"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864886"
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>Реагирование на запросы субъектов данных (DSR) на получение системных журналов в PowerApps, Microsoft Flow и Common Data Service for Apps
 Корпорация Майкрософт предоставляет вам возможность использования, экспорта и удаления системных журналов, которые могут рассматриваться как персональные в соответствии с расширенным определением *персональных данных* в Общем регламенте по защите данных (GDPR) ЕС. Примеры системных журналов, которые могут рассматриваться как персональные в соответствии с общим регламентом по защите данных включают следующее:
@@ -103,13 +109,13 @@ ms.locfileid: "39349140"
 
 ## <a name="determining-tenant-type"></a>Определение типа клиента
 Чтобы определить, являетесь ли вы пользователем управляемого или неуправляемого клиента, выполните указанные ниже действия.
-1. Откройте в браузере следующий URL-адрес, заменив адрес электронной почты на собственный:[ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1).
+1. Откройте в браузере следующий URL-адрес, заменив адрес электронной почты на собственный:[ https://login.windows.net/common/userrealm/name@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/name@contoso.com?api-version=2.1).
 
 2. Если вы являетесь участником **неуправляемого клиента**, в ответе будет элемент `"IsViral": true`.
   ```
       {
       ...
-      "Login": "foobar@unmanagedcontoso.com",
+      "Login": "name@unmanagedcontoso.com",
       "DomainName": "unmanagedcontoso.com",
       "IsViral": **true**,
       ...

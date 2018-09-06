@@ -11,12 +11,17 @@ ms.author: matp
 ms.custom: ''
 ms.reviewer: ''
 ms.assetid: ''
-ms.openlocfilehash: ce7494e136c3cc4e0ff6e841f5145fee8a9185c2
-ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
+search.audienceType:
+- enduser
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 512d45a92bf4fe3a8f5acb9d4bd5617bcdbaa4ca
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "37925485"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844669"
 ---
 # <a name="discover-apps-via-appsource"></a>Поиск приложений через AppSource
 Приложения, которые вы создаете и публикуете с помощью PowerApps, доступны для поиска и использования в службе Dynamics 365 в Интернете. В ней отображаются все приложения: как те, которые вы явным образом выбрали для использования (то есть запустили из сообщения электронной почты о предоставлении доступа или открыли из AppSource), так и те, которые подготовил для вас администратор. Сюда входят все ваши приложения в PowerApps, а также приложения Dynamics 365 от Майкрософт. Вы можете искать приложения, фильтровать их по средам, а также закреплять вверху страницы приложения, которые используете чаще всего.

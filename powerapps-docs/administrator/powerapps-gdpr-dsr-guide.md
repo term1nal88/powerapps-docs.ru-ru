@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: ae73d5df51b2656fc4f33e7258078140a180926d
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: fddbb40e7b4b5d94b1df02e32af6316cce0a17d9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349209"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42862894"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-powerapps-customer-data"></a>Реагирование на запросы по правам субъекта данных (DSR) к данным клиента PowerApps
 
@@ -68,7 +74,7 @@ ms.locfileid: "39349209"
 
 PowerApps предлагает следующие действия по поиску персональных данных конкретного пользователя:
 
-- **Доступ к веб-сайтам**: [сайт PowerApps](https://web.powerapps.com), [центр администрирования PowerApps](https://admin.powerapps.com/) и [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/).
+- **Доступ к веб-сайтам**: [сайт PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [центр администрирования PowerApps](https://admin.powerapps.com/) и [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/).
 - **Доступ к PowerShell**: командлеты PowerApps (для [разработчиков приложений](https://go.microsoft.com/fwlink/?linkid=871448) и [администраторов](https://go.microsoft.com/fwlink/?linkid=871804)) и [командлеты локального шлюза](https://go.microsoft.com/fwlink/?linkid=872238).
 
 Дополнительные сведения об использовании этих типов ресурсов для поиска персональных данных конкретного пользователя см. в разделе [Реагирование на запросы по правам субъекта данных (DSR) на экспорт данных клиента PowerApps](powerapps-gdpr-export-dsr.md).

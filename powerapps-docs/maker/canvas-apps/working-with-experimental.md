@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/16/2018
 ms.author: gregli
-ms.openlocfilehash: 076b8a13599425cef9c2c62399108d3d530f4c27
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 741cec402c6a5b5ea30700badd265f5e950203e9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39662548"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42858482"
 ---
 # <a name="understand-experimental-and-preview-features-in-powerapps"></a>Общие сведения об экспериментальных функциях и предварительных версиях функций в PowerApps
 
@@ -51,9 +55,9 @@ ms.locfileid: "39662548"
 ## <a name="documentation"></a>Документация
 
 Где можно найти сведения о таких функциях?  Мы считаем предварительные версии функций готовыми функциями, поэтому дополнительные сведения о них доступны на следующих ресурсах так же, как в случае любых других компонентов. 
-- [Документация по PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/getting-started). Мы предоставим основные сведения о новой функции: преимущества, сведения о начале работы и справочные данные.
+- [Документация по PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started). Мы предоставим основные сведения о новой функции: преимущества, сведения о начале работы и справочные данные.
 - [Форум сообщества PowerApps](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).  Новую функцию вместе с вами будут изучать и другие пользователи. Ознакомьтесь с их опытом и поделитесь своими впечатлениями.
-- [Блог PowerApps](https://powerapps.microsoft.com/en-us/blog/).  Часто, но не всегда новой функции посвящается запись блога.
+- [Блог PowerApps](https://powerapps.microsoft.com/blog/).  Часто, но не всегда новой функции посвящается запись блога.
 
 Экспериментальные функции — это нечто иное.  Работа над ними не завершена, и мы не считаем их законченными. Единственную информацию об этих функциях можно найти в кратком описании в области **Параметры приложения** (см. ниже). Как правило, экспериментальные функции не упоминаются в документации. Лучшим источником информации, скорее всего, может стать форум сообщества.  В некоторых случаях описание функции можно найти в ранней записи блога.  Если вам не хватает сведений, задайте вопросы на форумах или дождитесь, пока функция перейдет на этап предварительной версии.
 

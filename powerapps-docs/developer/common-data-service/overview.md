@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: 2d27d3291c29b8d07489b354a042b0cc0100ec37
-ms.sourcegitcommit: 2bcc36916f0c591466eb3e007c2d30b99f2315c6
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3b0e2d70a9295bdf1a8a6d6a71cb6075677bb991
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2018
-ms.locfileid: "40009243"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844061"
 ---
 # <a name="common-data-service-for-apps-developer-overview"></a>Common Data Service for Apps: общие сведения для разработчиков
 

@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 81117e352f3ad5131572cff2a61117042f47df38
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 4faa8a4cc58b138eec4e7dfe8d35b927faf905b7
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349416"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42837169"
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>Управление политиками защиты от потери данных
 Информация критически важна для успешной работы организации. Эта информация должна быть легко доступна для принятия решений, но она также должна быть защищена, чтобы к ней не могли получить доступ посторонние лица. Чтобы защитить эти данные, в PowerApps можно создать и применить политики защиты от потери данных (DLP), определяющие, каким пользовательским соединителям предоставляется общий доступ к конкретным бизнес-данным. Представим, что организация использует PowerApps и не хочет, чтобы хранящиеся в SharePoint данные автоматически публиковались в веб-канале Twitter.

@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 30e2b07a95c326b897e5b3386d888f3537db85fd
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 278560c1ececafd6d4c57945d6058879cf55170f
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39015669"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42858320"
 ---
 # <a name="combo-box-control-in-powerapps"></a>Элемент управления "Поле со списком" в PowerApps
 Это элемент управления, который позволяет выбирать из доступных вариантов.  Поддерживает поиск и выбор нескольких вариантов.

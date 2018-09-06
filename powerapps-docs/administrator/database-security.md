@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: af7c4bd051d7fd822b74b43bec6e8110df24a450
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 71358a1c476655ab4e80d94f9e6846b9a35684f4
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349508"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42857643"
 ---
 # <a name="configure-environment-security"></a>Настройка безопасности среды
 Служба Common Data Service (CDS) для приложений использует модель безопасности на основе ролей для обеспечения безопасного доступа к базе данных. В этой статье вы узнаете, как создавать артефакты безопасности, которые необходимы для защиты приложения. Роли пользователя позволяют контролировать доступ к данным во время выполнения. Они отделены от ролей среды, регулируемых разработчиками среды и ее администраторами. Общие сведения о средах см. в [этой статье](environments-overview.md).

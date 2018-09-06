@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 6a6217c0a344d0501c8a856b0632397044ceb465
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: e2424207cdc70f2f8135fa6ef5559cec2fc637d9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349646"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834005"
 ---
 # <a name="data-groups"></a>Группы данных
 Группы данных — это простой способ категоризации служб в рамках [политики защиты от потери данных (DLP)](prevent-data-loss.md). Доступны две группы данных: **Business data only** (Только бизнес-данные) и **No business data allowed** (Бизнес-данные запрещены). Организации могут определять, какие службы будут помещены в группу данных. Для категоризации служб рекомендуется разместить их в группы на основе их значимости для организации. По умолчанию все службы будут размещены в группу данных **No business data allowed** (Бизнес-данные запрещены). Вы можете управлять службами в группе данных, когда вы создаете или изменяете свойства политики DLP в центре администрирования.

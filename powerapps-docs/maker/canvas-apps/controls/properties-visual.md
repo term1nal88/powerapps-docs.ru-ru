@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: aba83ebe0a18e6d351a27dcb636c68d5d1436be3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: dad00e28dfc61c92c03aaf917c154e67291af073
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023006"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42843631"
 ---
 # <a name="image-properties-in-powerapps"></a>Свойства визуальных элементов в PowerApps
 Настройка графических элементов в приложении, включая изображения, фотографии и элементы рукописного ввода.

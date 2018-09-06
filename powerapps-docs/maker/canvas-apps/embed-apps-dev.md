@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: e48da773f34eb2abedd65c3ea88aab1bb184da02
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: c9cd4008bcb93e05d696fec082e400ee9661785b
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39470783"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835402"
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>Интеграция PowerApps в веб-сайты и другие службы
 Приложения, которые вы создаете, как правило, наиболее полезны, когда они доступны прямо там, где люди делают свою работу. PowerApps позволяет внедрять приложения на основе холста в элементы IFrame для интеграции их в веб-сайты и другие службы, такие как Power BI или SharePoint.

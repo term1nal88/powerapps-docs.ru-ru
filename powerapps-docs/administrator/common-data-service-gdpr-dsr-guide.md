@@ -9,12 +9,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: de7af5aa10f2f39057806c6ad170dc32e85c9f02
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: df7ea7bd8a32354191d12d63881988dfd1c8e49e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349025"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42843758"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>Реагирование на запросы по правам субъекта данных (DSR) для данных клиента в Common Data Service for Apps
 
@@ -52,7 +58,7 @@ ms.locfileid: "39349025"
 
 CDS for Apps и предыдущая версия Common Data Service (CDS) имеют раздельные процессы для взаимодействия с персональными данными.
 
-Тип среды CDS можно определить, войдя в [PowerApps](https://web.powerapps.com) и выполнив следующие действия:
+Тип среды CDS можно определить, войдя в [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и выполнив следующие действия:
 
 1. Выберите среду в раскрывающемся списке **Среды**.
 2. На панели навигации выберите элемент **Данные**, а затем **Сущности**.
@@ -308,12 +314,12 @@ CDS for Apps и предыдущая версия Common Data Service (CDS) им
 
 |Ресурс | Цель | Доступ к веб-сайтам |  Программный доступ
 | --- | --- | --- | ---
-|Записи сущности | Запись бизнес-транзакций в соответствующей бизнес-сущности. | [PowerApps](https://web.powerapps.com) |      Нет
+|Записи сущности | Запись бизнес-транзакций в соответствующей бизнес-сущности. | [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |   Нет
 
 #### <a name="entity-records"></a>Записи сущности
 Персональные данные лица могут храниться в любой бизнес-сущности.
 
-Эта версия CDS содержит собственную схему и инфраструктуру базы данных. Она имеет собственные сущности, которыми можно управлять в [PowerApps](http://web.powerapps.com/).
+Эта версия CDS содержит собственную схему и инфраструктуру базы данных. Она имеет собственные сущности, которыми можно управлять в [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 Чтобы просмотреть список сущностей, сделайте следующее:
 
@@ -348,7 +354,7 @@ CDS for Apps и предыдущая версия Common Data Service (CDS) им
 
 Системные администраторы CDS отвечают за определение всех сущностей, содержащих персональные данные лица, и повторное выполнение приведенных ниже шагов для каждой из этих сущностей.
 
-Из [PowerApps](http://web.powerapps.com/) сделайте следующее:
+Из [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) сделайте следующее:
 
 1. На панели навигации выберите элемент **Данные**, а затем **Сущности**.
 
@@ -379,7 +385,7 @@ CDS for Apps и предыдущая версия Common Data Service (CDS) им
 ### <a name="export"></a>Экспортировать
 Вы можете экспортировать персональные данные из каждой сущности в электронную таблицу Excel и просмотреть их.
 
-Из [PowerApps](http://web.powerapps.com/) сделайте следующее:
+Из [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) сделайте следующее:
 
 1. На панели навигации выберите элемент **Данные**, а затем **Сущности**.
 
@@ -404,7 +410,7 @@ CDS for Apps и предыдущая версия Common Data Service (CDS) им
 
 Системные администраторы CDS отвечают за определение всех сущностей, содержащих персональные данные лица, и повторное выполнение приведенных ниже шагов для каждой из этих сущностей.
 
-Из [PowerApps](http://web.powerapps.com/) сделайте следующее:
+Из [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) сделайте следующее:
 
 1. На панели навигации выберите элемент **Данные**, а затем **Сущности**.
 

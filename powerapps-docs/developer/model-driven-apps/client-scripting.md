@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/13/2018
 ms.author: jdaly
-ms.openlocfilehash: 319cee3f9b804951d2c9f4bdce1f9e56f18107ee
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 38a1a5371cbaf5d10c59a291127c13a1d00a3056
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "40087258"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42829406"
 ---
 # <a name="client-scripting-with-model-driven-apps"></a>Клиентские сценарии с использованием приложений на основе модели
 

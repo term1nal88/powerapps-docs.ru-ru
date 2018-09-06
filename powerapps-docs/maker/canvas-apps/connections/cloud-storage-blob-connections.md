@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.date: 07/12/2016
 ms.author: lanced
 ms.reviewer: anneta
-ms.openlocfilehash: 8e6aa988344c1ac04c2ff11eaa9d828cc8b929bc
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 10a6178c63495b929eb6e5885ded9394b31a11ef
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195664"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42850173"
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>Подключение к облачному хранилищу из PowerApps
 В PowerApps есть несколько вариантов подключения к облачным хранилищам. С помощью любого из них вы можете сохранить файл Excel и использовать информацию из него в своем приложении. Ниже перечислены доступные подключения.  

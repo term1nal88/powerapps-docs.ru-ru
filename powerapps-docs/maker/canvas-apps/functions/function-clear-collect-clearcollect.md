@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 5153ac79100e3c0875abbf081e480bfc66dfdbd0
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 73279ba8fc0b640c24deb179a3737874bc0a55bf
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019853"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835761"
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>Функции Collect, Clear и ClearCollect в PowerApps
 Создание и удаление [коллекций](../working-with-data-sources.md#collections) и добавление [записей](../working-with-tables.md#records) в любом [источнике данных](../working-with-data-sources.md).
