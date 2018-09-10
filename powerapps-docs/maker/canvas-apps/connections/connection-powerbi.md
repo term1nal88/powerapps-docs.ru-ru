@@ -9,17 +9,21 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/12/2016
 ms.author: lanced
-ms.openlocfilehash: 619085bbc11214fbba308abc7a630a3631cb2ec1
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: f639f82e6fc927f693b8f8353cdc125c487e4c1f
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195181"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42829963"
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>Подключение к Power BI из PowerApps
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
 
-Power BI — это набор средств бизнес-аналитики для анализа данных и обмена сведениями. Отслеживайте свою бизнес-деятельность и быстро получайте ответы на вопросы, используя многофункциональные информационные панели на каждом устройстве. В приложении можно проверить состояние оповещений о данных, настроенных в службе Power BI. Дополнительные сведения об оповещениях о данных в Power BI см. на [странице документации](https://https://docs.microsoft.com/power-bi/service-set-data-alerts).
+Power BI — это набор средств бизнес-аналитики для анализа данных и обмена сведениями. Отслеживайте свою бизнес-деятельность и быстро получайте ответы на вопросы, используя многофункциональные информационные панели на каждом устройстве. В приложении можно проверить состояние оповещений о данных, настроенных в службе Power BI. Дополнительные сведения об оповещениях о данных в Power BI см. на [странице документации](https:// https://docs.microsoft.com/power-bi/service-set-data-alerts).
 
 В этой статье показано, как использовать подключение Power BI в приложении, а также перечислены доступные функции.
 
