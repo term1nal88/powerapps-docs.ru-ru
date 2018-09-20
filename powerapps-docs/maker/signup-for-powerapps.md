@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/12/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: 62afc8fc0ce754ed797683a61c061db16370f904
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: cfe9dd8d7a1a1342e7db4fb2786f68942bec7784
+ms.sourcegitcommit: 967812754d8e5b1ff72baa35ffbe548f3b9b0085
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39195204"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45726913"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>Регистрация для получения бесплатной пробной лицензии PowerApps
 Для создания приложений в PowerApps требуется один из типов лицензий, которые предоставляют функциональность разного уровня. У вас уже есть лицензия PowerApps, если ваша организация приобрела для вас одну из нескольких версий Office 365 или Dynamics 365 либо лицензию на план 1 или план 2 PowerApps.
@@ -93,7 +93,7 @@ ms.locfileid: "39195204"
     В [полном списке](./canvas-apps/connections-list.md) соединители уровня "Премиум" отмечены значком:
 
     ![](./media/signup-for-powerapps/premium-badge.png)
-* **Доступ к центру администрирования PowerApps**, который позволяет управлять средами, базами данных, пользовательскими разрешениями и политиками данных. [Дополнительные сведения](../administrator/introduction-to-the-admin-center.md)
+* **Доступ к центру администрирования PowerApps**, который позволяет управлять средами, базами данных, пользовательскими разрешениями и политиками данных. [Дополнительные сведения](../administrator/admin-guide.md)
 * **Создавайте приложения на основе модели**. В этом режиме вы добавляете компоненты в приложение, а PowerApps создает его макет и другие элементы интерфейса. 
 
 Дополнительные сведения о функциональности и ресурсах, доступных по пробной лицензии, см. на [странице с ценами](https://powerapps.microsoft.com/pricing/).
