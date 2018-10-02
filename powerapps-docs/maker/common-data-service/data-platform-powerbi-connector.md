@@ -1,6 +1,6 @@
 ---
-title: Создание отчета PowerBI | Документация Майкрософт
-description: Вы можете подключаться к своим данными из PowerBI Desktop с помощью соединителя службы Common Data Service для приложений.
+title: Создание отчета PowerBI | Microsoft Docs
+description: Подключение к вашим данным из PowerBI Desktop с помощью соединителя Common Data Service для приложений.
 author: clwesene
 manager: kfile
 ms.service: powerapps
@@ -8,103 +8,102 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 5fffcbcd8f58ae05f3fe5b3b4f871cf39d003321
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
-ms.translationtype: HT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218195"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="create-a-power-bi-report"></a>Создание отчета Power BI
-Служба Common Data Service для приложений позволяет напрямую подключаться к данным с помощью Power BI Desktop для создания отчетов и их публикации в Power BI. Из Power BI отчеты можно использовать на панелях мониторинга, открытых для других пользователей и доступных в мобильных приложениях Power BI на разных платформах.
+# <a name="create-a-power-bi-report"></a>Создание отчета Power BI
+Common Data Service для приложений позволяет подключаться напрямую с вашим данными с помощью Power BI Desktop для создания отчетов и публикации их в Power BI. Из Power BI отчеты можно использовать в панелях мониторинга, предоставлять к ним доступ другим пользователям и получать доступ с различных платформ в мобильных приложениях Power BI.
 
-![Power BI Desktop](./media/data-platform-cds-powerbi-connector/PBIDesktop.png "Power BI Desktop")
+![Power BI Desktop](./media/data-platform-cds-powerbi-connector/PBIDesktop.png "Power BI Desktop")
 
-## <a name="prerequisites"></a>Технические условия
+## <a name="prerequisites"></a>Необходимые условия
 
-Для работы Power BI со службой Common Data Service для приложений необходимо выполнить следующие условия.
+Для использования Power BI с Common Data Service для приложений необходимо следующее:
 
-* Скачать и установить Power BI Desktop — бесплатное приложение, которое выполняется на локальном компьютере. Power BI Desktop можно скачать [здесь](https://powerbi.microsoft.com/desktop/).
-* Среда Common Data Service для приложений с разрешениями на создание для доступа к порталу и разрешениями на чтение для доступа к данным в сущностях.
+* Загрузите и установите бесплатное приложение Power BI Desktop, которое выполняется на локальном компьютере. Вы можете скачать Power BI Desktop [здесь](https://powerbi.microsoft.com/desktop/).
+* Среда Common Data Service для приложений с разрешениями создателя для доступа к порталу и разрешениям чтения для доступа к данным в сущностях.
 
-## <a name="finding-your-common-data-service-for-apps-environment-url"></a>Поиск URL-адреса среды Common Data Service для приложений
+## <a name="finding-your-common-data-service-for-apps-environment-url"></a>Поиск URL-адреса среды Common Data Service для приложений
 
-1. Откройте [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и выберите среду, к которой необходимо подключиться. Затем нажмите значок **шестеренки** в правом верхнем углу и щелкните **Advanced customizations** (Дополнительная настройка).
+1. Откройте [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и выберите среду, к которой требуется подключиться, затем нажмите **шестеренку параметров** в правом верхнем углу и нажмите **Дополнительные настройки**
 
-    ![Среда CDS для приложений](./media/data-platform-cds-powerbi-connector/CDSEnv1.png "Среда CDS для приложений")
+    ![Среда CDS для приложений](./media/data-platform-cds-powerbi-connector/CDSEnv1.png "Среда CDS для приложений")
 
-2. В разделе "Ресурсы разработчика" нажмите кнопку **Ресурсы**, после чего откроется новая вкладка.
+2. Щелкните **Ресурсы** в разделе ресурсов для разработчиков, чтобы открыть новую вкладку.
 
-    ![Среда CDS для приложений](./media/data-platform-cds-powerbi-connector/CDSEnv2.png "Среда CDS для приложений")
+    ![Среда CDS для приложений](./media/data-platform-cds-powerbi-connector/CDSEnv2.png "Среда CDS для приложений")
 
-3. Скопируйте корень URL-адреса на новой вкладке — это уникальный URL-адрес вашей среды. URL-адрес будет иметь формат **https://yourenvironmentid.crm.dynamics.com/**. Оставшуюся часть URL-адреса копировать не нужно. Сохраните URL-адрес в быстродоступном месте, чтобы использовать его при создании отчета PowerBI.
+3. Скопируйте корень URL-адреса на новой вкладке, который является уникальным URL-адресом для вашей среды. URL-адрес будет в формате **https://yourenvironmentid.crm.dynamics.com/**, не копируйте остальную часть URL-адреса. Сохраните это где-то, чтобы можно было использовать его при создании отчета PowerBI.
 
-    ![Среда CDS для приложений](./media/data-platform-cds-powerbi-connector/CDSEnv3.png "Среда CDS для приложений")
+    ![Среда CDS для приложений](./media/data-platform-cds-powerbi-connector/CDSEnv3.png "Среда CDS для приложений")
 
-## <a name="connecting-to-common-data-service-for-apps-from-power-bi-desktop"></a>Подключение к службе Common Data Service для приложений из Power BI Desktop
+## <a name="connecting-to-common-data-service-for-apps-from-power-bi-desktop"></a>Подключение к Common Data Service для приложений из Power BI Desktop
 
-1. Запустите **Power BI Desktop**. В первый раз может появиться экран приветствия или пустой холст. В любом случае щелкните **Get Data** (Получить данные) и **More** (Дополнительно), чтобы открыть полный список доступных источников данных для Power BI Desktop.
+1. Запустите **Power BI Desktop**; если это выполняется впервые, может открыться приветственный экран, или может сразу открыться пустой холст — в любом случае щелкните **Получить данные** и выберите **Дополнительно** для открытия полного списка источников данных, доступных в Power BI Desktop.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport1.png "Power BI Desktop")
+    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport1.png "Power BI Desktop")
 
-2. В списке соединителей выберите **Веб-службы** и **Служба Common Data Service для приложений (бета-версия)**. Нажмите кнопку **Подключить**.
+2. Щелкните **Online Services** и **Common Data Service for Apps (Beta)** в списке соединителей. Щелкните **Подключить**.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport2.png "Power BI Desktop")
+    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport2.png "Power BI Desktop")
 
-3. Вставьте **URL-адрес среды Common Data Service для приложений** в поле **URL-адрес сервера** и нажмите кнопку **OK**. Если вы выполняете эти действия в первый раз, вам будет предложено войти в систему с помощью тех же учетных данных, которые используются для подключения к PowerApps и службе Common Data Service для приложений.
+3. Вставьте ваш **URL-адрес среды Common Data Service для приложений** в поле **URL-адрес сервера** и нажмите **ОК**. Если это ваш первый раз, появится предложение выполнить вход, используя те же учетные данные, что вы используете для соединения с PowerApps и Common Data Service для приложений.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport3.png "Power BI Desktop")
+    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport3.png "Power BI Desktop")
 
-4. В навигаторе будут отображены все доступные для среды сущности, сгруппированные в три папки. Разверните папку **Common Data Service**.
+4. Навигатор показывает все доступные сущности для среды, сгруппированные в три папки. Разверните папку **Common Data Model**.
 
-   * Common Data Service — это стандартные широко используемые сущности, которые доступны во всех средах в составе Common Data Service.
-   * Настраиваемые сущности — это сущности, которые были созданы или импортированы в вашей среде.
-   * Система — содержит все сущности в среде, включая сущности Common Data Service и настраиваемые сущности.
+    * Common Data Model — это стандартные сущности, которые часто используются и доступны во всех средах как часть Common Data Model.
+    * Настраиваемые сущности — это сущности, созданные вами или импортированные в среду.
+    * Система — содержит все сущности в вашей среде, в том числе сущности Common Data Model и настраиваемые сущности.
 
-     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport4.png "Power BI Desktop")
+    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport4.png "Power BI Desktop")
 
-5. Выберите сущность **Account**, чтобы просмотреть данные на правой панели, а затем нажмите кнопку **Load** (Загрузить).
+5. Выберите сущность **Организация**, чтобы посмотреть свои данные в правой панели, и нажмите **Загрузить**.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport5.png "Power BI Desktop")
+    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport5.png "Power BI Desktop")
 
-6. Сущность будет загружена в отчет, после чего вы можете начать создавать отчеты. Если необходимо, повторите эту процедуру, чтобы добавить дополнительные сущности.
+6. Ваша сущность теперь загружена в ваш отчет, и вы можете начать формировать отчеты или повторить это действия для добавления других сущностей.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport6.png "Power BI Desktop")
+    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport6.png "Power BI Desktop")
 
-7. На панели "Поле" щелкните поле **Имя**, чтобы добавить новую визуализацию на холст отчета. Вы можете повторять этот процесс и изменять визуализации для создания отчета.
+7. Щелкните поле **Имя** на панели поля, чтобы добавить новую визуализацию на холст отчета. Теперь можно повторить этот процесс и изменить визуализации для построения отчета.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport7.png "Power BI Desktop")
+    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport7.png "Power BI Desktop")
 
 
 ## <a name="using-option-sets"></a>Использование наборов параметров
 
-Наборы параметров используются в сущности для предоставления пользователю раскрывающегося списка значений в приложениях и потоках. При использовании соединителя Power BI поля набора параметров будут представлены в виде двух столбцов для отображения уникального и отображаемого значений.
+Наборы параметров используются в сущностях для предоставления раскрывающегося списка значений пользователю в приложениях и потоках. Если используется соединитель Power BI, поля наборов параметров будут представлены как два столбца для индикации как уникального значения, так и отображаемого значения.
 
-Например, если в сущности ApprovalStatus есть набор параметров, вы увидите два следующих поля в Power BI.
+В качестве примера, если у вас имелся набор параметров в сущности с именем ApprovalStatus, вы увидите два поля в Power BI:
 
-* ApprovalStatus — в этом поле будет отображаться уникальное целое значение для каждого элемента в наборе параметров. Это полезно при применении фильтров, так как значения не затрагиваются при последующих изменениях отображаемого имени.
-* ApprovalStatus_display — в этом поле будет отображается понятное отображаемое имя элемента. Чаще всего оно используется при представлении параметра в таблице или диаграмме.
+* ApprovalStatus — здесь будет отображаться уникальное целое значение для каждого элемента в наборе параметров, что удобно при применении фильтров, чтобы на них не влияли возможные будущие изменения отображаемого имени.
+* ApprovalStatus_display — здесь отображается дружелюбное отображаемое имя элемента, которое наиболее часто используется при представлении параметра в электронной таблице или диаграмме.
 
     |ApproalStatus|ApprovalStatus_Display|
     |---------|---------|
     1|Отправлено
     2|На проверке
-    3|Approved
-    4|Отклонено
+    3|Утвержденная
+    4|Отклонен
 
-## <a name="navigating-relationships"></a>Переход по связям
+## <a name="navigating-relationships"></a>Навигация по отношениям
 
-В службе Common Data Service для приложений необходимо создать связь в PowerBI Desktop между двумя сущностями с помощью поля GUID (это созданный системой уникальный идентификатор, который обеспечивает создание связей для записей создания в случаях неоднозначности или дублирования в других полях). Дополнительные сведения об управлении связями в Power BI Desktop см. [здесь](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships).
+Отношения в Common Data Service для приложений требуют создания отношения в PowerBI Desktop между двумя сущностями с помощью поля GUID, которое содержит генерируемый системой уникальный идентификатор, обеспечивающий создание отношений для записей создания, в которых возможны неоднозначности или дублирование с другими полями. Можно прочитать дополнительные сведения об управлении отношениями в Power BI Desktop [здесь](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships).
 
-Несмотря на то, что некоторые связи можно создавать автоматически, вы по-прежнему можете проверять формирование правильных связей при создании отчета:
+Хотя некоторые отношения могут создаваться автоматически, можно просмотреть и обеспечить создание правильных отношений при создании отчета:
 
-* Поле для поиска будет содержать идентификатор GUID записи в связанной сущности.
-* У связанной сущности будет поле в формате [EntityName]id, содержащее идентификатор GUID, например Accountid или MyCustomEntityid
-* С помощью функции PowerBI Desktop "Управление связями" можно создать связь между полем для поиска и полем идентификатора в связанной сущности.
+* Поле подстановки в сущности будет содержать GUID записи в связанной сущности.
+* Связанная сущность будет иметь поле в формате "[EntityName]id", которое содержит GUID, например Accountid или MyCustomEntityid
+* С помощью функции управления отношениями PowerBI Desktop можно создать новое отношение между полем подстановки и полем идентификатора в связанной сущности.
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-* [Управление полями сущности](data-platform-manage-fields.md)
-* [Определение связи между сущностями в модели общих данных](data-platform-entity-lookup.md)
+* [Управление полями в сущности](data-platform-manage-fields.md)
+* [Определение отношений между сущностями](data-platform-entity-lookup.md)
 
 
