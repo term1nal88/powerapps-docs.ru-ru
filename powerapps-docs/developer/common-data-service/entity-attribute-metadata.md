@@ -15,11 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/12/2018
 ms.author: jdaly
-ms.openlocfilehash: efe04d9bd9c761f432d16d4c9304c52e55503aeb
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: f6fcf3ba1e8e9773df65ac566a9d5c798f4d13a9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42859168"
 ---
 # <a name="attribute-metadata"></a>Метаданные атрибутов
 
@@ -121,7 +127,7 @@ ms.lasthandoff: 03/22/2018
 |`ApplicationRequired`|2|**Бизнес-требование**|Бизнесу необходимо, чтобы атрибут имел значение.|
 |`Recommended`|3|**Бизнес-рекомендация**|Рекомендуется, чтобы атрибут имел значение.|
 
-Common Data Service применяет параметр `SystemRequired` только для атрибутов, созданных системой. Пользовательские атрибуты не могут использовать параметр `SystemRequired`. 
+Common Data Service for Apps применяет параметр `SystemRequired` только для атрибутов, созданных системой. Пользовательские атрибуты не могут использовать параметр `SystemRequired`. 
 
 Приложения на основе моделей применяют параметр `ApplicationRequired` и используют другое представление для параметра `Recommended`. Разработчики настраиваемых клиентов могут воспользоваться этой информацией, чтобы запросить аналогичные варианты проверки или представления.
 
@@ -206,6 +212,7 @@ Common Data Service применяет параметр `SystemRequired` тол�
 Каждый из атрибутов с параметрами наследует [EnumAttributeMetadata](/dotnet/api/microsoft.xrm.sdk.metadata.enumattributemetadata) и включает в себя [свойство OptionSet](/dotnet/api/microsoft.xrm.sdk.metadata.enumattributemetadata.optionset). Это свойство содержит [OptionSetMetadata](/dotnet/api/microsoft.xrm.sdk.metadata.optionsetmetadata), включающий в себя параметры со [свойством Options](/dotnet/api/microsoft.xrm.sdk.metadata.optionsetmetadata.options). 
 
 Служба организации позволяет использовать следующие сообщения для получения сведений о наборах данных:
+
 |Класс запроса|Описание|
 |--|--|
 |[RetrieveAllOptionSetsRequest](/dotnet/api/microsoft.xrm.sdk.messages.retrievealloptionsetsrequest) |Получает данные обо всех *глобальных* наборах данных.|

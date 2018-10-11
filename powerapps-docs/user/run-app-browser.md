@@ -1,6 +1,6 @@
 ---
-title: Краткое руководство по запуску приложений в веб-браузере | Документы Майкрософт
-description: В этом кратком руководстве вы узнаете, как запускать приложения в веб-браузере.
+title: Запуск приложений в веб-браузере | Документы Майкрософт
+description: В этом разделе вы узнаете, как запускать приложения в веб-браузере
 author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
@@ -11,15 +11,20 @@ manager: kvivek
 ms.custom: ''
 ms.reviewer: ''
 ms.assetid: ''
-ms.openlocfilehash: b0b0cb39cf0a7d49ca24d31c2803ae463df2f97e
-ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
+search.audienceType:
+- enduser
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: f72d4b5192bd30da676e65e232bc2a3090cb77bb
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "37925646"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42832432"
 ---
-# <a name="quickstart-run-an-app-in-a-web-browser"></a>Краткое руководство. Запуск приложения в веб-браузере
-Если вы создали приложение или вам предоставили доступ к приложению, его можно запускать в ОС Windows, iOS, Android или в веб-браузере. В этом кратком руководстве вы узнаете, как запустить приложение на основе холста или модели в веб-браузере с [домашней страницы Dynamics 365](https://home.dynamics.com).
+# <a name="run-an-app-in-a-web-browser"></a>Запуск приложения в веб-браузере
+Если вы создали приложение или вам предоставили доступ к приложению, его можно запускать в ОС Windows, iOS, Android или в веб-браузере. В этом разделе вы узнаете, как запустить приложение на основе холста или модели в веб-браузере с [домашней страницы Dynamics 365](https://home.dynamics.com).
 
 Для этого краткого руководства вам потребуется:
 - Лицензия на PowerApps. Она доступна с планом PowerApps, например [пробной версией PowerApps, план 2](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps), или любым планом [Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) или [Dynamics 365](https://dynamics.microsoft.com/pricing/), который включает PowerApps. 
@@ -62,7 +67,7 @@ ms.locfileid: "37925646"
 Чтобы закрыть приложение, покиньте домашнюю страницу Dynamics 365 или откройте другое приложение.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Из этого краткого руководства вы узнали, как запустить приложение на основе холста или модели в веб-браузере. Чтобы узнать, как запустить приложение на основе холста на мобильном устройстве, перейдите к следующему руководству.
+Из этого раздела вы узнали, как запустить приложение на основе холста или модели в веб-браузере. Чтобы узнать, как запустить приложение на основе холста на мобильном устройстве, перейдите к следующему разделу.
 
 > [!div class="nextstepaction"]
 > [Запуск приложения на основе холста на мобильном устройстве](run-app-client.md)

@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/26/2018
 ms.author: gregli
-ms.openlocfilehash: 47bc64f048a08e31be27177c9811ff18c7db10f6
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: a0fdddcf906a04914ea9ba9a8572798ea5d55378
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39664710"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834826"
 ---
 # <a name="concurrent-function-in-powerapps"></a>Функция Concurrent в PowerApps
 Оценивает несколько формул одновременно.
@@ -53,7 +57,7 @@ ms.locfileid: "39664710"
 
     **ClearCollect( Product, '[SalesLT].[Product]' );<br> ClearCollect( Customer, '[SalesLT].[Customer]' );<br> ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' );<br> ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' )**
 
-3. В [Microsoft Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/network) или [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/) включите средства разработчика для отслеживания сетевого трафика во время работы приложения.
+3. В [Microsoft Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide/network) или [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/) включите средства разработчика для отслеживания сетевого трафика во время работы приложения.
 
 1. (необязательно) Включите регулирование сети, чтобы подчеркнуть результат этого сравнения.
 

@@ -1,6 +1,6 @@
 ---
-title: Создание приложения для обработки запросов проекта | Документация Майкрософт
-description: В рамках этого руководства мы создадим базовое *приложение с тремя экранами* непосредственно из списка SharePoint.
+title: Создание приложения на основе холста для обработки запросов проекта | Документы Майкрософт
+description: В рамках этого руководства мы создадим базовое приложение на основе холста с тремя экранами непосредственно из списка SharePoint.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,14 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 7072d78b79adff65aac33c888bf0f980f953ef84
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 4466d8f42a0ba9c9a162353bc214abf6d9d9ef83
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023949"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834266"
 ---
-# <a name="generate-an-app-to-handle-project-requests"></a>Создание приложения для обработки запросов проекта
+# <a name="generate-a-canvas-app-to-handle-project-requests"></a>Создание приложения на основе холста для обработки запросов проекта
 > [!NOTE]
 > Эта статья входит в серию руководств по использованию PowerApps, Microsoft Flow и Power BI совместно с SharePoint Online. Обязательно просмотрите [вводные сведения](sharepoint-scenario-intro.md), чтобы получить общее представление о процессе и скачать связанные файлы.
 

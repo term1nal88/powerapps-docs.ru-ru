@@ -15,15 +15,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: eb908978eee8d6473a46ca3894cee55ce4b036df
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 60fafa90df656bb6d135a8cf7e2c2f3b4f8457da
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42840753"
 ---
 # <a name="entity-metadata"></a>Метаданные сущностей
 
-Каждая сущность позволяет хранить структурированные данные. Для разработчиков сущности соответствуют классам, которые будут использоваться при работе с данными в Common Data Service.
+Каждая сущность позволяет хранить структурированные данные. Для разработчиков сущности соответствуют классам, которые будут использоваться при работе с данными в Common Data Service for Apps.
 
 ## <a name="entity-names"></a>Имена сущностей
 Каждая сущность имеет уникальное имя, определенное при ее создании. Это имя указывается несколькими способами:
@@ -170,7 +176,7 @@ ms.lasthandoff: 03/22/2018
 **Например**, параметры `StateCode` и `StatusCode` сущности `PhoneCall`.
 
 
-|Column1  |Column2  |
+|`StateCode`|`StatusCode`|
 |---------|---------|
 |0: Open|1: Open|
 |1: Completed|2: Made <br />4: Received|

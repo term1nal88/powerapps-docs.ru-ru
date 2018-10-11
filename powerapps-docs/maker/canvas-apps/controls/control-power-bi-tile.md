@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ab5542adb68bbd07e2725197230000bdd02b320f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: ba7d48104d9fdf85573029cc510af2c29d3f6ca0
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833768"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640361"
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>Элемент управления "Плитка Power BI" в PowerApps
 
@@ -61,6 +61,8 @@ ms.locfileid: "42833768"
 **[Height](properties-size-location.md)**  — расстояние между верхним и нижним краем элемента управления.
 
 **[OnSelect](properties-core.md)**  — поведение приложения, когда пользователь щелкает элемент управления или касается его. По умолчанию открывается отчет Power BI, связанный с плиткой.
+
+**TileUrl** — URL-адрес, по которому плитка запрашивается из службы Power BI. Вы можете передать один параметр в плитку Power BI путем добавления параметра к URL-адресу (например: ... & "&$filter=Town/Province eq '" & ListBox1.Selected.Abbr & "'"). В параметре можно использовать только оператор equals.
 
 **[Visible](properties-core.md)** определяет, отображается ли элемент управления или он скрыт.
 

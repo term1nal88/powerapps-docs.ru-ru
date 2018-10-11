@@ -6,17 +6,23 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: reference
-ms.date: 07/31/2018
+ms.date: 08/23/2018
 ms.author: jamesol
-ms.openlocfilehash: e45b23d4efc474bcd48069b9823d1ef80cf5ea4a
-ms.sourcegitcommit: a0a8782d3c8d24cecf0796d405a61f745f0ffd91
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 0d5d2cee770e03c4e587db0bff624f34395ed92c
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39367622"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864435"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>Поддержка PowerShell в PowerApps (предварительная версия)
-С помощью предварительной версии командлетов PowerShell для создателей и администраторов приложений вы можете автоматизировать многие задачи мониторинга и управления, которые раньше выполнялись только вручную в [PowerApps](https://web.powerapps.com) или [центре администрирования PowerApps](https://admin.powerapps.com).
+С помощью предварительной версии командлетов PowerShell для создателей и администраторов приложений вы можете автоматизировать многие задачи мониторинга и управления, которые раньше выполнялись только вручную в [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) или [центре администрирования PowerApps](https://admin.powerapps.com).
 
 ## <a name="installation"></a>Установка
 Прежде чем выполнять командлеты PowerShell для создателей приложений, выполните указанные ниже действия.
@@ -126,6 +132,15 @@ ms.locfileid: "39367622"
 >Get-Help Get-AdminPowerAppEnvironment -Examples
 >Get-Help Get-AdminPowerAppEnvironment -Detailed
 >```
+
+## <a name="version-history"></a>Журнал версий
+| Версия | Дата | Обновления |
+| --- | --- | --- |
+| 1.0 | 23.04.2018 | <ol> <li> Начальный запуск командлетов PowerApps для создателей приложений (предварительная версия), включая командлеты управления для сред, приложений, потоков, утверждения потоков, соединений и настраиваемых соединителей </li> <li> Начальный запуск командлетов PowerApps для администраторов (предварительная версия), включая командлеты администрирования для сред, приложений и потоков </li></ol>|
+| 2.0 | 24.05.2018 | <ol> <li> Исправления незначительных ошибок в командлетах для создателей и администраторов приложений </li> <li> Добавлены следующие новые командлеты администрирования: <br> Get-AdminConnection <br> Remove-AdminConnection <br> Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br>Remove-AdminConnectionRoleAssignment <br>Get-AdminConnector  <br>Remove-AdminConnector <br>Set-AdminConnectorRoleAssignment  <br>Get-AdminConnectorRoleAssignment  <br>Remove-AdminConnectorRoleAssignment <br>Get-AdminPowerAppsUserDetails <br>Get-AdminFlowUserDetails <br>Remove-AdminFlowUserDetails <br>Get-AdminApiPolicy  <br>Add-AdminApiPolicy <br>Remove-AdminApiPolicy <br>Set-AdminApiPolicy <br>Add-ConnectorToBusinessDataGroup  <br>Remove-ConnectorFromBusinessDataGroup </li> </ol>
+| 3.0 | 30.07.2018 | <ol> <li> Добавлена возможность передачи учетных данных в Add-PowerAppsAccount (для включения повторяющихся скриптов) </li> <li>  Исправления незначительных ошибок в командлетах для создателей и администраторов приложений </li> <li> Добавлен префикс "PowerApp" или "Flow" в каждый командлет для создателей приложений </li> <li>  Добавлен префикс "AdminPowerApp" или "AdminFlow" в каждый командлет для администраторов </li> <li> Добавлены следующие новые командлеты администрирования: <br> New-AdminPowerAppEnvironment <br> Set-AdminPowerAppEnvironmentDisplayName <br> New-AdminPowerAppCdsDatabase <br> Get-AdminPowerAppCdsDatabaseLanguages <br> Get-AdminPowerAppCdsDatabaseCurrencies <br> Get-AdminPowerAppEnvironmentLocations <br> Get-AdminPowerAppConnectionReferences <br> Set-AdminPowerAppAsFeatured <br> Clear-AdminPowerAppAsFeatured <br> Set-AdminPowerAppAsHero <br> Clear-AdminPowerAppAsHero <br> Set-AdminPowerAppApisToBypassConsent <br> Clear-AdminPowerAppApisToBypassConsent <br> Remove-AdminFlowApprovals </li></ol>
+| 4.0 | 15.08.2018 | Добавлен необязательный параметр в New-AdminPowerAppCdsDatabase для синхронизации функции по умолчанию (т. е. она не вернется до успешной подготовки базы данных)
+| 5.0 | 24.08.2018 | Исправлена проблема, при которой командлеты для администраторов потока не возвращали данные по использованию в зависимости от параметры безопасности
 
 ## <a name="questions"></a>Вопросы?
 

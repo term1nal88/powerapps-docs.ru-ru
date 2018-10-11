@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: 8019068155c88465f0f4202807fe763f2e4787b6
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 0a13d2602f06f436d4b805669b004f1ee63daeb9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195526"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42836742"
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>Подключение к SharePoint из PowerApps
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -44,7 +48,7 @@ ms.locfileid: "39195526"
 | "Управляемые метаданные". |Да (только для чтения) | |
 | Оценка |Нет | |
 
-Столбцы, содержащие пробелы, могут считываться PowerApps, но при этом пробелы заменяются шестнадцатеричным escape-кодом **"\_x0020\_"**. Например, столбец **Имя столбца** из SharePoint будет отображаться как **Имя_x0020_столбца** в PowerApps при отображении в структуре данных или использовании в формуле.
+PowerApps может считывать столбцы, содержащие пробелы, но при этом пробелы заменяются шестнадцатеричным escape-кодом **"\_x0020\_"**. Например, столбец **Имя столбца** из SharePoint будет отображаться как **Имя_x0020_столбца** в PowerApps при отображении в структуре данных или использовании в формуле.
 
 ## <a name="prerequisites"></a>Технические условия
 1. [Регистрация](../../signup-for-powerapps.md) в PowerApps.
@@ -103,7 +107,7 @@ ms.locfileid: "39195526"
 
     ![Выбор таблиц в SharePoint](./media/connection-sharepoint-online/select-sp-tables.png)
 
-    По умолчанию отображаются не все типы списков. Если имя списка, который вы хотите использовать, отсутствует, прокрутите окно вниз, а затем введите имя списка в поле, содержащее текст **Введите название пользовательского списка**.
+    По умолчанию отображаются не все типы списков. PowerApps поддерживает пользовательские списки не на основе шаблона.  Если имя списка, который вы хотите использовать, отсутствует, прокрутите окно вниз, а затем введите имя списка в поле, содержащее текст **Введите название пользовательского списка**.
 
     ![Пользовательский список в SharePoint](./media/connection-sharepoint-online/custom-list.png)
 

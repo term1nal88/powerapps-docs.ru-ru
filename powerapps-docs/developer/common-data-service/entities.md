@@ -15,11 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: 98f2360e29af7cb0bdf5caf041dfa13b933e6323
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: f40c05c3bdab521cb1230be15cefc5dbb58eac18
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844233"
 ---
 # <a name="common-data-service-for-apps-entities"></a>Сущности в Common Data Service for Apps
 
@@ -45,11 +51,11 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="import-a-solution"></a>Импорт решения
 
-Решение может содержать метаданные сущности и другие пользовательские компоненты. Импорт управляемого или неуправляемого решения в клиент Common Data Service приведет к включению этих сущностей или расширению существующих сущностей с помощью содержащихся в них новых метаданных сущности.
+Решение может содержать метаданные сущности и другие пользовательские компоненты. Импорт управляемого или неуправляемого решения в клиент Common Data Service for Apps приведет к включению этих сущностей или расширению существующих сущностей с помощью содержащихся в них новых метаданных сущности.
 
 ### <a name="from-a-data-source-using-power-query"></a>Источник данных с использованием Power Query
 
-Вы можете создавать сущности и заполнять их данными с помощью Power Query. Дополнительные сведения см. в разделе [Добавление данных в сущность в Common Data Service с помощью Power Query](../../maker/common-data-service/data-platform-cds-newentity-pq.md).
+Вы можете создавать сущности и заполнять их данными с помощью Power Query. Дополнительные сведения см. в разделе [Добавление данных в сущность в Common Data Service с помощью Power Query](../../maker/common-data-service/data-platform-cds-newentity-pq.md)
 
 ### <a name="use-metadata-services"></a>Использование служб метаданных
 

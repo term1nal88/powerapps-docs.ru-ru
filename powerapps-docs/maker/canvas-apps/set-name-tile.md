@@ -1,6 +1,6 @@
 ---
-title: Изменение имени и плитки приложения | Документация Майкрософт
-description: Пошаговые инструкции по изменению параметров приложения, в частности его имени и значка
+title: Изменение имени и значка приложения на основе холста | Документы Майкрософт
+description: Пошаговые инструкции по изменению параметров приложения на основе холста, в частности его имени и значка, в PowerApps
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: ae78a86578032d5110a5558d60274fd6728438b9
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 74e56e5819ff4171f5f16a4ebc8b5da39c8c0c8a
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39014933"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42825333"
 ---
-# <a name="change-app-name-and-icon-in-powerapps"></a>Изменение имени и значка приложения в PowerApps
-Настройка приложения посредством изменения его имени и плитки.
+# <a name="change-app-name-and-icon-for-a-canvas-app-in-powerapps"></a>Изменение имени и значка приложения на основе холста в PowerApps
+Настройка приложения на основе холста посредством изменения его имени и значка.
 
 ## <a name="prerequisites"></a>Технические условия
 1. Создайте новое приложение или откройте существующее для редактирования.

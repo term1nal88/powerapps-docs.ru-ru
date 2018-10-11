@@ -1,6 +1,6 @@
 ---
-title: Глобальная поддержка | Документация Майкрософт
-description: Создание приложений, используемых во всем мире.
+title: Встраивание глобальной поддержки в приложения на основе холста | Документы Майкрософт
+description: Используйте PowerApps для создания приложений, используемых во всем мире.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: dbca12ff3acc4327f88269a2333fe066c7f2fbec
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 7ccd505d53377617bd13cda775cce489c554bc64
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019809"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42862583"
 ---
-# <a name="global-support"></a>Глобальная поддержка
-PowerApps является глобальным продуктом.  Вы можете создать приложения на разных языках и для разных регионов и использовать их.
+# <a name="build-global-support-into-canvas-apps"></a>Встраивание глобальной поддержки в приложения на основе холста
+PowerApps является глобальным продуктом. Вы можете создавать приложения на основе холста на разных языках и для разных регионов и использовать их.
 
 Текст, отображающийся в PowerApps во время создания и выполнения приложений, переведен на разные языки.  Элементы меню, диалоговые окна, вкладки ленты и другие элементы пользовательского интерфейса доступны на вашем языке.  Даты и числа (ввод и отображение) также адаптированы для конкретного языка и региона.  Например, в некоторых регионах в качестве десятичного разделителя используется знак ".", а в некоторых — ",".  
 

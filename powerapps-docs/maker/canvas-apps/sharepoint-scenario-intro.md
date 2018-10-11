@@ -1,6 +1,6 @@
 ---
 title: Интеграция PowerApps, Microsoft Flow и Power BI с SharePoint Online (введение) | Документация Майкрософт
-description: 'Эта серия руководств посвящена созданию базовых приложений для управления проектами на основе списков SharePoint. Также описываются три ключевые технологии, которые интегрируются с SharePoint Online: PowerApps, Microsoft Flow и Power BI.'
+description: 'Эта серия руководств посвящена созданию базовых приложений на основе холста для управления проектами на основе списков SharePoint. Также описываются три ключевые технологии, которые интегрируются с SharePoint Online: PowerApps, Microsoft Flow и Power BI.'
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/19/2017
 ms.author: mblythe
-ms.openlocfilehash: e8a7860920f25572ec899ee93d501ed553ee62f9
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: fa2631d065425ab57e47dccbb470f577d6474f23
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019579"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42831030"
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>Интеграция PowerApps, Microsoft Flow и Power BI с SharePoint Online
-Вы установили SharePoint Online и хотите больше автоматизировать и оптимизировать бизнес-процессы? Вы уже работали с PowerApps, Microsoft Flow или Power BI, но не знаете, как использовать их с SharePoint Online? Вы обратились по адресу! Эта серия руководств посвящена созданию базовых приложений для управления проектами на основе списков SharePoint. Также описываются три ключевые технологии, которые интегрируются с SharePoint Online: PowerApps, Microsoft Flow и Power BI. Эти технологии взаимосвязаны, что позволяет легко *анализировать* бизнес-процессы, *действовать* на основе результатов и *автоматизировать* рабочие процессы. В ходе работы с этой серией вы проработаете приблизительно такой сценарий:
+Вы установили SharePoint Online и хотите больше автоматизировать и оптимизировать бизнес-процессы? Вы уже работали с PowerApps, Microsoft Flow или Power BI, но не знаете, как использовать их с SharePoint Online? Вы обратились по адресу! Эта серия руководств посвящена созданию базовых приложений на основе холста для управления проектами на основе списков SharePoint. Также описываются три ключевые технологии, которые интегрируются с SharePoint Online: PowerApps, Microsoft Flow и Power BI. Эти технологии взаимосвязаны, что позволяет легко *анализировать* бизнес-процессы, *действовать* на основе результатов и *автоматизировать* рабочие процессы. В ходе работы с этой серией вы проработаете приблизительно такой сценарий:
 
 ![Схема готового сценария](./media/sharepoint-scenario-intro/composite-with-background.png)
 

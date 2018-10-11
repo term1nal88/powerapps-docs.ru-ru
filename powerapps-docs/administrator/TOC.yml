@@ -1,63 +1,79 @@
+items:
 - name: Администрирование PowerApps
   href: admin-guide.md
   items:
-    - name: Начало работы
-      items:
-        - name: Какова роль администратора PowerApps?
-          href: overview-role-powerapps-admin.md
-    - name: Лицензирование
-      items:
-        - name: Общие сведения о лицензировании
-          href: pricing-billing-skus.md
-        - name: Управление лицензиями в организации
-          href: signup-question-and-answer.md
-        - name: Приобретение PowerApps
-          href: signup-for-powerapps-admin.md
-    - name: Управление PowerApps
-      items:
-        - name: Просмотр приложений в средах
-          href: admin-view-apps.md
-        - name: Управление приложениями в организации
-          href: admin-manage-apps.md
-        - name: Перемещение приложения между клиентами и средами
-          href: environment-and-tenant-migration.md
-        - name: Поддержка PowerShell в PowerApps (предварительная версия)
-          href: powerapps-powershell.md
+  - name: Начало работы
+    items:
+    - name: Какова роль администратора PowerApps?
+      href: overview-role-powerapps-admin.md
+    - name: Технический документ по развертыванию корпоративной версии PowerApps
+      href: admin-powerapps-enterprise-deployment.md
+  - name: Лицензирование
+    items:
+    - name: Общие сведения о лицензировании
+      href: pricing-billing-skus.md
+    - name: Управление лицензиями в организации
+      href: signup-question-and-answer.md
+    - name: Приобретение PowerApps
+      href: signup-for-powerapps-admin.md
+  - name: Управление PowerApps
+    items:
+    - name: Просмотр приложений в средах
+      href: admin-view-apps.md
+    - name: Управление приложениями в организации
+      href: admin-manage-apps.md
+    - name: Перемещение приложения между клиентами и средами
+      href: environment-and-tenant-migration.md
+    - name: Поддержка PowerShell в PowerApps (предварительная версия)
+      href: powerapps-powershell.md
+  - name: Интеграция данных
+    items:
+    - name: Интеграция данных в CDS for Apps
+      href: data-integrator.md
     - name: Реагирование на запросы субъектов данных
-      href: powerapps-gdpr-dsr-guide-systemlogs.md
       items:
-        - name: Системные журналы
-          href: powerapps-gdpr-dsr-guide-systemlogs.md
-        - name: Данные клиента PowerApps
-          href: powerapps-gdpr-dsr-guide.md
-          items:
-            - name: Экспорт данных
-              href: powerapps-gdpr-export-dsr.md
-            - name: Удаление данных
-              href: powerapps-gdpr-delete-dsr.md
-        - name: Данные клиента CDS for Apps
-          href: common-data-service-gdpr-dsr-guide.md
-    - name: Администрирование сред
-      href: environments-administration.md
-      items:
-        - name: Обзор сред
-          href: environments-overview.md
-        - name: Обзор регионов
-          href: regions-overview.md
-        - name: Создание среды
-          href: create-environment.md
-        - name: Создание базы данных
-          href: create-database.md
-    - name: Настройка безопасности среды
-      href: database-security.md
-      items:
-        - name: Основные сведения о группах данных
-          href: introduction-to-data-groups.md
-        - name: Создание политики защиты от потери данных
-          href: create-dlp-policy.md
-        - name: Управление политиками защиты от потери данных
-          href: prevent-data-loss.md
-    - name: Управление подписками и учетными записями пользователей
-      items:
-        - name: Просмотр активных пользователей в клиенте
-          href: admin-view-user-licenses.md
+      - name: Системные журналы
+        href: powerapps-gdpr-dsr-guide-systemlogs.md
+      - name: Интеграция данных для CDS for Apps
+        href: data-integration-gdpr-dsr-guide.md
+      - name: Данные клиента PowerApps
+        href: powerapps-gdpr-dsr-guide.md
+        items:
+        - name: Экспорт данных
+          href: powerapps-gdpr-export-dsr.md
+        - name: Удаление данных
+          href: powerapps-gdpr-delete-dsr.md
+      - name: Данные клиента CDS for Apps
+        href: common-data-service-gdpr-dsr-guide.md
+  - name: Администрирование сред
+    href: environments-administration.md
+    items:
+    - name: Обзор сред
+      href: environments-overview.md
+    - name: Обзор регионов
+      href: regions-overview.md
+    - name: Создание среды
+      href: create-environment.md
+    - name: Создание базы данных
+      href: create-database.md
+    - name: Предварительный просмотр сред
+      href: preview-environments.md
+  - name: Настройка безопасности среды
+    href: database-security.md
+    items:
+    - name: Основные сведения о группах данных
+      href: introduction-to-data-groups.md
+    - name: Создание политики защиты от потери данных
+      href: create-dlp-policy.md
+    - name: Управление политиками защиты от потери данных
+      href: prevent-data-loss.md
+  - name: Управление подписками и учетными записями пользователей
+    items:
+    - name: Просмотр активных пользователей в клиенте
+      href: admin-view-user-licenses.md
+ms.openlocfilehash: 555f8872c3aaa5e656dfe3b3ad72004de63d8d7c
+ms.sourcegitcommit: 2bcf40aeaa35420dc43f5803f4e57ff0f6afb57b
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "46468842"

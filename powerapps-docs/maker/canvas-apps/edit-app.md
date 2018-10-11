@@ -1,6 +1,6 @@
 ---
-title: Изменение приложения | Документация Майкрософт
-description: Пошаговые инструкции по изменению приложений и сценарии блокировки сеансов.
+title: Изменение приложения на основе холста | Документы Майкрософт
+description: Пошаговые инструкции по изменению приложений на основе холста и сценарии блокировки сеансов в PowerApps.
 author: karthik-1
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/19/2017
 ms.author: sharik
-ms.openlocfilehash: b5678437ea1e604ce2932307d897f280f4633fc0
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 97dc8b245da9dc48a67f22243f11cf26b7bd6d8e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194963"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835082"
 ---
-# <a name="edit-an-app-in-powerapps"></a>Изменение приложения в PowerApps
-Вы можете изменить любое приложение, которое вы создали, которым вы владеете или для которого у вас есть разрешения **Может изменять**. Вы можете изменить приложение в PowerApps Studio. При попытке изменить приложение, которое уже открыто для редактирования в другом месте, появится сообщение о том, что приложение уже открыто вами или другим пользователем.
+# <a name="edit-a-canvas-app-in-powerapps"></a>Изменение приложения на основе холста в PowerApps
+Вы можете изменить любое приложение на основе холста, которое вы создали, которым владеете или для которого у вас есть разрешения **Может изменять**. Вы можете изменить приложение в PowerApps Studio. При попытке изменить приложение, которое уже открыто для редактирования в другом месте, появится сообщение о том, что приложение уже открыто вами или другим пользователем.
 
 ## <a name="verify-your-permissions"></a>Проверка разрешений
 1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), затем щелкните (коснитесь) **Приложения** в меню **Файл** (с левой стороны).

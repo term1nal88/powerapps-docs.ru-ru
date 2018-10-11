@@ -1,6 +1,6 @@
 ---
 title: Использование служб Cognitive Services с PowerApps | Документация Майкрософт
-description: Создание простого приложения, использующего API-интерфейс Microsoft Cognitive Services для анализа текста.
+description: Создание простого приложения на основе холста, использующего API анализа текста Microsoft Cognitive Services.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/08/2017
 ms.author: anneta
-ms.openlocfilehash: 6175633b2fbec4e9949882c587916adb349290d4
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: daaea74ede5f9818453b1d4ff32f3c46ef87b0fb
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195457"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42859589"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>Использование служб Cognitive Services с PowerApps
-Из этой статьи вы узнаете, как создать базовое приложение, использующее [API анализа текста Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview), чтобы анализировать текст. Мы объясним, как установить API анализа текста и подключиться к нему с помощью [соединителя для анализа текста](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/). Затем мы покажем, как создать приложение, которое вызывает API.
+Из этой статьи вы узнаете, как создать базовое приложение на основе холста, использующее [API анализа текста Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview), чтобы анализировать текст. Мы объясним, как установить API анализа текста и подключиться к нему с помощью [соединителя для анализа текста](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/). Затем мы покажем, как создать приложение на основе холста, которое вызывает API.
 
 > [!NOTE]
 > Если вы еще не создавали приложений в PowerApps, рекомендуем вам ознакомиться со статьей [Создание приложения с нуля](get-started-create-from-blank.md), прежде чем подробно изучить эту статью.

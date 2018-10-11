@@ -1,6 +1,6 @@
 ---
-title: Делегируемые источники данных | Документация Майкрософт
-description: Список всех поддерживаемых делегируемых источников данных
+title: Делегируемые источники данных в приложениях на основе холста | Документы Майкрософт
+description: Список всех поддерживаемых делегируемых источников данных в приложениях на основе холста
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 08/15/2017
 ms.author: lanced
-ms.openlocfilehash: e8863d8e260ecaafd407e93d710917848ce184ad
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 98931d4692a61839e0530682bd2d40258c07b7df
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018613"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42825770"
 ---
-# <a name="delegable-data-sources"></a>Делегируемые источники данных
-Как подробно описано в статье с [основными сведениями о делегировании](delegation-overview.md), делегирование — это передача службой PowerApps обязанностей по обработке данных источнику вместо переноса данных в приложение для локальной обработки.
+# <a name="delegable-data-sources-in-canvas-apps"></a>Делегируемые источники данных в приложениях на основе холста
+Как подробно описано в статье с [основными сведениями о делегировании](delegation-overview.md), делегирование — это передача службой PowerApps обязанностей по обработке данных источнику вместо переноса данных в приложение на основе холста для локальной обработки.
 
 Делегирование поддерживается только для табличных источников данных. В этом списке перечислены табличные источники данных и указано, поддерживают ли они делегирование. Подробные сведения приведены в следующем разделе.
 

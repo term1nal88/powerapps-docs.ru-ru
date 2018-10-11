@@ -1,6 +1,6 @@
 ---
-title: Получение идентификатора сеанса или приложения | Документация Майкрософт
-description: Как получить идентификатор сеанса или приложения для устранения неполадок в PowerApps
+title: Получение идентификатора сеанса или приложения на основе холста | Документы Майкрософт
+description: Как получить идентификатор сеанса или приложения на основе холста для устранения неполадок в PowerApps
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/18/2018
 ms.author: anneta
-ms.openlocfilehash: 2e9b1a38de104ce1bf5a17969ca2c79792ac6fd4
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 67cfe4ac6c53797e6a18a68d3fbcf29b088f3da8
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022270"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42848662"
 ---
-# <a name="get-a-session-id-or-an-app-id"></a>Получение идентификатора сеанса или приложения
-Если с приложением, созданным в PowerApps, возникает проблема, вы можете помочь корпорации Майкрософт устранить ее значительно эффективнее, если укажете идентификатор сеанса и (или) приложения.
+# <a name="get-a-session-id-or-a-canvas-app-id"></a>Получение идентификатора сеанса или приложения на основе холста
+Если с приложением на основе холста, созданным в PowerApps, возникает проблема, вы можете помочь корпорации Майкрософт устранить ее значительно эффективнее, если укажете идентификатор сеанса и (или) приложения.
 
 ## <a name="get-the-session-id"></a>Получение идентификатора сеанса
 

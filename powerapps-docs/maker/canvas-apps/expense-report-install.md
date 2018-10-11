@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5c2d9e2b815d1ff2c3dc80bc6c37f1c2e78364ac
-ms.sourcegitcommit: b35470285b96750d660335284d830b4d0028befb
+ms.openlocfilehash: 43d1dc6ef2d264dd60b6a9f3de0f5c0fed633283
+ms.sourcegitcommit: d3d665500b9c49c14657d044b084bdd64c52c5a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "42859511"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "44124482"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>Установка и настройка примера "Отчет о расходах" для приложений на основе холста в PowerApps
 
@@ -204,7 +204,7 @@ ms.locfileid: "42859511"
 
 1.  В веб-браузере перейдите по следующей ссылке:
 
-    http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip.
+    [http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip](http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip).
 
 2.  Скачайте пакет примера приложения PowerApps "Отчет о расходах" и сохраните его на компьютер.
 

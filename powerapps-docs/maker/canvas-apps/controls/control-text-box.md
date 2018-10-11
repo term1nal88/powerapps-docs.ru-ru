@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a0ffeded77bf08958aaa22c21d33f7063009b4bd
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d8cb7bdfa995d2289f881b6d21074efd6cf11ac4
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42868411"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640407"
 ---
 # <a name="label-control-in-powerapps"></a>Элемент управления "Метка" в PowerApps
 Поле, в котором отображаются данные, например текст, числа, даты и валюта.
@@ -75,6 +75,8 @@ ms.locfileid: "42868411"
 **[Italic](properties-text.md)** определяет, когда текст в элементе управления отображается курсивом.
 
 **[LineHeight](properties-text.md)**  — расстояние, например, между строками текста или элементами списка.
+
+**Live** — определяет, как средство чтения с экрана объявляет об изменениях в тексте метки.  Доступные значения: **Off**, **Assertive** и **Polite**. Это свойство полезно для объявления о динамических изменениях в пользовательском интерфейсе приложения при использовании специальных возможностей.
 
 **[OnSelect](properties-core.md)**  — поведение приложения, когда пользователь щелкает элемент управления или касается его.
 

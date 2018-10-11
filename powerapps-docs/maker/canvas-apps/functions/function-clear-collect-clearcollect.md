@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 73279ba8fc0b640c24deb179a3737874bc0a55bf
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 8a7c52962c23df5f2efcf76c04aeba528e94217c
+ms.sourcegitcommit: 464ee88a958dda11c5de5603c608deab6c9cdcab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835761"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48578749"
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>Функции Collect, Clear и ClearCollect в PowerApps
 Создание и удаление [коллекций](../working-with-data-sources.md#collections) и добавление [записей](../working-with-tables.md#records) в любом [источнике данных](../working-with-data-sources.md).
@@ -82,10 +82,27 @@ ms.locfileid: "42835761"
 | **Collect( IceCream, {&nbsp;Flavor:&nbsp;"Pistachio",&nbsp;Quantity:&nbsp;40&nbsp;}, {&nbsp;Flavor:&nbsp;"Orange",&nbsp;Quantity:&nbsp;200&nbsp;}  )** |Выполняется добавление двух записей в коллекцию **IceCream**, в которой указано количество фисташкового и апельсинового мороженого. |![](media/function-clear-collect-clearcollect/icecream-collect.png)<br><br>Источник данных **IceCream** также был изменен. |
 | **Clear( IceCream )** |Выполняется удаление всех записей из коллекции **IceCream**. |![](media/function-clear-collect-clearcollect/icecream-clear.png)<br><br>Источник данных **IceCream** также был изменен. |
 
-### <a name="step-by-step"></a>Шаг за шагом
+### <a name="collect-a-static-list"></a>Получение статического списка
+
 1. Добавьте кнопку и задайте свойство **[OnSelect](../controls/properties-core.md)** для этой функции:<br>**Collect(Products, &quot;Europa&quot;, &quot;Ganymede&quot;, &quot;Callisto&quot;)**
    
     Эта функция создает коллекцию с именем **Products**, которая содержит по одной строке для каждого из трех наименований продукта.
-2. Нажмите клавишу F5, затем нажмите кнопку и после этого нажмите клавишу ESC, чтобы вернуться в рабочую область конструирования.
-3. (Необязательно.) Чтобы отобразить предварительный просмотр созданной коллекции, нажмите кнопку **Коллекции** на вкладке **Содержимое**.
+    
+1. Удерживая нажатой клавишу ALT, нажмите на эту кнопку.
 
+1. Для предварительного просмотра созданной коллекции выберите **Коллекции** в меню **Файл** (необязательно).
+
+### <a name="put-a-sharepoint-list-into-a-collection"></a>Помещение списка SharePoint в коллекцию
+
+1. [Создайте подключение к списку SharePoint](../connect-to-sharepoint.md). 
+
+1. Добавьте кнопку и установите для ее свойства **[OnSelect](../controls/properties-core.md)** эту функцию, заменив *ListName* именем вашего списка SharePoint:<br>
+**Collect**(**MySPCollection**, *ListName*)
+
+    Эта функция создает коллекцию с именем **MySPCollection**, которая содержит те же данные, что и ваш список SharePoint.
+    
+1. Удерживая нажатой клавишу ALT, нажмите на эту кнопку.
+
+1. Для предварительного просмотра созданной коллекции выберите **Коллекции** в меню **Файл** (необязательно).
+
+Сведения о том, как отображать данные из списка SharePoint (например, даты, варианты и пользователей) в коллекции, см. в разделе [Отображение данных в коллекции](../connections/connection-sharepoint-online.md#show-data-in-a-gallery). Сведения о том, как отображать данные в форме (с помощью раскрывающихся списков, средств выбора даты и средств выбора пользователей), см. в разделе [Элементы управления "Изменить форму" и "Показать форму"](../controls/control-form-detail.md).
