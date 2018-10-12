@@ -1,1 +1,0 @@
-Приложение Dynamics 365 для Outlook
