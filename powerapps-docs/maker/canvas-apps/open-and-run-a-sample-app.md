@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5d4e88ca0a1e683d2f72e02625e6228d1063352f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 09d2bc10d465510887b546df8341c8798df136c1
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831814"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316826"
 ---
 # <a name="quickstart-create-a-canvas-app-from-a-sample-in-powerapps"></a>Краткое руководство. Создание приложения на основе холста с помощью образца в PowerApps
 В этом кратком руководстве вы создадите приложение на основе холста из образца, чтобы изучить возможности проектирования и принципы, которые можно применять при разработке собственных приложений на основе холста.
@@ -30,11 +30,9 @@ ms.locfileid: "42831814"
 ## <a name="open-a-sample-app"></a>Открытие примера приложения
 1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-    ![](./media/open-and-run-a-sample-app/sign-in.png)
-
 1. В списке примеров приложений наведите указатель мыши на один из примеров (например, **Cost Estimator**).
 
-    ![](./media/open-and-run-a-sample-app/sample-tile.png)
+    ![](./media/open-and-run-a-sample-app/cost-estimator.png)
 
 1. Нажмите значок телефона, чтобы создать версию приложения для мобильных устройств (либо оставьте выбранным значок планшета), а затем нажмите **Создать это приложение**.
 
