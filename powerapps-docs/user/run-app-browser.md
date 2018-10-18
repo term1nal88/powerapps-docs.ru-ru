@@ -24,14 +24,14 @@ ms.lasthandoff: 08/24/2018
 ms.locfileid: "42832432"
 ---
 # <a name="run-an-app-in-a-web-browser"></a>Запуск приложения в веб-браузере
-Если вы создаете приложение или вам предоставляют доступ к приложению, его можно запускать на ОС Windows, iOS, Android или в веб-браузере. В этом разделе вы узнаете, как запустить приложение на основе холста или модели в веб-браузере с [домашней страницы Dynamics 365](https://home.dynamics.com).
+Если вы создаете приложение или вам предоставляют доступ к приложению, его можно запускать на ОС Windows, iOS, Android или в веб-браузере. В этом разделе вы узнаете, как запустить приложение на основе холста или модели в веб-браузере с [домашней страницы Dynamics 365](https://home.dynamics.com).
 
 Для этого краткого руководства вам потребуется:
 - Лицензия на PowerApps. Она доступна с планом PowerApps, например [пробной версией PowerApps, план 2](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps), или любым планом [Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) или [Dynamics 365](https://dynamics.microsoft.com/pricing/), который включает PowerApps. 
 - Доступ к своему приложению или приложению, созданному и предоставленному вам другим пользователем.
 - Доступ к поддерживаемому веб-браузеру и операционной системе.
    - Для приложений на основе холста см. [Требования к системе, ограничения и значения конфигурации](../maker/canvas-apps/limits-and-config.md)
-   - Для приложений на основе модели см. раздел [Поддерживаемые веб-браузеры и мобильные устройства](https://docs.microsoft.com/dynamics365/customer-engagement/admin/supported-web-browsers-and-mobile-devices)
+   - Для приложений на основе модели см. раздел [Поддерживаемые веб-браузеры и мобильные устройства](https://docs.microsoft.com/dynamics365/customer-engagement/admin/supported-web-browsers-and-mobile-devices)
 
 
 ## <a name="sign-in-to-dynamics-365"></a>Вход в Dynamics 365
