@@ -744,7 +744,7 @@
                   href: ./model-driven-apps/notes-control-legacy.md
                 - name: Свойства элемента управления экспресс-формами
                   href: ./model-driven-apps/quick-view-control-properties-legacy.md
-                - name: Дополнительные элементы управления для Dynamics 365 for phones and tablets
+                - name: Дополнительные элементы управления для Dynamics 365 for phones и tablets
                   href: ./model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets.md
                 - name: Обзор элемента управления "Таймер"
                   href: ./model-driven-apps/timer-control-legacy.md
@@ -854,8 +854,6 @@
           href: ./common-data-service/set-managed-properties-relationships.md
         - name: Визуализация иерархических данных
           href: ./common-data-service/visualize-hierarchical-data.md
-        - name: Запрос и визуализация иерархически связанных данных
-          href: ./common-data-service/query-visualize-hierarchical-data.md
         - name: Определение и запрос иерархически связанных данных
           href: ./common-data-service/define-query-hierarchical-data.md
         - name: Настройка ролей подключения
@@ -868,8 +866,6 @@
               href: ./common-data-service/create-edit-nn-relationships-solution-explorer.md
             - name: Настройка управляемых свойств для отношений
               href: ./common-data-service/set-managed-properties-relationships.md
-            - name: Визуализация иерархических данных
-              href: ./common-data-service/visualize-hierarchical-data.md
             - name: Запрос и визуализация иерархически связанных данных
               href: ./common-data-service/query-visualize-hierarchical-data.md
             - name: Определение и запрос иерархически связанных данных
@@ -917,8 +913,6 @@
     - name: Работа с решениями
       href: ./common-data-service/solutions-overview.md
       items:
-        - name: Обзор решений
-          href: ./common-data-service/solutions-overview.md
         - name: Использование обозревателя решений
           href: ./common-data-service/use-solution-explorer.md
         - name: Использование решения по умолчанию Common Data Service
@@ -969,6 +963,8 @@
   items:
     - name: 'Требования к системе, ограничения и настройка'
       href: ./canvas-apps/limits-and-config.md
+    - name: Советы по производительности приложений на основе холста
+      href: ./canvas-apps/performance-tips.md
     - name: Общие проблемы и решения
       href: ./canvas-apps/common-issues-and-resolutions.md
     - name: Получение идентификатора сеанса или приложения

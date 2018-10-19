@@ -82,18 +82,21 @@ search.app:
 5. Выберите **Тема CRM по умолчанию**. 
 
 На следующем снимке экрана показана часть настройки темы по умолчанию.  
-  
-![Тема по умолчанию](media/default-theme.png) 
+
+> [!div class="mx-imgBorder"] 
+> ![Тема по умолчанию](media/default-theme.png) 
   
  Мы клонировали тему по умолчанию и изменили цвета. На следующих снимках экрана показаны новые цвета для навигации и выделения. Также можно выбрать новый логотип для продукта.  
   
  На следующем снимке экрана показан новый цвет для навигации.  
-  
- ![Цвета темы Gentle green](media/theme-gentle-green.png "Цвета темы Gentle green")  
+ 
+ > [!div class="mx-imgBorder"] 
+ > ![Цвета темы Gentle green](media/theme-gentle-green.png "Цвета темы Gentle green")  
   
  На следующем снимке экрана показана сетка сущности "Организация" с новым цветом выделения.  
-  
- ![Сетка организации с темой Gentle green](media/themes-gentle-green-account-grid.png "Сетка организации с темой Gentle green")  
+ 
+ > [!div class="mx-imgBorder"] 
+ > ![Сетка организации с темой Gentle green](media/themes-gentle-green-account-grid.png "Сетка организации с темой Gentle green")  
   
 <a name="Publish"></a>   
 ## <a name="preview-and-publish-a-theme"></a>Предварительный просмотр и публикации темы  
