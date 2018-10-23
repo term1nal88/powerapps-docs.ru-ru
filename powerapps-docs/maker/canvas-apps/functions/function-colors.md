@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8dc77c7410632b2ff0f50b132112240fd5e56258
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 883ea1a63952a01cf1f131b0ccae6629a0324b2c
+ms.sourcegitcommit: 4c7b63c43c1f3515a6dfeff5806692b0eba55071
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42853297"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49401350"
 ---
 # <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>Функция для обозначения цвета Color, а также функции ColorFade, ColorValue и RGBA в PowerApps
 Использование встроенных значений цвета, определение пользовательских цветов и альфа-смешивание.
@@ -56,7 +56,7 @@ ms.locfileid: "42853297"
 | Обозначение цвета | ColorValue и шестнадцатеричный код | RGBA | Палитры цветов |
 | --- | --- | --- | --- |
 | **Color.AliceBlue** |**ColorValue( "#f0f8ff" )** |**RGBA( 240, 248, 255, 1 )** |![Бледно-голубой](./media/function-colors/color-aliceblue.png) |
-| **Color.AntiqueWhite** |**ColorValue( "#faebd7" )** |**RGBA( 7, "250, 235,215, 1 )** |![Античный белый](./media/function-colors/color-antiquewhite.png) |
+| **Color.AntiqueWhite** |**ColorValue( "#faebd7" )** |**RGBA( 250, 235, 215, 1 )** |![Античный белый](./media/function-colors/color-antiquewhite.png) |
 | **Color.Aqua** |**ColorValue( "#00ffff" )** |**RGBA( 0, 255, 255, 1 )** |![Бирюзовый](./media/function-colors/color-aqua.png) |
 | **Color.Aquamarine** |**ColorValue( "#7fffd4" )** |**RGBA( 127, 255, 212, 1 )** |![Аквамариновый](./media/function-colors/color-aquamarine.png) |
 | **Color.Azure** |**ColorValue( "#f0ffff" )** |**RGBA( 240, 255, 255, 1 )** |![Лазурный](./media/function-colors/color-azure.png) |

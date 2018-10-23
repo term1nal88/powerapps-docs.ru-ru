@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 738ec650827cf24e793c0bfda1a71f962cdc2d15
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: ea5912a043dc00fa197a2070c11610c358c3201d
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859909"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316730"
 ---
 # <a name="create-a-canvas-app-from-a-template-in-powerapps"></a>Создание приложения на основе холста из шаблона в PowerApps
 
@@ -32,9 +32,7 @@ ms.locfileid: "42859909"
 
 1. Войдите в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-    ![Домашняя страница PowerApps](./media/get-started-test-drive/sign-in.png)
-
-1. В области **Разрабатывайте такие приложения** наведите указатель на плитку **Начать с данных** и выберите команду **Создать это приложение**.
+1. В области **Создавайте собственные приложения** наведите указатель на плитку **Начать с данных** и выберите команду **Создать это приложение**.
 
     ![Плитка "Создать это приложение"](./media/get-started-test-drive/make-this-app.png)
 

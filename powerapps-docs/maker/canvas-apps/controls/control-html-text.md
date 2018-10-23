@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 965c779a752d0bfd864a06d5fa886b0187839123
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d41ef04d3cd070373f6772bdfced029a7d09e244
+ms.sourcegitcommit: ebd39753e2a0b60c1d8c016e38c00dd1accf5d0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42836900"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49307868"
 ---
 # <a name="html-text-control-in-powerapps"></a>Элемент управления "HTML-текст" в PowerApps
 Поле, в котором отображается текст, а HTML-теги преобразуются в форматирование.
@@ -80,7 +80,7 @@ ms.locfileid: "42836900"
 ## <a name="example"></a>Пример
 1. Добавьте элемент управления **[Метка](control-text-box.md)**, назовите его **Source** и укажите в качестве значения свойства **[Text](properties-core.md)** следующую строку:
 
-\<p> Мы достигли необычайно \&nbsp; \&quot; глубокого \&quot; уровня глобализации и локализации. \<p>
+"\<p>Мы\&nbsp;достигли необычайно \&quot;глубокого\&quot; уровня глобализации и локализации.\<p>"
 
 Не знаете, как [добавить, назвать и настроить элемент управления](../add-configure-controls.md)?
 

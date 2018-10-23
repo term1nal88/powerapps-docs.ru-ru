@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bec00071d1b354872bf3b140e5c879fe8857ffec
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d92236d630005b4608719efaadef4537984bc3d6
+ms.sourcegitcommit: 5a1864d1531b55b332749437674fd1378e1f55ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865677"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "49307845"
 ---
 # <a name="validate-function-in-powerapps"></a>Функция Validate в Microsoft PowerApps
 Функция **Validate** проверяет, являются ли значения одного [столбца](../working-with-tables.md#columns) или всей [записи](../working-with-tables.md#records) допустимыми для [источника данных](../working-with-data-sources.md).  
@@ -66,6 +66,6 @@ ms.locfileid: "42865677"
 
 | Формула | Описание | Возвращаемый результат |
 | --- | --- | --- |
-| **Validate(Scores, EditRecord, Gallery.Updates)** |Проверяет, является ли **10** допустимым значением для столбца **Percentage** в источнике данных **Scores**. |*пустое значение* |
-| **Validate(Scores, EditRecord, Gallery.Updates)** |Проверяет, является ли **120** допустимым значением для столбца **Percentage** в источнике данных **Scores**. |"Значения должны быть в диапазоне от 0 до 100". |
+| **Validate(Scores, EditRecord, Gallery.Updates)** |Проверяет, допустимы ли значения во всех столбцах для источника данных **Оценки**. В этом примере значение в столбце **Процент** равно **10**. |*пустое значение* |
+| **Validate(Scores, EditRecord, Gallery.Updates)** | Проверяет, допустимы ли значения во всех столбцах для источника данных **Оценки**. В этом примере значение в столбце **Процент** равно **120**. |"Значения должны быть в диапазоне от 0 до 100". |
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1dde9367fe06b1bd2242fe0ac755f5eeedb71bba
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: b78f88941fce85b9e63427635cb946f944aa120a
+ms.sourcegitcommit: e2a9d1a6090cdd8aa78515b49f38ed2365217ea6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42851847"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "49384278"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>Элементы управления "Экспорт" и "Импорт" в PowerApps
 Элементы управления для экспорта данных в локальный файл, а затем импорта этих данных в другое приложение в PowerApps.
@@ -28,6 +28,9 @@ ms.locfileid: "42851847"
 
 ## <a name="warning"></a>Предупреждение
 Включение этой функции в приложении может привести к уязвимостям системы безопасности и утечке данных.  Рекомендуется предложить пользователям импортировать только распознанные и надежные файлы и экспортировать только те данные, которые не являются конфиденциальными.
+
+## <a name="limitations"></a>Ограничения
+Функция экспорта не поддерживается в браузерах.
 
 ## <a name="key-properties"></a>Основные свойства
 **Data** — имя коллекции, которую необходимо экспортировать в локальный файл.

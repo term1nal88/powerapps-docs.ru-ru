@@ -5,7 +5,7 @@ author: sabinn-msft
 ms.service: powerapps
 ms.topic: how-to
 ms.component: cds
-ms.date: 09/19/2018
+ms.date: 10/15/2018
 ms.author: sabinn
 search.audienceType:
 - admin
@@ -13,12 +13,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: b8cebc6f9db8a1a7c1a060aad461f4f32fcee05b
-ms.sourcegitcommit: 2bcf40aeaa35420dc43f5803f4e57ff0f6afb57b
+ms.openlocfilehash: dfbc420dfb4945cdda635e3cbaadb1acb446753b
+ms.sourcegitcommit: ebd39753e2a0b60c1d8c016e38c00dd1accf5d0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "46469750"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49328701"
 ---
 # <a name="integrate-data-into-common-data-service-for-apps"></a>Интеграция данных в Common Data Service для приложений
 
@@ -88,6 +88,9 @@ ms.locfileid: "46469750"
 
     > [!div class="mx-imgBorder"] 
     > ![Список подключений](media/data-integrator/CreateConnection1780.png "Connection list")
+
+> [!NOTE]
+> Убедитесь, что учетная запись, указанная для каждого подключения, имеет доступ к сущностям для соответствующих приложений. Кроме того, учетная запись каждого подключения может находиться в другом клиенте. 
 
 ### <a name="how-to-create-a-connection-set"></a>Создание набора подключений
 
@@ -169,8 +172,6 @@ ms.locfileid: "46469750"
 
 ### <a name="execution-history"></a>История выполнений
 
-<!--note from editor: Do you think most people reading this will know what "upsert" means?-->
-
 История выполнений показывает журнал всех исполнений проекта с именем проекта, меткой времени выполнения и состоянием выполнения, а также количеством операций upsert или ошибок.
 
 -   Пример журнала выполнений проекта.
@@ -228,6 +229,12 @@ ms.locfileid: "46469750"
 
 > [!div class="mx-imgBorder"] 
 > ![Уведомление по электронной почте](media/data-integrator/EmailNotification780.png "Email notification")
+
+> [!NOTE]
+> - Сейчас можно в любое время запланировать 50 проектов интеграции для всех клиентов с платной подпиской. Однако вы можете создать еще больше проектов и запустить их интерактивно.
+Для клиентов с пробной версией есть дополнительное ограничение: 50 выполнений на запланированный проект.
+> - Хотя вы можете запланировать запуск проектов каждую минуту, это может привести к серьезным нагрузкам на приложения и понизить общую производительность. Пользователям настоятельно рекомендуется проверять выполнения проектов в условиях реальных нагрузок и оптимизировать производительность путем уменьшения частоты обновлений.
+В рабочих средах не рекомендуется запускать больше пяти проектов в минуту на клиент.
 
 ## <a name="customizing-projects-templates-and-mappings"></a>Настройка проектов, шаблонов и сопоставлений 
 

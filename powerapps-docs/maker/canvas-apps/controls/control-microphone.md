@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b668e8ae118bea5f288e1b3806854e4621295984
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 302c2fad419146f03fe47e25b8a7563564ee7e2d
+ms.sourcegitcommit: 5a1864d1531b55b332749437674fd1378e1f55ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42852143"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "49307822"
 ---
 # <a name="microphone-control-in-powerapps"></a>Элемент управления "Микрофон" в PowerApps
 Элемент управления, позволяющий пользователям записывать звук на устройстве.
@@ -26,7 +26,7 @@ ms.locfileid: "42852143"
 ## <a name="description"></a>Описание
 Пользователи приложения могут записывать звук, если устройство, на котором выполняется приложение, оснащено микрофоном.
 
-Звук хранится в формате 3GP на устройствах Android и формате AAC на устройствах iOS.
+Звук хранится в формате 3GP на устройствах Android, в формате AAC на устройствах iOS и в формате OGG в браузерах.
 
 ## <a name="key-properties"></a>Основные свойства
 **Mic** — на устройстве с несколькими микрофонами это число идентифицирует микрофон, используемый приложением.

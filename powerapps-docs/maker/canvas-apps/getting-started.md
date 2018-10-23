@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 93d29f0a49a70077f975bed659203b4fb7d66489
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: a9f85907da60e836c1a1115f31c6faf9ea05da9b
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833472"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49317075"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>Основные сведения о приложениях на основе холста в PowerApps
 Проектируйте и создавайте бизнес-приложения на основе холста в Microsoft PowerApps без написания кода на традиционном языке программирования, например C#. Разрабатывайте приложение путем перетаскивания элементов на холст так, как если бы вы создавали слайд в PowerPoint. Создавайте схожие с Excel выражения для указания логики и работы с данными. Создавайте приложения, которые интегрируют бизнес-данные из [разнообразных источников Майкрософт и сторонних поставщиков](connections-list.md). Открывайте к приложению общий доступ, чтобы пользователи могли запускать его в браузере или на мобильном устройстве. Внедряйте приложение, предоставляя пользователям возможность использовать его в SharePoint, Power BI или Teams.
@@ -33,9 +33,9 @@ ms.locfileid: "42833472"
 - [SharePoint](app-from-sharepoint.md)
 - [Excel](get-started-create-from-data.md)
 
-На веб-сайте PowerApps выберите **Start from data** (Начать из данных) или выберите пример приложения, например **Service Desk** (Служба поддержки) или **Budget Tracker** (Сведения о бюджете).
+[Войдите](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) в PowerApps и выберите **Начать из данных** или выберите пример приложения, например, **Служба поддержки** или **Сведения о бюджете**.
 
-![Сайт PowerApps](./media/getting-started/sample-apps.png)
+![Сайт PowerApps](./media/getting-started/create-page-samples.png)
 
 После автоматического создания приложения настройте его внешний вид и функциональность по умолчанию с учетом рабочих процессов пользователей. Например, можно изменить типы отображаемых данных, их сортировку или даже способ указания числовых значений: путем ввода или перетаскивания ползунка. Добавляйте и настраивайте [экраны](add-screen-context-variables.md), [коллекции](customize-layout-sharepoint.md), [формы](customize-forms-sharepoint.md) и другие элементы управления.
 

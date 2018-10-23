@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bf19983217afad23b75a0f0dbd1e307e6539d3f5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: c8b24c9064e5012ff1ddb15d13dc338ed9565bef
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42825955"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316776"
 ---
 # <a name="generate-a-canvas-app-from-common-data-service-for-apps-in-powerapps"></a>Создание приложения на основе холста с использованием Common Data Service for Apps в PowerApps
 
@@ -34,11 +34,9 @@ PowerApps позволяет вам автоматически создать п
 
 1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) и переключитесь на среду, соответствующую указанным выше требованиям.
 
-    ![Домашняя страница PowerApps](./media/data-platform-create-app/sign-in.png)
+1. В области **Создавайте собственные приложения** наведите указатель на плитку **Начать с данных** и выберите команду **Создать это приложение**.
 
-1. В области **Разрабатывайте такие приложения** наведите указатель на плитку **Начать с данных** и выберите команду **Создать это приложение**.
-
-    ![Команда для создания приложения](./media/data-platform-create-app/make-this-app.png)
+    ![Команда для создания приложения](./media/data-platform-create-app/start-from-data.png)
 
 1. На плитке **Common Data Service** выберите **Макет телефона**.
 

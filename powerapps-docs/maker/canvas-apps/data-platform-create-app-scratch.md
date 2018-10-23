@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b90024e3864420c541b0e0e1ef0ad1d86b900aa0
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 45b5d85998825cdafc2bbea7badaa5d7cde2f092
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42852283"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49317052"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service-for-apps"></a>Создание с нуля приложения на основе холста при помощи Common Data Service for Apps
 
@@ -35,11 +35,9 @@ ms.locfileid: "42852283"
 
 1. Войдите в [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-    ![Домашняя страница PowerApps](./media/data-platform-create-app-scratch/sign-in.png)
+1. В области **Создавайте собственные приложения** наведите указатель на плитку **Начать с пустого** для приложений на основе холста, щелкните значок телефона, а затем выберите пункт **Создать это приложение**.
 
-1. В области **Разрабатывайте такие приложения** наведите указатель на плитку **Начать с пустого**, нажмите значок телефона, а затем выберите пункт **Создать это приложение**.
-
-    ![Плитка пустого приложения](./media/data-platform-create-app-scratch/blank-app.png)
+    ![Плитка пустого приложения](./media/data-platform-create-app-scratch/start-from-blank.png)
 
     Вы можете разработать приложение с нуля для телефонов или других устройств (например, планшетов). В этой статье будет рассмотрено создание приложения для телефонов.
 
