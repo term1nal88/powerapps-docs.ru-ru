@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/18/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: bcba4a6142299d253c484c0af46afad091735e80
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
+ms.openlocfilehash: c3e40df2d2ecc13e2c466aa91178ccb5d23548fe
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49636390"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806095"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>Общие сведения о создании приложений в PowerApps
 
@@ -32,7 +32,7 @@ PowerApps — это высокопроизводительная платфо�
 
 Начать создавать приложение можно на основе решений Майкрософт, в которых хранятся ваши данные, например:
 
-- [на основе списка SharePoint;](canvas-apps/generate-app-from-sharepoint-list-interface.md)
+- [на основе списка SharePoint;](canvas-apps/app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online)
 - [на основе информационной панели Power BI.](canvas-apps/embed-powerapps-powerbi.md)
 
 Создать приложение на основе холста просто. С помощью PowerApps можно находить или создавать приложения несколькими способами:
