@@ -1,24 +1,24 @@
 ---
 title: Справка по элементам управления "Форма отображения" и "Форма изменения" | Документация Майкрософт
 description: Сведения об элементах управления "Отображать форму" и "Изменить форму" с описанием их свойств и примерами
-author: gregli-msft
+author: aneesmsft
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/06/2017
-ms.author: gregli
+ms.author: aneesa
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 992529f50ba14f3578c4f6ffe0ba7ba27d2d3661
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 91f84ebbec83c5734e910680f4ab3a79077164df
+ms.sourcegitcommit: ce621966a34061dda2f75232403847e21816ffa9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42838139"
+ms.lasthandoff: 09/30/2018
+ms.locfileid: "47459462"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Элементы управления "Изменить форму" и "Отображать форму" в PowerApps
 Элементы управления "Отображать форму" и "Изменить форму" служат для отображения, изменения и создания записей в источнике данных.
@@ -32,6 +32,12 @@ ms.locfileid: "42838139"
 
 ### <a name="record-selection"></a>Выбор записи
 Назначьте свойству **DataSource** формы таблицу записей, а затем настройте свойство **Item** формы для отображения записи из этой таблицы. Например, вы можете назначить свойству **Item** формы свойство **SelectedItem** элемента управления **[Коллекция](control-gallery.md)**. Когда пользователь выберет запись в коллекции, та же запись будет отображена в форме (возможно, с дополнительными полями). Если пользователь вернется в коллекцию и выберет другую запись, свойство **SelectedItem** коллекции изменится соответствующим образом. Это изменение вызовет обновление свойства **Item** формы, и в нем отобразится новая выбранная запись.
+
+Можно также задать свойство **Item** формы с помощью элемента управления **Drop down**, как описано в разделе [Отображение, изменение или добавление записи](../add-form.md), или с помощью функции, такой как **Lookup** или **First**. Например, можно задать в качестве значения свойства **Item** любую из этих формул, чтобы отображать запись Fabrikam в сущности **Accounts** в Common Data Service для приложений:
+
+```First(Accounts)```
+
+```Lookup(Accounts, "Fabrikam" in name)```
 
 Каждая форма содержит один или несколько элементов управления **[Карточка](control-card.md)**. С помощью свойства **[DataField](control-card.md)** карточки можно [указать, какое поле должно отображаться в карточке, и настроить другие параметры](../add-form.md).
 

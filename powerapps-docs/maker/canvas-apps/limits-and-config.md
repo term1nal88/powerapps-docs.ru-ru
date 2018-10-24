@@ -1,6 +1,6 @@
 ---
-title: Требования к системе, ограничения и значения конфигурации | Документы Майкрософт
-description: Требования к системе, ограничения и значения конфигурации для PowerApps
+title: Требования к системе, ограничения и значения конфигурации для приложений на основе холста | Документы Майкрософт
+description: Требования к системе, ограничения и значения конфигурации для приложений на основе холста, созданных в PowerApps
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,21 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/07/2018
 ms.author: anneta
-ms.openlocfilehash: 3c334baf876c64085621520daef9a0f153d54107
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5ba279e361dfe450de1187cf6aca87bc026178ba
+ms.sourcegitcommit: 60006ce9cb21c59e588c00f2ba5c41ffebbbba09
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39476882"
+ms.lasthandoff: 09/30/2018
+ms.locfileid: "47456305"
 ---
-# <a name="system-requirements-limits-and-configuration-values"></a>Требования к системе, ограничения и значения конфигурации
+# <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>Требования к системе, ограничения и значения конфигурации для приложений на основе холста
 В этой статье приводятся требования к платформе устройств и веб-браузеру, а также ограничения и значения конфигурации для PowerApps.
 
-## <a name="supported-platforms-for-running-apps-using-the-powerapps-app"></a>Поддерживаемые платформы для запуска приложений с помощью PowerApps
+## <a name="supported-platforms-for-running-canvas-apps-using-the-powerapps-app"></a>Поддерживаемые платформы для запуска приложений на основе холста с помощью приложения PowerApps
 
 | **Минимальные требования** | **Рекомендуется** |
 | --- | --- |
@@ -27,7 +31,7 @@ ms.locfileid: "39476882"
 | Android 5 или более поздней версии |Android 7 или более поздней версии с не менее чем 4 ГБ ОЗУ |
 | Windows 8.1 или более поздней версии (только ПК) |Windows 10 Fall Creators Update с не менее чем 8 ГБ ОЗУ|
 
-## <a name="supported-browsers-for-running-apps"></a>Поддерживаемые браузеры для запуска приложений
+## <a name="supported-browsers-for-running-canvas-apps"></a>Поддерживаемые браузеры для запуска приложений на основе холста
 
 | **Браузер** | **Операционная система** |
 | --- | --- |
@@ -64,7 +68,7 @@ ms.locfileid: "39476882"
 Например, следует использовать эти адреса, если вам необходимо добавить в список разрешений IP-адреса для базы данных SQL Azure.
 
 > [!IMPORTANT]
->   Если у вас есть существующие конфигурации, обновите их как можно скорее до 1 сентября 2018 г., чтобы они соответствовали IP-адресам из этого списка для регионов, в которых находятся ваши приложения PowerApps.
+>   Если у вас есть существующие конфигурации, обновите их как можно скорее до 30 сентября 2018 г., чтобы они соответствовали IP-адресам из этого списка для регионов, в которых находятся ваши приложения PowerApps.
 
 | Регион | Исходящие IP-адреса |
 | --- | --- |
@@ -95,3 +99,6 @@ ms.locfileid: "39476882"
 | *.azureedge.net |https |Веб-аутентификация. |
 | *.blob.core.windows.net |https |Хранилище BLOB-объектов |
 | vortex.data.microsoft.com |https |Телеметрия |
+
+> [!NOTE]
+> Если вы используете VPN, необходимо настроить исключение localhost из туннелирования для PowerApps Mobile.

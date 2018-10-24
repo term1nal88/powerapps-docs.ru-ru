@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 11/07/2015
+ms.date: 08/24/2018
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6a7d511143a0b16e04ae31263dec9f6a4e04689e
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 056c5e1142b3a34776e72f788f5b2cef9e3b2a27
+ms.sourcegitcommit: 3dc330d635aaf5bc689efa6bd39826d6e396c832
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864363"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48875906"
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>Функции AddColumns, DropColumns, RenameColumns и ShowColumns в Microsoft PowerApps
 Изменение формата [таблицы](../working-with-tables.md) путем добавления, удаления, переименования и выбора ее [столбцов](../working-with-tables.md#columns).
@@ -42,7 +42,7 @@ ms.locfileid: "42864363"
 
 Функция **DropColumns** исключает столбцы из таблицы.  Все остальные столбцы сохраняются без изменений. **DropColumns** исключает столбцы, а **ShowColumns** включает новые столбцы.
 
-Функция **RenameColumns** изменяет имя столбца в таблице. Все остальные столбцы сохраняют первоначальные имена.
+С помощью функции **RenameColumns** можно переименовать один или несколько столбцов таблицы. Для этого необходимо предоставить хотя бы одну пару аргументов, которая определяет имя столбца, содержащегося в таблице (старое имя столбца, которое требуется заменить), и имя столбца, отсутствующего в таблице (новое имя столбца, которое требуется использовать). Столбец со старым именем должен присутствовать в таблице, а столбца с новым именем в ней не должно быть. Имя каждого столбца может использоваться в списке аргументов только один раз в качестве либо старого, либо нового имени столбца. Если необходимо присвоить столбцу имя существующего столбца, сначала необходимо удалить существующий столбец с помощью команды **DropColumns** или переименовать его с использованием функции **RenameColumns**, вложенной в другую.
 
 Функция **ShowColumns** включает в результат указанные столбцы таблицы и удаляет все остальные. Функцию **ShowColumns** можно использовать для выделения одного столбца из таблицы с несколькими столбцами.  **ShowColumns** включает столбцы, а **DropColumns** исключает столбцы.  
 
@@ -62,11 +62,11 @@ ms.locfileid: "42864363"
 * *Table* — обязательный аргумент.  Таблица, для которой выполняется операция.
 * *ColumnName* — обязательный аргумент. Имена столбцов для исключения. Этот аргумент принимает строку (например, **"Name"** в двойных кавычках).
 
-**RenameColumns**( *Table*, *OldColumneName*, *NewColumnName* )
+**RenameColumns**( *Table*, *OldColumneName1*, *NewColumnName1* [, *OldColumnName2*, *NewColumnName2*, ... ] )
 
 * *Table* — обязательный аргумент.  Таблица, для которой выполняется операция.
-* *OldColumnName* — обязательный аргумент. Имя столбца, который следует переименовать. Этот аргумент принимает строку (например, **"Name"** в двойных кавычках).
-* *NewColumnName* — обязательный аргумент. Имя, которое нужно использовать вместо старого. Этот аргумент принимает строку (например, **"Customer Name"** в двойных кавычках).
+* *OldColumnName* — обязательный аргумент. Имя столбца исходной таблицы, который требуется переименовать. Этот элемент отображается первым в паре аргументов (или первым в каждой из пар, если формула содержит несколько пар). Этот аргумент принимает строку (например, **"Name"** в двойных кавычках).
+* *NewColumnName* — обязательный аргумент. Имя, которое нужно использовать вместо старого. Этот элемент отображается последним в паре аргументов (или последним в каждой из пар, если формула содержит несколько пар). Этот аргумент принимает строку (например, **"Customer Name"** в двойных кавычках).
 
 **ShowColumns**( *Table*, *ColumnName1* [, *ColumnName2*, ... ] )
 
@@ -86,6 +86,7 @@ ms.locfileid: "42864363"
 | **DropColumns( IceCreamSales, "UnitPrice" )** |Исключает из результата столбец **UnitPrice**. Эта функция позволяет исключить столбцы, а **ShowColumns** включает их. |![](media/function-table-shaping/icecream-drop-price.png) |
 | **ShowColumns( IceCreamSales, "Flavor" )** |Включает в результат только столбец **Flavor**. Эта функция позволяет включить столбцы, а **DropColumns** исключает их. |![](media/function-table-shaping/icecream-select-flavor.png) |
 | **RenameColumns( IceCreamSales, "UnitPrice", "Price")** |Переименовывает столбец **UnitPrice** в итоговой таблице. |![](media/function-table-shaping/icecream-rename-price.png) |
+| **RenameColumns( IceCreamSales, "UnitPrice", "Price", "QuantitySold", "Number")** |Переименовывает столбцы **UnitPrice** и **QuantitySold**. |![](media/function-table-shaping/icecream-rename-price-quant.png) |
 | **DropColumns(<br>RenameColumns(<br>AddColumns( IceCreamSales, "Revenue",<br>UnitPrice * QuantitySold ),<br>"UnitPrice", "Price" ),<br>"Quantity" )** |Поочередно выполняет следующие преобразования, начиная с "внутренней стороны" формулы. <ol><li>Добавляет столбец **Revenue** заполняемый данными по формуле **UnitPrice * Quantity**.<li>Переименовывает столбец **UnitPrice** в **Price**.<li>Исключает столбец **Quantity**.</ol>  Обратите внимание, что порядок выполнения имеет значение. Например, мы не сможем вычислить **UnitPrice** после того, как переименуем его. |![](media/function-table-shaping/icecream-all-transforms.png) |
 
 ### <a name="step-by-step"></a>Шаг за шагом
