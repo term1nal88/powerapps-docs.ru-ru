@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b1531289c55772aaa9ee521c92cc8b5dbfe16ad4
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
+ms.openlocfilehash: 3d29387c907808f90225f1ff67257d289de2b0a9
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49317029"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806140"
 ---
 # <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>Создание приложения на основе холста из Excel в PowerApps
 
@@ -28,13 +28,15 @@ ms.locfileid: "49317029"
 
 Если у вас нет лицензии на PowerApps, вы можете [зарегистрироваться для получения бесплатной версии](../signup-for-powerapps.md).
 
-## <a name="prerequisites"></a>Технические условия ##
+## <a name="prerequisites"></a>Технические условия
+
 Для точного выполнения инструкций в этой статье скачайте файл [FlooringEstimates](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) в Excel и сохраните его в [облачной учетной записи хранения](connections/cloud-storage-blob-connections.md).
 
 > [!IMPORTANT]
 > Вы можете использовать собственный файл Excel, однако данные в нем должны быть отформатированы в виде таблицы. Дополнительные сведения см. в разделе [Форматирование таблицы](how-to-excel-tips.md). 
 
 ## <a name="generate-the-app"></a>Создание приложения
+
 1. Войдите в [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 1. В области **Создавайте собственные приложения** наведите указатель на плитку **Начать с данных** и выберите команду **Создать это приложение**.
@@ -54,6 +56,7 @@ ms.locfileid: "49317029"
     ![Команда для создания приложения](./media/get-started-create-from-data/choose-table.png)
 
 ## <a name="run-the-app"></a>Запуск приложения
+
 1. Откройте режим предварительного просмотра, нажав клавишу F5 (либо нажав значок воспроизведения в правом верхнем углу).
 
     ![Открытие режима предварительного просмотра](./media/get-started-create-from-data/open-preview.png)
@@ -73,6 +76,7 @@ ms.locfileid: "49317029"
 1. Нажмите стрелку "Далее" для добавленной записи и нажмите значок корзины, чтобы удалить запись.
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 Настройте экрана обзора по умолчанию в соответствии со своими потребностями. Например, можно отсортировать и отфильтровать список по названию продукта, а не по категории.
 
 > [!div class="nextstepaction"]

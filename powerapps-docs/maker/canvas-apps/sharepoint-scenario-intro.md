@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fa2631d065425ab57e47dccbb470f577d6474f23
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: afbb6211ee947abd59e74a0712dd080f6911ec65
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831030"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806186"
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>Интеграция PowerApps, Microsoft Flow и Power BI с SharePoint Online
 Вы установили SharePoint Online и хотите больше автоматизировать и оптимизировать бизнес-процессы? Вы уже работали с PowerApps, Microsoft Flow или Power BI, но не знаете, как использовать их с SharePoint Online? Вы обратились по адресу! Эта серия руководств посвящена созданию базовых приложений на основе холста для управления проектами на основе списков SharePoint. Также описываются три ключевые технологии, которые интегрируются с SharePoint Online: PowerApps, Microsoft Flow и Power BI. Эти технологии взаимосвязаны, что позволяет легко *анализировать* бизнес-процессы, *действовать* на основе результатов и *автоматизировать* рабочие процессы. В ходе работы с этой серией вы проработаете приблизительно такой сценарий:
@@ -31,7 +31,7 @@ ms.locfileid: "42831030"
 ## <a name="getting-started-quickly"></a>Быстрое начало работы
 В этой серии руководств представлен упрощенный сценарий по сравнению с созданием полнофункционального приложения для управления проектами и анализа. Тем не менее вам потребуется некоторое время, чтобы выполнить все задачи. Вводные сведения об использовании PowerApps, Microsoft Flow и Power BI с SharePoint см. в следующих статьях.
 
-* **PowerApps**: [Создание приложения из списка SharePoint с использованием PowerApps](generate-app-from-sharepoint-list-interface.md) и [Создание приложения для управления данными в списке SharePoint](app-from-sharepoint.md)
+* **PowerApps**: [Создание приложения из списка SharePoint с использованием PowerApps](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) и [Создание приложения для управления данными в списке SharePoint](app-from-sharepoint.md)
 * **Microsoft Flow**: [Ожидание утверждений в Microsoft Flow](https://docs.microsoft.com/flow/wait-for-approvals)
 * **Power BI**: [Внедрение с помощью веб-части отчетов в SharePoint Online](https://docs.microsoft.com/power-bi/service-embed-report-spo)
 
