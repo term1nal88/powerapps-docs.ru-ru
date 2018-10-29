@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a255489f243ca8586f349e617e5af2023e88732b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: f081369d75ec6f8fc29e6177b8173734d2462e03
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864409"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991776"
 ---
-# <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>Разработка приложений на основе холста, поддерживающих автономный режим работы, с помощью PowerApps
+# <a name="develop-offline-capable-canvas-apps"></a>Разработка приложений на основе холста, поддерживающих автономный режим работы
 
 Один из самых частых сценариев, с которым сталкивается разработчик мобильного приложения, — необходимость обеспечить пользователям продуктивную работу, когда подключение ограничено или отсутствует. PowerApps включает набор функций и действий, которые помогут вам в разработке приложений на основе холста, поддерживающих автономный режим. Вы сможете:
 

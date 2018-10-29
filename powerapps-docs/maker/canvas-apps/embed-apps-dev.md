@@ -1,5 +1,5 @@
 ---
-title: Интеграция PowerApps в веб-сайты и другие службы | Документация Майкрософт
+title: Интеграция приложений на основе холста в веб-сайты и другие службы | Документация Майкрософт
 description: Внедрение приложений на основе холста в веб-сайты и другие службы.
 author: mgblythe
 manager: kvivek
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c9cd4008bcb93e05d696fec082e400ee9661785b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 254d127237cff58728f208d62c30bf7aeb456a80
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835402"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991845"
 ---
-# <a name="integrate-powerapps-into-websites-and-other-services"></a>Интеграция PowerApps в веб-сайты и другие службы
+# <a name="integrate-canvas-apps-into-websites-and-other-services"></a>Интеграция приложений на основе холста в веб-сайты и другие службы
 Приложения, которые вы создаете, как правило, наиболее полезны, когда они доступны прямо там, где люди делают свою работу. PowerApps позволяет внедрять приложения на основе холста в элементы IFrame для интеграции их в веб-сайты и другие службы, такие как Power BI или SharePoint.
 
 Здесь мы покажем, как задать параметры для внедрения приложения. Затем мы внедрим приложение для заказа товаров в веб-сайт.
@@ -32,7 +32,7 @@ ms.locfileid: "42835402"
 * Доступ к внедренному приложению могут получить только пользователи PowerApps того же клиента.
 * Чтобы получить доступ к PowerApps в Internet Explorer 11, необходимо отключить просмотр в режиме совместимости.
 
-Вы также можете интегрировать PowerApps в SharePoint Online (без использования IFrame). Дополнительные сведения см. в статье [Создание приложения из списка SharePoint с использованием PowerApps](../canvas-apps/generate-app-from-sharepoint-list-interface.md).
+Вы также можете интегрировать PowerApps в SharePoint Online (без использования IFrame). Дополнительные сведения см. в статье [Создание приложения из списка SharePoint с использованием PowerApps](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online).
 
 ## <a name="set-uri-parameters-for-your-app"></a>Задание параметров URI для приложения
 При наличии приложения, которое вы хотите внедрить, в первую очередь необходимо задать параметры для универсального кода ресурса (URI), чтобы IFrame знал, где найти ваше приложение. URI имеет следующий вид:

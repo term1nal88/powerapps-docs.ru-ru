@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e0bdab9bcd45f456c00f933dfa7f1a8936e3fa85
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 0ac3f0549e89153d9362d6a8a040833608d4e287
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865420"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806209"
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>Функции GroupBy и Ungroup в PowerApps
 Эти функции группируют [записи](../working-with-tables.md#records) [таблицы](../working-with-tables.md) и отменяют их группировку.
@@ -67,8 +67,8 @@ ms.locfileid: "42865420"
 1. Добавьте кнопку и задайте для нее свойство **[Text](../controls/properties-core.md)**, чтобы она отображала текст **Исходные данные**.
 2. Задайте для свойства **[OnSelect](../controls/properties-core.md)** кнопки **Исходные данные** такую формулу:
    
-    **ClearCollect(CityPopulations, {City:"London", Country:"United Kingdom", Population:8615000}, {City:"Berlin", Country:"Germany", Population:3562000}, {City:"Madrid", Country:"Spain", Population:3165000}, {City:"Rome", Country:"Italy", Population:2874000}, {City:"Paris", Country:"France", Population:2273000}, {City:"Hamburg", Country:"Germany", Population:1760000}, {City:"Barcelona", Country:"Spain", Population:1602000}, {City:"Munich", Country:"Germany", Population:1494000}, {City:"Milan", Country:"Italy", Population:1344000})**
-3. Нажмите клавишу F5, нажмите кнопку **Исходные данные**, затем нажмите клавишу ESC.
+    **ClearCollect(CityPopulations, {City:"Лондон", Country:"Соединенное Королевство", Population:8615000}, {City:"Берлин", Country:"Германия", Population:3562000}, {City:"Мадрид", Country:"Испания", Population:3165000}, {City:"Рим", Country:"Италия", Population:2874000}, {City:"Париж", Country:"Франция", Population:2273000}, {City:"Гамбург", Country:"Германия", Population:1760000}, {City:"Барселона", Country:"Испания", Population:1602000}, {City:"Мюнхен", Country:"Германия", Population:1494000}, {City:"Милан", Country:"Италия", Population:1344000})**
+3. Удерживая клавишу ALT, нажмите кнопку **Исходные данные**.
    
     Вы только что создали [коллекцию](../working-with-data-sources.md#collections) с именем **CityPopulations**, которая содержит такие данные:
    
@@ -82,7 +82,7 @@ ms.locfileid: "42865420"
 2. Задайте для свойства **[OnSelect](../controls/properties-core.md)** этой кнопки такую формулу:
    
     **ClearCollect( CitiesByCountry, GroupBy( CityPopulations, "Country", "Cities" ) )**
-3. Нажмите клавишу F5, нажмите кнопку **Группировка**, затем нажмите клавишу ESC.
+3. Удерживая клавишу ALT, нажмите кнопку **Группировка**.
    
     Вы только что создали коллекцию с именем **CitiesByCountry**, в которой записи из предыдущей коллекции сгруппированы по столбцу **Country**.
    
@@ -99,7 +99,7 @@ ms.locfileid: "42865420"
 2. Задайте для свойства **[OnSelect](../controls/properties-core.md)** этой кнопки такую формулу:
    
     **ClearCollect( CitiesByCountryFiltered, Filter( CitiesByCountry, "e" in Country ) )**
-3. Нажмите клавишу F5, нажмите новую кнопку, затем нажмите клавишу ESC.
+3. Удерживая клавишу ALT, нажмите добавленную кнопку.
    
     Вы только что создали третью коллекцию с именем **CitiesByCountryFiltered**, которая включает те страны, в имени которых есть буква "e" (мы исключили, например, Испанию (Spain) и Италию (Italy)).
    
@@ -126,8 +126,12 @@ ms.locfileid: "42865420"
     ![](media/function-groupby/cities-sum.png)
    
     Функция **[AddColumns](function-table-shaping.md)** принимает базовую коллекцию **CitiesByCountry** и добавляет к ней новый столбец **Sum of City Populations**.  Значения для этого столбца вычисляются отдельно для каждой строки по формуле **Sum( Cities, Population )**.  **AddColumns** предоставляет значение (таблицу) для столбца **Cities** в каждой строке, а затем функция **[Sum](function-aggregates.md)** суммирует значения **Population** из каждой строки этой вложенной таблицы.
-3. Теперь мы получили нужную сумму и можем удалить вложенные таблицы с помощью функции **[DropColumns](function-table-shaping.md)**.  Измените значение свойства **[OnSelect](../controls/properties-core.md)** на следующую формулу:
-   
+
+    Теперь мы получили нужную сумму и можем удалить вложенные таблицы с помощью функции **[DropColumns](function-table-shaping.md)**.
+  
+3. Добавьте еще одну кнопку и задайте для нее свойство **[Text](../controls/properties-core.md)**, чтобы на ней отображался текст **Только сумма**.
+4. Задайте для свойства **[OnSelect](../controls/properties-core.md)** кнопки **Только сумма** эту формулу:
+
     **ClearCollect( CityPopulationsSumOnly, DropColumns( CityPopulationsSum, "Cities" ) )**
    
     Вы получите такой результат:

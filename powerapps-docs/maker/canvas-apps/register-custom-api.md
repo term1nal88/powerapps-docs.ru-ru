@@ -1,6 +1,6 @@
 ---
-title: Ссылки на материалы о пользовательских соединителях | Документы Майкрософт
-description: Ссылки на материалы по созданию, применению, распространению и сертификации пользовательских соединителей в PowerApps.
+title: Ссылки на материалы о пользовательских соединителях для приложений на основе холста | Документация Майкрософт
+description: Ссылки на материалы по созданию, применению, распространению и сертификации пользовательских соединителей для приложений на основе холста в PowerApps.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dd07dbc90900e4690e677823d2303b96e57472f5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 6975c19a973b90de0db7dfbc7ecb8e5e504f39a4
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859330"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991799"
 ---
-# <a name="custom-connectors-in-powerapps"></a>Пользовательские соединители в PowerApps
+# <a name="custom-connectors-for-canvas-apps"></a>Пользовательские соединители для приложений на основе холста
 
 Вы можете создавать рабочие процессы и приложения на основе холста с помощью [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps), [Microsoft Flow](https://flow.microsoft.com) и [PowerApps](https://powerapps.microsoft.com) без необходимости писать код. Эти службы включают [более 180 соединителей](https://docs.microsoft.com/connectors/), которые помогут вам интегрировать свои данные и бизнес-процессы. Они предназначены для служб и продуктов Майкрософт и других служб, таких как GitHub, Salesforce и Twitter.
 
